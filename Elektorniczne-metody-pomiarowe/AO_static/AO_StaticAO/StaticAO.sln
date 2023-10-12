@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AO_StaticAO", "StaticAO.vcxproj", "{F71141AC-9373-4178-B8E5-16A84BC0D1C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F71141AC-9373-4178-B8E5-16A84BC0D1C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F71141AC-9373-4178-B8E5-16A84BC0D1C0}.Debug|Win32.Build.0 = Debug|Win32
+		{F71141AC-9373-4178-B8E5-16A84BC0D1C0}.Release|Win32.ActiveCfg = Release|Win32
+		{F71141AC-9373-4178-B8E5-16A84BC0D1C0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CE31328-994F-4A78-8702-D93FD916EA13}
+	EndGlobalSection
+EndGlobal
