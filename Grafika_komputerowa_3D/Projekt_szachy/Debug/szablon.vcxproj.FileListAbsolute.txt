@@ -1,0 +1,5 @@
+C:\Users\frane\Desktop\grafika_komputerowa_3D\lab8\Debug\szablon.exe
+C:\Users\franekb1111\OneDrive\Pulpit\grafikakomputerowa3d\lab8\Debug\szablon.exe
+C:\Users\franekb1111\OneDrive\Pulpit\grafikakomputerowa3d\temp\Debug\szablon.exe
+C:\Users\fifih\OneDrive\Pulpit\Przyklad7_zad2\Debug\szablon.exe
+C:\Users\fifih\OneDrive\Pulpit\Szachy_Hałys_Filip\Debug\szablon.exe

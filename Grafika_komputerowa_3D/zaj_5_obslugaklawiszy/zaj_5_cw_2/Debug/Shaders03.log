@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Grafika-komputerowa-3D\zaj_5_obslugaklawiszy\zaj_5_cw_2\main.cpp(212,17): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+  Shaders03.vcxproj -> C:\Grafika-komputerowa-3D\zaj_5_obslugaklawiszy\zaj_5_cw_2\Debug\Shaders03.exe

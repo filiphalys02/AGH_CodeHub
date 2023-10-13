@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Grafika-komputerowa-3D\zaj_7_teksturowanie\zaj_7_cw_4\main.cpp(49,1): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+C:\Grafika-komputerowa-3D\zaj_7_teksturowanie\zaj_7_cw_4\main.cpp(159,35): warning C4305: "argument": obcięcie z "double" do "GLfloat"
+  Shaders06.vcxproj -> C:\Grafika-komputerowa-3D\zaj_7_teksturowanie\zaj_7_cw_4\Debug\Przyklad6.exe

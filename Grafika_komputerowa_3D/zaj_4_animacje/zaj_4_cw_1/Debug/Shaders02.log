@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Grafika-komputerowa-3D\zaj_4_animacje\Shaders02\main.cpp(83,18): warning C4305: "inicjowanie": obcięcie z "double" do "GLfloat"
+  Shaders02.vcxproj -> C:\Grafika-komputerowa-3D\zaj_4_animacje\Shaders02\Debug\Shaders02.exe
