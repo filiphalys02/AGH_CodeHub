@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
+    <script>
+        $(document).ready(function(){
+            $('div').animate(
+                {
+                    left: '+=50',
+                    opacity: 0.25 
+                },
+                3000 // czas trwania animacji
+            );
+        });
+    </script>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: 1px solid #000;
+            position: relative; /*wymagane aby przesunac element*/
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

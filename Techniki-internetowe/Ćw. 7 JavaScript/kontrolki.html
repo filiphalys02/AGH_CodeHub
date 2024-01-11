@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kontrolki</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="kontrolki.css">
+</head>
+<body>
+    <form action="">
+
+        <fieldset>
+            <legend>Kontrolki wielokrotnego wyboru</legend>
+            <label class="label">Zaznacz dowolną ilość kratek</label>
+            <br>
+            <input type="checkbox"> Opcja 1
+            <br>
+            <input type="checkbox"> Opcja 2
+            <br>
+            <input type="checkbox"> Opcja 3
+            <br>
+            <label class="label">Zaznacz dowolną ilość opcji z listy</label>
+            <br>
+            <select size=3 multiple>
+                <option value="opcjab">brak</option>
+                <option value="opcja1">Opcja 1</option>
+                <option value="opcja2">Opcja 2</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Kontrolki jednokrotnego wyboru</legend>
+            <label class="label">Wybierz tylko jedną opcję</label>
+            <br>
+            <input name="radio" type="radio"> Opcja 1
+            <br>
+            <input name="radio" type="radio"> Opcja 2
+            <br>
+            <input name="radio" type="radio"> Opcja 3
+            <br>
+            <label class="label">Wybierz jedną opcję z listy</label>
+            <br>
+            <select>
+                <option value="opcjab">brak</option>
+                <option value="opcja1">Opcja 1</option>
+                <option value="opcja2">Opcja 2</option>
+                <option value="opcja3">Opcja 3</option>
+                <option value="opcja4">Opcja 4</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pola tekstowe</legend>
+            <label class="label">Napisz opinię</label>
+            <br>
+            <textarea>Napisz swoją opinię...</textarea>
+        </fieldset>
+
+    </form>
+    <button type="submit">Zatwierdź</button>
+</body>
+</html>

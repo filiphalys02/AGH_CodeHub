@@ -1,0 +1,42 @@
+nav {
+    margin: 100px 0;
+    background-color: #E64A19;
+    width: 300px;
+}
+ul {
+    list-style: none;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.menu li {
+    margin: 0px 5px 0 0 ;
+    display: inline-block;
+    background-color: #E64A19;
+}
+nav a {
+    display: block;
+    padding: 0 10px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #b63c16;
+}
+.menu ul {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 12%;
+}
+.menu ul li {
+    width: 110px;
+    display: list-item;
+}
+.menu li:hover > ul {
+    display: block;
+}

@@ -1,0 +1,14 @@
+p{
+    color: #0f237d;
+    margin: 0; 
+    border: 1px solid #c21919;
+    float: left; 
+    width: 40%; 
+    }
+
+.obraz {
+    width: 40%; 
+    height: 40%;  
+    margin: 0px 4px 4px 0px;
+    float: left;
+    }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+</head>
+<body>
+    <div id="myDiv"></div>
+    <script>
+        var trace = {
+            x: [1,2,3,4,5,6,7,8],
+            y: [1,4,9,16,25,36,49,64],
+            //mode: 'lines'
+            //mode: 'markers'
+            mode: 'lines+markers'
+        };
+        var trace2 = {
+            x: [2,3,4,5],
+            y: [16,5,11,9],
+            mode: 'lines+markers',
+            type: 'scatter'
+        }
+        var trace3 = {
+            x: [1,2,3,4],
+            y: [12,9,15,12],
+            mode: 'lines+markers',
+            type: 'scatter'
+        }
+
+        var data = [trace, trace2, trace3];
+        Plotly.newPlot('myDiv', data);
+    </script>
+</body>
+</html>

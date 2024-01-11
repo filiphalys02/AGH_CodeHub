@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
+
+    <script>
+        $(document).ready(function() {
+            $('td img').click(function() {
+                var adr = $(this).attr('src').replace('small', 'big');
+                $('div img').attr('src', adr);
+            });
+        });
+    </script>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid grey;
+            background-color: #000;
+            position: absolute;
+            top: 10px;
+            left: 300px;
+        }
+        td {
+            border: 1px solid grey;
+            padding-left: 10px;
+        }
+        th {
+            border: 1px solid grey;
+        }
+        div {
+            position: absolute;
+            top: 270px;
+            left: 265px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><img src="img_przykl4/small/z1.jpg"></td>
+            <td><img src="img_przykl4/small/z2.jpg"></td>
+            <td><img src="img_przykl4/small/z3.jpg"></td>
+        </tr>
+        <tr>
+            <td><img src="img_przykl4/small/z1.jpg"></td>
+            <td><img src="img_przykl4/small/z2.jpg"></td>
+            <td><img src="img_przykl4/small/z3.jpg"></td>
+        </tr>
+    </table>
+    <div>
+        <img src="img_przykl4/big/z1.jpg">
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+h1 {
+    font-weight: normal;
+    font-size: 15px;
+}
+h2 {
+    font-size: 15px;
+}
+form {
+    width: 50%;
+    margin-bottom: 10px;
+}
+input[type=textarea], input[type=checkbox], input[type=radio], textarea, select {
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.label {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+legend {
+    font-size: 12px;
+}
+textarea {
+    font-size: 10px;
+    box-sizing: border-box;
+    color: rgb(131, 131, 131);
+    width: 60%;
+    height: 50px;
+}

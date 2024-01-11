@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: #3d5c5c;
+    height: 100px;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+    margin: 0;
+}
+article {
+    padding: 10px;
+    margin: 10px;
+    background-color: #b3cccc;
+    flex: 1 200px;
+}
+section {
+    display: flex;
+}
+article:nth-of-type(3) {
+    flex: 2 200px;
+}

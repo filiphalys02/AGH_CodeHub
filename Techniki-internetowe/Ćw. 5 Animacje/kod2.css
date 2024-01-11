@@ -1,0 +1,82 @@
+/*czyszczenie ustawien przegladarki*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*ustawienie ogolne dla ciala dokumentu*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    margin: 3em;
+    background-color: #666;
+    color: #fff;
+}
+
+h2, p {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 3em;
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+    /*wszystkie karteczki maja na poczatku zolty kolor*/
+    background-color: #ffc;
+    display: block;
+    height: 20em;
+    width: 20em;
+    padding: 1em;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);     /*dodanie cienia*/
+    transform: rotate(-6deg);    /*dodanie rotacji*/
+    transition: transform 0.15s linear; /*liniowe przejście*/
+}
+ul li {
+    margin: 1em;
+    float: left;
+}
+ul li h2 {
+    font-size: 140%;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+ul li p {
+    font-family: 'Rock Salt', cursive;
+    font-size: 100%;
+}
+
+/*dodanie losowosci do ratcji; parzyste karteczki (even) będą zrotowane o 4deg i obnizone*/
+ul li:nth-child(even) a {
+    transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background-color: #cfc;
+}
+
+/*co trzecia karteczka przekrzywiona*/
+ul li:nth-child(3n) a {
+    transform: rotate(-3deg);
+    position: relative;
+    top: -5px;
+    background-color: #ccf;
+}
+
+/*co piata karteczka*/
+ul li:nth-child(5n) a {
+    transform: rotate(-6deg);
+    position: relative;
+    top: 10px;
+}
+
+/*dodanie reakcji na najechanie mysza - powiekszenie*/
+ul li a:hover {
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.15);    /*przeskalowanie*/
+    position: relative;
+    z-index: 1; /*polozenie karteczek na stosie*/
+}

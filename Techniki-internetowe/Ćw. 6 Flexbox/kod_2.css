@@ -1,0 +1,35 @@
+.container {
+    max-width: 800px;
+    min-height: 400px;
+    margin: auto;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*flex-direction: column;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 32px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+div:nth-child(1) {
+    align-self: flex-end;
+    order: 1;
+}
+div:nth-child(2) {
+    order: 2;
+}
+div:nth-child(5) {
+    order: -1;
+}
+*/

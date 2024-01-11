@@ -1,0 +1,55 @@
+body {
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: #c9dff6;
+}
+h1 {
+    text-align: center;
+    margin: 40px;
+    font-size: 60px;
+    color: #2399b6;
+    text-shadow: 2px 2px 4px #359ba4;
+    font-family: 'Cherry Swash', cursive;
+}
+img {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+figure {
+    position: relative;
+    display: inline-block;
+}
+figcaption {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(41, 34, 180, 0.264);
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    opacity: 0;
+    font-size: 30px;
+    top: 5%;
+    left: 5%;
+}
+.cumfig:hover figcaption {
+    opacity: 1;
+}
+.cirfig:hover figcaption {
+    opacity: 1;
+}
+.strfig:hover figcaption {
+    opacity: 1;
+}
+a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    color: #09224f;
+    background-color: #74cbd3;
+    border-radius: 1px;
+
+}

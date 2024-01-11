@@ -1,0 +1,88 @@
+#timing {
+    position: relative;
+    margin:0 auto 10px; /*środkuje element w oknie przeglądarki*/ 
+    margin-left: 30%;
+    margin-right: 30%;
+}
+body {
+    text-align: center;
+    border: 2px bla;
+    background-color: #ababab;
+}
+body img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+}
+figcaption {
+    position: absolute;
+    background-color: white;
+    bottom: 2%;
+    right: 2%;
+    padding: 5px 5px 5px 30px;
+    font-size: 10px;
+    color: rgb(62, 62, 62);
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+div {
+    position: relative;
+    display: inline-block;
+}
+
+.pic1 {
+    transform: translate(100px, 40px) rotate(-20deg);
+    z-index: 1;
+}
+.pic2 {
+    transform: translate(-150px, 150px) rotate(-20deg);
+    z-index: 6;
+}
+.pic3 {
+    transform: translate(-100px, 60px) rotate(20deg);
+    z-index: 5;
+}
+.pic4 {
+    transform: translate(220px, -100px) rotate(25deg);
+    z-index: 2;
+}
+.pic5 {
+    transform: translate(-50px, 10px) rotate(-15deg);
+    z-index: 3;
+}
+.pic6 {
+    transform: translate(-40px) rotate(-15deg);
+    z-index: 4;
+}
+
+.pic1:hover {
+    transform: translate(100px, 40px) scale(1.3);
+    z-index: 7;
+    transition: transform 0.2s linear;
+}
+.pic2:hover {
+    transform: translate(-150px, 150px) scale(1.3);
+    z-index: 7;
+    transition: transform 0.2s linear;
+}
+.pic3:hover {
+    transform: translate(-100px, 60px) scale(1.3);
+    z-index: 7;
+    transition: transform 0.2s linear;
+}
+.pic4:hover {
+    transform: translate(220px, -100px) scale(1.3);
+    z-index: 7;
+    transition: transform 0.2s linear;
+}
+.pic5:hover {
+    transform: translate(-50px, 10px) scale(1.3);
+    z-index: 7;
+    transition: transform 0.2s linear;
+}
+.pic6:hover {
+    transform: translate(-40px) scale(1.3);
+    z-index: 7;
+    transition: transform 0.2s linear;
+}

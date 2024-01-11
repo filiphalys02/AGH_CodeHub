@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ukryty tekst</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <p id="tytul">Aby rozwinąć tekst kliknij przycisk "pokaż"</p>
+    <p id="przycisk_pokaz" onclick="pokazuj()">pokaż</p>
+    <p id="ukryty_tekst"></p>
+    <script>
+        let tytulElement = document.getElementById("tytul");
+        styl_tytulu(tytulElement);
+
+        function styl_tytulu() {
+            let element = document.getElementById("tytul"),innerHTML;
+            element.style.fontSize="20px";
+            element.style.color="blue";
+        }
+
+        function pokazuj() {
+            let pokaz = "pokaż";
+            let ukryj = "ukryj";
+            let przycisk = document.getElementById("przycisk_pokaz");
+            styl(przycisk)
+            if (document.getElementById("przycisk_pokaz").innerHTML==pokaz)
+            {   
+                document.getElementById("przycisk_pokaz").innerHTML = ukryj;
+                let a = "ukryty tekst";
+                document.getElementById("ukryty_tekst").innerHTML = a;
+            } else if (document.getElementById("przycisk_pokaz").innerHTML==ukryj) {
+                document.getElementById("przycisk_pokaz").innerHTML = pokaz;
+                let a = "";
+                document.getElementById("ukryty_tekst").innerHTML = a;
+            } else {
+                let a = "blad";
+                document.getElementById("ukryty_tekst").innerHTML = a;
+            }
+        }
+
+        function styl(element) {
+            element.style.textDecoration="underline";
+            element.style.fontWeight="bold";
+        }
+    </script>
+</body>
+</html>

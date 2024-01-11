@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
+    <script src="jquery.easing.1.3.js"></script>
+    <script>
+        $(document).ready(function() {
+            let imiona = ["Filip", "Ania", "Kasia", "Basia", "Marysia", "Mietek"];
+            imiona.sort();
+
+            let kodHtml = "<table>";
+            kodHtml += "<tr><th>IMIE</th></tr>";
+            
+            for (var i=0; i<imiona.length; i++) {
+                kodHtml += "<tr><td>" + imiona[i] + "</td></tr>";
+            }
+            kodHtml += "</table>";
+            $('#imiona').html(kodHtml);
+        });
+    </script>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid black;
+            width: 100px;
+        }
+        td {
+            border: 2px solid black;
+            padding-left: 10px;
+        }
+        th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imiona</h1>
+    <div id="imiona"></div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <div>
+        <input type="button" id="fadein" value="fadeln">
+        <p id="fi" style="width: 300px; border: 1px solid #eee;">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias libero blanditiis dolorum quod quaerat dolorem amet illum, exercitationem aliquam expedita, praesentium natus, atque velit aperiam ad reiciendis labore est optio!
+        </p>
+    </div>
+    <div>
+        <input type="button" id="fadeout" value="fadeOut">
+        <p id="fo" style="width: 300px; border: 1px dotted #eee;">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit quo eum tempore totam consequatur quam dolor pariatur ducimus laborum ratione ut dolorum optio enim, voluptatibus voluptatum repellat sint, quia nostrum.
+        </p>
+    </div>
+    <div>
+        <input type="button" id="fadetoggle" value="fadeToggle">
+        <p id="ft" style="width: 300px; border: 1px dotted #444;">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et inventore, consectetur expedita quaerat doloribus aut animi nulla. Exercitationem tempore impedit deserunt quos ullam! Molestias repellat adipisci debitis repudiandae nemo velit!
+        </p>
+    </div>
+    <div>
+        <input type="button" id="fadeto" value="fadeTo">
+        <p id="fto" style="width: 300px; border: 1px dotted #444; background: #0f3d0f; color: #fff;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas temporibus nihil ut sequi illo eos, doloremque rerum enim impedit odio non consequuntur provident delectus beatae culpa ab nobis! Nam.
+        </p>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('#fi').hide();
+            $('#fadein').click(function() {
+                $('#fi').fadeIn(3000);
+            });
+
+            $('#fadeout').click(function() {
+                $('#fo').fadeOut(2000);
+            });
+
+            $('#fadetoggle').click(function() {
+                $('#ft').fadeToggle('slow');
+            });
+
+            $('#fadeto').click(function() {
+                $('#fto').fadeTo(3000,0.5);
+            });
+        });
+    </script>
+</body>

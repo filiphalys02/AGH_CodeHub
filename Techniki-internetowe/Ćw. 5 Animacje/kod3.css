@@ -1,0 +1,26 @@
+div {
+    width: 80px;
+    height: 80px;
+    background-color: #92b901;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 16px;
+    padding: 5px;
+    margin: 20px;
+    line-height: 70px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    animation-name: run;
+    animation-duration: 5s;
+}
+
+@keyframes run {
+    0%  {transform: rotate(0deg); left: 0px;}
+    25% {transform: rotate(20deg); left: 0px}
+    50% {transform: rotate(0deg); left: 500px;}
+    55% {transform: rotate(0deg); left: 500px;}
+    70% {transform: rotate(0deg); left: 500px; background-color: #1ec7e6;}
+    100%{transform: rotate(-360deg); left: 0px;}
+}

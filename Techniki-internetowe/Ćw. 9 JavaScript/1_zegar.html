@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>setInterval</title>
+</head>
+<body>
+    <h3>Metoda setInterval</h3>
+    <p>prosty zegar na stronie</p>
+    <p id="demo"></p>
+    <script>
+        setInterval(myTimer,1000);
+
+        function myTimer() {
+            const date = new Date();
+            document.getElementById("demo").innerHTML = date.toLocaleTimeString();
+        }
+    </script>
+</body>
