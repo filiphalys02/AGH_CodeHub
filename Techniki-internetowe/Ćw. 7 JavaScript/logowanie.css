@@ -1,0 +1,53 @@
+form {
+    border: 3px solid #f1f1f1;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+.cancelbtn {
+    width: auto;
+    background-color: #f44336;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+.avatar {
+    border-radius: 50%;
+    width: 30%;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+    padding-right: 5px;
+}
+a {
+    color: #993300;
+}
+.label {
+    font-weight: bold;
+}
+.bottom {
+    background-color: #f1f1f1;
+    margin-top: 10px;
+}

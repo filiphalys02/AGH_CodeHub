@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab at eum deserunt corrupti beatae libero non totam laborum magnam earum. Sunt expedita dolore alias labore porro qui vero debitis deserunt.</p>
+    <p id="notka" style="display: none">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere pariatur quaerat officia sed placeat libero, saepe similique amet molestias voluptate ab sapiente repellat? Facilis eligendi impedit odio facere! Quia, dolore.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptatum deserunt assumenda. Suscipit assumenda vitae repudiandae. Quod odit quisquam laboriosam quis unde officia vel in recusandae neque, nisi culpa voluptas.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolorem odio eaque accusamus iure dolores at laudantium nesciunt tempore rem ad fuga saepe perferendis, vitae cum vel quidem animi nemo.
+    </p>
+    <button id="hideButton">pokaż</button>
+    <script>
+        $(document).ready(function() {
+            $('#hideButton').click(function() {
+                $('#notka').slideToggle(function() {
+                    if($('#notka').is(':visible')) {
+                        $('#hideButton').text('ukryj');
+                    } else {
+                        $('#hideButton').text('pokaż');
+                    }
+                }); // koniec slideToggle
+            }); //koniec click
+        }); // koniec ready
+    </script>
+</body>

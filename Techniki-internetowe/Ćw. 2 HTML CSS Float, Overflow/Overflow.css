@@ -1,0 +1,21 @@
+section{
+    color: #0b4f5a;
+    margin: 0px 0px 10px 0px; 
+    border: 1px solid #1992c2;
+    }
+
+.obraz{
+    width: 40%; 
+    height: 40%;
+    }
+
+.tekst_pod_obrazkiem{
+    margin: 0px;
+    }
+
+footer{
+    border: 1px solid #c41717;
+    color: #c41717;
+    position: relative; /* Włącza pozycjonowanie relatywne, aby przesunąć border */
+    top: 2px;
+    }

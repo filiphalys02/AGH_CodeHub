@@ -1,0 +1,55 @@
+#timing {
+    position:relative; 
+    width:530px; 
+    height:600px; 
+    margin:0 auto 10px; /*środkuje element w oknie przeglądarki*/ 
+    border:1px solid #000; 
+    padding:10px; 
+} 
+.box { 
+    font-size:12px; 
+    position:relative; 
+    width:65px; 
+    height:65px; 
+    margin-bottom:10px; 
+    background-color:#d1d1e0; 
+} 
+.box p { 
+    text-align:center; 
+    padding-top:4px; 
+} 
+#ease.box { 
+    transition: all 4s ease; 
+    border:1px solid #f00; 
+} 
+#ease-in.box { 
+    transition: all 4s ease-in; 
+    border:1px solid #0f0; 
+} 
+#ease-out.box { 
+    transition: all 4s ease-out; 
+    border:1px solid #00f; 
+}
+#ease-in-out.box { 
+    transition: all 4s ease-in-out; 
+    border:1px solid #ff0; 
+} 
+    #linear.box { 
+    transition: all 4s linear; 
+    border:1px solid #f0f; 
+}  
+#custom.box { 
+    transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945); 
+    border:1px solid #0ff; 
+} 
+#negative.box { 
+    /*ujemna wartość c-b powoduje, że element najpierw "cofa się", a dopiero potem jest przesuwany do przodu*/ 
+    transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425); 
+    border:1px dashed #000; 
+}
+#timing:hover .box { 
+    border-radius:30px; 
+    transform: rotate(720deg); 
+    margin-left:420px; 
+    background-color: rgb(255, 255, 255);
+} 

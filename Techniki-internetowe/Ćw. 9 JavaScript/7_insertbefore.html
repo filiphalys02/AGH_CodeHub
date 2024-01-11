@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dodawanie elementów</title>
+</head>
+<body>
+    <div id="zero">
+        <h2>Istniejący tekst div.</h2>
+    </div>
+    <script>
+        var zero = document.getElementById('zero');
+        var jeden= document.createElement('p');
+        jeden.textContent = 'Pierwszy';
+        var dwa  = document.createElement('p');
+        dwa.textContent = 'Drugi';
+        zero.parentNode.insertBefore(dwa, zero.nextSibling);
+        zero.parentNode.insertBefore(jeden, dwa.nextSibling);
+    </script>
+</body>
+</html>

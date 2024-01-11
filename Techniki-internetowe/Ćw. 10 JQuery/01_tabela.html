@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nazwisko</th>
+                <th>Imię</th>
+                <th>Adres</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td>1</td>
+            <td>Franciszek</td>
+            <td>Biały</td>
+            <td>Kraków</td>
+        </tbody>
+        <tbody>
+            <td>2</td>
+            <td>Alicja</td>
+            <td>Śnieżka</td>
+            <td>Poznań</td>
+        </tbody>
+        <tbody>
+            <td>3</td>
+            <td>Karol</td>
+            <td>Jadek</td>
+            <td>Warszawa</td>
+        </tbody>
+        <tbody>
+            <td>4</td>
+            <td>Karlolina</td>
+            <td>Misz</td>
+            <td>Białystok</td>
+        </tbody>
+        <tbody>
+            <td>5</td>
+            <td>Wiktoria</td>
+            <td>Kozioł</td>
+            <td>Katowice</td>
+        </tbody>
+    </table>
+    <script>
+        $(document).ready(function() {
+            $('tbody tr:even').css({'background-color': '#ddd',
+                                    'font-size': '11pt',
+                                    'line-height': '2.5em'});
+            $('tbody tr:even').css('color', '#666');
+            //alert($('tbody tr:even').length + ' elementow');
+        });
+    </script>
+</body>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wykres Słupkowy</title>
+    <meta charset="utf-8">
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Wykres słupkowy</h1>
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        let barColors = ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'];
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                datasets: [{
+                    //label: '# of votes',
+                    backgroundColor: barColors,
+                    data: [12, 17, 5, 3, 5, 9],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                plugins: {
+                    legend: {display: false},
+                    title: {
+                        display: true,
+                        text: '# of Votes',
+                        font: {size: 20}
+                    }
+                },
+                scales: {
+                    y: {beginAtZero: true}
+                }
+            }
+        });
+    </script>
+</body>
+</html>

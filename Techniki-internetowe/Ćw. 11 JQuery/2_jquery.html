@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
+    <script src="jquery.easing.1.3.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#panels > div').hide();
+            $('#panels h2').click(function(){
+                $(this).next().animate(
+                    {
+                        'height': 'toggle'
+                    },
+                    'slow',
+                    'easeOutBounce'
+                );
+            });
+        });
+    </script>
+    <style>
+        h2 {
+            border-bottom: 2px solid #015287;
+            color: #d15600;
+            padding: 5px 0 5px 10px;
+            margin: 0;
+        }
+        #box {
+            width: 400px;
+        }
+        #panels h2 {
+            background-color: #94c5eb;
+            border-bottom: 1px solid #fff;
+            color: #00314f;
+            font-weight: normal;
+        }
+        #panels div {
+            height: 120px;
+            background-color: #f4f4ee;
+            border-bottom: 1px solid #fff;
+            position: relative;
+        }
+        #panels p {
+            margin: 0 10px 0 0;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="panels">
+            
+            <h2>Lorem ipsum</h2>
+            <div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi corrupti, omnis labore, itaque dolore impedit earum iste minus asperiores, eveniet ut id doloribus molestias placeat incidunt ratione repellat saepe.
+                </p>
+            </div>
+
+            <h2>Lorem ipsum</h2>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis et rerum perferendis adipisci delectus. Delectus, perspiciatis? Dignissimos laboriosam labore nisi! Error a assumenda ducimus accusamus, blanditiis repudiandae ipsa quia.
+                </p>
+            </div>
+
+            <h2>Lorem ipsum</h2>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium magnam vero non odio reprehenderit dolores atque sed eligendi porro nesciunt! Incidunt, vero? Ex quisquam rem sapiente soluta praesentium nam libero!
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+</head>
+<body>
+    <div id="myDiv"></div>
+    <script>
+        var data = [{
+            type: 'pie',
+            values: [20555,32455,4025,4185],
+            labels: ['Płace', 'Koszty operacyjne', 'Koszty sprzedaży', 'Ubezpieczenie'],
+            textinfo: 'label+percent',
+            insidetextorientation: 'radial'
+        }];
+
+        var layout = {
+            height: 700,
+            width: 700,
+        };
+
+        Plotly.newPlot('myDiv', data, layout);
+    </script>
+</body>
+</html>

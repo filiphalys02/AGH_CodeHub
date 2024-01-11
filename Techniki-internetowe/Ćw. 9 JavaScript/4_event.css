@@ -1,0 +1,10 @@
+#box {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: red;
+}
+
+#out {
+    margin-top: 30px;
+}

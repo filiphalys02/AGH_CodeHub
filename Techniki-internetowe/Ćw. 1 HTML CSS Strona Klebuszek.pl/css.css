@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(243, 229, 189); 
+    color: rgb(87, 49, 6);
+    font-family: helvetica }
+
+#box {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+}
+
+header {
+    background: #000 url("tlo_naglowka.jpg");
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px #9e5214; 
+    line-height: 400%;
+    text-indent: 1em; 
+    text-align: center }
+
+nav{
+    background-color: #b67f1a;
+    text-align: center; /* Centrowanie tekstu */
+    padding: 10px} 
+
+nav a{
+    font-weight: bold; /* Pogrubienie czcionki */
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 25px;
+    display: inline-block;
+    color: azure;
+    text-shadow: 3px 3px 3px #9e5214; }
+
+nav a:hover{
+    color:#eee3daa0;
+    border: 1px solid azure; }
+
+h1{
+    color: rgb(66, 43, 21);
+    text-align: center }
+    
+h2{
+    color: #9e5214 }
+
+footer{
+    font-family: georgia;
+    font-size: 70%;
+    font-style: italic;
+    text-align: center;
+    padding: 20px }
+

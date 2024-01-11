@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>setInterval</title>
+</head>
+<body>
+    <button id="btn">Kliknij!</button>
+
+    <script>
+        const btn = document.getElementById('btn');
+        
+        /*
+        btn.addEventListener('click', () => {
+            alert('Kliknięto w przycisk')
+        })
+        */
+        /*
+        function clickHandler() {
+            alert('Kliknięto w przycisk');
+        }
+        btn.addEventListener('click',clickHandler);
+        */
+        /*
+        function clickHandler() {
+            alert('Kliknięto w przycisk');
+            btn.removeEventListener('click',clickHandler);
+        }
+        btn.addEventListener('click',clickHandler);
+        */
+        btn.addEventListener('click', () => {
+            event.target.style.backgroundColor = 'green';
+        }); 
+    </script>
+</body>

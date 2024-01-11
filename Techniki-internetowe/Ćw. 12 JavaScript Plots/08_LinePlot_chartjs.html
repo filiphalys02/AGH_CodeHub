@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wykres Liniowy</title>
+    <meta charset="utf-8">
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Wykres liniowy</h1>
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        let xValues = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: xValues,
+                datasets: [{
+                    data: [-25, -60, 0, 70, -100, 62, 38],
+                    label: 'Dataset 1',
+                    borderColor: 'green'
+                }, {
+                    data: [20, 100, -68, -41, -20, 24, -15],
+                    label: 'Dataset 2',
+                    borderColor: 'orange'
+                }]
+            },
+            options: {
+                plugins: {
+                    legend: {position: 'top'},
+                    title: {
+                        display: true,
+                        text: 'Line Chart',
+                        font: {size: 20}
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
+    <script src="https://code.jquery.com/color/jquery.color-2.2.0.js" integrity="sha256-gvMJWDHjgDrVSiN6eBI9h7dRfQmsTTsGU/eTT8vpzNg=" crossorigin="anonymous"></script>
+    <script src="jquery.easing.1.3.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#panel').hover(
+                function(){
+                    $(this).stop().animate(
+                        {
+                            left: '0',
+                            backgroundColor: 'rgb(153,203,255)'
+                        },
+                        500, //czas trwania animacji
+                        'easeInSine' //tempo animacji, zaczyna wolno, po czym przyspiesza
+                    ); // koniec animate
+                },
+                function() {
+                    $(this).stop().animate(
+                        {
+                            left: '-92px',
+                            backgroundColor: 'rgb(110,138,195)'
+                        },
+                        1500, //czas trwania animacji
+                        'easeOutBounce' 
+                    ); // koniec animate
+                }
+            ); // koniec f.hover
+        }); // koniec funkcji ready
+    </script>
+    <style>
+        #panel {
+            width: 70px;
+            background-color: rgb(110,138,195);
+            padding: 20px 20px 0 20px;
+            position: absolute;
+            left: -92px;
+            z-index: 1;
+        }
+        #panel img {
+            margin-bottom: 20px;
+            border: 1px solid rgb(0, 0, 0);
+        }
+        #main {
+            width: 700px;
+            font-family: Lato;
+            margin-left: 150px;
+        }
+        #main h1 {
+            font-size: 14pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="panel">
+            <img src="img_przykl4/big/z1.jpg" width="70" height="70" alt="blue">
+            <img src="img_przykl4/big/z2.jpg" width="70" height="70" alt="blue">
+            <img src="img_przykl4/big/z1.jpg" width="70" height="70" alt="blue">
+            <img src="img_przykl4/big/z2.jpg" width="70" height="70" alt="blue">
+            <img src="img_przykl4/big/z1.jpg" width="70" height="70" alt="blue">
+        </div>
+        <div id="main">
+            <h1>Wysuwany pasek ze zdjeciami</h1>
+            <p>Umiesc mysz na niebieskim pasku wzdluz lewej krawedzi strony</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .square {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      margin-right: 10px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const colors = ['red', 'blue', 'green', 'yellow'];
+
+        for (let i = 0; i < colors.length; i++) {
+            const square = document.createElement('div');
+            square.setAttribute('class', 'square');
+            square.setAttribute('id', 'square' + i);
+            square.style.backgroundColor = colors[i];
+            document.body.appendChild(square);
+        }
+
+        function handleKeyPress(event) {
+            const keyCode = event.keyCode;
+
+            if (keyCode === 37 || keyCode === 39) {
+                for (let i = 0; i < colors.length; i++) {
+                    const square = document.getElementById('square' + i);
+                    let currentIndex = colors.indexOf(square.style.backgroundColor);
+          
+                    if (keyCode === 39) {
+                        currentIndex = (currentIndex - 1 + colors.length) % colors.length;
+                    }
+                    else if (keyCode === 37) {
+                        currentIndex = (currentIndex + 1) % colors.length;
+                    }
+
+                    square.style.backgroundColor = colors[currentIndex];
+                }
+            }
+        }
+        document.addEventListener('keydown', handleKeyPress);
+    });
+</script>
+
+</body>
+</html>

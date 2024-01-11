@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+</head>
+<body>
+    <div id="myDiv"></div>
+    <script>
+        let x = ['Company X', 'Company Y', 'Company Z'];
+        let y = [200, 140, 230];
+
+        let data = [{x, y, type: 'bar'}];
+        
+        Plotly.newPlot('myDiv', data);
+    </script>
+</body>
+</html>
