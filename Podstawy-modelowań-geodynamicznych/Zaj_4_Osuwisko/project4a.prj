@@ -1,0 +1,528 @@
+0 header
+1 code FLAC 8.0
+1 source giic v2.20.517
+1 date Mon Apr 22 10:56:47 CEST 2024
+1 type giic-save
+1 rampcolor 4
+0 flac
+1 config
+2 axisym false
+2 gwflow true
+2 pstress false
+2 cppudm false
+2 ats false
+2 creep false
+2 dynamic false
+2 thermal false
+2 twophase false
+2 extra 0
+2 units 0
+2 struct false
+2 advanced true
+2 water false
+2 interface false
+2 gravity true
+2 excludereg false
+2 solvefos false
+0 plots
+1 plot 2
+2 display
+3 viewport
+4 autorange true
+2 command plot pen history 999
+2 name Unbalanced force
+2 count 1
+2 item
+3 name 999
+1 plot 2
+2 display
+3 viewport
+4 autorange true
+2 command plot pen history 1 line
+2 name Plot 1
+2 alias 
+2 begin 
+2 end 
+2 skip 
+2 count 1
+2 item
+3 name 1
+3 line
+1 plot 0
+2 display
+3 viewport
+4 center 10.0,4.999932
+4 radius 6.959355
+4 orientation 0.0
+2 command plot pen  xvel fill zero bound displacement
+2 name Plot 2
+2 count 3
+2 item
+3 name xvel
+3 switch 5
+3 mode 1
+3 zero true
+2 item
+3 name bound
+3 switch 2
+2 item
+3 name displacement
+3 switch 3
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen prop density fill water
+2 name density
+2 count 2
+2 item
+3 name prop density
+3 switch 12
+3 mode 1
+2 item
+3 name water
+3 switch 11
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen pp fill displacement
+2 name pp & disp
+2 count 2
+2 item
+3 name pp
+3 switch 5
+3 mode 1
+2 item
+3 name displacement
+3 switch 3
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen pp fill flow water
+2 name Plot 1
+2 count 3
+2 item
+3 name pp
+3 switch 5
+3 mode 1
+2 item
+3 name flow
+3 switch 3
+2 item
+3 name water
+3 switch 11
+1 plot 2
+2 display
+3 viewport
+4 autorange true
+2 command plot pen history 2 line 3 line vs 4
+2 name Plot 2
+2 alias 
+2 begin 
+2 end 
+2 skip 
+2 versus 4
+2 count 2
+2 item
+3 name 2
+3 line
+2 item
+3 name 3
+3 line
+1 plot 2
+2 display
+3 viewport
+4 autorange true
+2 command plot pen history 5 line
+2 name ydisp history
+2 alias 
+2 begin 
+2 end 
+2 skip 
+2 count 1
+2 item
+3 name 5
+3 line
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen pp fill water velocity
+2 name Plot 3
+2 count 3
+2 item
+3 name pp
+3 switch 5
+3 mode 1
+2 item
+3 name water
+3 switch 11
+2 item
+3 name velocity
+3 switch 3
+0 matlist
+1 class 
+1 material Soil
+2 model mohr
+2 property
+3 density 1499.9792
+3 elastic_mod 8.1818184E7
+3 poisson_rat 0.36363637
+3 bulk_mod 1.00000008E8
+3 shear_mod 3.0E7
+3 friction 20.0
+0 CppModels
+0 project tree
+1 title project4
+1 notes
+1 tree
+2 branch slope without GWflow
+3 state
+4 file stage1.sav
+4 lastedit 1713167861964
+4 batch
+5 text ; Source: Simple slope
+5 text ;Units: SI: meter-kilogram-second
+5 text set gravity 9.81 ; m/s2
+5 text config
+5 text grid 19,11
+5 text gen 0.0,0.0 0.0,3.0 5.0,3.0 5.0,0.0 i=1,6 j=1,4
+5 text gen 5.0,0.0 5.0,3.0 20.0,3.0 20.0,0.0 i=6,20 j=1,4
+5 text gen 5.0,3.0 9.0,10.0 20.0,10.0 20.0,3.0 i=6,20 j=4,12
+5 text ; Define material models
+5 text group 'Soil' i=1,5 j=1,3
+5 text group 'Soil' i=6,19 j=1,3
+5 text group 'Soil' i=6,19 j=4,11
+5 text model mohr group 'Soil'
+5 text prop density=1500.0 bulk=1E8 shear=3E7 cohesion=1.0E10 friction=20.0 dilation=0.0 tension=1.0E10 group 'Soil'
+5 text ; Fixed boundary conditions
+5 text fix x i=1 j=1,4
+5 text fix x y i=1,6 j=1
+5 text fix x i=20 j=1,4
+5 text fix x y i=6,20 j=1
+5 text fix x i=20 j=4,12
+5 text history 1 ydisp i=10, j=11
+5 text history 999 unbalanced
+5 text solve elastic
+3 branch cohesion 0.0
+4 state
+5 file stage2.sav
+5 lastedit 1713169249664
+5 batch
+6 text initial xdisp 0 ydisp 0
+6 text initial xvel 0 yvel 0
+6 text prop cohesion 0 notnull
+6 text set =large
+6 text cycle 200
+6 text cycle 800
+3 branch cohesion 1E4
+4 state
+5 file stage3.sav
+5 lastedit 1713169772550
+5 batch
+6 text initial xdisp 0 ydisp 0
+6 text initial xvel 0 yvel 0
+6 text prop cohesion 10000 notnull
+6 text prop tension 0 notnull
+6 text set =large
+6 text cycle 200
+6 text cycle 800
+4 state
+5 file slope4.sav
+5 lastedit 1713772747436
+5 batch
+6 text table 1 delete
+6 text table 1 0 5 6.11 5 20 9
+6 text water density=1000.0
+6 text water table=1
+6 text call 'wet_density.fis'
+6 text wet_density
+6 text ; apply gradient: value = 54293.918 + y*-11431.376 :
+6 text apply pressure 0.0 var 0.0 20000.0 from 6,6 to 1,4
+4 state
+5 file slope5.sav
+5 lastedit 1713772973525
+5 batch
+6 text cycle 6000
+2 branch slope with GWflow
+3 state
+4 file SlopeGW1.sav
+4 lastedit 1713775107847
+4 batch
+5 text ; Source: Simple slope
+5 text ;Units: SI: meter-kilogram-second
+5 text set gravity 9.81 ; m/s2
+5 text config gwflow
+5 text grid 19,11
+5 text gen 0.0,0.0 0.0,3.0 5.0,3.0 5.0,0.0 i=1,6 j=1,4
+5 text gen 5.0,0.0 5.0,3.0 20.0,3.0 20.0,0.0 i=6,20 j=1,4
+5 text gen 5.0,3.0 9.0,10.0 20.0,10.0 20.0,3.0 i=6,20 j=4,12
+5 text ; Define material models
+5 text group 'User:soil' i=1,5 j=1,3
+5 text group 'User:soil' i=6,19 j=1,3
+5 text group 'User:soil' i=6,19 j=4,11
+5 text model mohr group 'User:soil'
+5 text prop density=1500.0 bulk=1E8 shear=3E7 cohesion=1.0E10 friction=20.0 dilation=0.0 tension=1.0E10 group 'User:soil'
+5 text ; Fixed boundary conditions
+5 text fix x i=1 j=1,4
+5 text fix x y i=1,6 j=1
+5 text fix x i=20 j=1,4
+5 text fix x y i=6,20 j=1
+5 text fix x i=20 j=4,12
+5 text prop por=0.3 perm=1.0E-10 notnull 
+5 text water bulk=10000.0
+5 text water density=1000.0
+5 text ; apply gradient: value = 90000.0 + y*-10909.091 :
+5 text apply pp 0.0 var 0.0 90000.0 from 20,10 to 20,1
+5 text ; apply gradient: value = 50000.0 + y*-10526.315 :
+5 text apply pp 0.0 var 0.0 50000.0 from 6,6 to 1,1
+5 text ; directory is changed to call file in case of nested calls
+5 text set cd name 'C:\Program Files\Itasca\FLAC800\Datafiles\Fish\3-Library\Qratio\'
+5 text call 'Qratio.fis'
+5 text set cd back
+5 text history 1 qratio
+5 text history 2 inflow
+5 text history 3 outflow
+5 text history 4 gwtime
+5 text set mechanical=off
+5 text history 999 unbalanced
+5 text solve
+3 state
+4 file SlopeGW2.sav
+4 lastedit 1713775731272
+4 batch
+5 text set mechanical=on
+5 text set flow=off
+5 text water bulk=0.0
+5 text ; apply gradient: value = 54285.715 + y*-11428.571 :
+5 text apply pressure 0.0 var 0.0 20000.0 from 6,6 to 1,4
+5 text history 5 ydisp i=10, j=11
+5 text solve
+3 state
+4 file SlopeGW3.sav
+4 lastedit 1713776074723
+4 batch
+5 text prop cohesion 10000 notnull 
+5 text prop tension 0 notnull 
+5 text initial xdisp 0 ydisp 0  
+5 text initial xvel 0 yvel 0  
+5 text set =large
+5 text cycle 1000
+0 vgrid
+1 body
+2 text begin_body 'Simple slope'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 20 aspect 1.0 minsize 3
+2 text set autobc 1
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 5.0,0.0
+2 text set p2 20.0,0.0
+2 text set p3 0.0,3.0
+2 text set p4 5.0,3.0
+2 text set p5 20.0,3.0
+2 text set p6 9.0,10.0
+2 text set p7 20.0,10.0
+2 text ; Sizes: (zones)
+2 text set n1 5
+2 text set n2 14
+2 text set n3 3
+2 text set n4 8
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text set r4 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:soil' model mohr prop density=1500.0 bulk=1E8 shear=3E7 cohesion=1.0E10 friction=20.0 dilation=0.0 tension=1.0E10
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3 group 1
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3 group 1
+2 text set b3 point p4 p6 p7 p5 size n2,n4 mult 1,1 ratio r2,r4 group 1
+2 text end_body
+1 undo_body
+1 undo_body
+1 undo_body
+1 undo_body
+1 undo_body
+2 text begin_body 'Simple slope'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 5.0,0.0
+2 text set p2 20.0,0.0
+2 text set p3 0.0,3.0
+2 text set p4 5.0,3.0
+2 text set p5 20.0,3.0
+2 text set p6 9.0,10.0
+2 text set p7 20.0,10.0
+2 text ; Sizes: (zones)
+2 text set n1 8
+2 text set n2 21
+2 text set n3 5
+2 text set n4 11
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text set r4 0.5
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text set b3 point p4 p6 p7 p5 size n2,n4 mult 1,1 ratio r2,r4
+2 text end_body
+1 undo_body
+2 text begin_body 'Simple slope'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 20 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 5.0,0.0
+2 text set p2 20.0,0.0
+2 text set p3 0.0,3.0
+2 text set p4 5.0,3.0
+2 text set p5 20.0,3.0
+2 text set p6 9.0,10.0
+2 text set p7 20.0,10.0
+2 text ; Sizes: (zones)
+2 text set n1 5
+2 text set n2 14
+2 text set n3 3
+2 text set n4 8
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text set r4 0.5
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text set b3 point p4 p6 p7 p5 size n2,n4 mult 1,1 ratio r2,r4
+2 text end_body
+1 undo_body
+2 text begin_body 'Simple slope'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 20 aspect 1.0 minsize 3
+2 text set autobc 1
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 5.0,0.0
+2 text set p2 20.0,0.0
+2 text set p3 0.0,3.0
+2 text set p4 5.0,3.0
+2 text set p5 20.0,3.0
+2 text set p6 9.0,10.0
+2 text set p7 20.0,10.0
+2 text ; Sizes: (zones)
+2 text set n1 5
+2 text set n2 14
+2 text set n3 3
+2 text set n4 8
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text set r4 0.5
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text set b3 point p4 p6 p7 p5 size n2,n4 mult 1,1 ratio r2,r4
+2 text end_body
+1 undo_body
+2 text begin_body 'Simple slope'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 20 aspect 1.0 minsize 3
+2 text set autobc 1
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 5.0,0.0
+2 text set p2 20.0,0.0
+2 text set p3 0.0,3.0
+2 text set p4 5.0,3.0
+2 text set p5 20.0,3.0
+2 text set p6 9.0,10.0
+2 text set p7 20.0,10.0
+2 text ; Sizes: (zones)
+2 text set n1 5
+2 text set n2 14
+2 text set n3 3
+2 text set n4 8
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text set r4 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:soil' model mohr prop density=1500.0 bulk=1E8 shear=3E7 cohesion=1.0E10 friction=20.0 dilation=0.0 tension=1.0E10
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text set b3 point p4 p6 p7 p5 size n2,n4 mult 1,1 ratio r2,r4
+2 text end_body
+0 vgeo
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 vsketch
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner off
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 notes
+0 fish
+1 filename C:\Program Files\Itasca\FLAC800\Datafiles\Fish\3-Library\Qratio\Qratio.fis
+1 file
+2 text ; track of the unbalanced flow
+2 text def qratio
+2 text  inflow  = 0.0
+2 text  outflow = 0.0
+2 text  loop i (1,igp)
+2 text    loop j (1,jgp)
+2 text      if and(flags(i,j),512) # 0 then
+2 text        if gflow(i,j) > 0.0 then
+2 text          inflow  = inflow + gflow(i,j)
+2 text        else
+2 text          outflow = outflow - gflow(i,j)
+2 text        end_if
+2 text      end_if
+2 text    end_loop
+2 text  end_loop
+2 text  qbalance = inflow - outflow
+2 text  if inflow + outflow # 0.0 then
+2 text    qratio = 2.0 * abs(qbalance) / (inflow + outflow)
+2 text  else
+2 text    qratio = 0.0
+2 text  end_if
+2 text end
+1 notes
+1 record
+0 eof

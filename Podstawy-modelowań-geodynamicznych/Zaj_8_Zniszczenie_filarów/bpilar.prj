@@ -1,0 +1,688 @@
+0 header
+1 code FLAC 8.0
+1 source giic v2.20.517
+1 date Mon Jun 03 10:34:48 CEST 2024
+1 type giic-save
+1 rampcolor 4
+0 flac
+1 config
+2 axisym false
+2 gwflow false
+2 pstress false
+2 cppudm false
+2 ats false
+2 creep false
+2 dynamic false
+2 thermal false
+2 twophase false
+2 extra 0
+2 units 0
+2 struct false
+2 advanced true
+2 water false
+2 interface false
+2 gravity true
+2 excludereg false
+2 solvefos false
+0 plots
+1 plot 2
+2 display
+3 viewport
+4 autorange true
+2 command plot pen history 999
+2 name Unbalanced force
+2 count 1
+2 item
+3 name 999
+1 plot 0
+2 display
+3 viewport
+4 center 7.9999995,37.5
+4 radius 34.636982
+4 orientation 0.0
+2 command plot pen stress bound
+2 name stress
+2 count 2
+2 item
+3 name stress
+3 switch 9
+2 item
+3 name bound
+3 switch 2
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen prop cohesion block
+2 name cohesion
+2 count 1
+2 item
+3 name prop cohesion
+3 switch 12
+3 mode 2
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen displacement bound
+2 name displacement
+2 count 2
+2 item
+3 name displacement
+3 switch 3
+2 item
+3 name bound
+3 switch 2
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen plasticity bound
+2 name plasticity
+2 count 2
+2 item
+3 name plasticity
+3 switch 1
+2 item
+3 name bound
+3 switch 2
+0 matlist
+1 class User
+1 material rock
+2 model mohr
+2 property
+3 density 2700.2036
+3 elastic_mod 5.5008002E10
+3 poisson_rat 0.19999999
+3 bulk_mod 3.056E10
+3 shear_mod 2.29199995E10
+3 cohesion 1.0E7
+3 friction 35.0
+3 tension 1000000.0
+1 material sand
+2 model mohr
+2 property
+3 density 2094.8582
+3 elastic_mod 9.9809264E7
+3 poisson_rat 0.34877384
+3 bulk_mod 1.1E8
+3 shear_mod 3.7E7
+3 cohesion 100000.0
+3 friction 35.0
+3 tension 140000.0
+0 CppModels
+0 project tree
+1 title 
+1 notes
+1 tree
+2 state
+3 file init.sav
+3 lastedit 1717403018234
+3 batch
+4 text ; Source: <no name>
+4 text ;Units: SI: meter-kilogram-second
+4 text set gravity 9.81 ; m/s2
+4 text config
+4 text grid 17,25
+4 text gen 0.0,0.0 0.0,75.0 15.0,75.0 15.0,0.0 i=1,16 j=1,26
+4 text gen 15.0,0.0 15.0,75.0 16.0,75.0 16.0,0.0 i=17,18 j=1,26
+4 text ; Define material models
+4 text group 'User:rock' i=17,17 j=1,25
+4 text group 'User:sand' i=1,15 j=1,25
+4 text model mohr group 'User:rock'
+4 text prop density=2700.0 bulk=3.056E10 shear=2.292E10 cohesion=1.0E7 friction=35.0 dilation=0.0 tension=1000000.0 group 'User:rock'
+4 text model mohr group 'User:sand'
+4 text prop density=2100.0 bulk=1.1E8 shear=3.7E7 cohesion=1.0E10 friction=35.0 dilation=0.0 tension=1.0E10 group 'User:sand'
+4 text ; Define edge marks
+4 text mark i=16 j=1,26
+4 text mark i=17 j=1,26
+4 text ; Interfaces
+4 text interface 1 aside from 16,1 to 16,26 bside from 17,1 to 17,26
+4 text interface 1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+4 text fix x i 18
+4 text fix x i 1
+4 text fix y i 18 j 1
+4 text fix y i 16 j 1
+4 text fix y i 15 j 1
+4 text fix y i 1 14 j 1
+4 text history 999 unbalanced
+4 text solve elastic
+2 state
+3 file step1.sav
+3 lastedit 1717403302460
+3 batch
+4 text set =large
+4 text prop cohesion 100000 region 9,21
+4 text prop tension 140000 region 6,19
+4 text interface 1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=35.0 tbond=0.0 sbratio=100.0 bslip=off
+4 text initial xdisp 0 ydisp 0  
+4 text initial xvel 0 yvel 0  
+4 text history 1 xdisp i=1, j=3
+4 text history 2 xdisp i=1, j=5
+4 text history 3 xdisp i=1, j=7
+4 text history 4 xdisp i=1, j=9
+4 text history 5 xdisp i=1, j=11
+4 text history 6 xdisp i=1, j=13
+4 text history 7 xdisp i=1, j=15
+4 text history 8 xdisp i=1, j=17
+4 text history 9 xdisp i=1, j=19
+4 text free x i 1 j 4
+4 text free x i 1 j 5
+4 text solve
+2 state
+3 file step2.sav
+3 lastedit 1717403376901
+3 batch
+4 text initial xdisp 0 ydisp 0  
+4 text initial xvel 0 yvel 0  
+4 text free x i 1 j 6
+4 text free x i 1 j 7
+4 text solve
+2 state
+3 file step3.sav
+3 lastedit 1717403441478
+3 batch
+4 text initial xdisp 0 ydisp 0  
+4 text initial xvel 0 yvel 0  
+4 text free x i 1 j 8
+4 text free x i 1 j 9
+4 text solve
+2 state
+3 file step3del.sav
+3 lastedit 1717403617098
+3 batch
+4 text group 'null' i 1 j 5 
+4 text model null group 'null' 
+4 text group delete 'null'
+4 text group 'null' i 1 j 6 
+4 text model null group 'null' 
+4 text group delete 'null'
+4 text group 'null' i 1 j 7 
+4 text model null group 'null' 
+4 text group delete 'null'
+4 text group 'null' i 1 j 8 
+4 text model null group 'null' 
+4 text group delete 'null'
+4 text solve
+4 text group 'null' i 1 j 4 
+4 text model null group 'null' 
+4 text group delete 'null'
+4 text solve
+2 state
+3 file step4.sav
+3 lastedit 1717403688020
+3 batch
+4 text initial xdisp 0 ydisp 0  
+4 text initial xvel 0 yvel 0  
+4 text free x i 1 j 10
+4 text free x i 1 j 11
+4 text solve
+0 vgrid
+1 body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 15
+2 text set n2 1
+2 text set n3 25
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:rock' model mohr prop density=2700.0 bulk=3.056E10 shear=2.292E10 cohesion=1.0E7 friction=35.0 dilation=0.0 tension=1000000.0
+2 text set z2 name 'User:sand' model mohr prop density=2100.0 bulk=1.1E8 shear=3.7E7 cohesion=1.0E10 friction=35.0 dilation=0.0 tension=1.0E10
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3 group 2
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3 group 1
+2 text ; Edges marked:
+2 text set edge p1 p4 marked
+2 text ; Interface properties:
+2 text set i1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+1 undo_body
+2 text begin_body 'Empty'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 0 aspect 0.0 minsize 0
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity off
+2 text ; Points:
+2 text ; Sizes: (zones)
+2 text ; Ratios: (zone middle)
+2 text ; Blocks:
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 28
+2 text set n2 3
+2 text set n3 141
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 28
+2 text set n2 3
+2 text set n3 141
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 28
+2 text set n2 3
+2 text set n3 141
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text ; Interface properties:
+2 text set i1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 15
+2 text set n2 3
+2 text set n3 25
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text ; Interface properties:
+2 text set i1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 15
+2 text set n2 1
+2 text set n3 25
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text ; Interface properties:
+2 text set i1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 15
+2 text set n2 1
+2 text set n3 25
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:rock' model mohr prop density=2700.0 bulk=3.056E10 shear=2.292E10 cohesion=1.0E7 friction=35.0 dilation=0.0 tension=1000000.0
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text ; Interface properties:
+2 text set i1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 15
+2 text set n2 1
+2 text set n3 25
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:rock' model mohr prop density=2700.0 bulk=3.056E10 shear=2.292E10 cohesion=1.0E7 friction=35.0 dilation=0.0 tension=1000000.0
+2 text set z2 name 'User:sand' model mohr prop density=2100.0 bulk=1.1E8 shear=3.7E7 cohesion=1.0E10 friction=35.0 dilation=0.0 tension=1.0E10
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text ; Interface properties:
+2 text set i1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 15
+2 text set n2 1
+2 text set n3 25
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:rock' model mohr prop density=2700.0 bulk=3.056E10 shear=2.292E10 cohesion=1.0E7 friction=35.0 dilation=0.0 tension=1000000.0
+2 text set z2 name 'User:sand' model mohr prop density=2100.0 bulk=1.1E8 shear=3.7E7 cohesion=1.0E10 friction=35.0 dilation=0.0 tension=1.0E10
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text ; Edges marked:
+2 text set edge p1 p4 marked
+2 text ; Interface properties:
+2 text set i1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 15
+2 text set n2 1
+2 text set n3 25
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:rock' model mohr prop density=2700.0 bulk=3.056E10 shear=2.292E10 cohesion=1.0E7 friction=35.0 dilation=0.0 tension=1000000.0
+2 text set z2 name 'User:sand' model mohr prop density=2100.0 bulk=1.1E8 shear=3.7E7 cohesion=1.0E10 friction=35.0 dilation=0.0 tension=1.0E10
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3 group 2
+2 text ; Edges marked:
+2 text set edge p1 p4 marked
+2 text ; Interface properties:
+2 text set i1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 15
+2 text set n2 1
+2 text set n3 25
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:rock' model mohr prop density=2700.0 bulk=3.056E10 shear=2.292E10 cohesion=1.0E7 friction=35.0 dilation=0.0 tension=1000000.0
+2 text set z2 name 'User:sand' model mohr prop density=2100.0 bulk=1.1E8 shear=3.7E7 cohesion=1.0E10 friction=35.0 dilation=0.0 tension=1.0E10
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3 group 1
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3 group 2
+2 text ; Edges marked:
+2 text set edge p1 p4 marked
+2 text ; Interface properties:
+2 text set i1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+1 undo_body
+2 text begin_body '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 15.0,0.0
+2 text set p2 16.0,0.0
+2 text set p3 0.0,75.0
+2 text set p4 15.0,75.0
+2 text set p5 16.0,75.0
+2 text ; Sizes: (zones)
+2 text set n1 15
+2 text set n2 1
+2 text set n3 25
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:rock' model mohr prop density=2700.0 bulk=3.056E10 shear=2.292E10 cohesion=1.0E7 friction=35.0 dilation=0.0 tension=1000000.0
+2 text set z2 name 'User:sand' model mohr prop density=2100.0 bulk=1.1E8 shear=3.7E7 cohesion=1.0E10 friction=35.0 dilation=0.0 tension=1.0E10
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3 group 1
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3 group 1
+2 text ; Edges marked:
+2 text set edge p1 p4 marked
+2 text ; Interface properties:
+2 text set i1 unglued kn=1.0E9 ks=1.0E9 cohesion=0.0 dilation=0.0 friction=0.0 tbond=0.0 sbratio=100.0 bslip=off
+2 text ; Grid special connections:
+2 text set edge p1 p4 interface i1
+2 text end_body
+0 vgeo
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (6)
+2 text set p0 0.0,0.0
+2 text set p1 0.0,75.0
+2 text set p2 16.0,75.0
+2 text set p3 16.0,0.0
+2 text set p4 15.0,0.0
+2 text set p5 15.0,75.0
+2 text ; Edges:
+2 text add polyline p0 p1
+2 text add polyline p0 p4 p3
+2 text add polyline p3 p2
+2 text add polyline p4 p5
+2 text add polyline p1 p5 p2
+2 text end_geo
+1 undo_geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+1 undo_geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (4)
+2 text set p0 0.0,0.0
+2 text set p1 0.0,75.0
+2 text set p2 16.0,75.0
+2 text set p3 16.0,0.0
+2 text ; Edges:
+2 text add polyline p0 p1
+2 text add polyline p1 p2
+2 text add polyline p3 p2
+2 text add polyline p0 p3
+2 text end_geo
+0 vsketch
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 notes
+0 fish
+1 file
+1 notes
+1 record
+0 eof

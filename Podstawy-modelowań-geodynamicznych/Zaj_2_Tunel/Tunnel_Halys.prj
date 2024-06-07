@@ -1,0 +1,196 @@
+0 header
+1 code FLAC 8.1
+1 source giic v2.20.541
+1 date Mon Mar 18 13:44:42 CET 2024
+1 type giic-save
+1 rampcolor 4
+0 flac
+1 config
+2 axisym false
+2 gwflow false
+2 pstress false
+2 cppudm false
+2 ats false
+2 creep false
+2 dynamic false
+2 thermal false
+2 twophase false
+2 extra 0
+2 units 0
+2 struct true
+2 advanced true
+2 water false
+2 interface false
+2 gravity true
+2 excludereg false
+2 solvefos true
+0 plots
+1 plot 2
+2 display
+3 viewport
+4 autorange true
+2 command plot pen history 999
+2 name Unbalanced force
+2 count 1
+2 item
+3 name 999
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen boundary syy fill
+2 name Plot 1
+2 count 2
+2 item
+3 name boundary
+3 switch 2
+2 item
+3 name syy
+3 switch 5
+3 mode 1
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen boundary ydisp fill
+2 name Plot 2
+2 count 2
+2 item
+3 name boundary
+3 switch 2
+2 item
+3 name ydisp
+3 switch 5
+3 mode 1
+0 matlist
+1 class Tunnel
+1 material Strong rock
+2 model mohr
+2 property
+3 density 2000.0
+3 elastic_mod 8.1818184E7
+3 poisson_rat 0.36363637
+3 bulk_mod 1.0E8
+3 shear_mod 3.0E7
+3 cohesion 1000000.0
+3 friction 35.0
+1 material Weak rock
+2 model mohr
+2 property
+3 density 2000.0
+3 elastic_mod 8.1818184E7
+3 poisson_rat 0.36363637
+3 bulk_mod 1.0E8
+3 shear_mod 3.0E7
+3 friction 35.0
+0 CppModels
+0 project tree
+1 title Tunnel analysis
+1 notes
+1 tree
+2 state
+3 file first.sav
+3 lastedit 1710764629671
+3 batch
+4 text config
+4 text grid 10,10
+4 text model elastic
+4 text gen circle 5.0,5.0 2.0
+4 text group 'Tunnel:Strong rock' notnull
+4 text model mohr group 'Tunnel:Strong rock'
+4 text prop density=2000.0 bulk=1E8 shear=3E7 cohesion=1000000.0 friction=35.0 dilation=0.0 tension=0.0 group 'Tunnel:Strong rock'
+4 text fix x i 1 j 1
+4 text fix x i 1 j 1
+4 text fix x i 1
+4 text fix x i 11
+4 text fix x y j 1
+4 text set gravity=9.81 ; m/s2
+4 text set =large
+4 text history 999 unbalanced
+4 text solve elastic
+2 branch branch A
+3 state
+4 file Second.sav
+4 lastedit 1710765156153
+4 batch
+5 text group 'null' i 5 j 7 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 4 5 j 5 6 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 6 j 5 7 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 7 j 5 6 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 6 j 4 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 5 j 4 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text solve
+2 branch branch B
+3 state
+4 file Third.sav
+4 lastedit 1710765582020
+4 batch
+5 text group 'Tunnel:Weak rock' notnull
+5 text group 'null' i 5 6 j 6 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 4 6 j 5 6 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 7 j 5 6 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 5 6 j 7 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 5 6 j 4 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text model mohr group 'Tunnel:Weak rock'
+5 text prop density=2000.0 bulk=1E8 shear=3E7 cohesion=0.0 friction=35.0 dilation=0.0 tension=0.0 group 'Tunnel:Weak rock'
+5 text cycle 600
+0 vgrid
+1 body
+2 text begin_body 'Empty'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 0 aspect 0.0 minsize 0
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity off
+2 text ; Points:
+2 text ; Sizes: (zones)
+2 text ; Ratios: (zone middle)
+2 text ; Blocks:
+2 text end_body
+0 vgeo
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 vsketch
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 notes
+0 fish
+1 file
+1 notes
+1 record
+0 eof

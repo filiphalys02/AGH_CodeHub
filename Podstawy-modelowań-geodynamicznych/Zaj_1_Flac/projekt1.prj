@@ -1,0 +1,272 @@
+0 header
+1 code FLAC 8.0
+1 source giic v2.20.517
+1 date Mon Mar 11 10:35:17 CET 2024
+1 type giic-save
+1 rampcolor 4
+0 flac
+1 config
+2 axisym false
+2 gwflow false
+2 pstress false
+2 cppudm false
+2 ats false
+2 creep false
+2 dynamic false
+2 thermal false
+2 twophase false
+2 extra 0
+2 units 0
+2 struct true
+2 advanced true
+2 water false
+2 interface false
+2 gravity true
+2 excludereg false
+2 solvefos true
+0 plots
+0 matlist
+1 class User
+1 material Quartz sandstone
+2 model mohr
+2 property
+3 density 2780.0
+3 elastic_mod 3.06858271E10
+3 poisson_rat 0.2576159
+3 bulk_mod 2.10999992E10
+3 shear_mod 1.21999995E10
+3 cohesion 3200000.0
+3 friction 38.0
+3 tension 1600000.0
+1 material Fine sandstone
+2 model mohr
+2 property
+3 density 2650.0
+3 elastic_mod 2.52651602E10
+3 poisson_rat 0.2760181
+3 bulk_mod 1.8800001E10
+3 shear_mod 9.9000003E9
+3 cohesion 3100000.0
+3 friction 32.0
+3 tension 1500000.0
+1 material Medium sandstone
+2 model mohr
+2 property
+3 density 2600.0
+3 elastic_mod 1.85554391E10
+3 poisson_rat 0.27092054
+3 bulk_mod 1.35000003E10
+3 shear_mod 7.2999997E9
+3 cohesion 2400000.0
+3 friction 34.0
+3 tension 1400000.0
+1 material Siltstone
+2 model mohr
+2 property
+3 density 2550.0
+3 elastic_mod 1.9070122E10
+3 poisson_rat 0.27134144
+3 bulk_mod 1.39000003E10
+3 shear_mod 7.5000003E9
+3 cohesion 3000000.0
+3 friction 26.0
+3 tension 1200000.0
+0 CppModels
+0 project tree
+1 title Project1
+1 notes
+1 tree
+2 state
+3 file projekt1.sav
+3 title 'projekt1'
+3 lastedit 1710147327488
+3 batch
+4 text config
+4 text grid 54,30
+4 text model elastic
+2 state
+3 file projekt_1a.sav
+3 title 'projekt_1a'
+3 lastedit 1710149655754
+3 batch
+4 text gen line -0.054430008,25.968012 54.0022,28.004929
+4 text gen adjust
+4 text gen line -0.054430008,21.319664 15.56193,20.901834
+4 text gen line 15.144101,21.006292 21.67268,19.334976
+4 text gen line 20.941479,19.596119 28.462402,19.543892
+4 text gen line 28.096802,19.596119 34.67761,17.66366
+4 text gen line 34.155323,17.820347 45.123337,17.559202
+4 text gen line 45.018875,17.768118 53.949974,18.44709
+4 text gen line -0.054430008,13.537599 16.606503,12.910854
+4 text gen line 16.188675,12.806397 22.821709,15.4178295
+4 text gen line 22.09051,15.104457 33.42412,13.746513
+4 text gen line 33.371895,13.6420555 54.15889,15.261143
+4 text gen line 10.391296,21.058521 18.382277,13.6420555
+4 text gen line 19.79245,19.543892 22.612795,15.4178295
+4 text gen line 33.47635,17.768118 29.977032,14.321028
+4 text gen line -0.054430008,11.55291 10.652439,11.239538
+4 text gen line 10.130152,11.082853 18.173363,9.933823
+4 text gen line 18.277819,9.777137 32.954063,10.351652
+4 text gen line 32.118404,10.612795 41.153957,7.949135
+4 text gen line 41.258415,7.7402205 54.263344,8.2625065
+4 text gen line -0.054430008,8.575878 13.316099,8.784793
+4 text gen line 13.26387,8.784793 17.494389,7.217934
+4 text gen line 17.337704,7.00902 35.722183,7.37462
+4 text gen line 34.93875,7.3223915 41.624016,5.912218
+4 text gen line 41.0495,5.964447 49.87614,6.121133
+4 text gen line 49.35385,6.068904 54.10666,5.5466185
+4 text gen line 43.13865,5.912218 49.14494,4.8154173
+4 text gen line 47.99591,4.867646 54.10666,4.6065025
+4 text gen line -0.106658936,8.732565 17.85999,6.4867334
+4 text gen line -0.0022010803,4.5542736 54.0022,2.8829575
+4 text group 'User:Quartz sandstone' j 29 30
+4 text group 'User:Quartz sandstone' i 1 14 j 28
+4 text group 'User:Quartz sandstone' i 1 14 j 27
+4 text group 'User:Quartz sandstone' i 15 41 j 28
+4 text group 'User:Medium sandstone' i 1 j 5
+4 text group 'User:Medium sandstone' i 1 j 5
+4 text group 'User:Medium sandstone' j 1 2
+4 text group 'User:Medium sandstone' i 1 34 j 3 4
+4 text group 'User:Medium sandstone' i 35 54 j 3
+4 text group 'User:Medium sandstone' i 2 j 5
+4 text model mohr group 'User:Quartz sandstone'
+4 text prop density=2780.0 bulk=2.11E10 shear=1.22E10 cohesion=3200000.0 friction=38.0 dilation=0.0 tension=1600000.0 group 'User:Quartz sandstone'
+4 text model mohr group 'User:Medium sandstone'
+4 text prop density=2600.0 bulk=1.35E10 shear=7.3E9 cohesion=2400000.0 friction=34.0 dilation=0.0 tension=1400000.0 group 'User:Medium sandstone'
+4 text group 'User:Fine sandstone' i 1 12 j 22 26
+4 text group 'User:Fine sandstone' i 13 17 j 22 26
+4 text group 'User:Fine sandstone' i 15 53 j 26 27
+4 text group 'User:Fine sandstone' i 42 54 j 26 28
+4 text group 'User:Fine sandstone' i 49 54 j 19 25
+4 text group 'User:Fine sandstone' i 40 48 j 19 25
+4 text group 'User:Fine sandstone' i 36 39 j 19 25
+4 text group 'User:Fine sandstone' i 33 35 j 19 20
+4 text group 'User:Fine sandstone' i 30 32 j 20 22
+4 text group 'User:Fine sandstone' i 33 35 j 22 25
+4 text group 'User:Fine sandstone' i 33 35 j 21
+4 text group 'User:Fine sandstone' i 18 32 j 23 25
+4 text group 'User:Fine sandstone' i 18 22 j 21 22
+4 text group 'User:Fine sandstone' i 23 29 j 21 22
+4 text group 'User:Fine sandstone' i 1 3 j 6 9
+4 text group 'User:Fine sandstone' i 3 j 5
+4 text group 'User:Fine sandstone' i 4 10 j 5 8
+4 text group 'User:Fine sandstone' i 11 16 j 5 7
+4 text group 'User:Fine sandstone' i 17 18 j 5 7
+4 text group 'User:Fine sandstone' i 19 34 j 5 7
+4 text group 'User:Fine sandstone' i 35 39 j 4 7
+4 text group 'User:Fine sandstone' i 40 45 j 4 6
+4 text group 'User:Fine sandstone' i 46 54 j 4 5
+4 text group 'User:Quartz sandstone' i 46 54 j 6
+4 text group 'User:Quartz sandstone' i 4 10 j 9
+4 text group 'User:Quartz sandstone' i 11 14 j 8 9
+4 text group 'User:Quartz sandstone' i 15 17 j 8
+4 text group 'User:Quartz sandstone' i 1 3 j 9
+4 text group 'User:Siltstone' i 1 2 j 10 12
+4 text group 'User:Siltstone' i 3 11 j 10 11
+4 text group 'User:Siltstone' i 12 14 j 10 11
+4 text group 'User:Siltstone' i 22 33 j 8 10
+4 text group 'User:Siltstone' i 34 36 j 8 10
+4 text group 'User:Siltstone' i 37 39 j 8 9
+4 text group 'User:Siltstone' i 40 54 j 7 8
+4 text group 'User:Siltstone' i 18 22 j 8 10
+4 text group 'User:Siltstone' i 15 17 j 9 10
+4 text group 'User:Fine sandstone' i 1 j 13 14
+4 text group 'User:Fine sandstone' i 2 3 j 13
+4 text group 'User:Fine sandstone' i 3 5 j 12 13
+4 text group 'User:Fine sandstone' i 6 9 j 12 13
+4 text group 'User:Fine sandstone' i 10 15 j 12 13
+4 text group 'User:Fine sandstone' i 15 19 j 11 13
+4 text group 'User:Fine sandstone' i 19 23 j 14
+4 text group 'User:Fine sandstone' i 21 23 j 15
+4 text group 'User:Fine sandstone' i 20 23 j 11 13
+4 text group 'User:Fine sandstone' i 24 27 j 11 15
+4 text group 'User:Fine sandstone' i 28 32 j 11 14
+4 text group 'User:Fine sandstone' i 33 36 j 11 14
+4 text group 'User:Fine sandstone' i 37 46 j 10 14
+4 text group 'User:Fine sandstone' i 40 46 j 9
+4 text group 'User:Fine sandstone' i 45 54 j 9 15
+4 text group 'User:Medium sandstone' i 1 10 j 16 21
+4 text group 'User:Medium sandstone' i 1 4 j 15
+4 text group 'User:Medium sandstone' i 2 10 j 14
+4 text group 'User:Medium sandstone' i 5 10 j 15
+4 text group 'User:Medium sandstone' i 15 18 j 14
+4 text group 'User:Medium sandstone' i 15 17 j 15
+4 text group 'User:Medium sandstone' i 11 j 17 21
+4 text group 'User:Medium sandstone' i 11 14 j 14 16
+4 text group 'User:Medium sandstone' i 12 13 j 17 19
+4 text group 'User:Medium sandstone' i 14 j 17 18
+4 text group 'User:Medium sandstone' i 15 j 16 17
+4 text group 'User:Medium sandstone' i 16 j 16
+4 text group 'User:Medium sandstone' i 12 j 20
+4 text group 'User:Siltstone' i 12 14 j 21
+4 text group 'User:Siltstone' i 13 16 j 20
+4 text group 'User:Siltstone' i 15 17 j 20 21
+4 text group 'User:Siltstone' i 14 17 j 19
+4 text group 'User:Siltstone' i 15 17 j 18
+4 text group 'User:Siltstone' i 16 18 j 17
+4 text group 'User:Siltstone' i 17 20 j 16
+4 text group 'User:Siltstone' i 21 22 j 16 17
+4 text group 'User:Siltstone' i 18 21 j 18 19
+4 text group 'User:Siltstone' i 18 20 j 20
+4 text group 'User:Siltstone' i 19 20 j 17
+4 text group 'User:Siltstone' i 18 20 j 15
+4 text group 'User:Quartz sandstone' i 21 23 j 20
+4 text group 'User:Quartz sandstone' i 24 29 j 16 20
+4 text group 'User:Quartz sandstone' i 22 23 j 19
+4 text group 'User:Quartz sandstone' i 22 23 j 18
+4 text group 'User:Quartz sandstone' i 23 j 17
+4 text group 'User:Quartz sandstone' i 23 j 16
+4 text group 'User:Quartz sandstone' i 28 31 j 15 16
+4 text group 'User:Quartz sandstone' i 30 33 j 18
+4 text group 'User:Quartz sandstone' i 30 32 j 17
+4 text group 'User:Quartz sandstone' i 30 32 j 19
+4 text group 'User:Medium sandstone' i 37 54 j 16 18
+4 text group 'User:Medium sandstone' i 32 44 j 15 16
+4 text group 'User:Medium sandstone' i 34 36 j 17 18
+4 text group 'User:Medium sandstone' i 33 j 17
+4 text model mohr group 'User:Quartz sandstone'
+4 text prop density=2780.0 bulk=2.11E10 shear=1.22E10 cohesion=3200000.0 friction=38.0 dilation=0.0 tension=1600000.0 group 'User:Quartz sandstone'
+4 text model mohr group 'User:Fine sandstone'
+4 text prop density=2650.0 bulk=1.88E10 shear=9.9E9 cohesion=3100000.0 friction=32.0 dilation=0.0 tension=1500000.0 group 'User:Fine sandstone'
+4 text model mohr group 'User:Medium sandstone'
+4 text prop density=2600.0 bulk=1.35E10 shear=7.3E9 cohesion=2400000.0 friction=34.0 dilation=0.0 tension=1400000.0 group 'User:Medium sandstone'
+4 text model mohr group 'User:Siltstone'
+4 text prop density=2550.0 bulk=1.39E10 shear=7.5E9 cohesion=3000000.0 friction=26.0 dilation=0.0 tension=1200000.0 group 'User:Siltstone'
+0 vgrid
+1 body
+2 text begin_body 'Empty'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone off zones 0 aspect 0.0 minsize 0
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity off
+2 text ; Points:
+2 text ; Sizes: (zones)
+2 text ; Ratios: (zone middle)
+2 text ; Blocks:
+2 text end_body
+0 vgeo
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 vsketch
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 notes
+0 fish
+1 file
+1 notes
+1 record
+0 eof
