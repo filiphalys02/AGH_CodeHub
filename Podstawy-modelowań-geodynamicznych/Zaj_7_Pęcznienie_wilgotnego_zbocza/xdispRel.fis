@@ -1,0 +1,7 @@
+;Name:xdisp_rel
+def xdisp_rel
+ xdisp_r = 0.5*(xdisp(24,18)+xdisp(23,18))
+ xdisp_l = xdisp(9,18)
+ xdisp_rel = xdisp_r - xdisp_l
+ xdisp_meas = 0.102
+end

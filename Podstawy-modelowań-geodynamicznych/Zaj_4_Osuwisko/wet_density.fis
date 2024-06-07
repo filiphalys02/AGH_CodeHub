@@ -1,0 +1,14 @@
+;Name:wet_density
+def wet_density
+  loop i (1, izones)
+    loop j (1, jzones)
+      if model(i,j)#1 then
+        xc=xcen(i,j)
+        yc=ycen(i,j)
+        if yc < table(1, xc) then
+          density(i,j) = 1800
+        endif
+      endif
+    endloop
+  endloop
+end

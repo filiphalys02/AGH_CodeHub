@@ -1,0 +1,350 @@
+0 header
+1 code FLAC 8.0
+1 source giic v2.20.517
+1 date Mon May 06 10:40:29 CEST 2024
+1 type giic-save
+1 rampcolor 4
+0 flac
+1 config
+2 axisym false
+2 gwflow false
+2 pstress false
+2 cppudm false
+2 ats false
+2 creep false
+2 dynamic false
+2 thermal false
+2 twophase false
+2 extra 0
+2 units 0
+2 struct true
+2 advanced true
+2 water false
+2 interface false
+2 gravity true
+2 excludereg false
+2 solvefos true
+0 plots
+1 plot 2
+2 display
+3 viewport
+4 autorange true
+2 command plot pen history 999
+2 name Unbalanced force
+2 count 1
+2 item
+3 name 999
+1 plot 0
+2 display
+3 viewport
+4 center 13.742432,5.5
+4 radius 9.3628025
+4 orientation 0.0
+2 command plot pen  bound fos ssi fill
+2 name FoS
+2 count 3
+2 item
+3 name bound
+3 switch 2
+2 item
+3 name fos
+3 switch 0
+2 item
+3 name ssi
+3 switch 5
+3 mode 1
+1 plot 0
+2 display
+3 viewport
+4 center 13.742432,5.5
+4 radius 11.328997
+4 orientation 0.0
+2 command plot pen  xvel fill bound displacement
+2 name Xvel
+2 count 3
+2 item
+3 name xvel
+3 switch 5
+3 mode 1
+2 item
+3 name bound
+3 switch 2
+2 item
+3 name displacement
+3 switch 3
+1 plot 2
+2 display
+3 viewport
+4 xrange 4388.3857,21181.613
+4 yrange -9.4845786E-4,-9.1710745E-4
+2 command plot pen history 3 line
+2 name history
+2 alias 
+2 begin 
+2 end 
+2 skip 
+2 count 1
+2 item
+3 name 3
+3 line
+0 matlist
+1 class User
+1 material material
+2 model mohr
+2 property
+3 density 1500.0
+3 elastic_mod 8.1818184E7
+3 poisson_rat 0.36363637
+3 bulk_mod 1.0E8
+3 shear_mod 3.0E7
+3 cohesion 4000.0
+3 friction 11.0
+1 material new2
+2 model mohr
+2 property
+3 density 1500.0
+3 elastic_mod 8.1818184E7
+3 poisson_rat 0.36363637
+3 bulk_mod 1.00000008E8
+3 shear_mod 3.0E7
+3 cohesion 4000.0
+3 friction 11.0
+0 CppModels
+0 project tree
+1 title 
+1 notes
+1 tree
+2 state
+3 file slope_1.sav
+3 lastedit 1714983530065
+3 batch
+4 text ; Source: Simple slope
+4 text ;Units: SI: meter-kilogram-second
+4 text set gravity 9.81 ; m/s2
+4 text config
+4 text grid 26,18
+4 text gen 0.0,0.0 0.0,5.0 6.0,5.0 6.0,0.0 i=1,8 j=1,6
+4 text gen 6.0,0.0 6.0,5.0 27.484865,5.0 27.484865,0.0 i=8,27 j=1,6
+4 text gen 6.0,5.0 22.484865,11.0 27.484865,11.0 27.484865,5.0 i=8,27 j=6,19
+4 text ; Define material models
+4 text group 'User:new2' i=1,7 j=1,5
+4 text group 'User:new2' i=8,26 j=1,5
+4 text group 'User:new2' i=8,26 j=6,18
+4 text model mohr group 'User:new2'
+4 text prop density=1500.0 bulk=1E8 shear=3E7 cohesion=4000.0 friction=11.0 dilation=0.0 tension=0.0 group 'User:new2'
+4 text ; Fixed boundary conditions
+4 text fix x i=1 j=1,6
+4 text fix x y i=1,8 j=1
+4 text fix x i=27 j=1,6
+4 text fix x y i=8,27 j=1
+4 text fix x i=27 j=6,19
+4 text history 999 unbalanced
+4 text solve elastic
+4 text history 3 ydisp i=5, j=6
+4 text history 4 ydisp i=20, j=19
+2 branch branch A
+3 state
+4 file Fos_slope1.fsv
+4 title 'FoS'
+4 lastedit 1714983530065
+4 batch
+5 text ; This state should NOT be changed.
+5 text solve fos no_restore file=Fos.fsv
+2 branch branch B
+3 state
+4 file Slope_2.sav
+4 lastedit 1714983554499
+4 batch
+5 text prop friction 21 notnull 
+5 text prop friction 21 notnull 
+3 state
+4 file Fos_slope2.fsv
+4 title 'FoS'
+4 lastedit 1714983554499
+4 batch
+5 text ; This state should NOT be changed.
+5 text solve fos no_restore file=Fos_slope2.fsv
+2 branch branch C
+3 state
+4 file Slope_3.sav
+4 lastedit 1714983551715
+4 batch
+5 text prop friction 31 notnull 
+3 state
+4 file Fos_slope3.fsv
+4 title 'FoS'
+4 lastedit 1714983551715
+4 batch
+5 text ; This state should NOT be changed.
+5 text solve fos no_restore file=Fos_slope3.fsv
+2 branch branch D
+3 state
+4 file Slope_4.sav
+4 lastedit 1714983543759
+4 batch
+5 text prop friction 31 notnull 
+5 text prop cohesion 1000 notnull 
+3 state
+4 file Fos_slope4.fsv
+4 title 'FoS'
+4 lastedit 1714983543759
+4 batch
+5 text ; This state should NOT be changed.
+5 text solve fos no_restore file=Fos_slope4.fsv
+0 vgrid
+1 body
+2 text begin_body 'Simple slope'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 30 aspect 1.0 minsize 3
+2 text set autobc 1
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 6.0,0.0
+2 text set p2 27.484865,0.0
+2 text set p3 0.0,5.0
+2 text set p4 6.0,5.0
+2 text set p5 27.484865,5.0
+2 text set p6 22.484865,11.0
+2 text set p7 27.484865,11.0
+2 text ; Sizes: (zones)
+2 text set n1 7
+2 text set n2 19
+2 text set n3 5
+2 text set n4 13
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text set r4 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:new2' model mohr prop density=1500.0 bulk=1E8 shear=3E7 cohesion=4000.0 friction=11.0 dilation=0.0 tension=0.0
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3 group 1
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3 group 1
+2 text set b3 point p4 p6 p7 p5 size n2,n4 mult 1,1 ratio r2,r4 group 1
+2 text end_body
+1 undo_body
+2 text begin_body 'Simple slope'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 6.0,0.0
+2 text set p2 27.484865,0.0
+2 text set p3 0.0,5.0
+2 text set p4 6.0,5.0
+2 text set p5 27.484865,5.0
+2 text set p6 22.484865,11.0
+2 text set p7 27.484865,11.0
+2 text ; Sizes: (zones)
+2 text set n1 7
+2 text set n2 19
+2 text set n3 5
+2 text set n4 13
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text set r4 0.5
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text set b3 point p4 p6 p7 p5 size n2,n4 mult 1,1 ratio r2,r4
+2 text end_body
+1 undo_body
+2 text begin_body 'Simple slope'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 30 aspect 1.0 minsize 3
+2 text set autobc 1
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 6.0,0.0
+2 text set p2 27.484865,0.0
+2 text set p3 0.0,5.0
+2 text set p4 6.0,5.0
+2 text set p5 27.484865,5.0
+2 text set p6 22.484865,11.0
+2 text set p7 27.484865,11.0
+2 text ; Sizes: (zones)
+2 text set n1 7
+2 text set n2 19
+2 text set n3 5
+2 text set n4 13
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text set r4 0.5
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text set b3 point p4 p6 p7 p5 size n2,n4 mult 1,1 ratio r2,r4
+2 text end_body
+1 undo_body
+2 text begin_body 'Simple slope'
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 30 aspect 1.0 minsize 3
+2 text set autobc 1
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text set p0 0.0,0.0
+2 text set p1 6.0,0.0
+2 text set p2 27.484865,0.0
+2 text set p3 0.0,5.0
+2 text set p4 6.0,5.0
+2 text set p5 27.484865,5.0
+2 text set p6 22.484865,11.0
+2 text set p7 27.484865,11.0
+2 text ; Sizes: (zones)
+2 text set n1 7
+2 text set n2 19
+2 text set n3 5
+2 text set n4 13
+2 text ; Ratios: (zone middle)
+2 text set r1 0.5
+2 text set r2 0.5
+2 text set r3 0.5
+2 text set r4 0.5
+2 text ; Zone materials: (SI: m-kg-s system units)
+2 text set z1 name 'User:new2' model mohr prop density=1500.0 bulk=1E8 shear=3E7 cohesion=4000.0 friction=11.0 dilation=0.0 tension=0.0
+2 text ; Blocks:
+2 text set b1 point p0 p3 p4 p1 size n1,n3 mult 1,1 ratio r1,r3
+2 text set b2 point p1 p4 p5 p2 size n2,n3 mult 1,1 ratio r2,r3
+2 text set b3 point p4 p6 p7 p5 size n2,n4 mult 1,1 ratio r2,r4
+2 text end_body
+0 vgeo
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 vsketch
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 notes
+0 fish
+1 file
+1 notes
+1 record
+0 eof

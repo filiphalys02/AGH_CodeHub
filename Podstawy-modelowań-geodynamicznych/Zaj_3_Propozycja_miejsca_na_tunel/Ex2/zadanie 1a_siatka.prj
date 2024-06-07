@@ -1,0 +1,909 @@
+0 header
+1 code FLAC 8.0
+1 source giic v2.20.517
+1 date Mon Mar 25 10:42:30 CET 2024
+1 type giic-save
+1 rampcolor 4
+0 flac
+1 config
+2 axisym false
+2 gwflow false
+2 pstress false
+2 cppudm false
+2 ats false
+2 creep false
+2 dynamic false
+2 thermal false
+2 twophase false
+2 extra 0
+2 units 0
+2 struct true
+2 advanced true
+2 water false
+2 interface false
+2 gravity true
+2 excludereg false
+2 solvefos true
+0 plots
+1 plot 2
+2 display
+3 viewport
+4 autorange true
+2 command plot pen history 999
+2 name Unbalanced force
+2 count 1
+2 item
+3 name 999
+1 plot 0
+2 display
+3 viewport
+4 center 15.008293,10.0
+4 radius 11.0
+4 orientation 0.0
+2 command plot pen ydisp fill bound
+2 name Plot 1
+2 count 2
+2 item
+3 name ydisp
+3 switch 5
+3 mode 1
+2 item
+3 name bound
+3 switch 2
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen syy fill bound
+2 name Plot 2
+2 count 2
+2 item
+3 name syy
+3 switch 5
+3 mode 1
+2 item
+3 name bound
+3 switch 2
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen plasticity
+2 name plasticity
+2 count 0
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen state block
+2 name state block
+2 count 0
+1 plot 0
+2 display
+3 viewport
+4 autorange true
+2 command plot pen velocity
+2 name velocity
+2 count 0
+0 matlist
+1 class User
+1 material Medium sandstone
+2 model mohr
+2 property
+3 density 2600.0
+3 elastic_mod 18.55544
+3 poisson_rat 0.27092052
+3 bulk_mod 13.5
+3 shear_mod 7.3
+3 cohesion 2.4
+3 friction 34.0
+3 tension 1.4
+1 material Fine sandstone
+2 model mohr
+2 property
+3 density 2650.0
+3 elastic_mod 25.265158
+3 poisson_rat 0.2760181
+3 bulk_mod 18.8
+3 shear_mod 9.9
+3 cohesion 3.1
+3 friction 32.0
+3 tension 1.5
+1 material Siltstone
+2 model mohr
+2 property
+3 density 2550.0
+3 elastic_mod 19.070122
+3 poisson_rat 0.27134144
+3 bulk_mod 13.9
+3 shear_mod 7.5
+3 cohesion 3.0
+3 friction 26.0
+3 tension 1.2
+1 material Quartz sandstone
+2 model mohr
+2 property
+3 density 2780.0
+3 elastic_mod 30.685827
+3 poisson_rat 0.2576159
+3 bulk_mod 21.1
+3 shear_mod 12.2
+3 cohesion 3.2
+3 friction 38.0
+3 tension 1.6
+0 CppModels
+0 project tree
+1 title zadane1a_siatka
+1 notes
+1 tree
+2 state
+3 file zadane1a.sav
+3 title 'zadane1a'
+3 lastedit 1711357402966
+3 batch
+4 text config
+4 text grid 30,20
+4 text model elastic
+4 text gen line -0.65312195,4.1216817 30.753895,1.9718962
+4 text gen line -0.8210745,6.1035147 31.761604,2.8116565
+4 text gen line -0.61953163,8.118938 30.753895,6.0027437
+4 text gen line -0.61953163,9.16024 30.619532,10.067181
+4 text gen line -0.48517036,14.030848 9.02091,14.098028
+4 text gen line 9.054501,14.165209 14.899229,12.149785
+4 text gen line 14.16024,12.250556 9.02091,9.529735
+4 text gen line 4.083123,14.1316185 9.927851,9.428964
+4 text gen line 30.45158,12.082604 20.374462,12.015424
+4 text gen line 18.896484,12.049014 20.878319,12.082604
+4 text gen line 19.030848,12.015424 22.154753,9.529735
+4 text gen line 19.971378,11.074892 18.762123,12.015424
+4 text gen line 14.16024,12.384918 19.803425,11.142074
+4 text gen line 15.235133,14.1316185 10.834791,13.762124
+4 text gen line 15.03359,14.098028 18.896484,12.116195
+4 text gen line -0.5187607,17.053982 31.22416,17.020391
+4 text ini x 1.9935541 y 4.0374393 i 3 j 5
+4 text ini x 3.3872843 y 3.9396334 i 4 j 5
+4 text ini x 30.021759 y 1.0306358 i 31 j 3
+4 text ini x 28.778913 y 1.6016726 i 30 j 3
+4 text ini x 27.871973 y 1.6688533 i 29 j 3
+4 text ini x 26.998623 y 1.7696242 i 28 j 3
+4 text ini x 25.990911 y 1.7024436 i 27 j 3
+4 text ini x 26.058092 y 1.8703957 i 27 j 3
+4 text ini x 29.014046 y 1.2993588 i 30 j 3
+4 text ini x 27.871973 y 1.5680823 i 29 j 3
+4 text ini x 28.980455 y 1.1649976 i 30 j 3
+4 text ini x 28.980455 y 1.1649976 i 30 j 3
+4 text ini x 28.039925 y 1.36654 i 29 j 3
+4 text ini x 27.166576 y 1.6016726 i 28 j 3
+4 text ini x 27.166576 y 1.6016726 i 28 j 3
+4 text ini x 27.132984 y 1.4337206 i 28 j 3
+4 text ini x 28.006334 y 1.2321782 i 29 j 3
+4 text ini x 26.058092 y 1.7360339 i 27 j 3
+4 text ini x 25.05038 y 1.803215 i 26 j 3
+4 text ini x 26.024502 y 1.6016726 i 27 j 3
+4 text ini x 23.975489 y 1.9375763 i 25 j 3
+4 text ini x 23.337273 y 2.4750223 i 24 j 3
+4 text ini x 23.941898 y 2.071938 i 25 j 3
+4 text ini x 23.16932 y 2.004757 i 24 j 3
+4 text ini x 23.135729 y 2.0383477 i 24 j 3
+4 text ini x 23.975489 y 1.8703957 i 25 j 3
+4 text ini x 23.001368 y 2.071938 i 24 j 3
+4 text ini x 22.497513 y 2.2062993 i 24 j 4
+4 text ini x 21.960066 y 2.441432 i 23 j 4
+4 text ini x 22.967777 y 2.1055284 i 24 j 3
+4 text ini x 23.370861 y 1.9711666 i 24 j 3
+4 text ini x 22.766235 y 2.1055284 i 24 j 4
+4 text ini x 24.10985 y 1.8703957 i 25 j 3
+4 text group 'User:Medium sandstone' i 1 7 j 1 4
+4 text group 'User:Medium sandstone' i 8 j 3 4
+4 text group 'User:Medium sandstone' i 9 17 j 1 3
+4 text group 'User:Medium sandstone' i 8 j 1 2
+4 text group 'User:Medium sandstone' i 18 23 j 1 3
+4 text group 'User:Medium sandstone' i 24 30 j 1 2
+4 text group 'User:Medium sandstone' i 24 j 1
+4 text group 'User:Medium sandstone' i 22 j 1
+4 text model mohr group 'User:Medium sandstone'
+4 text prop density=2600.0 bulk=13.5 shear=7.3 cohesion=2.4 friction=34.0 dilation=0.0 tension=1.4 group 'User:Medium sandstone'
+4 text ini x 3.3845835 y 5.8340607 i 4 j 7
+4 text ini x 4.0228004 y 5.8340607 i 5 j 7
+4 text ini x 5.3328257 y 5.8340607 i 6 j 7
+4 text ini x 5.8702717 y 5.666109 i 6 j 6
+4 text ini x 6.2733564 y 5.3637953 i 7 j 6
+4 text ini x 6.911574 y 5.0278916 i 8 j 6
+4 text ini x 7.717743 y 4.8263493 i 9 j 6
+4 text ini x 6.3741274 y 5.498157 i 7 j 6
+4 text ini x 6.9787545 y 5.2966146 i 8 j 6
+4 text ini x 7.6505623 y 5.061482 i 9 j 6
+4 text ini x 8.053646 y 4.960711 i 10 j 6
+4 text ini x 8.557503 y 4.7255783 i 10 j 6
+4 text ini x 7.717743 y 5.061482 i 9 j 6
+4 text ini x 9.968298 y 4.591217 i 11 j 6
+4 text ini x 11.009601 y 4.5576262 i 12 j 6
+4 text ini x 11.916541 y 4.524036 i 13 j 6
+4 text ini x 13.058614 y 4.524036 i 14 j 6
+4 text ini x 13.999145 y 4.423265 i 15 j 6
+4 text ini x 14.704543 y 4.356084 i 16 j 6
+4 text ini x 15.510712 y 4.356084 i 16 j 5
+4 text ini x 16.350471 y 4.288903 i 17 j 5
+4 text ini x 16.417652 y 4.288903 i 17 j 5
+4 text ini x 17.492544 y 4.2217226 i 18 j 5
+4 text ini x 18.567436 y 4.2217226 i 19 j 5
+4 text ini x 19.70951 y 4.2217226 i 20 j 5
+4 text ini x 13.125794 y 4.356084 i 14 j 6
+4 text ini x 13.999145 y 4.3224936 i 15 j 6
+4 text ini x 11.916541 y 4.389674 i 13 j 6
+4 text ini x 20.65004 y 4.356084 i 21 j 5
+4 text ini x 21.55698 y 4.02018 i 22 j 5
+4 text ini x 20.784403 y 4.1881323 i 21 j 5
+4 text ini x 21.55698 y 4.120951 i 22 j 5
+4 text ini x 22.46392 y 4.2217226 i 23 j 5
+4 text ini x 23.20291 y 3.9194088 i 24 j 5
+4 text ini x 23.16932 y 3.6170955 i 24 j 5
+4 text ini x 24.009079 y 3.2140112 i 25 j 5
+4 text ini x 23.20291 y 3.8858185 i 24 j 5
+4 text ini x 23.807537 y 3.3147821 i 25 j 5
+4 text ini x 24.613705 y 2.9788785 i 26 j 5
+4 text ini x 25.453465 y 2.7437458 i 26 j 4
+4 text ini x 25.453465 y 2.8109264 i 26 j 4
+4 text ini x 26.226044 y 2.7437458 i 27 j 4
+4 text ini x 27.200165 y 2.5757937 i 28 j 4
+4 text ini x 27.972744 y 2.4078417 i 29 j 4
+4 text ini x 29.081226 y 2.3070707 i 30 j 4
+4 text ini x 30.021759 y 2.071938 i 31 j 4
+4 text ini x 23.068548 y 3.9194088 i 24 j 5
+4 text ini x 23.068548 y 3.684276 i 24 j 5
+4 text group 'User:Fine sandstone' i 1 5 j 5 6
+4 text group 'User:Fine sandstone' i 6 8 j 5
+4 text group 'User:Fine sandstone' i 9 j 5
+4 text group 'User:Fine sandstone' i 10 j 4
+4 text group 'User:Fine sandstone' i 9 j 4
+4 text group 'User:Fine sandstone' i 10 j 5
+4 text group 'User:Fine sandstone' i 11 j 5
+4 text group 'User:Fine sandstone' i 11 j 4
+4 text group 'User:Fine sandstone' i 12 j 5
+4 text group 'User:Fine sandstone' i 12 j 4
+4 text group 'User:Fine sandstone' i 13 15 j 5
+4 text group 'User:Fine sandstone' i 13 24 j 4
+4 text group 'User:Fine sandstone' i 24 25 j 3
+4 text group 'User:Fine sandstone' i 26 j 3
+4 text group 'User:Fine sandstone' i 25 j 4
+4 text group 'User:Fine sandstone' i 27 j 3
+4 text group 'User:Fine sandstone' i 28 j 3
+4 text group 'User:Fine sandstone' i 29 j 3
+4 text group 'User:Fine sandstone' i 30 j 3
+4 text model mohr group 'User:Fine sandstone'
+4 text prop density=2650.0 bulk=18.8 shear=9.9 cohesion=3.1 friction=32.0 dilation=0.0 tension=1.5 group 'User:Fine sandstone'
+4 text ini x 1.0109925 y 8.104034 i 2 j 9
+4 text ini x 2.0348802 y 8.104034 i 3 j 9
+4 text ini x 3.0398068 y 8.085074 i 4 j 9
+4 text ini x 4.063694 y 8.122995 i 5 j 9
+4 text ini x 5.0117383 y 8.122995 i 6 j 9
+4 text ini x 6.035626 y 7.8385825 i 7 j 9
+4 text ini x 6.054587 y 7.8954654 i 7 j 9
+4 text ini x 6.9836698 y 7.611052 i 8 j 9
+4 text ini x 8.007557 y 7.3645606 i 9 j 9
+4 text ini x 8.803914 y 7.1939125 i 10 j 9
+4 text ini x 9.35378 y 7.1559906 i 10 j 8
+4 text ini x 10.074293 y 7.042226 i 11 j 8
+4 text ini x 11.003376 y 6.947421 i 12 j 8
+4 text ini x 12.008303 y 6.8715777 i 13 j 8
+4 text ini x 6.035626 y 7.630013 i 7 j 9
+4 text ini x 7.116396 y 7.648974 i 8 j 9
+4 text ini x 7.0405526 y 7.118069 i 8 j 9
+4 text ini x 8.020151 y 7.097251 i 9 j 9
+4 text ini x 9.414795 y 6.877869 i 10 j 8
+4 text ini x 8.85067 y 7.097251 i 10 j 9
+4 text ini x 8.035822 y 6.7211676 i 9 j 9
+4 text ini x 8.819329 y 6.5017853 i 10 j 9
+4 text ini x 9.540155 y 6.3137436 i 10 j 8
+4 text ini x 10.088611 y 6.235393 i 11 j 8
+4 text ini x 10.874289 y 6.117073 i 12 j 8
+4 text ini x 12.021421 y 6.1400156 i 13 j 8
+4 text ini x 11.998479 y 5.5205636 i 13 j 7
+4 text ini x 10.989001 y 5.5205636 i 12 j 7
+4 text ini x 10.002467 y 5.4058504 i 11 j 7
+4 text ini x 10.071295 y 5.9564743 i 11 j 8
+4 text ini x 10.920174 y 5.7499905 i 12 j 8
+4 text ini x 12.0673065 y 5.7499905 i 13 j 8
+4 text ini x 13.0079565 y 5.6123343 i 14 j 7
+4 text ini x 13.994491 y 5.566449 i 15 j 7
+4 text ini x 15.026911 y 5.7958755 i 16 j 7
+4 text ini x 13.0079565 y 5.7499905 i 14 j 8
+4 text ini x 13.994491 y 5.818818 i 15 j 8
+4 text ini x 14.751598 y 6.4382706 i 16 j 8
+4 text ini x 15.003968 y 5.635277 i 16 j 7
+4 text ini x 15.003968 y 5.9335318 i 16 j 8
+4 text ini x 15.96756 y 5.65822 i 17 j 7
+4 text ini x 15.990502 y 5.8876467 i 17 j 8
+4 text ini x 16.56407 y 6.277672 i 18 j 8
+4 text ini x 17.50472 y 6.4612136 i 19 j 8
+4 text ini x 19.087765 y 6.828296 i 20 j 8
+4 text ini x 18.69774 y 6.4382706 i 20 j 8
+4 text ini x 19.798988 y 6.415328 i 21 j 8
+4 text ini x 20.969063 y 6.4382706 i 22 j 8
+4 text ini x 22.070312 y 6.2317867 i 23 j 8
+4 text ini x 21.955599 y 5.4976215 i 23 j 7
+4 text ini x 22.047369 y 5.910589 i 23 j 8
+4 text ini x 23.125673 y 5.681163 i 24 j 7
+4 text ini x 22.57505 y 5.727048 i 24 j 8
+4 text ini x 22.047369 y 5.8876467 i 23 j 8
+4 text ini x 23.997496 y 5.245252 i 25 j 7
+4 text ini x 23.378044 y 5.2223096 i 24 j 7
+4 text ini x 23.974552 y 4.5340295 i 25 j 6
+4 text ini x 22.942133 y 4.6946282 i 24 j 6
+4 text ini x 23.95161 y 4.2816606 i 25 j 6
+4 text ini x 24.98403 y 4.1440043 i 26 j 6
+4 text ini x 23.95161 y 4.9011126 i 25 j 7
+4 text ini x 24.961086 y 4.5340295 i 26 j 7
+4 text ini x 25.993507 y 4.235775 i 27 j 6
+4 text ini x 26.039392 y 3.295126 i 27 j 5
+4 text ini x 25.970564 y 4.465202 i 27 j 7
+4 text ini x 25.947622 y 3.7769217 i 27 j 6
+4 text ini x 26.980042 y 4.511087 i 28 j 6
+4 text ini x 27.04887 y 3.295126 i 28 j 5
+4 text ini x 24.961086 y 4.3275456 i 26 j 7
+4 text ini x 23.882782 y 4.6946282 i 25 j 7
+4 text ini x 23.26333 y 5.130539 i 24 j 7
+4 text ini x 27.04887 y 3.891635 i 28 j 6
+4 text ini x 26.9571 y 4.465202 i 28 j 7
+4 text ini x 28.976053 y 5.2911377 i 30 j 7
+4 text ini x 28.012463 y 5.428794 i 29 j 7
+4 text ini x 28.012463 y 4.4881444 i 29 j 6
+4 text ini x 29.021938 y 4.2587175 i 30 j 6
+4 text ini x 28.012463 y 4.2816606 i 29 j 6
+4 text ini x 28.976053 y 4.1440043 i 30 j 6
+4 text ini x 28.907227 y 4.579915 i 30 j 6
+4 text ini x 27.966576 y 4.8781695 i 29 j 7
+4 text ini x 25.970564 y 4.166947 i 27 j 7
+4 text ini x 23.332157 y 5.268195 i 24 j 7
+4 text ini x 23.928667 y 4.9469976 i 25 j 7
+4 text ini x 23.928667 y 4.6716857 i 25 j 7
+4 text ini x 8.054111 y 6.4182706 i 9 j 8
+4 text ini x 6.998748 y 6.8541813 i 8 j 8
+4 text ini x 23.97632 y 4.7664003 i 25 j 7
+4 text ini x 24.91697 y 4.3763747 i 26 j 7
+4 text ini x 15.831675 y 6.0511894 i 17 j 8
+4 text ini x 23.448639 y 5.4317374 i 24 j 7
+4 text ini x 24.136919 y 5.041712 i 25 j 7
+4 text ini x 24.962856 y 4.628744 i 26 j 7
+4 text ini x 25.926447 y 4.3763747 i 27 j 7
+4 text ini x 21.888538 y 6.074132 i 23 j 8
+4 text ini x 23.448639 y 5.133483 i 24 j 7
+4 text ini x 24.068092 y 4.720515 i 25 j 7
+4 text ini x 23.356869 y 4.9958267 i 24 j 7
+4 text ini x 23.517467 y 5.1105404 i 24 j 7
+4 text ini x 24.962856 y 4.559916 i 26 j 7
+4 text ini x 29.026001 y 0.7927308 i 30 j 2
+4 text ini x 28.975527 y 0.9189153 i 30 j 2
+4 text ini x 29.985004 y 1.1965218 i 31 j 3
+4 text ini x 29.985004 y 0.8179679 i 31 j 2
+4 text ini x 29.959766 y 0.99462605 i 31 j 3
+4 text group 'User:Siltstone' i 7 9 j 6 7
+4 text group 'User:Siltstone' i 10 j 7
+4 text group 'User:Siltstone' i 11 j 7
+4 text group 'User:Siltstone' i 6 j 8
+4 text group 'User:Siltstone' i 7 j 8
+4 text group 'User:Siltstone' i 8 9 j 8
+4 text group 'User:Siltstone' i 10 14 j 6
+4 text group 'User:Siltstone' i 12 18 j 7
+4 text group 'User:Siltstone' i 15 21 j 6
+4 text group 'User:Siltstone' i 19 23 j 7
+4 text group 'User:Siltstone' i 22 23 j 6
+4 text group 'User:Siltstone' i 16 22 j 5
+4 text group 'User:Siltstone' i 24 j 6
+4 text group 'User:Siltstone' i 23 j 5
+4 text group 'User:Siltstone' i 24 j 5
+4 text group 'User:Siltstone' i 25 30 j 6
+4 text group 'User:Siltstone' i 25 27 j 5
+4 text group 'User:Siltstone' i 28 30 j 5
+4 text group 'User:Siltstone' i 26 27 j 4
+4 text group 'User:Siltstone' i 28 30 j 4
+4 text group 'User:Siltstone' i 1 5 j 8
+4 text group 'User:Siltstone' i 1 6 j 7
+4 text group 'User:Siltstone' i 6 j 6
+4 text model mohr group 'User:Siltstone'
+4 text prop density=2550.0 bulk=13.9 shear=7.5 cohesion=3.0 friction=26.0 dilation=0.0 tension=1.2 group 'User:Siltstone'
+4 text group 'User:Quartz sandstone' i 28 j 17
+4 text group 'User:Quartz sandstone' i 28 j 17
+4 text group 'User:Quartz sandstone' i 28 j 17
+4 text group 'null' i 28 j 17
+4 text model null group 'null'
+4 text group delete 'null'
+4 text group 'User:Quartz sandstone' i 5 30 j 18 20
+4 text group 'User:Quartz sandstone' i 1 4 j 18 20
+4 text model mohr group 'User:Quartz sandstone'
+4 text prop density=2780.0 bulk=21.1 shear=12.2 cohesion=3.2 friction=38.0 dilation=0.0 tension=1.6 group 'User:Quartz sandstone'
+4 text ini x 29.035011 y 9.687796 i 30 j 11
+4 text ini x 30.025778 y 9.747842 i 31 j 11
+4 text ini x 28.01422 y 9.717818 i 29 j 11
+4 text ini x 27.023453 y 9.507656 i 28 j 11
+4 text ini x 29.035011 y 9.807888 i 30 j 11
+4 text ini x 29.995754 y 9.837912 i 31 j 11
+4 text ini x 26.06271 y 9.447609 i 27 j 10
+4 text ini x 26.06271 y 9.117353 i 27 j 10
+4 text ini x 26.06271 y 8.99726 i 27 j 10
+4 text ini x 26.032684 y 9.507656 i 27 j 11
+4 text ini x 26.032684 y 9.327517 i 27 j 11
+4 text ini x 26.032684 y 9.447609 i 27 j 11
+4 text ini x 25.071941 y 9.717818 i 26 j 11
+4 text ini x 22.970314 y 9.567702 i 24 j 11
+4 text ini x 23.240522 y 9.687796 i 24 j 11
+4 text ini x 23.030363 y 9.6277485 i 24 j 11
+4 text ini x 21.048828 y 9.777865 i 22 j 11
+4 text ini x 20.928736 y 10.078097 i 22 j 11
+4 text unmark i 14 j 11
+4 text unmark i 15 j 11
+4 text unmark i 16 j 11
+4 text unmark i 17 j 11
+4 text unmark i 18 j 11
+4 text unmark i 19 j 11
+4 text unmark i 20 j 11
+4 text unmark i 21 j 11
+4 text unmark i 22 j 11
+4 text unmark i 13 j 11
+4 text unmark i 12 j 11
+4 text unmark i 12 j 10
+4 text unmark i 11 j 10
+4 text unmark i 10 j 11
+4 text unmark i 10 j 12
+4 text ini x 22.99012 y 9.366428 i 24 j 11
+4 text ini x 24.033323 y 9.595425 i 25 j 11
+4 text ini x 22.02325 y 8.98477 i 23 j 10
+4 text ini x 21.565247 y 10.129747 i 23 j 12
+4 text ini x 20.929146 y 10.638627 i 22 j 12
+4 text ini x 20.089497 y 11.17295 i 21 j 12
+4 text ini x 5.001211 y 9.111989 i 6 j 10
+4 text ini x 5.9935255 y 8.959326 i 7 j 10
+4 text ini x 7.036728 y 8.806662 i 8 j 10
+4 text ini x 7.9517016 y 9.399505 i 9 j 10
+4 text ini x 7.9517016 y 9.153207 i 9 j 10
+4 text ini x 8.167212 y 9.153207 i 9 j 10
+4 text ini x 9.644997 y 9.676589 i 11 j 11
+4 text ini x 8.998466 y 9.461079 i 11 j 11
+4 text ini x 10.168379 y 10.076822 i 11 j 12
+4 text ini x 10.907271 y 10.4770565 i 12 j 12
+4 text ini x 11.830887 y 11.000439 i 13 j 12
+4 text ini x 12.292694 y 11.246736 i 14 j 12
+4 text ini x 12.939225 y 11.431458 i 14 j 13
+4 text ini x 14.139925 y 11.924053 i 15 j 13
+4 text ini x 12.939225 y 11.646969 i 14 j 13
+4 text ini x 15.001966 y 11.831692 i 16 j 13
+4 text ini x 14.1091385 y 11.585395 i 15 j 13
+4 text ini x 13.000799 y 11.400671 i 14 j 13
+4 text ini x 15.925582 y 11.73933 i 17 j 13
+4 text ini x 15.8947935 y 11.98563 i 17 j 13
+4 text group 'User:Fine sandstone' i 1 5 j 9
+4 text group 'User:Fine sandstone' i 6 9 j 9
+4 text group 'User:Fine sandstone' i 10 13 j 9
+4 text group 'User:Fine sandstone' i 10 j 8
+4 text group 'User:Fine sandstone' i 11 15 j 8
+4 text group 'User:Fine sandstone' i 14 17 j 9
+4 text group 'User:Fine sandstone' i 11 14 j 11
+4 text group 'User:Fine sandstone' i 14 j 12
+4 text group 'User:Fine sandstone' i 15 j 12
+4 text group 'User:Fine sandstone' i 16 j 12
+4 text group 'User:Fine sandstone' i 17 j 12
+4 text group 'User:Fine sandstone' i 18 j 12
+4 text group 'User:Fine sandstone' i 15 j 11
+4 text group 'User:Fine sandstone' i 12 19 j 10
+4 text group 'User:Fine sandstone' i 20 23 j 10
+4 text group 'User:Fine sandstone' i 16 21 j 8 9
+4 text group 'User:Fine sandstone' i 22 30 j 9 10
+4 text group 'User:Fine sandstone' i 22 30 j 8
+4 text group 'User:Fine sandstone' i 24 30 j 7
+4 text group 'User:Fine sandstone' i 16 22 j 11
+4 text model mohr group 'User:Fine sandstone'
+4 text prop density=2650.0 bulk=18.8 shear=9.9 cohesion=3.1 friction=32.0 dilation=0.0 tension=1.5 group 'User:Fine sandstone'
+4 text ini x 4.774097 y 13.835213 i 6 j 15
+4 text ini x 4.746109 y 14.031132 i 6 j 15
+4 text ini x 4.690133 y 13.779236 i 6 j 15
+4 text gen line 9.000338,9.49702 7.9927573,10.952414
+4 text gen line 8.748443,9.860868 8.076722,10.896437
+4 text gen line 7.936781,11.064367 8.692466,9.972822
+4 text ini x 8.552525 y 10.252706 i 10 j 11
+4 text ini x 8.300629 y 10.616553 i 9 j 12
+4 text gen line 8.216664,10.616553 8.552525,10.16874
+4 text ini x 8.412582 y 10.476612 i 10 j 12
+4 text ini x 8.524536 y 10.476612 i 10 j 12
+4 text ini x 8.748443 y 9.944834 i 10 j 11
+4 text ini x 8.748443 y 9.944834 i 10 j 11
+4 text ini x 8.776431 y 9.748915 i 10 j 11
+4 text ini x 8.552525 y 10.112763 i 10 j 12
+4 text ini x 8.048734 y 10.67253 i 9 j 12
+4 text ini x 5.2778883 y 13.3874 i 6 j 14
+4 text ini x 8.664481 y 10.028799 i 10 j 12
+4 text ini x 7.5449476 y 11.148333 i 8 j 12
+4 text ini x 6.7892623 y 11.932006 i 8 j 13
+4 text ini x 8.468563 y 10.196733 i 10 j 12
+4 text ini x 8.916377 y 9.776908 i 10 j 11
+4 text ini x 9.224249 y 9.608978 i 11 j 11
+4 text ini x 9.124713 y 9.520687 i 10 j 11
+4 text ini x 10.370549 y 9.550117 i 11 j 11
+4 text ini x 9.97816 y 9.8542185 i 11 j 11
+4 text ini x 9.723106 y 9.795361 i 11 j 11
+4 text group 'User:Fine sandstone' i 10 j 10
+4 text group 'User:Fine sandstone' i 11 j 10
+4 text group 'User:Medium sandstone' i 1 5 j 13 14
+4 text group 'User:Medium sandstone' i 6 j 13
+4 text group 'User:Medium sandstone' i 7 j 12
+4 text group 'User:Medium sandstone' i 8 j 11
+4 text group 'User:Medium sandstone' i 9 j 11
+4 text group 'User:Medium sandstone' i 1 9 j 10 11
+4 text group 'User:Medium sandstone' i 1 6 j 12
+4 text model mohr group 'User:Medium sandstone'
+4 text prop density=2600.0 bulk=13.5 shear=7.3 cohesion=2.4 friction=34.0 dilation=0.0 tension=1.4 group 'User:Medium sandstone'
+4 text model mohr group 'User:Fine sandstone'
+4 text prop density=2650.0 bulk=18.8 shear=9.9 cohesion=3.1 friction=32.0 dilation=0.0 tension=1.5 group 'User:Fine sandstone'
+4 text ini x 8.68688 y 9.342093 i 10 j 10
+4 text ini x 6.0312085 y 13.81479 i 7 j 15
+4 text ini x 7.0634937 y 13.719208 i 8 j 15
+4 text ini x 7.0443773 y 13.776557 i 8 j 15
+4 text ini x 8.038429 y 13.795673 i 9 j 15
+4 text ini x 8.994249 y 13.776557 i 10 j 15
+4 text ini x 9.892719 y 13.757441 i 11 j 15
+4 text ini x 10.733841 y 13.853023 i 12 j 15
+4 text ini x 11.460263 y 13.451578 i 12 j 14
+4 text ini x 13.505717 y 12.266362 i 15 j 14
+4 text ini x 12.855761 y 12.610457 i 14 j 14
+4 text ini x 13.505717 y 12.094315 i 15 j 14
+4 text ini x 12.377851 y 11.157612 i 14 j 12
+4 text ini x 11.880824 y 10.909099 i 13 j 12
+4 text ini x 14.079209 y 11.692871 i 15 j 13
+4 text ini x 9.892719 y 13.872139 i 11 j 15
+4 text ini x 9.950068 y 13.776557 i 11 j 15
+4 text ini x 10.733841 y 13.833906 i 12 j 15
+4 text ini x 5.801812 y 12.897203 i 7 j 14
+4 text group 'User:Siltstone' i 6 11 j 14
+4 text group 'User:Siltstone' i 7 13 j 13
+4 text group 'User:Siltstone' i 14 j 13
+4 text group 'User:Siltstone' i 8 13 j 12
+4 text group 'User:Siltstone' i 10 j 11
+4 text model mohr group 'User:Siltstone'
+4 text prop density=2550.0 bulk=13.9 shear=7.5 cohesion=3.0 friction=26.0 dilation=0.0 tension=1.2 group 'User:Siltstone'
+4 text ini x 13.850405 y 13.54189 i 15 j 15
+4 text ini x 13.016234 y 13.715675 i 14 j 15
+4 text ini x 14.806224 y 13.402863 i 16 j 14
+4 text ini x 14.962631 y 12.916264 i 16 j 14
+4 text ini x 14.980009 y 13.680919 i 16 j 15
+4 text ini x 14.980009 y 13.680919 i 16 j 15
+4 text ini x 14.840981 y 13.07267 i 16 j 15
+4 text ini x 14.61506 y 13.246455 i 16 j 15
+4 text ini x 14.423896 y 12.516557 i 16 j 14
+4 text ini x 15.709908 y 12.707721 i 17 j 14
+4 text ini x 15.08428 y 12.881506 i 17 j 15
+4 text ini x 15.588258 y 12.551313 i 17 j 14
+4 text ini x 14.962631 y 12.464421 i 16 j 14
+4 text ini x 14.006811 y 12.551313 i 15 j 14
+4 text ini x 13.381184 y 12.082093 i 15 j 14
+4 text ini x 14.597681 y 12.499178 i 16 j 14
+4 text ini x 13.520212 y 12.116851 i 15 j 14
+4 text ini x 14.910495 y 11.52598 i 16 j 13
+4 text ini x 15.883693 y 11.317438 i 17 j 13
+4 text ini x 16.943783 y 11.213166 i 18 j 13
+4 text ini x 17.731375 y 11.061222 i 18 j 12
+4 text ini x 17.668291 y 11.250475 i 19 j 13
+4 text ini x 17.03745 y 11.376642 i 18 j 13
+4 text ini x 14.6612835 y 11.650007 i 16 j 13
+4 text ini x 15.796797 y 11.5028105 i 17 j 13
+4 text ini x 14.955676 y 11.628979 i 16 j 13
+4 text ini x 13.084183 y 11.292535 i 14 j 13
+4 text ini x 12.432314 y 10.998142 i 14 j 12
+4 text ini x 11.927641 y 10.724778 i 13 j 12
+4 text ini x 11.023436 y 10.241134 i 12 j 12
+4 text ini x 10.308483 y 9.946741 i 11 j 12
+4 text ini x 15.6706295 y 12.280852 i 17 j 14
+4 text ini x 15.733714 y 11.6289835 i 17 j 13
+4 text ini x 14.892593 y 11.839263 i 16 j 13
+4 text ini x 14.17764 y 11.839263 i 15 j 13
+4 text ini x 14.955677 y 11.650011 i 16 j 13
+4 text ini x 15.796799 y 11.502815 i 17 j 13
+4 text ini x 16.806143 y 11.22945 i 18 j 13
+4 text ini x 17.626236 y 11.103282 i 18 j 12
+4 text ini x 17.521097 y 10.829918 i 18 j 12
+4 text ini x 17.647264 y 11.082254 i 19 j 13
+4 text group 'User:Quartz sandstone' i 12 16 j 14
+4 text group 'User:Quartz sandstone' i 15 j 13
+4 text group 'User:Quartz sandstone' i 16 j 13
+4 text model mohr group 'User:Quartz sandstone'
+4 text prop density=2780.0 bulk=21.1 shear=12.2 cohesion=3.2 friction=38.0 dilation=0.0 tension=1.6 group 'User:Quartz sandstone'
+4 text ini x 11.844922 y 13.56711 i 13 j 15
+4 text ini x 11.301291 y 13.618885 i 12 j 15
+4 text ini x 11.275404 y 13.748321 i 12 j 15
+4 text ini x 11.5083885 y 13.463562 i 12 j 14
+4 text ini x 11.793148 y 13.411787 i 13 j 15
+4 text ini x 11.534276 y 13.541224 i 12 j 14
+4 text ini x 12.906297 y 13.592998 i 14 j 15
+4 text ini x 13.928928 y 13.281287 i 15 j 15
+4 text ini x 14.565026 y 13.077736 i 16 j 15
+4 text ini x 15.099348 y 12.848741 i 17 j 15
+4 text ini x 15.633671 y 12.238087 i 17 j 14
+4 text ini x 15.989885 y 11.500214 i 17 j 13
+4 text ini x 15.073904 y 12.696077 i 17 j 15
+4 text ini x 14.539582 y 13.026848 i 16 j 15
+4 text unmark i 13 j 15
+4 text mark i 13 14 j 15
+4 text unmark i 13 j 14
+4 text unmark i 12 j 14
+4 text mark i 13 14 j 14 15
+4 text ini x 10.829927 y 13.546532 i 12 j 15
+4 text ini x 11.730451 y 13.088371 i 13 j 15
+4 text ini x 12.125417 y 12.693404 i 13 j 14
+4 text ini x 10.987914 y 12.993579 i 12 j 14
+4 text ini x 12.836357 y 12.424828 i 14 j 14
+4 text ini x 11.714652 y 13.435942 i 13 j 15
+4 text ini x 11.38288 y 13.325351 i 13 j 15
+4 text ini x 10.7193365 y 13.404344 i 12 j 15
+4 text ini x 11.288088 y 13.10417 i 13 j 15
+4 text ini x 11.082035 y 13.030055 i 12 j 14
+4 text ini x 11.224473 y 13.101274 i 13 j 15
+4 text ini x 10.963338 y 13.018186 i 12 j 14
+4 text ini x 12.87437 y 13.469236 i 14 j 15
+4 text group 'User:Siltstone' i 12 j 14
+4 text model mohr group 'User:Siltstone'
+4 text prop density=2550.0 bulk=13.9 shear=7.5 cohesion=3.0 friction=26.0 dilation=0.0 tension=1.2 group 'User:Siltstone'
+4 text ini x 17.048347 y 12.500907 i 18 j 14
+4 text ini x 17.048347 y 12.500907 i 18 j 14
+4 text ini x 16.964382 y 12.416942 i 18 j 14
+4 text ini x 16.82444 y 12.416942 i 18 j 14
+4 text ini x 16.768463 y 12.249012 i 18 j 14
+4 text ini x 17.832018 y 12.360966 i 19 j 14
+4 text ini x 19.035515 y 12.444928 i 20 j 13
+4 text ini x 20.015106 y 12.41694 i 21 j 13
+4 text ini x 21.050673 y 12.41694 i 22 j 13
+4 text ini x 22.002274 y 12.500905 i 23 j 13
+4 text ini x 23.009851 y 12.556881 i 24 j 14
+4 text ini x 23.009851 y 12.948717 i 24 j 14
+4 text ini x 23.03784 y 12.332975 i 24 j 13
+4 text ini x 23.03784 y 12.332975 i 24 j 13
+4 text ini x 23.03784 y 12.528892 i 24 j 13
+4 text ini x 23.03784 y 12.528892 i 24 j 13
+4 text ini x 23.98944 y 12.528892 i 25 j 14
+4 text ini x 24.01743 y 13.004692 i 25 j 14
+4 text ini x 23.065828 y 13.144634 i 24 j 14
+4 text ini x 24.045418 y 13.20061 i 25 j 14
+4 text ini x 24.913055 y 13.20061 i 26 j 14
+4 text ini x 24.101395 y 12.640844 i 25 j 14
+4 text ini x 24.101395 y 13.228599 i 25 j 14
+4 text ini x 24.045418 y 12.276997 i 25 j 13
+4 text ini x 24.073406 y 12.55688 i 25 j 13
+4 text ini x 24.101395 y 12.752798 i 25 j 13
+4 text ini x 25.02501 y 12.416939 i 26 j 13
+4 text ini x 25.02501 y 12.696821 i 26 j 13
+4 text ini x 24.99702 y 12.864751 i 26 j 13
+4 text ini x 26.592352 y 9.562133 i 28 j 11
+4 text ini x 24.997028 y 12.304986 i 26 j 13
+4 text ini x 25.025017 y 12.109068 i 26 j 13
+4 text ini x 24.073416 y 12.109068 i 25 j 13
+4 text ini x 22.981873 y 11.997115 i 24 j 13
+4 text ini x 22.002281 y 11.91315 i 23 j 13
+4 text ini x 21.022692 y 12.0810795 i 22 j 13
+4 text mark i 19 20 j 13 14
+4 text mark i 20 j 13 14
+4 text mark i 19 20 j 12 14
+4 text ini x 18.503746 y 12.360963 i 20 j 14
+4 text ini x 15.827015 y 12.395734 i 17 j 14
+4 text ini x 15.911127 y 12.521902 i 17 j 14
+4 text ini x 15.112062 y 12.75321 i 17 j 15
+4 text ini x 16.794304 y 12.017229 i 18 j 14
+4 text ini x 15.238231 y 12.774238 i 17 j 15
+4 text ini x 17.67748 y 10.923773 i 19 j 13
+4 text ini x 17.67748 y 11.134053 i 19 j 13
+4 text ini x 17.67748 y 10.713492 i 18 j 12
+4 text ini x 17.635424 y 10.944801 i 19 j 13
+4 text ini x 18.308321 y 11.218165 i 19 j 12
+4 text ini x 22.135431 y 9.956493 i 23 j 11
+4 text ini x 21.735899 y 10.271914 i 23 j 12
+4 text ini x 23.060663 y 9.45182 i 24 j 11
+4 text ini x 24.04898 y 9.809297 i 25 j 11
+4 text ini x 25.121408 y 9.935465 i 26 j 11
+4 text ini x 26.067669 y 9.956493 i 27 j 11
+4 text ini x 26.824677 y 9.956493 i 28 j 11
+4 text ini x 28.002247 y 10.124717 i 29 j 11
+4 text group 'User:Quartz sandstone' i 17 j 13
+4 text group 'User:Medium sandstone' i 18 19 j 12 13
+4 text group 'User:Medium sandstone' i 20 j 12
+4 text group 'User:Medium sandstone' i 21 j 12
+4 text group 'User:Medium sandstone' i 22 j 12
+4 text group 'User:Medium sandstone' i 24 j 12
+4 text group 'User:Medium sandstone' i 23 j 12
+4 text group 'User:Medium sandstone' i 23 j 11
+4 text group 'User:Medium sandstone' i 24 27 j 11 12
+4 text group 'User:Medium sandstone' i 28 30 j 11 12
+4 text group 'User:Fine sandstone' i 4 5 j 16 17
+4 text group 'User:Fine sandstone' i 1 3 j 16 17
+4 text group 'User:Fine sandstone' i 25 30 j 14 17
+4 text group 'User:Fine sandstone' i 23 30 j 13 14
+4 text group 'User:Fine sandstone' i 18 22 j 14 15
+4 text group 'User:Fine sandstone' i 20 22 j 13 14
+4 text group 'User:Fine sandstone' i 6 24 j 16 17
+4 text group 'User:Fine sandstone' i 23 24 j 15
+4 text group 'User:Fine sandstone' i 17 j 14 15
+4 text group 'User:Fine sandstone' i 16 j 15
+4 text group 'User:Fine sandstone' i 15 j 15
+4 text group 'User:Fine sandstone' i 14 j 15
+4 text group 'User:Fine sandstone' i 13 j 15
+4 text group 'User:Fine sandstone' i 12 j 15
+4 text group 'User:Fine sandstone' i 8 11 j 15
+4 text group 'User:Fine sandstone' i 1 7 j 15
+4 text model mohr group 'User:Medium sandstone'
+4 text prop density=2600.0 bulk=13.5 shear=7.3 cohesion=2.4 friction=34.0 dilation=0.0 tension=1.4 group 'User:Medium sandstone'
+4 text model mohr group 'User:Fine sandstone'
+4 text prop density=2650.0 bulk=18.8 shear=9.9 cohesion=3.1 friction=32.0 dilation=0.0 tension=1.5 group 'User:Fine sandstone'
+4 text model mohr group 'User:Quartz sandstone'
+4 text prop density=2780.0 bulk=21.1 shear=12.2 cohesion=3.2 friction=38.0 dilation=0.0 tension=1.6 group 'User:Quartz sandstone'
+4 text ini x 4.694949 y 13.951158 i 6 j 15
+4 text ini x 5.9818506 y 13.951158 i 7 j 15
+4 text ini x 7.0655575 y 13.951158 i 8 j 15
+4 text ini x 8.047667 y 13.917292 i 9 j 15
+4 text ini x 8.962044 y 13.951158 i 10 j 15
+4 text ini x 8.928178 y 13.917292 i 10 j 15
+4 text ini x -0.009099007 y 6.269565 i 1 j 7
+4 text ini x 1.0430756 y 6.205797 i 2 j 7
+4 text ini x 2.063365 y 6.173913 i 3 j 7
+4 text ini x 3.179307 y 6.1101446 i 4 j 7
+4 text ini x 3.0517712 y 6.1101446 i 4 j 7
+4 text ini x 4.135829 y 6.1101446 i 5 j 7
+4 text ini x 5.251771 y 6.142029 i 6 j 7
+4 text ini x 21.927134 y 5.8550725 i 23 j 8
+4 text ini x 22.596699 y 5.504348 i 24 j 8
+4 text ini x 22.915539 y 5.0898547 i 24 j 7
+4 text ini x 23.361916 y 5.057971 i 24 j 7
+4 text ini x 25.944527 y 4.4521737 i 27 j 7
+4 text ini x 29.961918 y 5.8231883 i 31 j 7
+4 text ini x 23.106844 y 9.617392 i 24 j 11
+4 text ini x 0.022785187 y 16.823189 i 1 j 18
+4 text ini x 1.0430756 y 17.046377 i 2 j 18
+4 text ini x 1.9995966 y 17.014492 i 3 j 18
+4 text ini x 2.9880028 y 16.855072 i 4 j 18
+4 text ini x 4.167713 y 16.950726 i 5 j 18
+4 text ini x 8.089453 y 17.142029 i 9 j 18
+4 text ini x 9.109742 y 17.173914 i 10 j 18
+4 text ini x 14.051771 y 17.205797 i 15 j 18
+4 text ini x 15.040177 y 17.205797 i 16 j 18
+4 text ini x 15.996699 y 17.173914 i 17 j 18
+4 text ini x 16.985106 y 17.301449 i 18 j 18
+4 text ini x 18.961916 y 17.205797 i 20 j 18
+4 text ini x 24.031483 y 17.142029 i 25 j 18
+4 text ini x 26.964815 y 17.078262 i 28 j 18
+4 text ini x 29.005394 y 17.142029 i 30 j 18
+4 text ini x 28.01699 y 17.078262 i 29 j 18
+4 text group 'User:Quartz sandstone' i 2 j 20
+4 text group 'User:Quartz sandstone' j 18 20
+4 text ini x 22.97931 y 9.713043 i 24 j 11
+4 text ini x 24.063366 y 10.031884 i 25 j 11
+4 text ini x 25.179308 y 10.191304 i 26 j 11
+4 text ini x 26.040176 y 10.223188 i 27 j 11
+4 text ini x 26.83728 y 10.031884 i 28 j 11
+4 text ini x 29.005394 y 10.063768 i 30 j 11
+4 text ini x 30.025684 y 10.223188 i 31 j 11
+4 text ini x 17.65467 y 11.084058 i 19 j 13
+4 text ini x 18.324236 y 11.02029 i 19 j 12
+4 text ini x 19.248873 y 10.860869 i 20 j 12
+4 text ini x 20.269163 y 10.765218 i 21 j 12
+4 text ini x 21.03438 y 10.478261 i 22 j 12
+4 text ini x 15.008293 y 11.657971 i 16 j 13
+4 text ini x 17.016989 y 10.892754 i 18 j 12
+4 text ini x 13.924235 y 12.072464 i 15 j 13
+4 text ini x 14.657569 y 11.976811 i 16 j 13
+4 text ini x 13.988003 y 13.475363 i 15 j 15
+4 text ini x 14.593801 y 13.347826 i 16 j 15
+4 text ini x 15.359017 y 13.060869 i 17 j 15
+4 text ini x 15.964815 y 12.710145 i 17 j 14
+4 text ini x 16.825684 y 11.371015 i 18 j 13
+4 text ini x 15.996699 y 11.657971 i 17 j 13
+4 text group 'User:Fine sandstone' i 18 j 12
+4 text model mohr group 'User:Fine sandstone'
+4 text prop density=2650.0 bulk=18.8 shear=9.9 cohesion=3.1 friction=32.0 dilation=0.0 tension=1.5 group 'User:Fine sandstone'
+2 state
+3 file Tunel_eq.sav
+3 title 'Tunel_eq'
+3 lastedit 1711357545626
+3 batch
+4 text fix x i 31
+4 text fix x i 1
+4 text fix x y j 1
+4 text set gravity=9.81 ; m/s2
+4 text history 999 unbalanced
+4 text solve elastic
+2 branch branch A
+3 state
+4 file Tunel_01.sav
+4 title 'Tunel_01'
+4 lastedit 1711359027531
+4 batch
+5 text cycle 1000
+5 text gen circle 23.164696,14.957249 2.0
+5 text ini x 22.30006 y 16.859447 i 23 j 18
+5 text ini x 23.798763 y 17.003553 i 25 j 18
+5 text ini x 23.74112 y 16.945911 i 25 j 18
+5 text group 'null' i 24 j 17 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 23 j 17 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 23 25 j 15 16 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 23 25 j 14 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 22 j 15 16 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text cycle 1000
+2 branch branch B
+3 state
+4 file Tunel_02.sav
+4 title 'Tunel_02'
+4 lastedit 1711359750566
+4 batch
+5 text gen circle 18.351553,4.1492944 2.0
+5 text ini x 20.513144 y 4.062831 i 21 j 5
+5 text ini x 16.59346 y 3.6016917 i 17 j 5
+5 text ini x 15.930572 y 3.832261 i 17 j 5
+5 text ini x 16.334068 y 3.7457976 i 18 j 5
+5 text ini x 16.334068 y 4.8410034 i 17 j 6
+5 text ini x 16.506996 y 3.1981945 i 18 j 4
+5 text ini x 16.968136 y 2.6505914 i 18 j 3
+5 text ini x 20.109648 y 2.9676247 i 21 j 4
+5 text ini x 15.440611 y 3.947546 i 16 j 5
+5 text ini x 15.671181 y 4.869825 i 17 j 6
+5 text ini x 15.9593935 y 4.3510427 i 17 j 5
+5 text ini x 15.87293 y 3.8899035 i 17 j 5
+5 text ini x 14.950651 y 3.8610826 i 16 j 5
+5 text ini x 15.700003 y 3.80344 i 17 j 5
+5 text ini x 15.728824 y 3.832261 i 17 j 5
+5 text ini x 15.728824 y 4.0340095 i 17 j 5
+5 text ini x 15.728824 y 3.8610826 i 17 j 5
+5 text ini x 15.728824 y 3.8610826 i 17 j 5
+5 text ini x 20.19611 y 3.111731 i 21 j 4
+5 text ini x 16.420532 y 4.178116 i 18 j 5
+5 text ini x 16.36289 y 4.206937 i 18 j 5
+5 text ini x 20.138468 y 3.140552 i 21 j 4
+5 text ini x 20.455502 y 4.1204734 i 21 j 5
+5 text ini x 19.648508 y 2.5929494 i 21 j 3
+5 text group 'null' i 18 20 j 4 6 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text group 'null' i 18 20 j 3 
+5 text model null group 'null' 
+5 text group delete 'null'
+5 text cycle 1000
+0 vgrid
+1 body
+2 text begin_body ''
+2 text set version 1.0
+2 text ; General:
+2 text set autozone on zones 30 aspect 1.0 minsize 3
+2 text set autobc 0
+2 text set markbound off
+2 text set gravity on
+2 text ; Points:
+2 text ; Sizes: (zones)
+2 text ; Ratios: (zone middle)
+2 text ; Blocks:
+2 text end_body
+0 vgeo
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner on 30.0
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 vsketch
+1 geo
+2 text begin_geo '<no name>'
+2 text set version 1.0
+2 text ; General:
+2 text set autocorner off
+2 text ; Points: (0)
+2 text ; Edges:
+2 text end_geo
+0 notes
+0 fish
+1 file
+1 notes
+1 record
+0 eof
