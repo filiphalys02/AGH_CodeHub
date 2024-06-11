@@ -14,6 +14,7 @@ Courses:
 - [Computer methods in climate and environmental studies](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Metody_badania_klimatu_i_%C5%9Brodowiska)
 - [Internet Techniques](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Techniki-internetowe)
 - [Introduction to geodynamic modelling systems](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Podstawy-modelowa%C5%84-geodynamicznych)
+- [Geovisualisation and cartographic editing](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Geowizualizacja-i-edycja-kartograficzna)
 
 ##
 On my profile You can also find other courses I took during my studies like [Database](https://github.com/filiphalys02/Database) course or [Spatial Database](https://github.com/filiphalys02/Spatial-database) course.
