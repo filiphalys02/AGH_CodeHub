@@ -1,0 +1,14 @@
+C:\C#\Zaj_6_Cwiczenia\ulamek\bin\Debug\net8.0\ulamek.exe
+C:\C#\Zaj_6_Cwiczenia\ulamek\bin\Debug\net8.0\ulamek.deps.json
+C:\C#\Zaj_6_Cwiczenia\ulamek\bin\Debug\net8.0\ulamek.runtimeconfig.json
+C:\C#\Zaj_6_Cwiczenia\ulamek\bin\Debug\net8.0\ulamek.dll
+C:\C#\Zaj_6_Cwiczenia\ulamek\bin\Debug\net8.0\ulamek.pdb
+C:\C#\Zaj_6_Cwiczenia\ulamek\obj\Debug\net8.0\ulamek.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Zaj_6_Cwiczenia\ulamek\obj\Debug\net8.0\ulamek.AssemblyInfoInputs.cache
+C:\C#\Zaj_6_Cwiczenia\ulamek\obj\Debug\net8.0\ulamek.AssemblyInfo.cs
+C:\C#\Zaj_6_Cwiczenia\ulamek\obj\Debug\net8.0\ulamek.csproj.CoreCompileInputs.cache
+C:\C#\Zaj_6_Cwiczenia\ulamek\obj\Debug\net8.0\ulamek.dll
+C:\C#\Zaj_6_Cwiczenia\ulamek\obj\Debug\net8.0\refint\ulamek.dll
+C:\C#\Zaj_6_Cwiczenia\ulamek\obj\Debug\net8.0\ulamek.pdb
+C:\C#\Zaj_6_Cwiczenia\ulamek\obj\Debug\net8.0\ulamek.genruntimeconfig.cache
+C:\C#\Zaj_6_Cwiczenia\ulamek\obj\Debug\net8.0\ref\ulamek.dll

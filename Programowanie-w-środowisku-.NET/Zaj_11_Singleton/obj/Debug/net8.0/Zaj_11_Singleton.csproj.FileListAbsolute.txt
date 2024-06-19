@@ -1,0 +1,14 @@
+C:\C#\Zaj_11_Singleton\bin\Debug\net8.0\Zaj_11_Singleton.exe
+C:\C#\Zaj_11_Singleton\bin\Debug\net8.0\Zaj_11_Singleton.deps.json
+C:\C#\Zaj_11_Singleton\bin\Debug\net8.0\Zaj_11_Singleton.runtimeconfig.json
+C:\C#\Zaj_11_Singleton\bin\Debug\net8.0\Zaj_11_Singleton.dll
+C:\C#\Zaj_11_Singleton\bin\Debug\net8.0\Zaj_11_Singleton.pdb
+C:\C#\Zaj_11_Singleton\obj\Debug\net8.0\Zaj_11_Singleton.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Zaj_11_Singleton\obj\Debug\net8.0\Zaj_11_Singleton.AssemblyInfoInputs.cache
+C:\C#\Zaj_11_Singleton\obj\Debug\net8.0\Zaj_11_Singleton.AssemblyInfo.cs
+C:\C#\Zaj_11_Singleton\obj\Debug\net8.0\Zaj_11_Singleton.csproj.CoreCompileInputs.cache
+C:\C#\Zaj_11_Singleton\obj\Debug\net8.0\Zaj_11_Singleton.dll
+C:\C#\Zaj_11_Singleton\obj\Debug\net8.0\refint\Zaj_11_Singleton.dll
+C:\C#\Zaj_11_Singleton\obj\Debug\net8.0\Zaj_11_Singleton.pdb
+C:\C#\Zaj_11_Singleton\obj\Debug\net8.0\Zaj_11_Singleton.genruntimeconfig.cache
+C:\C#\Zaj_11_Singleton\obj\Debug\net8.0\ref\Zaj_11_Singleton.dll

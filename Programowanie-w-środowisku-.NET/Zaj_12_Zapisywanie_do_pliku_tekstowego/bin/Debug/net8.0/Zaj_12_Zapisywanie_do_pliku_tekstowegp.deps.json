@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Zaj_12_Zapisywanie_do_pliku_tekstowegp/1.0.0": {
+        "runtime": {
+          "Zaj_12_Zapisywanie_do_pliku_tekstowegp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zaj_12_Zapisywanie_do_pliku_tekstowegp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

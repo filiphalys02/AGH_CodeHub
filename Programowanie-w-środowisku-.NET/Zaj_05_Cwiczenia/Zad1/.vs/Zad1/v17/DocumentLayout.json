@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\Zaj_5_Cwiczenia\\Zad1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CCCB490-E161-4FAC-A3BA-F8791CC47781}|Zad1.csproj|c:\\c#\\zaj_5_cwiczenia\\zad1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCCB490-E161-4FAC-A3BA-F8791CC47781}|Zad1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CCCB490-E161-4FAC-A3BA-F8791CC47781}|Zad1.csproj|c:\\c#\\zaj_5_cwiczenia\\zad1\\osoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CCCB490-E161-4FAC-A3BA-F8791CC47781}|Zad1.csproj|solutionrelative:osoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "osoba.cs",
+              "DocumentMoniker": "C:\\C#\\Zaj_5_Cwiczenia\\Zad1\\osoba.cs",
+              "RelativeDocumentMoniker": "osoba.cs",
+              "ToolTip": "C:\\C#\\Zaj_5_Cwiczenia\\Zad1\\osoba.cs",
+              "RelativeToolTip": "osoba.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:22:50.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\Zaj_5_Cwiczenia\\Zad1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\C#\\Zaj_5_Cwiczenia\\Zad1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:20:20.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

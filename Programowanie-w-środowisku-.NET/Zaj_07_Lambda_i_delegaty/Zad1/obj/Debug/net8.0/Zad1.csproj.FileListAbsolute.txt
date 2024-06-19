@@ -1,0 +1,14 @@
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\obj\Debug\net8.0\Zad1.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\obj\Debug\net8.0\Zad1.AssemblyInfoInputs.cache
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\obj\Debug\net8.0\Zad1.AssemblyInfo.cs
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\obj\Debug\net8.0\Zad1.csproj.CoreCompileInputs.cache
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\bin\Debug\net8.0\Zad1.exe
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\bin\Debug\net8.0\Zad1.deps.json
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\bin\Debug\net8.0\Zad1.runtimeconfig.json
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\bin\Debug\net8.0\Zad1.dll
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\bin\Debug\net8.0\Zad1.pdb
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\obj\Debug\net8.0\Zad1.dll
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\obj\Debug\net8.0\refint\Zad1.dll
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\obj\Debug\net8.0\Zad1.pdb
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\obj\Debug\net8.0\Zad1.genruntimeconfig.cache
+C:\C#\Zaj_7_Lambda_i_delegaty\Zad1\obj\Debug\net8.0\ref\Zad1.dll

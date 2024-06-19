@@ -1,0 +1,14 @@
+C:\C#\Zaj_5_Cwiczenia\Zad2\bin\Debug\net8.0\Zad2.exe
+C:\C#\Zaj_5_Cwiczenia\Zad2\bin\Debug\net8.0\Zad2.deps.json
+C:\C#\Zaj_5_Cwiczenia\Zad2\bin\Debug\net8.0\Zad2.runtimeconfig.json
+C:\C#\Zaj_5_Cwiczenia\Zad2\bin\Debug\net8.0\Zad2.dll
+C:\C#\Zaj_5_Cwiczenia\Zad2\bin\Debug\net8.0\Zad2.pdb
+C:\C#\Zaj_5_Cwiczenia\Zad2\obj\Debug\net8.0\Zad2.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Zaj_5_Cwiczenia\Zad2\obj\Debug\net8.0\Zad2.AssemblyInfoInputs.cache
+C:\C#\Zaj_5_Cwiczenia\Zad2\obj\Debug\net8.0\Zad2.AssemblyInfo.cs
+C:\C#\Zaj_5_Cwiczenia\Zad2\obj\Debug\net8.0\Zad2.csproj.CoreCompileInputs.cache
+C:\C#\Zaj_5_Cwiczenia\Zad2\obj\Debug\net8.0\Zad2.dll
+C:\C#\Zaj_5_Cwiczenia\Zad2\obj\Debug\net8.0\refint\Zad2.dll
+C:\C#\Zaj_5_Cwiczenia\Zad2\obj\Debug\net8.0\Zad2.pdb
+C:\C#\Zaj_5_Cwiczenia\Zad2\obj\Debug\net8.0\Zad2.genruntimeconfig.cache
+C:\C#\Zaj_5_Cwiczenia\Zad2\obj\Debug\net8.0\ref\Zad2.dll

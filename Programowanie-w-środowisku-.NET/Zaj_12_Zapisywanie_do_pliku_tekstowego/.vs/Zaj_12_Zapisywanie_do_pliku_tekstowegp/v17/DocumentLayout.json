@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA663C0-0114-46E3-9139-4EFD46EEE23E}|Zaj_12_Zapisywanie_do_pliku_tekstowegp.csproj|c:\\c#\\zaj_12_zapisywanie_do_pliku_tekstowego\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA663C0-0114-46E3-9139-4EFD46EEE23E}|Zaj_12_Zapisywanie_do_pliku_tekstowegp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA663C0-0114-46E3-9139-4EFD46EEE23E}|Zaj_12_Zapisywanie_do_pliku_tekstowegp.csproj|c:\\c#\\zaj_12_zapisywanie_do_pliku_tekstowego\\osoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA663C0-0114-46E3-9139-4EFD46EEE23E}|Zaj_12_Zapisywanie_do_pliku_tekstowegp.csproj|solutionrelative:osoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA663C0-0114-46E3-9139-4EFD46EEE23E}|Zaj_12_Zapisywanie_do_pliku_tekstowegp.csproj|c:\\c#\\zaj_12_zapisywanie_do_pliku_tekstowego\\manipulatordanychlinq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA663C0-0114-46E3-9139-4EFD46EEE23E}|Zaj_12_Zapisywanie_do_pliku_tekstowegp.csproj|solutionrelative:manipulatordanychlinq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA663C0-0114-46E3-9139-4EFD46EEE23E}|Zaj_12_Zapisywanie_do_pliku_tekstowegp.csproj|c:\\c#\\zaj_12_zapisywanie_do_pliku_tekstowego\\dane.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1AA663C0-0114-46E3-9139-4EFD46EEE23E}|Zaj_12_Zapisywanie_do_pliku_tekstowegp.csproj|solutionrelative:dane.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA663C0-0114-46E3-9139-4EFD46EEE23E}|Zaj_12_Zapisywanie_do_pliku_tekstowegp.csproj|c:\\c#\\zaj_12_zapisywanie_do_pliku_tekstowego\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA663C0-0114-46E3-9139-4EFD46EEE23E}|Zaj_12_Zapisywanie_do_pliku_tekstowegp.csproj|solutionrelative:adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Adres.cs",
+              "DocumentMoniker": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\Adres.cs",
+              "RelativeDocumentMoniker": "Adres.cs",
+              "ToolTip": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\Adres.cs",
+              "RelativeToolTip": "Adres.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:18:17.305Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManipulatorDanychLINQ.cs",
+              "DocumentMoniker": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\ManipulatorDanychLINQ.cs",
+              "RelativeDocumentMoniker": "ManipulatorDanychLINQ.cs",
+              "ToolTip": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\ManipulatorDanychLINQ.cs",
+              "RelativeToolTip": "ManipulatorDanychLINQ.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:25:26.467Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dane.txt",
+              "DocumentMoniker": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\dane.txt",
+              "RelativeDocumentMoniker": "dane.txt",
+              "ToolTip": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\dane.txt",
+              "RelativeToolTip": "dane.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-22T17:45:21.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Osoba.cs",
+              "DocumentMoniker": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\Osoba.cs",
+              "RelativeDocumentMoniker": "Osoba.cs",
+              "ToolTip": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\Osoba.cs",
+              "RelativeToolTip": "Osoba.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:17:46.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\C#\\Zaj_12_Zapisywanie_do_pliku_tekstowego\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAAwLwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T17:13:03.878Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

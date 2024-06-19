@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C714377-6FE0-4C98-B458-BE198A4205AA}|Zaj_13_Bazy.csproj|c:\\programowanie-w-\u015Brodowisku-.net\\zaj_13_bazy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C714377-6FE0-4C98-B458-BE198A4205AA}|Zaj_13_Bazy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C714377-6FE0-4C98-B458-BE198A4205AA}|Zaj_13_Bazy.csproj|c:\\programowanie-w-\u015Brodowisku-.net\\zaj_13_bazy\\zapisbazy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C714377-6FE0-4C98-B458-BE198A4205AA}|Zaj_13_Bazy.csproj|solutionrelative:zapisbazy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C714377-6FE0-4C98-B458-BE198A4205AA}|Zaj_13_Bazy.csproj|c:\\programowanie-w-\u015Brodowisku-.net\\zaj_13_bazy\\adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C714377-6FE0-4C98-B458-BE198A4205AA}|Zaj_13_Bazy.csproj|solutionrelative:adres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C714377-6FE0-4C98-B458-BE198A4205AA}|Zaj_13_Bazy.csproj|c:\\programowanie-w-\u015Brodowisku-.net\\zaj_13_bazy\\testybazy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C714377-6FE0-4C98-B458-BE198A4205AA}|Zaj_13_Bazy.csproj|solutionrelative:testybazy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C714377-6FE0-4C98-B458-BE198A4205AA}|Zaj_13_Bazy.csproj|c:\\programowanie-w-\u015Brodowisku-.net\\zaj_13_bazy\\osoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C714377-6FE0-4C98-B458-BE198A4205AA}|Zaj_13_Bazy.csproj|solutionrelative:osoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Adres.cs",
+              "DocumentMoniker": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\Adres.cs",
+              "RelativeDocumentMoniker": "Adres.cs",
+              "ToolTip": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\Adres.cs",
+              "RelativeToolTip": "Adres.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:21:46.713Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestyBazy.cs",
+              "DocumentMoniker": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\TestyBazy.cs",
+              "RelativeDocumentMoniker": "TestyBazy.cs",
+              "ToolTip": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\TestyBazy.cs",
+              "RelativeToolTip": "TestyBazy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:21:52.343Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Osoba.cs",
+              "DocumentMoniker": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\Osoba.cs",
+              "RelativeDocumentMoniker": "Osoba.cs",
+              "ToolTip": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\Osoba.cs",
+              "RelativeToolTip": "Osoba.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:24:24.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ZapisBazy.cs",
+              "DocumentMoniker": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\ZapisBazy.cs",
+              "RelativeDocumentMoniker": "ZapisBazy.cs",
+              "ToolTip": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\ZapisBazy.cs",
+              "RelativeToolTip": "ZapisBazy.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAwwAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:47:30.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Programowanie-w-\u015Brodowisku-.NET\\Zaj_13_Bazy\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:43:58.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
