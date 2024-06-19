@@ -1,0 +1,14 @@
+C:\C#\Zaj_10_LINQ\bin\Debug\net8.0\Zaj_10_LINQ.exe
+C:\C#\Zaj_10_LINQ\bin\Debug\net8.0\Zaj_10_LINQ.deps.json
+C:\C#\Zaj_10_LINQ\bin\Debug\net8.0\Zaj_10_LINQ.runtimeconfig.json
+C:\C#\Zaj_10_LINQ\bin\Debug\net8.0\Zaj_10_LINQ.dll
+C:\C#\Zaj_10_LINQ\bin\Debug\net8.0\Zaj_10_LINQ.pdb
+C:\C#\Zaj_10_LINQ\obj\Debug\net8.0\Zaj_10_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Zaj_10_LINQ\obj\Debug\net8.0\Zaj_10_LINQ.AssemblyInfoInputs.cache
+C:\C#\Zaj_10_LINQ\obj\Debug\net8.0\Zaj_10_LINQ.AssemblyInfo.cs
+C:\C#\Zaj_10_LINQ\obj\Debug\net8.0\Zaj_10_LINQ.csproj.CoreCompileInputs.cache
+C:\C#\Zaj_10_LINQ\obj\Debug\net8.0\Zaj_10_LINQ.dll
+C:\C#\Zaj_10_LINQ\obj\Debug\net8.0\refint\Zaj_10_LINQ.dll
+C:\C#\Zaj_10_LINQ\obj\Debug\net8.0\Zaj_10_LINQ.pdb
+C:\C#\Zaj_10_LINQ\obj\Debug\net8.0\Zaj_10_LINQ.genruntimeconfig.cache
+C:\C#\Zaj_10_LINQ\obj\Debug\net8.0\ref\Zaj_10_LINQ.dll

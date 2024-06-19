@@ -1,0 +1,14 @@
+C:\C#\Zaj_09_Yield\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+C:\C#\Zaj_09_Yield\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+C:\C#\Zaj_09_Yield\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+C:\C#\Zaj_09_Yield\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+C:\C#\Zaj_09_Yield\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+C:\C#\Zaj_09_Yield\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Zaj_09_Yield\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\C#\Zaj_09_Yield\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+C:\C#\Zaj_09_Yield\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\C#\Zaj_09_Yield\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+C:\C#\Zaj_09_Yield\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+C:\C#\Zaj_09_Yield\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+C:\C#\Zaj_09_Yield\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+C:\C#\Zaj_09_Yield\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll

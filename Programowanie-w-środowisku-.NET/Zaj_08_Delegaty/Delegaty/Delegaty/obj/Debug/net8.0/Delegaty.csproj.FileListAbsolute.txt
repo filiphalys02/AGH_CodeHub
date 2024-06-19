@@ -1,0 +1,14 @@
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\bin\Debug\net8.0\Delegaty.exe
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\bin\Debug\net8.0\Delegaty.deps.json
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\bin\Debug\net8.0\Delegaty.runtimeconfig.json
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\bin\Debug\net8.0\Delegaty.dll
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\bin\Debug\net8.0\Delegaty.pdb
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\obj\Debug\net8.0\Delegaty.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\obj\Debug\net8.0\Delegaty.AssemblyInfoInputs.cache
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\obj\Debug\net8.0\Delegaty.AssemblyInfo.cs
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\obj\Debug\net8.0\Delegaty.csproj.CoreCompileInputs.cache
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\obj\Debug\net8.0\Delegaty.dll
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\obj\Debug\net8.0\refint\Delegaty.dll
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\obj\Debug\net8.0\Delegaty.pdb
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\obj\Debug\net8.0\Delegaty.genruntimeconfig.cache
+C:\C#\Zaj_8_Delegaty\Delegaty\Delegaty\obj\Debug\net8.0\ref\Delegaty.dll

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\Zaj_7_Lambda_i_delegaty\\Zad1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE623B33-7417-4963-B968-13C4942F26FC}|Zad1.csproj|c:\\c#\\zaj_7_lambda_i_delegaty\\zad1\\delegacje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE623B33-7417-4963-B968-13C4942F26FC}|Zad1.csproj|solutionrelative:delegacje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE623B33-7417-4963-B968-13C4942F26FC}|Zad1.csproj|c:\\c#\\zaj_7_lambda_i_delegaty\\zad1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE623B33-7417-4963-B968-13C4942F26FC}|Zad1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delegacje.cs",
+              "DocumentMoniker": "C:\\C#\\Zaj_7_Lambda_i_delegaty\\Zad1\\Delegacje.cs",
+              "RelativeDocumentMoniker": "Delegacje.cs",
+              "ToolTip": "C:\\C#\\Zaj_7_Lambda_i_delegaty\\Zad1\\Delegacje.cs",
+              "RelativeToolTip": "Delegacje.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:11:49.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\Zaj_7_Lambda_i_delegaty\\Zad1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\C#\\Zaj_7_Lambda_i_delegaty\\Zad1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:10:27.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
