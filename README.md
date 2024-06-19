@@ -15,6 +15,7 @@ Courses:
 - [Internet Techniques](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Techniki-internetowe)
 - [Introduction to geodynamic modelling systems](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Podstawy-modelowa%C5%84-geodynamicznych)
 - [Geovisualisation and cartographic editing](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Geowizualizacja-i-edycja-kartograficzna)
+- [Programming in the .NET environment](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Programowanie-w-%C5%9Brodowisku-.NET)
 
 ##
 On my profile You can also find other courses I took during my studies like [Database](https://github.com/filiphalys02/Database) course or [Spatial Database](https://github.com/filiphalys02/Spatial-database) course.
