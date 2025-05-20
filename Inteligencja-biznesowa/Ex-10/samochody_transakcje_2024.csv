@@ -1,0 +1,1001 @@
+Transaction_ID,Sale_Date,Car_Brand,Car_Model,Model_Year,Car_Type,Engine_Type,Color,Base_Price_NET,Tax_Rate (%),Tax_Amount,Total_Price_GROSS,Discount (%),Final_Price_GROSS,Customer_Age,Customer_Gender,Region,Salesperson_ID,Days_In_Inventory,Campaign_Name,Financed,Financing_Partner,Profit_Margin (%)
+T0001,2024-10-24,Volkswagen,Golf,2020,Hatchback,Electric,Black,201461,23,46336.03,247797.03,5,235407.18,45,Male,Gdansk,S168,59,Spring2024,Yes,AutoFin,11.36
+T0002,2024-09-29,Ford,Mondeo,2022,Coupe,Diesel,White,220633,23,50745.59,271378.58999999997,10,244240.73,34,Male,Gdansk,S175,107,SummerDeals,Yes,AutoFin,10.83
+T0003,2024-03-13,Toyota,Camry,2020,Sedan,Petrol,White,117897,23,27116.31,145013.31,7,134862.38,56,Male,Gdansk,S179,21,WinterClearance,Yes,LeasingPro,12.16
+T0004,2024-04-24,BMW,3 Series,2020,Sedan,Diesel,Red,130584,23,30034.32,160618.32,5,152587.4,68,Male,Gdansk,S194,26,AutumnSales,Yes,CreditPlus,7.09
+T0005,2024-06-21,BMW,3 Series,2022,SUV,Hybrid,Gray,102717,23,23624.91,126341.91,3,122551.65,41,Male,Poznan,S174,9,Spring2024,Yes,BankPolska,13.72
+T0006,2024-09-13,Volkswagen,Tiguan,2021,Sedan,Petrol,Red,184840,23,42513.2,227353.2,5,215985.54,45,Male,Warsaw,S171,90,SummerDeals,Yes,BankPolska,6.66
+T0007,2024-11-01,Toyota,Camry,2024,SUV,Hybrid,Red,62891,23,14464.93,77355.93,7,71941.01,47,Female,Wroclaw,S145,80,WinterClearance,Yes,LeasingPro,7.97
+T0008,2024-08-20,Toyota,Corolla,2022,Hatchback,Electric,White,134104,23,30843.92,164947.91999999998,10,148453.13,36,Female,Warsaw,S158,66,AutumnSales,No,None,11.37
+T0009,2024-04-29,Volkswagen,Tiguan,2024,Sedan,Petrol,Gray,126126,23,29008.98,155134.98,7,144275.53,36,Male,Krakow,S195,114,Spring2024,Yes,AutoFin,7.22
+T0010,2024-11-30,Toyota,Corolla,2023,Coupe,Hybrid,White,178461,23,41046.03,219507.03,10,197556.33,45,Female,Krakow,S125,76,SummerDeals,Yes,LeasingPro,5.46
+T0011,2024-06-02,Ford,Kuga,2022,SUV,Hybrid,White,99648,23,22919.04,122567.04000000001,7,113987.35,46,Female,Warsaw,S163,1,WinterClearance,No,None,8.76
+T0012,2024-08-30,BMW,3 Series,2023,Coupe,Petrol,Silver,197528,23,45431.44,242959.44,7,225952.28,41,Male,Warsaw,S100,8,AutumnSales,Yes,None,17.56
+T0013,2024-02-09,Volkswagen,Golf,2024,Coupe,Petrol,Blue,116630,23,26824.9,143454.9,5,136282.15,64,Male,Warsaw,S121,17,WinterClearance,No,None,19.6
+T0014,2024-02-18,Hyundai,Tucson,2023,Hatchback,Petrol,Gray,219195,23,50414.85,269609.85,10,242648.86,61,Male,Wroclaw,S185,78,Spring2024,Yes,BankPolska,12.96
+T0015,2024-05-19,Volkswagen,Passat,2020,Sedan,Petrol,White,117771,23,27087.33,144858.33000000002,3,140512.58,42,Male,Krakow,S103,80,SummerDeals,Yes,None,18.51
+T0016,2024-01-04,Volkswagen,Golf,2023,Sedan,Hybrid,Red,129502,23,29785.46,159287.46,3,154508.84,44,Female,Krakow,S171,97,AutumnSales,Yes,None,17.53
+T0017,2024-11-21,BMW,3 Series,2021,Coupe,Diesel,Red,95467,23,21957.41,117424.41,0,117424.41,45,Female,Krakow,S145,115,WinterClearance,Yes,AutoFin,14.46
+T0018,2024-09-30,BMW,5 Series,2020,Hatchback,Diesel,Silver,153636,23,35336.28,188972.28,5,179523.67,70,Female,Wroclaw,S149,95,WinterClearance,No,None,6.13
+T0019,2024-06-15,Volkswagen,Passat,2024,Hatchback,Hybrid,Gray,114041,23,26229.43,140270.43,3,136062.32,52,Male,Poznan,S138,93,SummerDeals,Yes,BankPolska,17.24
+T0020,2024-01-19,Hyundai,i30,2023,Hatchback,Petrol,Red,192827,23,44350.21,237177.21,0,237177.21,40,Male,Krakow,S162,98,Spring2024,Yes,LeasingPro,9.13
+T0021,2024-06-30,Volkswagen,Tiguan,2020,Hatchback,Hybrid,Blue,106411,23,24474.53,130885.53,3,126958.96,62,Female,Gdansk,S128,25,SummerDeals,No,None,7.39
+T0022,2024-12-01,Ford,Kuga,2022,SUV,Petrol,Silver,78526,23,18060.98,96586.98,3,93689.37,59,Female,Krakow,S184,8,Spring2024,Yes,AutoFin,12.35
+T0023,2024-01-24,BMW,5 Series,2021,Coupe,Petrol,Blue,208544,23,47965.12,256509.12,10,230858.21,48,Female,Gdansk,S194,110,None,Yes,LeasingPro,18.28
+T0024,2024-02-15,Volkswagen,Passat,2020,Sedan,Petrol,Silver,211095,23,48551.85,259646.85,10,233682.17,62,Female,Wroclaw,S130,91,WinterClearance,Yes,BankPolska,9.6
+T0025,2024-12-16,Toyota,Camry,2021,Hatchback,Hybrid,Silver,227592,23,52346.16,279938.16000000003,5,265941.25,31,Female,Gdansk,S136,31,SummerDeals,No,None,17.08
+T0026,2024-07-29,Toyota,RAV4,2020,Coupe,Hybrid,Blue,249890,23,57474.7,307364.7,7,285849.17,27,Female,Poznan,S151,88,WinterClearance,Yes,LeasingPro,10.67
+T0027,2024-12-12,Toyota,Corolla,2023,Coupe,Diesel,Gray,119339,23,27447.97,146786.97,7,136511.88,42,Male,Krakow,S175,92,AutumnSales,No,None,11.03
+T0028,2024-10-02,Ford,Kuga,2020,Hatchback,Hybrid,Red,112125,23,25788.75,137913.75,10,124122.38,53,Male,Warsaw,S117,89,SummerDeals,Yes,LeasingPro,17.25
+T0029,2024-10-08,BMW,5 Series,2024,Sedan,Diesel,Red,79103,23,18193.69,97296.69,7,90485.92,39,Female,Warsaw,S175,52,None,Yes,AutoFin,6.09
+T0030,2024-03-15,Toyota,Corolla,2024,SUV,Diesel,Red,189326,23,43544.98,232870.98,0,232870.98,40,Female,Gdansk,S168,74,AutumnSales,Yes,LeasingPro,12.42
+T0031,2024-10-22,Ford,Focus,2020,Coupe,Electric,Blue,159203,23,36616.69,195819.69,5,186028.71,35,Female,Wroclaw,S142,50,SummerDeals,No,None,15.62
+T0032,2024-01-14,BMW,3 Series,2022,Sedan,Diesel,White,247702,23,56971.46,304673.46,5,289439.79,61,Male,Warsaw,S141,85,WinterClearance,No,None,6.34
+T0033,2024-10-05,BMW,5 Series,2021,Sedan,Hybrid,Black,78117,23,17966.91,96083.91,3,93201.39,65,Male,Krakow,S136,46,WinterClearance,No,None,5.76
+T0034,2024-10-27,Ford,Focus,2020,Coupe,Hybrid,Black,104618,23,24062.14,128680.14,10,115812.13,51,Female,Gdansk,S132,15,SummerDeals,No,None,19.69
+T0035,2024-04-17,Hyundai,Santa Fe,2021,SUV,Diesel,Red,148341,23,34118.43,182459.43,3,176985.65,33,Female,Krakow,S170,14,SummerDeals,Yes,CreditPlus,12.68
+T0036,2024-11-19,BMW,5 Series,2022,Sedan,Petrol,White,154029,23,35426.67,189455.66999999998,5,179982.89,50,Male,Poznan,S123,120,None,Yes,AutoFin,14.98
+T0037,2024-02-14,BMW,X5,2023,Hatchback,Petrol,Black,101545,23,23355.35,124900.35,0,124900.35,53,Female,Warsaw,S155,108,AutumnSales,Yes,CreditPlus,9.91
+T0038,2024-08-08,BMW,3 Series,2020,Hatchback,Diesel,Red,114049,23,26231.27,140280.27,3,136071.86,30,Male,Poznan,S115,38,None,Yes,AutoFin,17.13
+T0039,2024-07-15,Volkswagen,Passat,2022,Hatchback,Hybrid,Silver,236391,23,54369.93,290760.93,0,290760.93,66,Female,Warsaw,S194,32,None,No,None,18.71
+T0040,2024-05-26,Toyota,Corolla,2023,SUV,Diesel,Red,140797,23,32383.31,173180.31,0,173180.31,53,Female,Warsaw,S178,11,Spring2024,Yes,AutoFin,13.22
+T0041,2024-05-06,Hyundai,Santa Fe,2022,SUV,Electric,Gray,104496,23,24034.08,128530.08,5,122103.58,57,Male,Krakow,S153,67,AutumnSales,No,None,8.71
+T0042,2024-08-26,Volkswagen,Tiguan,2020,Hatchback,Electric,Gray,140433,23,32299.59,172732.59,10,155459.33,37,Male,Wroclaw,S191,16,None,No,None,10.19
+T0043,2024-04-04,Toyota,Corolla,2020,Coupe,Petrol,Silver,169255,23,38928.65,208183.65,3,201938.14,41,Female,Warsaw,S120,120,SummerDeals,No,None,12.7
+T0044,2024-05-08,Toyota,Corolla,2023,Coupe,Diesel,Blue,249609,23,57410.07,307019.07,5,291668.12,58,Male,Gdansk,S126,55,Spring2024,No,None,17.16
+T0045,2024-09-18,Ford,Mondeo,2022,SUV,Electric,Silver,188727,23,43407.21,232134.21,3,225170.18,51,Male,Krakow,S196,1,SummerDeals,No,None,12.13
+T0046,2024-07-17,Toyota,Camry,2020,SUV,Diesel,Blue,212075,23,48777.25,260852.25,7,242592.59,51,Female,Warsaw,S123,54,None,No,None,5.84
+T0047,2024-11-27,Hyundai,i30,2024,SUV,Hybrid,Red,146515,23,33698.45,180213.45,3,174807.05,58,Male,Warsaw,S107,28,WinterClearance,No,None,16.33
+T0048,2024-11-25,Hyundai,i30,2024,Sedan,Petrol,Blue,125427,23,28848.21,154275.21,0,154275.21,51,Female,Krakow,S172,35,AutumnSales,No,None,15.27
+T0049,2024-05-15,Toyota,Corolla,2024,SUV,Petrol,Blue,141521,23,32549.83,174070.83000000002,0,174070.83,34,Male,Poznan,S124,70,Spring2024,Yes,None,7.47
+T0050,2024-05-25,Hyundai,i30,2021,Hatchback,Petrol,Red,114637,23,26366.51,141003.51,5,133953.33,40,Female,Warsaw,S109,117,Spring2024,No,None,14.58
+T0051,2024-01-23,BMW,3 Series,2020,Sedan,Petrol,Black,196412,23,45174.76,241586.76,3,234339.16,62,Male,Gdansk,S140,64,SummerDeals,Yes,None,17.13
+T0052,2024-12-02,Volkswagen,Tiguan,2023,Hatchback,Electric,Blue,166876,23,38381.48,205257.48,7,190889.46,29,Female,Krakow,S126,68,AutumnSales,No,None,7.4
+T0053,2024-03-12,Toyota,Camry,2020,Hatchback,Electric,Silver,175066,23,40265.18,215331.18,7,200258.0,46,Male,Wroclaw,S149,10,AutumnSales,Yes,BankPolska,8.8
+T0054,2024-11-10,Ford,Mondeo,2023,Coupe,Diesel,Red,85591,23,19685.93,105276.93,5,100013.08,36,Female,Gdansk,S186,107,None,No,None,6.1
+T0055,2024-07-29,Volkswagen,Passat,2021,Sedan,Hybrid,Silver,202475,23,46569.25,249044.25,3,241572.92,46,Female,Krakow,S104,96,SummerDeals,No,None,8.84
+T0056,2024-09-25,Hyundai,Santa Fe,2020,Hatchback,Electric,Silver,90607,23,20839.61,111446.61,7,103645.35,39,Male,Krakow,S179,90,WinterClearance,No,None,15.02
+T0057,2024-01-06,BMW,5 Series,2023,Coupe,Petrol,Blue,106214,23,24429.22,130643.22,0,130643.22,55,Female,Krakow,S145,88,AutumnSales,Yes,None,7.97
+T0058,2024-11-03,BMW,3 Series,2021,Sedan,Electric,Silver,208347,23,47919.81,256266.81,10,230640.13,67,Male,Poznan,S126,103,AutumnSales,Yes,LeasingPro,12.02
+T0059,2024-09-08,BMW,5 Series,2021,SUV,Diesel,White,181051,23,41641.73,222692.73,3,216011.95,28,Male,Krakow,S117,60,Spring2024,No,None,17.93
+T0060,2024-10-29,Toyota,Camry,2023,SUV,Electric,Red,211530,23,48651.9,260181.9,5,247172.8,60,Male,Krakow,S144,1,WinterClearance,Yes,None,16.5
+T0061,2024-07-14,Volkswagen,Passat,2021,Hatchback,Electric,Silver,166701,23,38341.23,205042.23,0,205042.23,57,Female,Gdansk,S150,65,WinterClearance,Yes,BankPolska,6.98
+T0062,2024-08-23,Toyota,Camry,2021,Coupe,Petrol,Black,236685,23,54437.55,291122.55,10,262010.29,46,Male,Gdansk,S150,44,WinterClearance,Yes,AutoFin,17.24
+T0063,2024-09-20,Ford,Mondeo,2024,Hatchback,Electric,Black,125440,23,28851.2,154291.2,7,143490.82,55,Male,Wroclaw,S108,69,AutumnSales,No,None,11.38
+T0064,2024-12-24,Toyota,RAV4,2021,Sedan,Diesel,Red,149968,23,34492.64,184460.64,7,171548.4,67,Male,Poznan,S118,86,SummerDeals,Yes,LeasingPro,14.6
+T0065,2024-03-02,BMW,3 Series,2020,Sedan,Petrol,Black,152516,23,35078.68,187594.68,10,168835.21,70,Female,Krakow,S134,1,AutumnSales,Yes,AutoFin,9.33
+T0066,2024-09-30,Hyundai,i30,2024,Sedan,Diesel,Silver,169437,23,38970.51,208407.51,5,197987.13,67,Male,Poznan,S180,99,SummerDeals,No,None,16.68
+T0067,2024-01-25,Volkswagen,Golf,2022,Sedan,Electric,Red,95005,23,21851.15,116856.15,0,116856.15,42,Female,Poznan,S103,120,SummerDeals,No,None,9.96
+T0068,2024-03-27,Volkswagen,Passat,2021,Hatchback,Hybrid,White,109749,23,25242.27,134991.27,3,130941.53,39,Male,Gdansk,S169,108,None,No,None,5.7
+T0069,2024-02-09,Toyota,Corolla,2022,Sedan,Diesel,Gray,219986,23,50596.78,270582.78,7,251641.99,42,Female,Wroclaw,S152,79,None,No,None,7.25
+T0070,2024-12-10,Toyota,RAV4,2023,Coupe,Hybrid,Silver,174746,23,40191.58,214937.58000000002,10,193443.82,63,Female,Warsaw,S158,103,SummerDeals,No,None,8.19
+T0071,2024-01-29,BMW,5 Series,2024,SUV,Petrol,Black,77358,23,17792.34,95150.34,10,85635.31,54,Female,Warsaw,S176,72,Spring2024,No,None,15.02
+T0072,2024-08-24,Ford,Mondeo,2022,Coupe,Diesel,Blue,125465,23,28856.95,154321.95,5,146605.85,62,Male,Poznan,S131,61,Spring2024,Yes,BankPolska,16.62
+T0073,2024-12-18,Ford,Focus,2020,Hatchback,Electric,Red,191320,23,44003.6,235323.6,0,235323.6,29,Male,Warsaw,S181,41,SummerDeals,Yes,CreditPlus,9.78
+T0074,2024-05-12,Volkswagen,Golf,2020,Hatchback,Petrol,Blue,85161,23,19587.03,104748.03,10,94273.23,47,Male,Wroclaw,S196,117,Spring2024,Yes,CreditPlus,15.75
+T0075,2024-06-16,Volkswagen,Passat,2023,Hatchback,Diesel,Black,127156,23,29245.88,156401.88,0,156401.88,38,Female,Gdansk,S121,93,Spring2024,No,None,18.42
+T0076,2024-01-06,Toyota,RAV4,2024,SUV,Electric,Gray,146835,23,33772.05,180607.05,10,162546.35,70,Male,Poznan,S155,75,SummerDeals,Yes,CreditPlus,17.76
+T0077,2024-03-24,Toyota,Corolla,2022,Hatchback,Hybrid,White,187424,23,43107.52,230531.52,3,223615.57,40,Male,Gdansk,S119,42,None,No,None,12.29
+T0078,2024-01-16,BMW,X5,2024,Sedan,Hybrid,Blue,165955,23,38169.65,204124.65,0,204124.65,69,Female,Poznan,S190,45,WinterClearance,No,None,10.17
+T0079,2024-09-10,Ford,Mondeo,2022,Sedan,Diesel,Black,164037,23,37728.51,201765.51,0,201765.51,30,Male,Wroclaw,S147,32,WinterClearance,Yes,BankPolska,15.57
+T0080,2024-10-02,BMW,X5,2024,SUV,Electric,Black,188983,23,43466.09,232449.09,10,209204.18,33,Male,Poznan,S101,5,None,No,None,18.83
+T0081,2024-04-13,Toyota,Camry,2020,Hatchback,Petrol,White,236204,23,54326.92,290530.92,0,290530.92,63,Male,Krakow,S140,32,AutumnSales,Yes,None,18.78
+T0082,2024-01-30,Toyota,Camry,2020,Hatchback,Diesel,White,181349,23,41710.27,223059.27,3,216367.49,46,Male,Wroclaw,S118,13,Spring2024,Yes,CreditPlus,10.84
+T0083,2024-03-28,Toyota,RAV4,2023,Coupe,Petrol,Black,135429,23,31148.67,166577.66999999998,0,166577.67,36,Female,Poznan,S163,73,SummerDeals,No,None,19.68
+T0084,2024-09-04,Hyundai,Santa Fe,2024,SUV,Diesel,Black,224679,23,51676.17,276355.17,10,248719.65,38,Male,Krakow,S146,51,SummerDeals,No,None,7.25
+T0085,2024-07-27,BMW,X5,2022,Sedan,Diesel,Blue,155894,23,35855.62,191749.62,5,182162.14,28,Male,Warsaw,S143,74,SummerDeals,Yes,BankPolska,19.8
+T0086,2024-12-18,Hyundai,i30,2023,SUV,Hybrid,Silver,233135,23,53621.05,286756.05,3,278153.37,32,Male,Warsaw,S155,64,None,Yes,LeasingPro,17.36
+T0087,2024-04-12,Ford,Kuga,2023,Coupe,Electric,Blue,188187,23,43283.01,231470.01,0,231470.01,70,Female,Gdansk,S194,54,AutumnSales,Yes,None,6.84
+T0088,2024-11-27,Toyota,RAV4,2020,Coupe,Hybrid,Gray,195587,23,44985.01,240572.01,0,240572.01,57,Female,Krakow,S127,92,WinterClearance,Yes,AutoFin,16.03
+T0089,2024-03-31,Hyundai,Santa Fe,2020,Coupe,Petrol,Blue,181162,23,41667.26,222829.26,0,222829.26,38,Female,Wroclaw,S176,58,SummerDeals,Yes,BankPolska,19.83
+T0090,2024-04-11,Ford,Mondeo,2023,Coupe,Petrol,Red,160137,23,36831.51,196968.51,0,196968.51,49,Female,Poznan,S102,114,Spring2024,No,None,18.74
+T0091,2024-03-30,Hyundai,Tucson,2024,SUV,Electric,Blue,208758,23,48014.34,256772.34,10,231095.11,41,Male,Krakow,S132,56,SummerDeals,No,None,13.51
+T0092,2024-10-15,Hyundai,i30,2022,Sedan,Hybrid,Blue,106913,23,24589.99,131502.99,0,131502.99,56,Male,Krakow,S184,81,SummerDeals,No,None,12.87
+T0093,2024-02-02,Hyundai,i30,2024,Hatchback,Petrol,Red,162748,23,37432.04,200180.04,3,194174.64,58,Male,Wroclaw,S179,68,SummerDeals,No,None,6.66
+T0094,2024-03-04,Toyota,RAV4,2023,Coupe,Hybrid,White,79995,23,18398.85,98393.85,10,88554.47,41,Male,Krakow,S175,100,None,Yes,LeasingPro,6.61
+T0095,2024-07-28,BMW,3 Series,2022,Sedan,Petrol,Silver,148373,23,34125.79,182498.79,5,173373.85,43,Male,Warsaw,S176,27,None,Yes,CreditPlus,17.9
+T0096,2024-05-28,Toyota,RAV4,2023,Hatchback,Diesel,Red,239713,23,55133.99,294846.99,5,280104.64,59,Female,Krakow,S128,24,Spring2024,No,None,11.18
+T0097,2024-06-21,Ford,Mondeo,2024,Sedan,Petrol,Black,137541,23,31634.43,169175.43,0,169175.43,68,Male,Krakow,S105,59,Spring2024,No,None,19.44
+T0098,2024-08-23,Ford,Mondeo,2020,Hatchback,Petrol,Silver,102520,23,23579.6,126099.6,10,113489.64,56,Female,Wroclaw,S158,32,AutumnSales,Yes,None,17.89
+T0099,2024-05-25,Ford,Mondeo,2023,SUV,Hybrid,Red,77912,23,17919.76,95831.76,5,91040.17,67,Female,Wroclaw,S102,98,None,Yes,None,8.42
+T0100,2024-10-15,Volkswagen,Passat,2024,Coupe,Hybrid,Black,167024,23,38415.52,205439.52,0,205439.52,68,Female,Gdansk,S143,85,AutumnSales,No,None,15.26
+T0101,2024-03-09,Ford,Kuga,2020,Coupe,Diesel,White,173013,23,39792.99,212805.99,7,197909.57,47,Female,Gdansk,S123,119,Spring2024,Yes,None,11.23
+T0102,2024-12-16,Ford,Mondeo,2023,Hatchback,Electric,Blue,229056,23,52682.88,281738.88,7,262017.16,31,Female,Poznan,S166,108,SummerDeals,No,None,6.08
+T0103,2024-02-19,BMW,5 Series,2024,SUV,Petrol,Red,169608,23,39009.84,208617.84,0,208617.84,64,Female,Warsaw,S131,111,None,No,None,19.58
+T0104,2024-03-13,Ford,Kuga,2022,Hatchback,Diesel,Blue,174703,23,40181.69,214884.69,0,214884.69,47,Female,Wroclaw,S140,115,AutumnSales,Yes,BankPolska,7.41
+T0105,2024-11-27,Toyota,Camry,2023,SUV,Diesel,Black,151191,23,34773.93,185964.93,0,185964.93,43,Male,Wroclaw,S108,118,WinterClearance,Yes,AutoFin,16.73
+T0106,2024-05-22,Toyota,RAV4,2024,Coupe,Petrol,White,147383,23,33898.09,181281.09,3,175842.66,51,Female,Krakow,S191,93,WinterClearance,No,None,17.41
+T0107,2024-05-10,BMW,3 Series,2021,SUV,Diesel,Gray,141893,23,32635.39,174528.39,7,162311.4,27,Male,Warsaw,S184,81,WinterClearance,Yes,None,16.41
+T0108,2024-03-25,BMW,5 Series,2024,Coupe,Diesel,White,194972,23,44843.56,239815.56,7,223028.47,65,Male,Poznan,S109,38,None,Yes,BankPolska,12.3
+T0109,2024-08-09,Ford,Mondeo,2022,Hatchback,Electric,Black,114031,23,26227.13,140258.13,10,126232.32,49,Male,Wroclaw,S135,23,Spring2024,Yes,CreditPlus,16.57
+T0110,2024-07-13,Toyota,RAV4,2021,SUV,Diesel,Gray,203560,23,46818.8,250378.8,7,232852.28,62,Male,Warsaw,S143,21,None,Yes,CreditPlus,14.06
+T0111,2024-01-18,Hyundai,i30,2024,SUV,Diesel,Silver,88859,23,20437.57,109296.57,5,103831.74,39,Male,Warsaw,S196,40,Spring2024,Yes,AutoFin,5.63
+T0112,2024-08-08,Hyundai,Santa Fe,2020,Hatchback,Hybrid,Blue,199939,23,45985.97,245924.97,7,228710.22,51,Female,Wroclaw,S143,36,Spring2024,Yes,LeasingPro,7.27
+T0113,2024-10-23,Volkswagen,Tiguan,2023,Sedan,Hybrid,White,104774,23,24098.02,128872.02,0,128872.02,41,Male,Gdansk,S196,13,SummerDeals,No,None,17.95
+T0114,2024-04-12,Toyota,Camry,2021,Hatchback,Diesel,Red,220567,23,50730.41,271297.41000000003,0,271297.41,38,Male,Poznan,S153,48,AutumnSales,Yes,AutoFin,13.47
+T0115,2024-10-05,Toyota,Corolla,2020,SUV,Petrol,Black,174902,23,40227.46,215129.46,3,208675.58,38,Female,Krakow,S141,57,WinterClearance,No,None,5.5
+T0116,2024-05-21,Hyundai,i30,2024,Coupe,Petrol,Gray,94599,23,21757.77,116356.77,7,108211.8,55,Male,Krakow,S186,87,None,Yes,AutoFin,8.26
+T0117,2024-08-20,Toyota,Corolla,2021,Hatchback,Petrol,Blue,118580,23,27273.4,145853.4,7,135643.66,67,Male,Warsaw,S144,84,WinterClearance,No,None,11.72
+T0118,2024-08-28,Volkswagen,Passat,2020,SUV,Petrol,White,243181,23,55931.63,299112.63,0,299112.63,70,Male,Poznan,S147,28,None,Yes,LeasingPro,12.99
+T0119,2024-08-16,Ford,Focus,2021,Hatchback,Electric,Blue,134899,23,31026.77,165925.77,0,165925.77,28,Female,Wroclaw,S119,75,None,No,None,18.28
+T0120,2024-11-29,Hyundai,Tucson,2023,Sedan,Hybrid,Black,182312,23,41931.76,224243.76,3,217516.45,49,Female,Wroclaw,S191,52,None,Yes,CreditPlus,10.07
+T0121,2024-09-15,Toyota,RAV4,2021,Sedan,Electric,Red,244815,23,56307.45,301122.45,0,301122.45,37,Male,Krakow,S183,92,Spring2024,Yes,BankPolska,9.76
+T0122,2024-08-24,Hyundai,i30,2020,Hatchback,Hybrid,White,139384,23,32058.32,171442.32,3,166299.05,55,Male,Warsaw,S139,48,Spring2024,No,None,15.35
+T0123,2024-03-08,Toyota,RAV4,2024,Hatchback,Hybrid,Blue,126310,23,29051.3,155361.3,5,147593.23,49,Female,Wroclaw,S114,17,WinterClearance,Yes,BankPolska,18.0
+T0124,2024-11-28,BMW,X5,2021,Coupe,Electric,Blue,75924,23,17462.52,93386.52,7,86849.46,44,Male,Krakow,S140,69,AutumnSales,No,None,7.78
+T0125,2024-10-12,Volkswagen,Passat,2020,Sedan,Hybrid,Silver,218568,23,50270.64,268838.64,10,241954.78,59,Male,Gdansk,S174,23,SummerDeals,No,None,19.13
+T0126,2024-05-29,Hyundai,Tucson,2021,Sedan,Hybrid,Silver,177202,23,40756.46,217958.46,10,196162.61,68,Female,Wroclaw,S182,112,AutumnSales,Yes,None,8.32
+T0127,2024-10-14,Toyota,RAV4,2021,Coupe,Hybrid,White,200475,23,46109.25,246584.25,7,229323.35,62,Male,Gdansk,S132,29,Spring2024,No,None,6.44
+T0128,2024-08-05,Volkswagen,Passat,2022,Coupe,Diesel,Red,221158,23,50866.34,272024.33999999997,5,258423.12,36,Female,Gdansk,S111,26,WinterClearance,Yes,BankPolska,12.51
+T0129,2024-02-27,Volkswagen,Tiguan,2021,Coupe,Electric,Gray,149289,23,34336.47,183625.47,7,170771.69,50,Female,Krakow,S116,20,SummerDeals,Yes,BankPolska,17.19
+T0130,2024-05-29,BMW,X5,2022,Coupe,Hybrid,White,208521,23,47959.83,256480.83000000002,10,230832.75,32,Male,Poznan,S191,15,AutumnSales,No,None,13.6
+T0131,2024-10-05,Volkswagen,Passat,2023,Sedan,Diesel,Gray,173556,23,39917.88,213473.88,3,207069.66,38,Male,Gdansk,S197,66,WinterClearance,No,None,14.98
+T0132,2024-07-05,Toyota,Camry,2024,Coupe,Diesel,Gray,109576,23,25202.48,134778.48,0,134778.48,57,Female,Wroclaw,S182,110,Spring2024,Yes,BankPolska,8.32
+T0133,2024-04-09,Ford,Focus,2021,Coupe,Petrol,Black,108121,23,24867.83,132988.83000000002,7,123679.61,33,Female,Poznan,S198,48,None,No,None,16.1
+T0134,2024-03-26,BMW,3 Series,2020,Hatchback,Diesel,Black,102823,23,23649.29,126472.29000000001,5,120148.68,34,Female,Warsaw,S128,4,AutumnSales,No,None,8.42
+T0135,2024-05-31,BMW,3 Series,2023,Coupe,Diesel,Blue,164739,23,37889.97,202628.97,5,192497.52,65,Male,Wroclaw,S155,108,SummerDeals,No,None,7.87
+T0136,2024-07-09,Toyota,RAV4,2021,Sedan,Petrol,Blue,118885,23,27343.55,146228.55,7,135992.55,25,Male,Gdansk,S101,68,Spring2024,Yes,None,13.72
+T0137,2024-02-06,Toyota,Camry,2020,Coupe,Diesel,Red,217085,23,49929.55,267014.55,3,259004.11,28,Male,Gdansk,S118,107,SummerDeals,No,None,11.13
+T0138,2024-06-06,Ford,Mondeo,2023,Hatchback,Diesel,Blue,235495,23,54163.85,289658.85,10,260692.96,61,Male,Wroclaw,S188,53,Spring2024,Yes,CreditPlus,17.46
+T0139,2024-05-23,Volkswagen,Golf,2024,Hatchback,Hybrid,Red,123718,23,28455.14,152173.14,5,144564.48,63,Female,Krakow,S139,43,WinterClearance,Yes,BankPolska,19.96
+T0140,2024-09-21,BMW,X5,2023,Sedan,Petrol,White,198779,23,45719.17,244498.16999999998,7,227383.3,44,Male,Poznan,S108,55,SummerDeals,Yes,None,11.73
+T0141,2024-08-31,Toyota,Corolla,2024,SUV,Hybrid,Black,132298,23,30428.54,162726.54,7,151335.68,26,Male,Warsaw,S109,48,Spring2024,Yes,CreditPlus,6.71
+T0142,2024-12-12,Hyundai,Tucson,2020,Sedan,Diesel,Red,162400,23,37352.0,199752.0,5,189764.4,28,Female,Gdansk,S180,108,SummerDeals,No,None,13.92
+T0143,2024-02-08,Ford,Focus,2022,Sedan,Hybrid,White,158050,23,36351.5,194401.5,0,194401.5,54,Male,Poznan,S106,3,WinterClearance,Yes,None,7.37
+T0144,2024-01-28,Ford,Kuga,2020,Hatchback,Petrol,Red,125147,23,28783.81,153930.81,0,153930.81,29,Male,Wroclaw,S181,33,WinterClearance,Yes,AutoFin,8.96
+T0145,2024-10-24,Ford,Kuga,2024,Sedan,Hybrid,Gray,82691,23,19018.93,101709.93,0,101709.93,44,Female,Poznan,S136,25,AutumnSales,Yes,LeasingPro,7.25
+T0146,2024-05-23,Toyota,Corolla,2023,Sedan,Hybrid,Gray,103388,23,23779.24,127167.24,5,120808.88,33,Female,Wroclaw,S137,26,None,No,None,13.45
+T0147,2024-06-30,Toyota,Corolla,2020,Sedan,Hybrid,Gray,141171,23,32469.33,173640.33000000002,10,156276.3,45,Male,Wroclaw,S152,97,SummerDeals,No,None,19.14
+T0148,2024-03-14,Ford,Focus,2024,Coupe,Petrol,Silver,126142,23,29012.66,155154.66,10,139639.19,57,Female,Gdansk,S104,45,Spring2024,No,None,10.55
+T0149,2024-09-20,Volkswagen,Tiguan,2021,Hatchback,Hybrid,Blue,129162,23,29707.26,158869.26,3,154103.18,63,Male,Wroclaw,S150,43,SummerDeals,Yes,CreditPlus,9.79
+T0150,2024-09-10,Volkswagen,Passat,2023,Coupe,Hybrid,Blue,84424,23,19417.52,103841.52,10,93457.37,64,Female,Gdansk,S159,37,SummerDeals,Yes,None,19.53
+T0151,2024-03-12,Volkswagen,Passat,2021,Sedan,Petrol,White,248756,23,57213.88,305969.88,7,284551.99,37,Female,Krakow,S116,51,None,Yes,BankPolska,5.37
+T0152,2024-07-17,Volkswagen,Golf,2021,SUV,Petrol,Silver,180581,23,41533.63,222114.63,3,215451.19,30,Male,Krakow,S176,83,SummerDeals,Yes,None,13.52
+T0153,2024-05-11,Volkswagen,Golf,2024,Hatchback,Diesel,White,104336,23,23997.28,128333.28,5,121916.62,64,Female,Gdansk,S176,38,None,No,None,13.24
+T0154,2024-01-31,BMW,X5,2024,Hatchback,Hybrid,Black,119494,23,27483.62,146977.62,5,139628.74,39,Female,Warsaw,S193,119,SummerDeals,Yes,AutoFin,8.46
+T0155,2024-05-14,Ford,Kuga,2021,Coupe,Hybrid,Gray,110150,23,25334.5,135484.5,5,128710.27,55,Female,Poznan,S196,46,None,Yes,BankPolska,12.27
+T0156,2024-04-20,Volkswagen,Golf,2020,Hatchback,Petrol,Red,202882,23,46662.86,249544.86,3,242058.51,58,Male,Warsaw,S146,78,Spring2024,No,None,7.7
+T0157,2024-03-29,Volkswagen,Tiguan,2021,Coupe,Diesel,Blue,227598,23,52347.54,279945.54,0,279945.54,54,Female,Warsaw,S134,56,Spring2024,Yes,LeasingPro,10.98
+T0158,2024-05-19,BMW,3 Series,2022,SUV,Electric,Black,228146,23,52473.58,280619.58,0,280619.58,46,Male,Gdansk,S156,67,SummerDeals,No,None,15.26
+T0159,2024-06-21,BMW,5 Series,2024,Coupe,Hybrid,Blue,181940,23,41846.2,223786.2,10,201407.58,60,Female,Wroclaw,S155,28,SummerDeals,Yes,LeasingPro,6.76
+T0160,2024-02-11,Toyota,Corolla,2024,Sedan,Diesel,Blue,248434,23,57139.82,305573.82,10,275016.44,68,Male,Gdansk,S153,66,AutumnSales,No,None,15.08
+T0161,2024-09-05,Toyota,RAV4,2021,Sedan,Petrol,Gray,198261,23,45600.03,243861.03,0,243861.03,26,Female,Gdansk,S168,20,AutumnSales,Yes,CreditPlus,13.99
+T0162,2024-07-25,Ford,Mondeo,2024,SUV,Diesel,Black,152360,23,35042.8,187402.8,0,187402.8,63,Male,Warsaw,S137,38,AutumnSales,No,None,5.29
+T0163,2024-02-28,Toyota,RAV4,2021,SUV,Diesel,Black,244263,23,56180.49,300443.49,10,270399.14,51,Female,Krakow,S195,27,Spring2024,No,None,8.21
+T0164,2024-04-11,Hyundai,Tucson,2020,Coupe,Electric,Red,95748,23,22022.04,117770.04000000001,7,109526.14,37,Female,Gdansk,S132,35,AutumnSales,No,None,12.45
+T0165,2024-02-22,BMW,5 Series,2023,Hatchback,Hybrid,White,196547,23,45205.81,241752.81,3,234500.23,48,Male,Wroclaw,S129,94,AutumnSales,Yes,BankPolska,12.69
+T0166,2024-04-19,Hyundai,Tucson,2021,SUV,Diesel,Red,185896,23,42756.08,228652.08000000002,10,205786.87,35,Male,Wroclaw,S117,119,SummerDeals,No,None,18.58
+T0167,2024-09-18,Toyota,Camry,2023,Sedan,Diesel,Silver,73178,23,16830.94,90008.94,3,87308.67,69,Female,Poznan,S199,42,AutumnSales,Yes,CreditPlus,7.89
+T0168,2024-12-01,Hyundai,Santa Fe,2024,Coupe,Hybrid,Gray,153739,23,35359.97,189098.97,3,183426.0,39,Male,Wroclaw,S171,118,WinterClearance,Yes,CreditPlus,15.03
+T0169,2024-05-24,Ford,Kuga,2023,Sedan,Diesel,Silver,128206,23,29487.38,157693.38,10,141924.04,32,Female,Warsaw,S187,96,WinterClearance,Yes,LeasingPro,11.37
+T0170,2024-11-20,Toyota,Camry,2020,Coupe,Diesel,Black,183055,23,42102.65,225157.65,0,225157.65,60,Male,Poznan,S187,70,WinterClearance,No,None,10.78
+T0171,2024-09-13,Ford,Focus,2024,SUV,Petrol,Black,243579,23,56023.17,299602.17,3,290614.1,54,Female,Wroclaw,S145,71,WinterClearance,Yes,CreditPlus,15.41
+T0172,2024-09-19,Ford,Focus,2020,SUV,Electric,Blue,91944,23,21147.12,113091.12,7,105174.74,39,Male,Gdansk,S153,30,SummerDeals,Yes,LeasingPro,12.4
+T0173,2024-08-06,Ford,Kuga,2022,Hatchback,Petrol,Gray,161227,23,37082.21,198309.21,7,184427.57,41,Female,Gdansk,S131,82,Spring2024,No,None,8.2
+T0174,2024-03-13,Ford,Mondeo,2021,Hatchback,Electric,White,95455,23,21954.65,117409.65,10,105668.68,63,Male,Krakow,S180,61,WinterClearance,No,None,17.85
+T0175,2024-01-13,Ford,Mondeo,2024,Coupe,Diesel,White,147095,23,33831.85,180926.85,7,168261.97,61,Male,Gdansk,S131,54,SummerDeals,Yes,AutoFin,18.02
+T0176,2024-04-20,BMW,3 Series,2022,Hatchback,Petrol,Black,237212,23,54558.76,291770.76,3,283017.64,62,Male,Wroclaw,S181,65,WinterClearance,No,None,10.22
+T0177,2024-01-09,Hyundai,i30,2024,SUV,Petrol,Blue,191635,23,44076.05,235711.05,3,228639.72,53,Male,Wroclaw,S177,80,Spring2024,Yes,None,7.09
+T0178,2024-02-29,Volkswagen,Passat,2020,Coupe,Hybrid,White,197320,23,45383.6,242703.6,7,225714.35,51,Female,Poznan,S150,46,Spring2024,Yes,LeasingPro,14.46
+T0179,2024-08-28,Toyota,RAV4,2023,Hatchback,Hybrid,Black,242795,23,55842.85,298637.85,0,298637.85,36,Male,Wroclaw,S187,26,Spring2024,No,None,17.44
+T0180,2024-10-02,Toyota,Corolla,2024,Hatchback,Hybrid,Black,85088,23,19570.24,104658.24,3,101518.49,45,Female,Krakow,S186,13,WinterClearance,Yes,BankPolska,14.4
+T0181,2024-06-09,Ford,Kuga,2024,Sedan,Hybrid,Gray,99241,23,22825.43,122066.43,0,122066.43,25,Female,Warsaw,S106,84,None,No,None,5.24
+T0182,2024-11-19,Hyundai,Santa Fe,2021,Hatchback,Petrol,Blue,172393,23,39650.39,212043.39,0,212043.39,43,Male,Krakow,S107,65,Spring2024,No,None,16.95
+T0183,2024-10-03,Volkswagen,Golf,2023,Hatchback,Petrol,Silver,89014,23,20473.22,109487.22,7,101823.11,25,Male,Warsaw,S174,102,SummerDeals,Yes,AutoFin,15.13
+T0184,2024-04-19,Hyundai,Tucson,2021,SUV,Petrol,White,244676,23,56275.48,300951.48,7,279884.88,58,Female,Gdansk,S124,42,SummerDeals,No,None,15.17
+T0185,2024-11-30,Ford,Focus,2023,Coupe,Petrol,Black,168859,23,38837.57,207696.57,3,201465.67,50,Female,Gdansk,S153,69,AutumnSales,Yes,BankPolska,12.17
+T0186,2024-10-15,Hyundai,i30,2022,SUV,Hybrid,Gray,219453,23,50474.19,269927.19,7,251032.29,40,Male,Gdansk,S109,79,Spring2024,No,None,19.63
+T0187,2024-12-26,BMW,3 Series,2020,Coupe,Hybrid,Silver,220306,23,50670.38,270976.38,0,270976.38,38,Male,Poznan,S143,117,SummerDeals,No,None,14.58
+T0188,2024-11-18,Hyundai,i30,2023,SUV,Diesel,Gray,196345,23,45159.35,241504.35,7,224599.05,56,Female,Krakow,S195,66,AutumnSales,No,None,9.08
+T0189,2024-09-29,BMW,5 Series,2020,Hatchback,Electric,Silver,220039,23,50608.97,270647.97,0,270647.97,46,Male,Krakow,S122,17,Spring2024,No,None,14.61
+T0190,2024-11-08,BMW,5 Series,2021,Coupe,Electric,Red,242866,23,55859.18,298725.18,10,268852.66,30,Male,Gdansk,S174,113,None,Yes,AutoFin,6.87
+T0191,2024-12-29,Ford,Kuga,2021,SUV,Petrol,Blue,126251,23,29037.73,155288.73,5,147524.29,57,Male,Poznan,S191,109,Spring2024,No,None,9.28
+T0192,2024-10-16,BMW,X5,2024,SUV,Electric,Silver,221245,23,50886.35,272131.35,5,258524.78,68,Male,Wroclaw,S136,1,SummerDeals,No,None,13.45
+T0193,2024-03-27,Ford,Mondeo,2024,Hatchback,Diesel,Red,174439,23,40120.97,214559.97,5,203831.97,49,Female,Warsaw,S191,13,None,Yes,CreditPlus,10.9
+T0194,2024-07-13,Toyota,RAV4,2021,Hatchback,Petrol,Silver,199403,23,45862.69,245265.69,5,233002.41,69,Male,Krakow,S123,72,Spring2024,No,None,17.31
+T0195,2024-05-18,Hyundai,Tucson,2023,SUV,Petrol,Blue,235900,23,54257.0,290157.0,5,275649.15,50,Male,Warsaw,S110,118,Spring2024,No,None,19.22
+T0196,2024-11-03,Hyundai,Tucson,2020,Hatchback,Electric,Blue,120773,23,27777.79,148550.79,7,138152.23,58,Female,Wroclaw,S103,111,None,No,None,9.89
+T0197,2024-04-16,Hyundai,i30,2021,Coupe,Diesel,Silver,118375,23,27226.25,145601.25,5,138321.19,34,Male,Warsaw,S130,69,WinterClearance,No,None,10.66
+T0198,2024-01-27,Ford,Mondeo,2023,Sedan,Hybrid,White,236437,23,54380.51,290817.51,3,282092.98,56,Female,Poznan,S111,11,None,No,None,16.78
+T0199,2024-05-11,Toyota,RAV4,2021,Coupe,Electric,Black,210138,23,48331.74,258469.74,3,250715.65,55,Male,Krakow,S114,26,SummerDeals,Yes,BankPolska,13.94
+T0200,2024-03-11,Hyundai,Tucson,2024,Sedan,Hybrid,White,113388,23,26079.24,139467.24,5,132493.88,31,Female,Warsaw,S183,105,SummerDeals,Yes,LeasingPro,12.08
+T0201,2024-05-31,Hyundai,Santa Fe,2023,Hatchback,Diesel,Gray,109388,23,25159.24,134547.24,0,134547.24,25,Female,Poznan,S181,48,SummerDeals,Yes,None,5.66
+T0202,2024-08-02,Toyota,RAV4,2022,Hatchback,Hybrid,Gray,131430,23,30228.9,161658.9,3,156809.13,51,Male,Warsaw,S165,62,SummerDeals,Yes,AutoFin,13.82
+T0203,2024-08-12,BMW,5 Series,2021,Hatchback,Petrol,Red,97984,23,22536.32,120520.32,3,116904.71,49,Male,Poznan,S183,44,WinterClearance,No,None,7.69
+T0204,2024-06-22,BMW,X5,2023,Hatchback,Petrol,Red,189569,23,43600.87,233169.87,3,226174.77,53,Female,Warsaw,S165,51,SummerDeals,Yes,BankPolska,14.16
+T0205,2024-12-18,Toyota,RAV4,2021,Coupe,Electric,Black,239804,23,55154.92,294958.92,5,280210.97,30,Male,Wroclaw,S198,37,Spring2024,Yes,None,18.49
+T0206,2024-02-15,Hyundai,Santa Fe,2021,Coupe,Diesel,Red,72436,23,16660.28,89096.28,0,89096.28,49,Male,Wroclaw,S164,101,AutumnSales,No,None,19.65
+T0207,2024-08-29,Ford,Focus,2024,Coupe,Petrol,Gray,159693,23,36729.39,196422.39,0,196422.39,42,Male,Poznan,S120,87,Spring2024,Yes,AutoFin,12.19
+T0208,2024-08-02,Ford,Focus,2023,Coupe,Electric,Blue,184999,23,42549.77,227548.77,7,211620.36,32,Male,Wroclaw,S183,100,AutumnSales,Yes,LeasingPro,5.35
+T0209,2024-07-03,BMW,5 Series,2021,SUV,Petrol,Red,174835,23,40212.05,215047.05,5,204294.7,50,Female,Krakow,S156,29,WinterClearance,No,None,17.04
+T0210,2024-10-29,Hyundai,i30,2020,Sedan,Electric,Red,158925,23,36552.75,195477.75,7,181794.31,58,Male,Warsaw,S137,69,None,No,None,11.3
+T0211,2024-11-07,Hyundai,i30,2021,Hatchback,Hybrid,Gray,247175,23,56850.25,304025.25,5,288823.99,38,Male,Wroclaw,S156,65,Spring2024,No,None,6.96
+T0212,2024-01-14,Volkswagen,Golf,2024,Hatchback,Electric,Silver,236461,23,54386.03,290847.03,7,270487.74,65,Male,Krakow,S114,36,None,Yes,AutoFin,9.88
+T0213,2024-05-29,Ford,Focus,2024,Coupe,Hybrid,Red,232695,23,53519.85,286214.85,5,271904.11,60,Male,Poznan,S154,118,AutumnSales,No,None,11.73
+T0214,2024-02-21,Hyundai,Tucson,2022,Sedan,Petrol,Silver,186699,23,42940.77,229639.77,7,213564.99,27,Female,Krakow,S171,19,WinterClearance,Yes,LeasingPro,17.57
+T0215,2024-01-24,Toyota,Camry,2023,Hatchback,Hybrid,Blue,141054,23,32442.42,173496.41999999998,5,164821.6,42,Female,Poznan,S142,53,AutumnSales,No,None,5.66
+T0216,2024-11-08,Toyota,Camry,2022,Sedan,Diesel,Blue,187971,23,43233.33,231204.33000000002,0,231204.33,33,Female,Poznan,S126,97,SummerDeals,No,None,18.31
+T0217,2024-12-04,Ford,Kuga,2024,Hatchback,Hybrid,Blue,95346,23,21929.58,117275.58,0,117275.58,63,Male,Krakow,S170,46,SummerDeals,No,None,19.46
+T0218,2024-03-11,Ford,Kuga,2020,Sedan,Petrol,Blue,143861,23,33088.03,176949.03,7,164562.6,66,Female,Poznan,S195,79,SummerDeals,Yes,BankPolska,10.95
+T0219,2024-09-25,Hyundai,Tucson,2022,SUV,Hybrid,Silver,235607,23,54189.61,289796.61,10,260816.95,39,Male,Warsaw,S123,24,WinterClearance,Yes,AutoFin,6.84
+T0220,2024-08-03,Toyota,RAV4,2024,Coupe,Petrol,Gray,100162,23,23037.26,123199.26,10,110879.33,34,Female,Poznan,S168,13,AutumnSales,No,None,17.97
+T0221,2024-09-23,Toyota,Camry,2023,Sedan,Electric,Red,197278,23,45373.94,242651.94,0,242651.94,28,Female,Poznan,S100,47,Spring2024,No,None,17.55
+T0222,2024-10-01,Ford,Focus,2024,Sedan,Petrol,Blue,106741,23,24550.43,131291.43,7,122101.03,54,Female,Krakow,S175,72,SummerDeals,Yes,CreditPlus,11.55
+T0223,2024-05-22,Hyundai,Tucson,2023,Coupe,Electric,Gray,70145,23,16133.35,86278.35,0,86278.35,62,Male,Gdansk,S134,46,AutumnSales,No,None,18.79
+T0224,2024-01-16,BMW,5 Series,2022,Sedan,Electric,Red,82249,23,18917.27,101166.27,0,101166.27,69,Male,Gdansk,S146,25,WinterClearance,No,None,13.93
+T0225,2024-09-09,Volkswagen,Passat,2020,SUV,Diesel,Red,167922,23,38622.06,206544.06,3,200347.74,62,Female,Warsaw,S142,109,None,No,None,6.33
+T0226,2024-03-15,BMW,5 Series,2021,Sedan,Diesel,Gray,133446,23,30692.58,164138.58000000002,5,155931.65,51,Male,Poznan,S177,114,SummerDeals,Yes,CreditPlus,9.4
+T0227,2024-06-26,Toyota,RAV4,2024,Sedan,Electric,Blue,171574,23,39462.02,211036.02,0,211036.02,62,Male,Krakow,S145,69,WinterClearance,Yes,LeasingPro,19.28
+T0228,2024-08-03,Ford,Focus,2022,Hatchback,Diesel,Blue,213552,23,49116.96,262668.96,3,254788.89,47,Male,Wroclaw,S131,13,Spring2024,Yes,None,15.39
+T0229,2024-05-23,Ford,Mondeo,2022,Coupe,Diesel,Silver,130609,23,30040.07,160649.07,0,160649.07,32,Female,Krakow,S170,46,Spring2024,Yes,CreditPlus,8.16
+T0230,2024-03-02,Ford,Mondeo,2024,Sedan,Electric,Red,67965,23,15631.95,83596.95,7,77745.16,57,Female,Poznan,S185,72,SummerDeals,Yes,None,8.98
+T0231,2024-10-18,Volkswagen,Passat,2024,Hatchback,Petrol,Silver,65330,23,15025.9,80355.9,5,76338.1,54,Female,Wroclaw,S163,105,SummerDeals,No,None,19.56
+T0232,2024-04-23,Hyundai,Santa Fe,2021,Hatchback,Electric,Black,218028,23,50146.44,268174.44,7,249402.23,25,Male,Wroclaw,S183,114,Spring2024,Yes,BankPolska,5.39
+T0233,2024-09-25,Hyundai,Santa Fe,2024,SUV,Hybrid,Red,193268,23,44451.64,237719.64,0,237719.64,63,Female,Gdansk,S110,80,WinterClearance,Yes,BankPolska,12.97
+T0234,2024-09-28,Hyundai,Santa Fe,2023,Hatchback,Diesel,Red,237707,23,54672.61,292379.61,7,271913.04,43,Female,Wroclaw,S118,47,None,Yes,BankPolska,17.2
+T0235,2024-03-05,Volkswagen,Passat,2024,SUV,Petrol,Silver,184806,23,42505.38,227311.38,0,227311.38,39,Male,Warsaw,S184,119,SummerDeals,No,None,7.47
+T0236,2024-11-01,Toyota,Camry,2023,Sedan,Diesel,Gray,118869,23,27339.87,146208.87,10,131587.98,32,Female,Poznan,S162,102,None,No,None,19.05
+T0237,2024-09-25,BMW,3 Series,2021,Hatchback,Diesel,Black,178965,23,41161.95,220126.95,5,209120.6,60,Female,Warsaw,S130,5,WinterClearance,No,None,9.71
+T0238,2024-08-18,Hyundai,Tucson,2024,Coupe,Hybrid,Red,150986,23,34726.78,185712.78,3,180141.4,39,Male,Krakow,S165,74,WinterClearance,No,None,17.77
+T0239,2024-01-12,BMW,5 Series,2024,SUV,Electric,Blue,133860,23,30787.8,164647.8,10,148183.02,68,Male,Wroclaw,S192,61,WinterClearance,Yes,BankPolska,14.7
+T0240,2024-12-01,Hyundai,Tucson,2023,Hatchback,Petrol,Black,225432,23,51849.36,277281.36,10,249553.22,51,Male,Krakow,S183,70,SummerDeals,Yes,BankPolska,11.79
+T0241,2024-01-26,Volkswagen,Tiguan,2020,Hatchback,Hybrid,Silver,211423,23,48627.29,260050.29,10,234045.26,60,Male,Gdansk,S150,106,Spring2024,Yes,AutoFin,11.27
+T0242,2024-08-03,Volkswagen,Golf,2023,Sedan,Hybrid,White,149908,23,34478.84,184386.84,7,171479.76,66,Female,Krakow,S142,9,AutumnSales,Yes,AutoFin,12.66
+T0243,2024-12-24,Hyundai,Tucson,2022,Sedan,Petrol,Black,171580,23,39463.4,211043.4,10,189939.06,54,Male,Krakow,S172,5,WinterClearance,No,None,15.85
+T0244,2024-11-20,Volkswagen,Tiguan,2021,SUV,Petrol,Gray,244203,23,56166.69,300369.69,0,300369.69,69,Female,Krakow,S179,68,AutumnSales,No,None,6.02
+T0245,2024-03-04,Volkswagen,Passat,2020,Coupe,Electric,White,192213,23,44208.99,236421.99,3,229329.33,30,Male,Poznan,S109,38,None,No,None,15.2
+T0246,2024-03-09,Ford,Kuga,2022,SUV,Petrol,Gray,151269,23,34791.87,186060.87,0,186060.87,64,Female,Poznan,S120,55,Spring2024,No,None,11.87
+T0247,2024-05-01,Toyota,Corolla,2020,Hatchback,Electric,Silver,243408,23,55983.84,299391.83999999997,0,299391.84,35,Female,Poznan,S109,69,WinterClearance,Yes,BankPolska,11.23
+T0248,2024-10-22,Ford,Kuga,2022,Coupe,Hybrid,White,72352,23,16640.96,88992.95999999999,0,88992.96,27,Male,Krakow,S173,80,WinterClearance,No,None,6.62
+T0249,2024-03-11,Toyota,Camry,2021,Coupe,Hybrid,Blue,182876,23,42061.48,224937.48,10,202443.73,26,Female,Poznan,S123,108,None,Yes,None,8.89
+T0250,2024-01-25,Volkswagen,Tiguan,2022,SUV,Petrol,Gray,207728,23,47777.44,255505.44,0,255505.44,49,Female,Poznan,S171,60,Spring2024,No,None,13.23
+T0251,2024-11-03,Toyota,Camry,2021,Coupe,Diesel,Silver,62948,23,14478.04,77426.04000000001,10,69683.44,37,Female,Warsaw,S197,77,AutumnSales,No,None,14.98
+T0252,2024-01-04,Ford,Kuga,2023,Hatchback,Hybrid,Blue,70965,23,16321.95,87286.95,0,87286.95,58,Male,Wroclaw,S183,57,WinterClearance,Yes,None,15.25
+T0253,2024-11-05,Hyundai,Santa Fe,2021,Sedan,Hybrid,Gray,197552,23,45436.96,242988.96,3,235699.29,59,Female,Warsaw,S135,13,None,No,None,6.98
+T0254,2024-03-26,BMW,3 Series,2021,Sedan,Hybrid,Gray,79123,23,18198.29,97321.29000000001,0,97321.29,60,Male,Warsaw,S189,84,AutumnSales,Yes,BankPolska,16.93
+T0255,2024-07-07,Hyundai,Tucson,2021,Sedan,Hybrid,Black,180457,23,41505.11,221962.11,7,206424.76,49,Male,Warsaw,S141,108,WinterClearance,No,None,15.77
+T0256,2024-03-04,Hyundai,i30,2024,Sedan,Electric,Black,149448,23,34373.04,183821.04,3,178306.41,53,Male,Wroclaw,S120,18,SummerDeals,Yes,LeasingPro,10.23
+T0257,2024-11-28,Hyundai,Santa Fe,2023,SUV,Hybrid,Black,108363,23,24923.49,133286.49,0,133286.49,62,Female,Krakow,S104,78,WinterClearance,Yes,CreditPlus,16.04
+T0258,2024-08-16,Ford,Focus,2021,Coupe,Hybrid,Black,155377,23,35736.71,191113.71,5,181558.02,65,Female,Wroclaw,S194,79,WinterClearance,Yes,None,19.97
+T0259,2024-07-05,Toyota,RAV4,2021,Coupe,Electric,Blue,183341,23,42168.43,225509.43,3,218744.15,39,Female,Warsaw,S148,75,WinterClearance,Yes,AutoFin,13.28
+T0260,2024-12-23,Toyota,Camry,2024,Hatchback,Hybrid,Silver,162404,23,37352.92,199756.91999999998,0,199756.92,50,Male,Krakow,S177,18,SummerDeals,No,None,9.06
+T0261,2024-10-22,Volkswagen,Golf,2022,Sedan,Diesel,Blue,102518,23,23579.14,126097.14,0,126097.14,40,Female,Warsaw,S124,60,WinterClearance,No,None,13.57
+T0262,2024-11-07,BMW,X5,2024,Sedan,Diesel,Gray,73210,23,16838.3,90048.3,5,85545.88,42,Male,Warsaw,S138,2,WinterClearance,Yes,None,14.49
+T0263,2024-06-05,BMW,X5,2024,SUV,Electric,Silver,238380,23,54827.4,293207.4,5,278547.03,45,Male,Krakow,S183,92,None,Yes,AutoFin,12.22
+T0264,2024-08-03,BMW,X5,2024,Hatchback,Hybrid,Gray,173012,23,39792.76,212804.76,3,206420.62,43,Male,Krakow,S103,27,Spring2024,No,None,19.68
+T0265,2024-12-30,Ford,Focus,2020,Sedan,Hybrid,Black,77017,23,17713.91,94730.91,5,89994.36,66,Male,Gdansk,S139,26,WinterClearance,No,None,5.09
+T0266,2024-08-29,Volkswagen,Passat,2021,Sedan,Diesel,Red,89835,23,20662.05,110497.05,7,102762.26,54,Female,Poznan,S130,61,WinterClearance,No,None,15.83
+T0267,2024-06-29,Hyundai,Tucson,2021,Hatchback,Diesel,White,85856,23,19746.88,105602.88,5,100322.74,25,Male,Krakow,S127,95,None,No,None,18.85
+T0268,2024-01-19,Toyota,Corolla,2024,SUV,Petrol,Black,70707,23,16262.61,86969.61,10,78272.65,70,Female,Gdansk,S178,72,AutumnSales,No,None,14.3
+T0269,2024-03-31,Volkswagen,Passat,2022,Coupe,Petrol,Gray,71361,23,16413.03,87774.03,3,85140.81,58,Female,Poznan,S124,88,None,No,None,13.33
+T0270,2024-10-21,Hyundai,Santa Fe,2021,Coupe,Diesel,Gray,135352,23,31130.96,166482.96,3,161488.47,53,Male,Warsaw,S119,74,None,Yes,LeasingPro,7.4
+T0271,2024-01-30,BMW,5 Series,2022,SUV,Hybrid,Silver,67556,23,15537.88,83093.88,3,80601.06,52,Female,Poznan,S168,109,Spring2024,Yes,AutoFin,12.15
+T0272,2024-02-10,Ford,Kuga,2024,SUV,Diesel,Silver,248025,23,57045.75,305070.75,3,295918.63,28,Male,Krakow,S175,32,AutumnSales,Yes,AutoFin,7.29
+T0273,2024-04-25,Ford,Focus,2020,Sedan,Petrol,Red,152830,23,35150.9,187980.9,7,174822.24,68,Male,Krakow,S183,11,None,Yes,None,16.78
+T0274,2024-01-17,Toyota,Corolla,2021,SUV,Electric,Blue,240659,23,55351.57,296010.57,0,296010.57,52,Female,Wroclaw,S178,26,SummerDeals,No,None,18.36
+T0275,2024-07-07,Hyundai,Santa Fe,2024,Sedan,Hybrid,Blue,210696,23,48460.08,259156.08000000002,3,251381.4,62,Male,Warsaw,S156,16,None,Yes,CreditPlus,14.54
+T0276,2024-06-20,Toyota,RAV4,2022,Coupe,Electric,Gray,78039,23,17948.97,95987.97,0,95987.97,56,Female,Wroclaw,S106,22,Spring2024,No,None,15.21
+T0277,2024-08-31,Ford,Focus,2022,Hatchback,Hybrid,Red,93014,23,21393.22,114407.22,5,108686.86,34,Male,Poznan,S174,67,AutumnSales,No,None,19.27
+T0278,2024-04-08,Hyundai,i30,2022,SUV,Hybrid,Silver,214591,23,49355.93,263946.93,3,256028.52,42,Male,Gdansk,S125,35,AutumnSales,No,None,9.27
+T0279,2024-03-08,Ford,Kuga,2021,Hatchback,Electric,Silver,214807,23,49405.61,264212.61,5,251001.98,38,Male,Poznan,S199,97,Spring2024,Yes,None,9.49
+T0280,2024-12-10,Ford,Mondeo,2023,SUV,Diesel,White,119864,23,27568.72,147432.72,5,140061.08,27,Male,Gdansk,S134,10,AutumnSales,No,None,11.3
+T0281,2024-07-23,Ford,Kuga,2021,Coupe,Diesel,White,133142,23,30622.66,163764.66,7,152301.13,43,Female,Krakow,S133,113,AutumnSales,Yes,LeasingPro,15.23
+T0282,2024-06-10,Toyota,Corolla,2023,SUV,Petrol,Red,233793,23,53772.39,287565.39,0,287565.39,26,Male,Gdansk,S161,68,AutumnSales,Yes,LeasingPro,9.41
+T0283,2024-07-21,Hyundai,i30,2021,Hatchback,Diesel,Blue,209014,23,48073.22,257087.22,3,249374.6,39,Female,Poznan,S151,113,None,No,None,18.54
+T0284,2024-12-08,Toyota,Corolla,2020,Sedan,Diesel,Gray,215968,23,49672.64,265640.64,3,257671.42,48,Male,Wroclaw,S166,28,SummerDeals,Yes,None,15.04
+T0285,2024-05-15,Ford,Kuga,2022,SUV,Diesel,Red,232632,23,53505.36,286137.36,3,277553.24,46,Male,Wroclaw,S115,22,None,Yes,CreditPlus,10.67
+T0286,2024-08-18,Volkswagen,Golf,2024,Coupe,Electric,Silver,233272,23,53652.56,286924.56,7,266839.84,35,Male,Krakow,S159,36,None,Yes,None,9.67
+T0287,2024-12-27,Toyota,RAV4,2024,Hatchback,Electric,Black,210689,23,48458.47,259147.47,7,241007.15,36,Male,Poznan,S145,41,None,No,None,14.74
+T0288,2024-01-28,BMW,X5,2024,Sedan,Diesel,Red,168030,23,38646.9,206676.9,10,186009.21,46,Female,Poznan,S199,56,WinterClearance,Yes,BankPolska,19.03
+T0289,2024-03-09,Toyota,RAV4,2024,Sedan,Hybrid,Gray,195387,23,44939.01,240326.01,3,233116.23,41,Female,Gdansk,S100,56,None,No,None,10.65
+T0290,2024-02-01,Hyundai,Santa Fe,2023,Sedan,Diesel,Blue,79904,23,18377.92,98281.92,0,98281.92,30,Female,Poznan,S143,94,WinterClearance,Yes,None,11.68
+T0291,2024-06-18,Volkswagen,Passat,2020,Hatchback,Diesel,Gray,125014,23,28753.22,153767.22,7,143003.51,37,Male,Wroclaw,S102,118,WinterClearance,Yes,AutoFin,16.72
+T0292,2024-02-21,BMW,5 Series,2024,Hatchback,Electric,Silver,97581,23,22443.63,120024.63,7,111622.91,31,Male,Poznan,S189,97,Spring2024,No,None,6.12
+T0293,2024-02-01,BMW,X5,2024,Hatchback,Hybrid,Black,175854,23,40446.42,216300.41999999998,5,205485.4,60,Male,Krakow,S191,83,Spring2024,Yes,LeasingPro,17.29
+T0294,2024-07-22,Toyota,Corolla,2021,Hatchback,Diesel,Black,147479,23,33920.17,181399.16999999998,5,172329.21,32,Male,Wroclaw,S194,76,SummerDeals,Yes,AutoFin,13.82
+T0295,2024-09-03,Toyota,Camry,2020,SUV,Hybrid,Red,105235,23,24204.05,129439.05,5,122967.1,64,Male,Krakow,S187,2,Spring2024,No,None,14.08
+T0296,2024-03-17,Ford,Kuga,2022,Coupe,Petrol,Blue,68079,23,15658.17,83737.17,3,81225.05,68,Male,Wroclaw,S178,107,None,No,None,11.97
+T0297,2024-01-11,BMW,X5,2021,Hatchback,Diesel,Silver,181234,23,41683.82,222917.82,0,222917.82,41,Female,Warsaw,S131,61,Spring2024,Yes,LeasingPro,11.24
+T0298,2024-01-21,Ford,Mondeo,2023,SUV,Diesel,Black,65755,23,15123.65,80878.65,0,80878.65,52,Female,Wroclaw,S153,120,Spring2024,Yes,BankPolska,15.34
+T0299,2024-01-01,Hyundai,Santa Fe,2024,Coupe,Diesel,Black,233519,23,53709.37,287228.37,7,267122.38,29,Male,Warsaw,S194,93,AutumnSales,No,None,6.12
+T0300,2024-11-11,BMW,3 Series,2021,SUV,Hybrid,Red,159414,23,36665.22,196079.22,7,182353.67,44,Female,Krakow,S119,112,AutumnSales,Yes,BankPolska,12.36
+T0301,2024-10-01,Hyundai,Tucson,2021,Sedan,Hybrid,Black,143983,23,33116.09,177099.09,7,164702.15,32,Female,Warsaw,S121,56,None,No,None,13.38
+T0302,2024-04-13,Volkswagen,Golf,2023,SUV,Diesel,Silver,188668,23,43393.64,232061.64,0,232061.64,54,Female,Gdansk,S194,72,AutumnSales,Yes,None,15.59
+T0303,2024-05-27,Volkswagen,Passat,2020,Coupe,Electric,Blue,242283,23,55725.09,298008.08999999997,5,283107.69,25,Female,Wroclaw,S159,66,SummerDeals,No,None,7.23
+T0304,2024-07-11,Ford,Kuga,2022,Hatchback,Hybrid,Black,237021,23,54514.83,291535.83,5,276959.04,57,Male,Krakow,S137,26,AutumnSales,No,None,7.48
+T0305,2024-06-28,Hyundai,i30,2021,Sedan,Diesel,Black,242722,23,55826.06,298548.06,0,298548.06,59,Female,Warsaw,S135,28,None,Yes,AutoFin,18.59
+T0306,2024-01-26,Hyundai,i30,2020,SUV,Petrol,White,75848,23,17445.04,93293.04000000001,7,86762.53,44,Male,Gdansk,S167,53,Spring2024,No,None,8.47
+T0307,2024-02-05,Toyota,Camry,2020,Coupe,Diesel,Blue,77245,23,17766.35,95011.35,3,92161.01,60,Male,Poznan,S182,83,Spring2024,Yes,LeasingPro,7.41
+T0308,2024-06-29,Hyundai,Santa Fe,2024,SUV,Electric,Gray,80714,23,18564.22,99278.22,5,94314.31,44,Male,Poznan,S176,99,WinterClearance,Yes,AutoFin,7.22
+T0309,2024-07-23,Volkswagen,Tiguan,2022,Coupe,Diesel,Blue,173617,23,39931.91,213548.91,3,207142.44,61,Male,Gdansk,S109,97,SummerDeals,No,None,14.04
+T0310,2024-07-21,Toyota,Corolla,2024,Sedan,Hybrid,Gray,218154,23,50175.42,268329.42,5,254912.95,63,Male,Warsaw,S111,110,AutumnSales,No,None,10.75
+T0311,2024-03-13,Hyundai,i30,2021,Sedan,Petrol,Red,160222,23,36851.06,197073.06,5,187219.41,64,Male,Krakow,S106,117,AutumnSales,Yes,AutoFin,6.71
+T0312,2024-01-23,Hyundai,Tucson,2022,Sedan,Petrol,Red,249012,23,57272.76,306284.76,10,275656.28,46,Female,Warsaw,S110,32,SummerDeals,No,None,7.55
+T0313,2024-07-02,Volkswagen,Golf,2022,Hatchback,Diesel,White,141237,23,32484.51,173721.51,0,173721.51,45,Female,Krakow,S144,4,AutumnSales,No,None,18.68
+T0314,2024-02-21,Volkswagen,Golf,2024,Hatchback,Petrol,Silver,91492,23,21043.16,112535.16,0,112535.16,49,Female,Poznan,S169,84,None,Yes,BankPolska,11.83
+T0315,2024-04-15,Toyota,Corolla,2024,Hatchback,Petrol,Black,145065,23,33364.95,178429.95,0,178429.95,53,Male,Poznan,S175,93,None,No,None,5.46
+T0316,2024-01-04,Ford,Focus,2024,Coupe,Hybrid,White,71967,23,16552.41,88519.41,7,82323.05,29,Male,Krakow,S119,104,None,Yes,BankPolska,19.03
+T0317,2024-10-13,BMW,X5,2021,Hatchback,Electric,Silver,163194,23,37534.62,200728.62,5,190692.19,59,Female,Warsaw,S184,21,Spring2024,Yes,CreditPlus,5.42
+T0318,2024-05-11,Hyundai,i30,2022,Hatchback,Hybrid,Red,141827,23,32620.21,174447.21,0,174447.21,35,Female,Krakow,S163,26,SummerDeals,Yes,CreditPlus,11.93
+T0319,2024-03-15,Ford,Kuga,2023,SUV,Diesel,Blue,215740,23,49620.2,265360.2,0,265360.2,67,Male,Gdansk,S175,76,WinterClearance,Yes,CreditPlus,19.11
+T0320,2024-12-03,Hyundai,Tucson,2020,Coupe,Electric,Silver,139626,23,32113.98,171739.98,5,163152.98,68,Female,Wroclaw,S112,95,None,No,None,13.05
+T0321,2024-12-20,BMW,3 Series,2023,SUV,Electric,Silver,135025,23,31055.75,166080.75,7,154455.1,29,Male,Krakow,S184,100,WinterClearance,No,None,10.04
+T0322,2024-05-27,Toyota,Camry,2020,Sedan,Electric,White,237855,23,54706.65,292561.65,3,283784.8,33,Male,Gdansk,S112,97,WinterClearance,Yes,BankPolska,18.22
+T0323,2024-01-01,BMW,5 Series,2023,Hatchback,Diesel,Black,135651,23,31199.73,166850.73,0,166850.73,26,Male,Warsaw,S189,7,None,No,None,15.63
+T0324,2024-01-30,Volkswagen,Tiguan,2024,Sedan,Electric,Silver,248879,23,57242.17,306121.17,5,290815.11,34,Male,Krakow,S175,1,SummerDeals,No,None,7.98
+T0325,2024-03-01,Ford,Mondeo,2022,Coupe,Hybrid,Black,217188,23,49953.24,267141.24,7,248441.35,46,Male,Poznan,S105,54,SummerDeals,Yes,BankPolska,16.5
+T0326,2024-12-13,BMW,5 Series,2021,SUV,Hybrid,Red,94372,23,21705.56,116077.56,0,116077.56,69,Female,Warsaw,S140,27,Spring2024,No,None,7.01
+T0327,2024-05-02,Ford,Mondeo,2020,SUV,Petrol,Silver,244922,23,56332.06,301254.06,7,280166.28,60,Male,Krakow,S179,104,WinterClearance,No,None,6.84
+T0328,2024-07-26,BMW,3 Series,2020,Hatchback,Hybrid,Blue,174182,23,40061.86,214243.86,3,207816.54,43,Female,Warsaw,S130,92,AutumnSales,Yes,LeasingPro,16.43
+T0329,2024-06-07,Volkswagen,Passat,2020,Sedan,Petrol,Silver,164694,23,37879.62,202573.62,7,188393.47,28,Male,Poznan,S191,101,WinterClearance,Yes,CreditPlus,14.11
+T0330,2024-10-13,Volkswagen,Golf,2023,Coupe,Diesel,White,67187,23,15453.01,82640.01,0,82640.01,37,Female,Wroclaw,S177,108,WinterClearance,No,None,18.03
+T0331,2024-01-06,Toyota,RAV4,2023,Sedan,Hybrid,Blue,117993,23,27138.39,145131.39,0,145131.39,70,Female,Warsaw,S134,115,WinterClearance,No,None,16.02
+T0332,2024-04-28,BMW,3 Series,2023,Hatchback,Diesel,Gray,224699,23,51680.77,276379.77,5,262560.78,34,Male,Krakow,S171,120,Spring2024,No,None,14.73
+T0333,2024-11-15,BMW,X5,2024,SUV,Diesel,Silver,140706,23,32362.38,173068.38,7,160953.59,56,Male,Gdansk,S104,29,AutumnSales,Yes,AutoFin,16.91
+T0334,2024-06-18,BMW,3 Series,2024,Sedan,Electric,Black,230798,23,53083.54,283881.54,0,283881.54,35,Female,Krakow,S111,111,Spring2024,Yes,LeasingPro,11.23
+T0335,2024-02-15,Ford,Mondeo,2023,Sedan,Hybrid,Black,222568,23,51190.64,273758.64,7,254595.54,66,Female,Poznan,S146,96,AutumnSales,Yes,BankPolska,9.63
+T0336,2024-05-29,Hyundai,Tucson,2022,Coupe,Hybrid,Gray,73955,23,17009.65,90964.65,0,90964.65,46,Female,Warsaw,S167,75,None,Yes,LeasingPro,10.11
+T0337,2024-09-13,Toyota,Corolla,2022,Coupe,Hybrid,Red,180224,23,41451.52,221675.52,7,206158.23,46,Male,Krakow,S179,93,Spring2024,Yes,CreditPlus,7.08
+T0338,2024-09-19,Toyota,Corolla,2020,Coupe,Diesel,Red,176166,23,40518.18,216684.18,3,210183.65,41,Female,Krakow,S131,55,AutumnSales,Yes,BankPolska,14.7
+T0339,2024-03-03,Ford,Kuga,2024,Sedan,Hybrid,White,196588,23,45215.24,241803.24,7,224877.01,57,Male,Wroclaw,S160,41,Spring2024,No,None,18.41
+T0340,2024-09-04,Hyundai,i30,2020,SUV,Hybrid,White,239084,23,54989.32,294073.32,7,273488.19,37,Female,Gdansk,S171,45,None,No,None,13.29
+T0341,2024-03-05,Volkswagen,Golf,2021,Sedan,Electric,Gray,84789,23,19501.47,104290.47,5,99075.95,65,Female,Warsaw,S102,4,Spring2024,No,None,8.2
+T0342,2024-10-30,Ford,Mondeo,2020,Hatchback,Electric,Gray,75513,23,17367.99,92880.99,7,86379.32,69,Male,Gdansk,S141,40,None,No,None,17.1
+T0343,2024-01-11,Volkswagen,Tiguan,2023,SUV,Electric,Red,156429,23,35978.67,192407.66999999998,7,178939.13,52,Male,Gdansk,S177,29,None,Yes,LeasingPro,5.99
+T0344,2024-07-24,BMW,5 Series,2022,Hatchback,Electric,Red,148698,23,34200.54,182898.54,10,164608.69,46,Male,Poznan,S166,115,WinterClearance,Yes,CreditPlus,16.2
+T0345,2024-05-31,Ford,Mondeo,2023,Sedan,Petrol,Silver,101930,23,23443.9,125373.9,10,112836.51,48,Female,Poznan,S197,48,WinterClearance,Yes,LeasingPro,10.54
+T0346,2024-08-26,Ford,Mondeo,2020,SUV,Petrol,Gray,133347,23,30669.81,164016.81,3,159096.31,26,Female,Gdansk,S170,101,Spring2024,No,None,19.93
+T0347,2024-11-13,Hyundai,Tucson,2020,SUV,Electric,Silver,66123,23,15208.29,81331.29000000001,5,77264.73,35,Female,Wroclaw,S186,108,SummerDeals,Yes,None,15.8
+T0348,2024-04-28,Ford,Mondeo,2022,Hatchback,Electric,Red,110826,23,25489.98,136315.98,0,136315.98,30,Female,Wroclaw,S112,48,Spring2024,No,None,8.39
+T0349,2024-03-09,Ford,Focus,2020,Coupe,Hybrid,Blue,113337,23,26067.51,139404.51,10,125464.06,29,Male,Wroclaw,S177,31,SummerDeals,No,None,9.67
+T0350,2024-08-19,Toyota,Corolla,2022,SUV,Hybrid,Silver,81879,23,18832.17,100711.17,0,100711.17,43,Female,Krakow,S135,112,AutumnSales,Yes,BankPolska,10.52
+T0351,2024-02-14,Volkswagen,Tiguan,2021,Sedan,Diesel,Silver,70945,23,16317.35,87262.35,7,81153.99,29,Female,Krakow,S112,37,AutumnSales,No,None,14.7
+T0352,2024-05-02,BMW,X5,2023,Sedan,Hybrid,White,145514,23,33468.22,178982.22,5,170033.11,43,Male,Poznan,S162,77,Spring2024,Yes,LeasingPro,5.93
+T0353,2024-11-05,Volkswagen,Passat,2020,Coupe,Hybrid,Gray,128041,23,29449.43,157490.43,3,152765.72,35,Male,Warsaw,S195,98,Spring2024,Yes,CreditPlus,9.62
+T0354,2024-09-15,Hyundai,Santa Fe,2024,Hatchback,Hybrid,Red,71024,23,16335.52,87359.52,7,81244.35,53,Male,Krakow,S179,54,Spring2024,No,None,8.58
+T0355,2024-06-20,Ford,Mondeo,2023,Coupe,Hybrid,Blue,165160,23,37986.8,203146.8,0,203146.8,47,Male,Poznan,S137,81,Spring2024,Yes,CreditPlus,14.6
+T0356,2024-07-23,Ford,Kuga,2021,Sedan,Diesel,Red,92692,23,21319.16,114011.16,0,114011.16,25,Female,Gdansk,S185,91,WinterClearance,No,None,17.58
+T0357,2024-08-27,Hyundai,Santa Fe,2023,Sedan,Diesel,Black,189497,23,43584.31,233081.31,5,221427.24,42,Female,Warsaw,S100,12,SummerDeals,Yes,LeasingPro,18.98
+T0358,2024-08-08,Volkswagen,Passat,2021,Coupe,Electric,Blue,132914,23,30570.22,163484.22,3,158579.69,63,Male,Krakow,S150,108,None,No,None,11.25
+T0359,2024-11-13,Toyota,Corolla,2023,Hatchback,Hybrid,White,190186,23,43742.78,233928.78,7,217553.77,47,Male,Krakow,S130,85,AutumnSales,No,None,11.31
+T0360,2024-03-26,Hyundai,Tucson,2020,Hatchback,Hybrid,Blue,212344,23,48839.12,261183.12,10,235064.81,65,Female,Poznan,S147,14,WinterClearance,No,None,15.27
+T0361,2024-09-20,Toyota,Camry,2024,SUV,Diesel,Silver,214737,23,49389.51,264126.51,3,256202.71,57,Female,Poznan,S141,88,AutumnSales,No,None,15.12
+T0362,2024-12-28,Ford,Mondeo,2022,Hatchback,Electric,White,78404,23,18032.92,96436.92,3,93543.81,64,Female,Warsaw,S153,59,WinterClearance,Yes,CreditPlus,11.64
+T0363,2024-06-04,Hyundai,Santa Fe,2024,Sedan,Hybrid,Black,76629,23,17624.67,94253.67,0,94253.67,60,Male,Gdansk,S153,3,WinterClearance,No,None,10.71
+T0364,2024-04-15,BMW,5 Series,2020,Sedan,Petrol,Gray,195450,23,44953.5,240403.5,0,240403.5,54,Male,Warsaw,S192,62,SummerDeals,Yes,AutoFin,11.59
+T0365,2024-12-21,Toyota,RAV4,2024,SUV,Hybrid,White,204419,23,47016.37,251435.37,3,243892.31,63,Male,Poznan,S182,96,WinterClearance,Yes,CreditPlus,8.41
+T0366,2024-09-30,Volkswagen,Tiguan,2020,Sedan,Electric,Gray,172755,23,39733.65,212488.65,3,206113.99,25,Female,Gdansk,S170,38,AutumnSales,No,None,8.44
+T0367,2024-03-18,Ford,Kuga,2020,SUV,Diesel,Silver,155981,23,35875.63,191856.63,0,191856.63,53,Male,Gdansk,S106,82,WinterClearance,Yes,LeasingPro,19.26
+T0368,2024-06-12,Volkswagen,Tiguan,2021,Hatchback,Petrol,Black,79512,23,18287.76,97799.76,7,90953.78,50,Female,Krakow,S188,87,None,No,None,12.18
+T0369,2024-12-11,Ford,Kuga,2021,Sedan,Hybrid,White,153749,23,35362.27,189111.27,7,175873.48,49,Male,Wroclaw,S165,87,WinterClearance,No,None,14.65
+T0370,2024-10-21,BMW,3 Series,2024,Hatchback,Hybrid,Silver,233432,23,53689.36,287121.36,3,278507.72,37,Male,Gdansk,S131,102,WinterClearance,Yes,LeasingPro,9.3
+T0371,2024-09-19,Hyundai,Santa Fe,2023,SUV,Petrol,Blue,187650,23,43159.5,230809.5,5,219269.02,55,Female,Gdansk,S139,67,SummerDeals,Yes,LeasingPro,15.69
+T0372,2024-05-27,Toyota,RAV4,2023,SUV,Electric,Blue,96983,23,22306.09,119289.09,5,113324.64,48,Female,Wroclaw,S110,5,SummerDeals,Yes,CreditPlus,19.86
+T0373,2024-09-02,Hyundai,i30,2022,Coupe,Electric,Black,245862,23,56548.26,302410.26,0,302410.26,67,Female,Poznan,S169,36,SummerDeals,No,None,8.46
+T0374,2024-06-10,Hyundai,Tucson,2020,Hatchback,Hybrid,Blue,80272,23,18462.56,98734.56,5,93797.83,46,Male,Gdansk,S160,96,Spring2024,No,None,8.03
+T0375,2024-09-21,Ford,Mondeo,2020,Sedan,Diesel,Black,209804,23,48254.92,258058.91999999998,3,250317.15,28,Female,Poznan,S117,116,WinterClearance,No,None,9.91
+T0376,2024-10-31,Ford,Focus,2022,Coupe,Electric,White,89252,23,20527.96,109779.95999999999,0,109779.96,50,Male,Warsaw,S163,119,SummerDeals,No,None,17.96
+T0377,2024-03-14,Volkswagen,Passat,2023,SUV,Petrol,Silver,79733,23,18338.59,98071.59,7,91206.58,61,Male,Poznan,S193,58,AutumnSales,No,None,7.97
+T0378,2024-05-22,BMW,5 Series,2021,Sedan,Hybrid,Red,62447,23,14362.81,76809.81,10,69128.83,33,Female,Poznan,S103,1,Spring2024,No,None,12.55
+T0379,2024-06-24,Ford,Kuga,2022,Coupe,Diesel,Blue,194869,23,44819.87,239688.87,7,222910.65,58,Female,Gdansk,S101,36,AutumnSales,No,None,12.25
+T0380,2024-05-15,BMW,5 Series,2023,Sedan,Petrol,Red,70130,23,16129.9,86259.9,0,86259.9,39,Female,Warsaw,S163,45,SummerDeals,Yes,AutoFin,9.18
+T0381,2024-07-11,Volkswagen,Passat,2023,Sedan,Petrol,Black,194794,23,44802.62,239596.62,7,222824.86,70,Male,Krakow,S129,30,SummerDeals,Yes,CreditPlus,6.81
+T0382,2024-03-17,BMW,X5,2024,Sedan,Diesel,Black,113163,23,26027.49,139190.49,7,129447.16,57,Female,Wroclaw,S132,83,SummerDeals,Yes,LeasingPro,8.17
+T0383,2024-09-24,BMW,X5,2021,Coupe,Diesel,Blue,174067,23,40035.41,214102.41,7,199115.24,31,Female,Wroclaw,S131,60,SummerDeals,No,None,17.38
+T0384,2024-02-22,Hyundai,i30,2022,SUV,Petrol,Black,229068,23,52685.64,281753.64,3,273301.03,67,Female,Wroclaw,S141,36,Spring2024,No,None,14.26
+T0385,2024-07-02,BMW,3 Series,2021,Sedan,Petrol,Black,130706,23,30062.38,160768.38,0,160768.38,58,Male,Krakow,S184,55,WinterClearance,No,None,16.9
+T0386,2024-09-02,Hyundai,i30,2024,Coupe,Hybrid,Black,154424,23,35517.52,189941.52,10,170947.37,57,Male,Wroclaw,S196,111,Spring2024,No,None,14.86
+T0387,2024-08-06,Hyundai,i30,2024,Hatchback,Petrol,Blue,151099,23,34752.77,185851.77,10,167266.59,48,Female,Gdansk,S141,90,None,Yes,None,14.35
+T0388,2024-04-17,Hyundai,i30,2021,Coupe,Hybrid,Silver,164267,23,37781.41,202048.41,10,181843.57,50,Female,Wroclaw,S197,115,None,No,None,17.96
+T0389,2024-04-29,Toyota,Camry,2023,Coupe,Hybrid,Blue,182505,23,41976.15,224481.15,10,202033.04,35,Female,Wroclaw,S168,111,None,Yes,None,14.19
+T0390,2024-01-21,BMW,5 Series,2024,Coupe,Hybrid,Red,122826,23,28249.98,151075.98,7,140500.66,34,Male,Gdansk,S128,120,None,No,None,11.29
+T0391,2024-12-07,BMW,3 Series,2020,Hatchback,Electric,White,112731,23,25928.13,138659.13,5,131726.17,68,Male,Wroclaw,S142,45,WinterClearance,Yes,BankPolska,6.36
+T0392,2024-05-28,BMW,X5,2024,Sedan,Diesel,Black,64891,23,14924.93,79815.93,0,79815.93,33,Male,Wroclaw,S184,46,AutumnSales,Yes,LeasingPro,18.38
+T0393,2024-07-05,Hyundai,Tucson,2022,SUV,Petrol,Black,106393,23,24470.39,130863.39,3,126937.49,28,Male,Krakow,S126,18,SummerDeals,Yes,BankPolska,15.8
+T0394,2024-05-26,Hyundai,Santa Fe,2022,SUV,Petrol,Gray,187203,23,43056.69,230259.69,3,223351.9,51,Female,Gdansk,S136,10,WinterClearance,Yes,CreditPlus,11.98
+T0395,2024-06-17,Hyundai,i30,2023,Coupe,Petrol,Silver,99822,23,22959.06,122781.06,10,110502.95,64,Female,Wroclaw,S196,93,SummerDeals,No,None,19.58
+T0396,2024-08-13,Volkswagen,Tiguan,2020,Hatchback,Diesel,Gray,136575,23,31412.25,167987.25,7,156228.14,64,Female,Wroclaw,S164,34,SummerDeals,No,None,10.8
+T0397,2024-05-13,Toyota,RAV4,2024,Hatchback,Electric,Blue,205990,23,47377.7,253367.7,0,253367.7,39,Female,Wroclaw,S128,24,Spring2024,No,None,5.41
+T0398,2024-10-23,Toyota,Camry,2023,Coupe,Petrol,Blue,224473,23,51628.79,276101.79,3,267818.74,64,Male,Krakow,S190,36,WinterClearance,Yes,AutoFin,18.65
+T0399,2024-06-30,Ford,Kuga,2023,Sedan,Hybrid,Gray,184425,23,42417.75,226842.75,3,220037.47,63,Male,Krakow,S124,66,None,No,None,15.19
+T0400,2024-07-20,Toyota,Camry,2020,Coupe,Hybrid,Black,225479,23,51860.17,277339.17,5,263472.21,63,Male,Warsaw,S180,85,WinterClearance,No,None,15.76
+T0401,2024-08-11,Volkswagen,Tiguan,2021,SUV,Hybrid,Silver,110902,23,25507.46,136409.46,5,129588.99,39,Male,Poznan,S128,76,WinterClearance,Yes,None,8.55
+T0402,2024-03-27,Ford,Kuga,2020,Hatchback,Diesel,Blue,166831,23,38371.13,205202.13,5,194942.02,38,Male,Gdansk,S195,73,None,No,None,19.32
+T0403,2024-09-04,Ford,Mondeo,2021,SUV,Petrol,Gray,97390,23,22399.7,119789.7,10,107810.73,26,Male,Poznan,S149,87,Spring2024,No,None,9.21
+T0404,2024-10-31,Hyundai,Santa Fe,2022,Coupe,Hybrid,Red,155661,23,35802.03,191463.03,7,178060.62,52,Female,Wroclaw,S143,88,WinterClearance,Yes,None,12.73
+T0405,2024-10-14,Hyundai,i30,2021,Coupe,Electric,White,248380,23,57127.4,305507.4,0,305507.4,35,Female,Wroclaw,S117,94,WinterClearance,Yes,LeasingPro,12.98
+T0406,2024-08-26,BMW,X5,2023,Sedan,Hybrid,Black,186616,23,42921.68,229537.68,7,213470.04,55,Male,Warsaw,S176,8,SummerDeals,No,None,11.19
+T0407,2024-01-18,Ford,Focus,2022,Sedan,Diesel,Silver,226804,23,52164.92,278968.92,10,251072.03,67,Female,Gdansk,S166,32,Spring2024,Yes,LeasingPro,17.99
+T0408,2024-10-26,Toyota,Corolla,2023,Coupe,Electric,Silver,106455,23,24484.65,130939.65,10,117845.68,62,Male,Gdansk,S171,76,Spring2024,Yes,LeasingPro,8.12
+T0409,2024-06-26,Volkswagen,Tiguan,2021,Sedan,Diesel,Red,70167,23,16138.41,86305.41,10,77674.87,33,Male,Wroclaw,S152,76,SummerDeals,Yes,LeasingPro,9.16
+T0410,2024-11-09,Ford,Focus,2022,SUV,Hybrid,Silver,112456,23,25864.88,138320.88,10,124488.79,58,Male,Krakow,S160,29,AutumnSales,No,None,5.77
+T0411,2024-06-08,BMW,5 Series,2021,Hatchback,Electric,Black,103299,23,23758.77,127057.77,10,114351.99,51,Female,Poznan,S179,1,None,Yes,LeasingPro,10.48
+T0412,2024-03-01,Hyundai,i30,2024,Coupe,Diesel,Gray,215686,23,49607.78,265293.78,10,238764.4,55,Female,Warsaw,S142,33,WinterClearance,Yes,None,8.22
+T0413,2024-12-15,Hyundai,Tucson,2022,Coupe,Electric,Gray,145884,23,33553.32,179437.32,7,166876.71,43,Female,Gdansk,S124,28,WinterClearance,Yes,LeasingPro,5.98
+T0414,2024-03-26,Volkswagen,Passat,2020,Sedan,Hybrid,Silver,239887,23,55174.01,295061.01,5,280307.96,26,Male,Gdansk,S128,41,AutumnSales,No,None,19.16
+T0415,2024-10-11,Hyundai,Tucson,2022,Coupe,Diesel,Silver,188072,23,43256.56,231328.56,7,215135.56,67,Female,Wroclaw,S195,95,AutumnSales,No,None,12.91
+T0416,2024-12-30,Toyota,Camry,2020,Sedan,Petrol,White,194256,23,44678.88,238934.88,0,238934.88,28,Female,Gdansk,S127,61,None,No,None,8.18
+T0417,2024-11-15,Volkswagen,Tiguan,2023,Coupe,Diesel,Red,192445,23,44262.35,236707.35,7,220137.84,48,Male,Gdansk,S190,100,SummerDeals,Yes,AutoFin,9.17
+T0418,2024-02-09,Toyota,Corolla,2021,Sedan,Hybrid,Blue,126927,23,29193.21,156120.21,0,156120.21,53,Female,Poznan,S111,6,SummerDeals,No,None,15.47
+T0419,2024-05-05,Hyundai,Santa Fe,2022,Sedan,Diesel,Gray,213896,23,49196.08,263092.08,3,255199.32,69,Male,Poznan,S197,105,None,Yes,LeasingPro,12.43
+T0420,2024-02-05,Volkswagen,Golf,2023,SUV,Petrol,Black,149184,23,34312.32,183496.32,5,174321.5,35,Female,Gdansk,S186,71,None,No,None,11.73
+T0421,2024-12-26,Ford,Mondeo,2021,Sedan,Petrol,Black,60784,23,13980.32,74764.32,5,71026.1,27,Female,Poznan,S181,93,WinterClearance,Yes,CreditPlus,14.34
+T0422,2024-03-05,Toyota,Camry,2022,Coupe,Diesel,Silver,184439,23,42420.97,226859.97,7,210979.77,31,Female,Krakow,S177,17,SummerDeals,Yes,LeasingPro,17.24
+T0423,2024-04-15,Hyundai,Santa Fe,2024,Coupe,Petrol,Red,216644,23,49828.12,266472.12,0,266472.12,28,Male,Warsaw,S143,83,AutumnSales,Yes,None,7.58
+T0424,2024-05-23,Ford,Kuga,2022,Hatchback,Hybrid,Black,241187,23,55473.01,296660.01,0,296660.01,64,Female,Wroclaw,S174,3,None,Yes,BankPolska,14.75
+T0425,2024-09-12,BMW,5 Series,2021,Coupe,Hybrid,Black,135508,23,31166.84,166674.84,5,158341.1,43,Female,Gdansk,S121,63,AutumnSales,No,None,9.84
+T0426,2024-11-25,Volkswagen,Tiguan,2020,Coupe,Hybrid,Gray,186838,23,42972.74,229810.74,7,213723.99,62,Male,Gdansk,S106,25,Spring2024,No,None,19.23
+T0427,2024-12-22,Toyota,RAV4,2021,Sedan,Petrol,Blue,239506,23,55086.38,294592.38,5,279862.76,70,Male,Krakow,S126,112,Spring2024,Yes,AutoFin,16.15
+T0428,2024-02-11,Toyota,Corolla,2022,Coupe,Diesel,Silver,145675,23,33505.25,179180.25,0,179180.25,45,Male,Wroclaw,S144,35,SummerDeals,Yes,CreditPlus,16.12
+T0429,2024-11-05,BMW,3 Series,2021,Hatchback,Petrol,Black,200853,23,46196.19,247049.19,3,239637.71,32,Female,Poznan,S146,35,Spring2024,No,None,6.24
+T0430,2024-11-23,Volkswagen,Passat,2023,SUV,Hybrid,Red,60023,23,13805.29,73828.29000000001,5,70136.88,50,Female,Poznan,S173,33,AutumnSales,No,None,11.34
+T0431,2024-04-21,Hyundai,Santa Fe,2023,SUV,Petrol,Silver,124324,23,28594.52,152918.52,0,152918.52,39,Female,Warsaw,S130,115,Spring2024,Yes,BankPolska,19.37
+T0432,2024-02-01,BMW,5 Series,2022,Hatchback,Petrol,Gray,194825,23,44809.75,239634.75,7,222860.32,29,Male,Warsaw,S153,90,WinterClearance,No,None,11.02
+T0433,2024-02-03,Toyota,RAV4,2024,Sedan,Electric,Red,127220,23,29260.6,156480.6,3,151786.18,57,Male,Wroclaw,S113,7,WinterClearance,Yes,BankPolska,6.77
+T0434,2024-05-06,Ford,Kuga,2023,Hatchback,Hybrid,Black,177012,23,40712.76,217724.76,0,217724.76,37,Female,Gdansk,S182,104,Spring2024,Yes,BankPolska,17.44
+T0435,2024-04-21,BMW,5 Series,2021,Coupe,Hybrid,Gray,131917,23,30340.91,162257.91,0,162257.91,44,Female,Gdansk,S131,36,AutumnSales,Yes,CreditPlus,6.95
+T0436,2024-03-12,Toyota,Camry,2020,Sedan,Diesel,White,133682,23,30746.86,164428.86,3,159495.99,66,Female,Warsaw,S138,14,WinterClearance,Yes,CreditPlus,13.95
+T0437,2024-06-07,Hyundai,Santa Fe,2020,Sedan,Hybrid,Silver,208683,23,47997.09,256680.09,0,256680.09,53,Female,Poznan,S186,13,SummerDeals,No,None,19.55
+T0438,2024-09-22,Hyundai,Santa Fe,2020,SUV,Electric,White,210207,23,48347.61,258554.61,10,232699.15,39,Male,Wroclaw,S111,113,None,No,None,18.42
+T0439,2024-02-24,BMW,3 Series,2022,Coupe,Petrol,Red,152538,23,35083.74,187621.74,7,174488.22,47,Female,Warsaw,S177,120,SummerDeals,Yes,LeasingPro,7.39
+T0440,2024-09-23,Volkswagen,Golf,2021,Hatchback,Electric,Silver,242413,23,55754.99,298167.99,0,298167.99,59,Male,Poznan,S142,92,WinterClearance,No,None,8.65
+T0441,2024-11-23,BMW,5 Series,2024,Coupe,Electric,Silver,216089,23,49700.47,265789.47,10,239210.52,42,Female,Wroclaw,S115,33,WinterClearance,No,None,6.61
+T0442,2024-12-25,Toyota,Corolla,2022,Sedan,Petrol,Red,144903,23,33327.69,178230.69,7,165754.54,50,Female,Warsaw,S179,61,None,Yes,None,15.2
+T0443,2024-11-28,Volkswagen,Passat,2024,SUV,Electric,Gray,228947,23,52657.81,281604.81,0,281604.81,54,Male,Wroclaw,S119,29,SummerDeals,No,None,12.02
+T0444,2024-02-11,Ford,Kuga,2021,Hatchback,Diesel,Blue,185484,23,42661.32,228145.32,0,228145.32,28,Female,Krakow,S192,57,WinterClearance,Yes,BankPolska,6.39
+T0445,2024-01-18,Volkswagen,Passat,2022,Hatchback,Hybrid,Blue,82479,23,18970.17,101449.17,0,101449.17,56,Female,Gdansk,S147,55,WinterClearance,No,None,14.62
+T0446,2024-12-25,Volkswagen,Passat,2020,Hatchback,Hybrid,Silver,138427,23,31838.21,170265.21,3,165157.25,61,Male,Gdansk,S150,105,None,No,None,14.4
+T0447,2024-11-29,Toyota,Camry,2024,Sedan,Hybrid,Red,137879,23,31712.17,169591.16999999998,7,157719.79,45,Female,Wroclaw,S163,23,AutumnSales,Yes,LeasingPro,13.49
+T0448,2024-03-29,Ford,Mondeo,2023,Hatchback,Electric,Blue,101779,23,23409.17,125188.17,3,121432.52,26,Male,Warsaw,S167,99,Spring2024,Yes,AutoFin,15.06
+T0449,2024-10-17,Hyundai,Tucson,2021,SUV,Electric,Blue,105152,23,24184.96,129336.95999999999,7,120283.37,63,Female,Krakow,S143,35,WinterClearance,Yes,CreditPlus,14.0
+T0450,2024-08-10,BMW,3 Series,2023,Hatchback,Diesel,Red,113320,23,26063.6,139383.6,3,135202.09,29,Male,Wroclaw,S149,20,None,No,None,14.66
+T0451,2024-08-21,Volkswagen,Passat,2020,SUV,Hybrid,Black,121850,23,28025.5,149875.5,10,134887.95,57,Female,Warsaw,S185,13,None,Yes,BankPolska,14.45
+T0452,2024-02-17,Toyota,Camry,2023,SUV,Diesel,Blue,226482,23,52090.86,278572.86,0,278572.86,36,Male,Poznan,S186,39,Spring2024,Yes,BankPolska,5.98
+T0453,2024-11-07,Toyota,Camry,2024,SUV,Petrol,Black,181634,23,41775.82,223409.82,0,223409.82,25,Female,Krakow,S171,74,SummerDeals,Yes,BankPolska,8.23
+T0454,2024-02-21,Hyundai,i30,2020,Hatchback,Diesel,White,120552,23,27726.96,148278.96,5,140865.01,38,Male,Krakow,S180,89,None,No,None,14.22
+T0455,2024-11-04,Volkswagen,Tiguan,2021,SUV,Diesel,Blue,180673,23,41554.79,222227.79,7,206671.84,63,Male,Krakow,S132,51,AutumnSales,No,None,19.84
+T0456,2024-05-05,Hyundai,Tucson,2024,Sedan,Petrol,Black,133108,23,30614.84,163722.84,5,155536.7,52,Female,Warsaw,S165,61,AutumnSales,No,None,12.0
+T0457,2024-07-07,Ford,Focus,2020,Hatchback,Hybrid,Red,234868,23,54019.64,288887.64,5,274443.26,59,Male,Wroclaw,S105,86,SummerDeals,Yes,None,15.39
+T0458,2024-03-01,BMW,3 Series,2022,Hatchback,Hybrid,Blue,104068,23,23935.64,128003.64,10,115203.28,50,Male,Warsaw,S182,75,WinterClearance,No,None,16.81
+T0459,2024-08-12,Toyota,RAV4,2024,Sedan,Hybrid,Red,133811,23,30776.53,164587.53,10,148128.78,45,Female,Poznan,S133,115,None,No,None,5.09
+T0460,2024-03-15,BMW,3 Series,2024,Coupe,Petrol,Gray,208549,23,47966.27,256515.27,0,256515.27,59,Male,Krakow,S171,30,Spring2024,Yes,LeasingPro,15.05
+T0461,2024-10-23,Ford,Mondeo,2022,Sedan,Diesel,Red,173504,23,39905.92,213409.91999999998,10,192068.93,33,Male,Poznan,S100,40,None,Yes,None,5.96
+T0462,2024-08-30,Hyundai,i30,2024,Coupe,Electric,Gray,190915,23,43910.45,234825.45,5,223084.18,45,Male,Warsaw,S138,17,SummerDeals,Yes,AutoFin,11.58
+T0463,2024-04-23,BMW,X5,2023,SUV,Diesel,Blue,142119,23,32687.37,174806.37,7,162569.92,35,Male,Gdansk,S170,46,AutumnSales,Yes,BankPolska,8.71
+T0464,2024-08-18,Hyundai,Tucson,2022,Hatchback,Petrol,White,80729,23,18567.67,99296.67,3,96317.77,53,Male,Gdansk,S192,70,Spring2024,Yes,BankPolska,7.39
+T0465,2024-03-03,Toyota,Corolla,2022,Coupe,Hybrid,Blue,154685,23,35577.55,190262.55,0,190262.55,37,Male,Warsaw,S175,71,WinterClearance,Yes,AutoFin,14.61
+T0466,2024-08-01,BMW,5 Series,2020,Coupe,Diesel,Gray,142303,23,32729.69,175032.69,0,175032.69,39,Female,Krakow,S119,93,AutumnSales,Yes,BankPolska,13.54
+T0467,2024-12-07,Ford,Kuga,2024,SUV,Petrol,Black,166976,23,38404.48,205380.48,5,195111.46,44,Male,Wroclaw,S132,96,Spring2024,No,None,8.0
+T0468,2024-06-06,Ford,Mondeo,2020,SUV,Diesel,Red,182408,23,41953.84,224361.84,3,217630.98,46,Female,Poznan,S119,37,WinterClearance,No,None,7.72
+T0469,2024-11-23,Toyota,RAV4,2024,Hatchback,Petrol,Blue,189158,23,43506.34,232664.34,3,225684.41,52,Male,Wroclaw,S167,91,None,No,None,9.21
+T0470,2024-05-08,Hyundai,Tucson,2020,Hatchback,Electric,Gray,126146,23,29013.58,155159.58000000002,0,155159.58,59,Male,Krakow,S150,106,SummerDeals,No,None,13.93
+T0471,2024-09-22,Toyota,Camry,2023,Coupe,Electric,Silver,97849,23,22505.27,120354.27,3,116743.64,34,Female,Wroclaw,S190,77,WinterClearance,No,None,10.56
+T0472,2024-06-05,Ford,Kuga,2023,Hatchback,Hybrid,Gray,120648,23,27749.04,148397.04,10,133557.34,49,Female,Wroclaw,S175,82,Spring2024,No,None,7.21
+T0473,2024-12-07,Ford,Focus,2021,SUV,Hybrid,Gray,90197,23,20745.31,110942.31,5,105395.19,27,Female,Warsaw,S163,7,WinterClearance,Yes,None,5.95
+T0474,2024-02-11,Ford,Focus,2022,Sedan,Electric,Silver,237535,23,54633.05,292168.05,3,283403.01,34,Female,Warsaw,S166,7,WinterClearance,Yes,AutoFin,10.98
+T0475,2024-08-22,BMW,5 Series,2021,Sedan,Petrol,Red,88490,23,20352.7,108842.7,5,103400.56,27,Male,Wroclaw,S167,117,WinterClearance,No,None,17.98
+T0476,2024-02-14,Hyundai,Tucson,2023,SUV,Diesel,Blue,237834,23,54701.82,292535.82,5,277909.03,58,Male,Warsaw,S166,81,Spring2024,Yes,LeasingPro,16.22
+T0477,2024-02-25,Volkswagen,Tiguan,2020,Sedan,Petrol,Gray,220199,23,50645.77,270844.77,0,270844.77,40,Female,Poznan,S114,58,AutumnSales,No,None,8.8
+T0478,2024-01-13,Toyota,Corolla,2023,Coupe,Hybrid,White,179466,23,41277.18,220743.18,0,220743.18,48,Female,Warsaw,S118,93,WinterClearance,No,None,16.5
+T0479,2024-09-24,Ford,Focus,2022,Coupe,Hybrid,Gray,230612,23,53040.76,283652.76,10,255287.48,57,Female,Wroclaw,S191,70,SummerDeals,Yes,CreditPlus,14.75
+T0480,2024-04-24,Toyota,Corolla,2020,SUV,Diesel,Silver,187052,23,43021.96,230073.96,0,230073.96,48,Female,Wroclaw,S197,30,SummerDeals,Yes,AutoFin,15.54
+T0481,2024-11-02,Volkswagen,Passat,2021,Hatchback,Petrol,Gray,230018,23,52904.14,282922.14,3,274434.48,68,Male,Gdansk,S148,55,AutumnSales,Yes,CreditPlus,16.7
+T0482,2024-02-25,Toyota,Camry,2023,Sedan,Hybrid,Red,100539,23,23123.97,123662.97,0,123662.97,38,Female,Krakow,S167,26,SummerDeals,Yes,BankPolska,6.13
+T0483,2024-05-04,Volkswagen,Passat,2024,SUV,Diesel,Silver,124205,23,28567.15,152772.15,5,145133.54,37,Male,Wroclaw,S157,17,AutumnSales,No,None,19.5
+T0484,2024-08-13,Volkswagen,Tiguan,2023,SUV,Electric,Red,148388,23,34129.24,182517.24,5,173391.38,64,Male,Poznan,S110,26,Spring2024,No,None,11.21
+T0485,2024-02-22,Ford,Focus,2023,Coupe,Diesel,Silver,221944,23,51047.12,272991.12,10,245692.01,62,Female,Wroclaw,S172,20,Spring2024,Yes,None,18.74
+T0486,2024-03-03,Hyundai,i30,2020,Hatchback,Electric,Black,202714,23,46624.22,249338.22,5,236871.31,25,Female,Krakow,S177,4,AutumnSales,No,None,12.37
+T0487,2024-10-09,Toyota,RAV4,2020,SUV,Hybrid,Black,209997,23,48299.31,258296.31,5,245381.49,45,Male,Warsaw,S168,84,WinterClearance,Yes,None,7.67
+T0488,2024-12-25,Ford,Focus,2021,Sedan,Diesel,Red,217927,23,50123.21,268050.21,0,268050.21,65,Female,Gdansk,S187,54,WinterClearance,Yes,CreditPlus,15.55
+T0489,2024-11-11,Hyundai,Tucson,2020,Coupe,Electric,Blue,89264,23,20530.72,109794.72,5,104304.98,55,Female,Warsaw,S123,80,AutumnSales,No,None,5.29
+T0490,2024-01-29,Toyota,Camry,2023,Hatchback,Petrol,Blue,87384,23,20098.32,107482.32,3,104257.85,25,Male,Wroclaw,S149,115,None,No,None,19.55
+T0491,2024-01-10,Volkswagen,Tiguan,2020,Sedan,Diesel,Black,242993,23,55888.39,298881.39,5,283937.32,70,Female,Poznan,S185,92,None,Yes,CreditPlus,8.59
+T0492,2024-03-13,Volkswagen,Passat,2020,Sedan,Diesel,Silver,85719,23,19715.37,105434.37,5,100162.65,25,Male,Krakow,S161,20,SummerDeals,No,None,18.51
+T0493,2024-11-30,Ford,Kuga,2022,Hatchback,Electric,Gray,212963,23,48981.49,261944.49,0,261944.49,43,Male,Warsaw,S195,60,None,No,None,8.11
+T0494,2024-10-08,Toyota,Corolla,2024,Sedan,Hybrid,Red,104205,23,23967.15,128172.15,7,119200.1,52,Female,Poznan,S121,86,AutumnSales,No,None,9.95
+T0495,2024-12-28,BMW,5 Series,2021,Sedan,Diesel,Blue,205269,23,47211.87,252480.87,3,244906.44,56,Male,Wroclaw,S194,74,Spring2024,Yes,LeasingPro,10.3
+T0496,2024-06-08,Volkswagen,Golf,2021,Coupe,Petrol,White,153950,23,35408.5,189358.5,5,179890.57,35,Male,Wroclaw,S141,80,WinterClearance,No,None,8.22
+T0497,2024-03-28,Volkswagen,Tiguan,2021,Coupe,Diesel,Silver,139424,23,32067.52,171491.52,0,171491.52,36,Female,Gdansk,S150,109,AutumnSales,No,None,11.85
+T0498,2024-07-11,BMW,3 Series,2020,Sedan,Electric,Silver,194455,23,44724.65,239179.65,5,227220.67,64,Female,Gdansk,S132,117,AutumnSales,No,None,13.27
+T0499,2024-06-13,BMW,3 Series,2020,Hatchback,Petrol,Blue,69256,23,15928.88,85184.88,10,76666.39,38,Female,Gdansk,S182,60,AutumnSales,Yes,None,5.79
+T0500,2024-08-19,Ford,Kuga,2020,Sedan,Hybrid,Red,68765,23,15815.95,84580.95,0,84580.95,38,Male,Krakow,S152,86,WinterClearance,Yes,LeasingPro,13.57
+T0501,2024-05-01,Hyundai,i30,2022,Coupe,Hybrid,White,184382,23,42407.86,226789.86,5,215450.37,25,Female,Wroclaw,S132,95,SummerDeals,No,None,10.26
+T0502,2024-05-12,Ford,Kuga,2024,Sedan,Hybrid,Silver,202374,23,46546.02,248920.02,0,248920.02,50,Female,Wroclaw,S157,116,SummerDeals,No,None,8.5
+T0503,2024-07-12,Volkswagen,Golf,2022,Sedan,Petrol,Red,188588,23,43375.24,231963.24,3,225004.34,59,Female,Warsaw,S156,19,Spring2024,Yes,AutoFin,14.64
+T0504,2024-02-13,Toyota,RAV4,2020,Hatchback,Electric,Black,102992,23,23688.16,126680.16,0,126680.16,28,Female,Krakow,S191,39,AutumnSales,Yes,LeasingPro,13.75
+T0505,2024-03-10,Ford,Mondeo,2023,Sedan,Electric,Gray,162543,23,37384.89,199927.89,0,199927.89,45,Female,Krakow,S138,67,WinterClearance,Yes,AutoFin,11.51
+T0506,2024-02-21,Volkswagen,Passat,2021,Sedan,Petrol,Red,177652,23,40859.96,218511.96,10,196660.76,35,Female,Gdansk,S124,11,SummerDeals,No,None,16.95
+T0507,2024-06-27,Volkswagen,Golf,2023,Sedan,Hybrid,Silver,94464,23,21726.72,116190.72,5,110381.18,29,Male,Poznan,S121,86,WinterClearance,No,None,11.12
+T0508,2024-05-21,Volkswagen,Tiguan,2022,SUV,Hybrid,White,69370,23,15955.1,85325.1,3,82765.35,44,Male,Poznan,S154,80,Spring2024,No,None,17.42
+T0509,2024-07-11,Hyundai,Santa Fe,2020,Sedan,Petrol,White,88405,23,20333.15,108738.15,5,103301.24,70,Female,Krakow,S100,100,WinterClearance,Yes,None,9.87
+T0510,2024-07-26,Toyota,Corolla,2024,Hatchback,Electric,Blue,89536,23,20593.28,110129.28,10,99116.35,58,Female,Gdansk,S156,108,WinterClearance,No,None,19.65
+T0511,2024-12-30,BMW,5 Series,2021,Coupe,Electric,Black,221465,23,50936.95,272401.95,10,245161.76,43,Male,Warsaw,S102,94,AutumnSales,No,None,9.97
+T0512,2024-02-21,BMW,5 Series,2020,SUV,Hybrid,White,75094,23,17271.62,92365.62,3,89594.65,70,Male,Warsaw,S148,28,Spring2024,No,None,10.67
+T0513,2024-04-28,Ford,Mondeo,2021,Hatchback,Electric,Gray,244112,23,56145.76,300257.76,0,300257.76,29,Male,Poznan,S114,45,None,Yes,LeasingPro,13.38
+T0514,2024-01-09,BMW,X5,2022,Hatchback,Petrol,Red,195890,23,45054.7,240944.7,5,228897.46,65,Male,Gdansk,S193,113,None,Yes,AutoFin,19.6
+T0515,2024-11-21,Ford,Kuga,2020,Coupe,Petrol,White,88035,23,20248.05,108283.05,3,105034.56,69,Male,Poznan,S163,116,WinterClearance,Yes,AutoFin,10.95
+T0516,2024-01-31,Volkswagen,Tiguan,2020,SUV,Electric,Gray,217922,23,50122.06,268044.06,7,249280.98,31,Male,Gdansk,S181,118,Spring2024,Yes,None,13.5
+T0517,2024-11-07,BMW,5 Series,2023,Hatchback,Petrol,Gray,75763,23,17425.49,93188.49,0,93188.49,39,Female,Krakow,S131,34,WinterClearance,No,None,7.46
+T0518,2024-06-08,BMW,X5,2021,Sedan,Electric,Silver,160218,23,36850.14,197068.14,0,197068.14,36,Male,Gdansk,S154,26,None,No,None,16.51
+T0519,2024-06-12,Volkswagen,Golf,2020,SUV,Electric,Gray,197616,23,45451.68,243067.68,7,226052.94,28,Female,Poznan,S190,89,WinterClearance,No,None,12.34
+T0520,2024-05-14,Ford,Mondeo,2024,SUV,Diesel,Silver,155537,23,35773.51,191310.51,3,185571.19,45,Male,Wroclaw,S192,59,None,Yes,CreditPlus,15.22
+T0521,2024-05-14,Ford,Kuga,2024,Hatchback,Petrol,Gray,226784,23,52160.32,278944.32,0,278944.32,42,Male,Warsaw,S150,81,AutumnSales,No,None,19.48
+T0522,2024-01-25,BMW,X5,2021,Coupe,Diesel,White,164342,23,37798.66,202140.66,7,187990.81,48,Male,Krakow,S190,86,None,Yes,BankPolska,11.09
+T0523,2024-06-03,Ford,Focus,2022,Sedan,Hybrid,Blue,244712,23,56283.76,300995.76,0,300995.76,29,Male,Warsaw,S124,56,SummerDeals,Yes,BankPolska,12.96
+T0524,2024-01-04,Volkswagen,Golf,2024,Hatchback,Petrol,Blue,149603,23,34408.69,184011.69,5,174811.11,57,Male,Gdansk,S105,45,AutumnSales,No,None,6.82
+T0525,2024-06-18,Volkswagen,Golf,2022,Coupe,Electric,Blue,234736,23,53989.28,288725.28,5,274289.02,38,Male,Poznan,S115,57,None,Yes,BankPolska,15.88
+T0526,2024-01-27,Volkswagen,Golf,2024,Sedan,Diesel,White,96632,23,22225.36,118857.36,0,118857.36,65,Male,Poznan,S198,37,None,No,None,10.34
+T0527,2024-11-18,BMW,5 Series,2023,Hatchback,Diesel,Gray,128394,23,29530.62,157924.62,10,142132.16,64,Female,Gdansk,S198,78,None,Yes,BankPolska,15.53
+T0528,2024-08-27,Toyota,Corolla,2020,Hatchback,Hybrid,Silver,111279,23,25594.17,136873.16999999998,3,132766.97,70,Female,Gdansk,S192,1,AutumnSales,Yes,None,17.13
+T0529,2024-11-27,BMW,3 Series,2022,Sedan,Electric,Silver,135448,23,31153.04,166601.04,5,158270.99,52,Male,Wroclaw,S126,30,WinterClearance,No,None,15.77
+T0530,2024-05-02,Volkswagen,Passat,2023,Hatchback,Electric,White,199691,23,45928.93,245619.93,5,233338.93,64,Male,Warsaw,S140,51,AutumnSales,No,None,5.79
+T0531,2024-05-14,Toyota,Camry,2021,SUV,Petrol,Black,120407,23,27693.61,148100.61,3,143657.59,67,Male,Gdansk,S107,61,None,Yes,CreditPlus,10.32
+T0532,2024-10-24,Ford,Focus,2024,Coupe,Electric,Red,146529,23,33701.67,180230.66999999998,7,167614.52,25,Female,Krakow,S181,83,Spring2024,No,None,5.25
+T0533,2024-09-18,Volkswagen,Tiguan,2022,Coupe,Diesel,Silver,160293,23,36867.39,197160.39,5,187302.37,28,Female,Poznan,S197,63,None,Yes,CreditPlus,17.4
+T0534,2024-05-07,BMW,3 Series,2023,Sedan,Electric,White,239838,23,55162.74,295000.74,7,274350.69,41,Female,Warsaw,S158,42,AutumnSales,Yes,AutoFin,8.95
+T0535,2024-09-20,Hyundai,Santa Fe,2020,Sedan,Petrol,Black,180958,23,41620.34,222578.34,7,206997.86,44,Male,Krakow,S125,43,Spring2024,No,None,17.13
+T0536,2024-01-26,BMW,X5,2021,Sedan,Diesel,White,149564,23,34399.72,183963.72,7,171086.26,49,Male,Poznan,S177,77,WinterClearance,Yes,None,15.07
+T0537,2024-02-18,Hyundai,Santa Fe,2024,SUV,Petrol,Gray,117247,23,26966.81,144213.81,10,129792.43,69,Female,Krakow,S120,10,WinterClearance,No,None,8.59
+T0538,2024-06-26,Hyundai,i30,2023,Sedan,Electric,Gray,131740,23,30300.2,162040.2,0,162040.2,34,Female,Gdansk,S115,104,None,No,None,15.17
+T0539,2024-05-27,Hyundai,Tucson,2023,Hatchback,Hybrid,Black,127073,23,29226.79,156299.79,10,140669.81,29,Female,Gdansk,S140,73,SummerDeals,Yes,BankPolska,13.29
+T0540,2024-10-16,Volkswagen,Golf,2023,Hatchback,Diesel,Blue,156324,23,35954.52,192278.52,0,192278.52,53,Female,Gdansk,S119,29,None,No,None,13.03
+T0541,2024-05-24,Toyota,Corolla,2023,Sedan,Petrol,Silver,111114,23,25556.22,136670.22,5,129836.71,30,Female,Krakow,S126,13,WinterClearance,No,None,6.18
+T0542,2024-10-19,BMW,5 Series,2021,SUV,Petrol,Blue,135684,23,31207.32,166891.32,0,166891.32,66,Male,Krakow,S103,100,WinterClearance,Yes,CreditPlus,5.81
+T0543,2024-04-17,Ford,Kuga,2021,SUV,Electric,Silver,202705,23,46622.15,249327.15,5,236860.79,28,Female,Gdansk,S195,97,Spring2024,Yes,BankPolska,10.49
+T0544,2024-04-13,Hyundai,Santa Fe,2022,Coupe,Petrol,Blue,103855,23,23886.65,127741.65,0,127741.65,26,Male,Krakow,S190,29,WinterClearance,No,None,19.63
+T0545,2024-05-14,BMW,5 Series,2022,SUV,Hybrid,Blue,214483,23,49331.09,263814.08999999997,7,245347.1,49,Female,Poznan,S183,15,Spring2024,Yes,None,6.87
+T0546,2024-03-02,Toyota,Corolla,2020,Sedan,Electric,Blue,105726,23,24316.98,130042.98,3,126141.69,60,Male,Poznan,S101,108,Spring2024,No,None,11.5
+T0547,2024-09-18,Hyundai,Santa Fe,2023,Sedan,Electric,Red,84083,23,19339.09,103422.09,5,98250.99,49,Female,Wroclaw,S141,61,SummerDeals,Yes,AutoFin,14.44
+T0548,2024-08-18,Volkswagen,Tiguan,2021,Sedan,Hybrid,Black,116769,23,26856.87,143625.87,5,136444.58,62,Female,Warsaw,S150,5,None,No,None,16.01
+T0549,2024-04-06,BMW,3 Series,2024,Coupe,Hybrid,Black,65539,23,15073.97,80612.97,0,80612.97,43,Male,Warsaw,S165,8,AutumnSales,Yes,None,5.23
+T0550,2024-05-10,Hyundai,i30,2021,Hatchback,Diesel,Black,224523,23,51640.29,276163.29,0,276163.29,36,Male,Gdansk,S141,28,None,No,None,9.81
+T0551,2024-07-15,Toyota,RAV4,2021,Hatchback,Hybrid,White,83982,23,19315.86,103297.86,3,100198.92,51,Male,Warsaw,S186,113,AutumnSales,No,None,19.81
+T0552,2024-12-22,Ford,Mondeo,2024,Coupe,Petrol,White,174334,23,40096.82,214430.82,0,214430.82,52,Male,Krakow,S162,15,SummerDeals,Yes,None,6.57
+T0553,2024-02-17,BMW,X5,2023,Sedan,Hybrid,Silver,87890,23,20214.7,108104.7,5,102699.46,31,Male,Gdansk,S103,9,SummerDeals,No,None,19.19
+T0554,2024-03-10,Toyota,Corolla,2021,Sedan,Diesel,Silver,78594,23,18076.62,96670.62,10,87003.56,57,Female,Warsaw,S183,74,None,No,None,10.3
+T0555,2024-05-24,Toyota,Camry,2024,Hatchback,Petrol,Silver,82269,23,18921.87,101190.87,0,101190.87,37,Female,Gdansk,S111,101,Spring2024,No,None,13.82
+T0556,2024-05-04,Volkswagen,Tiguan,2023,Sedan,Diesel,White,190565,23,43829.95,234394.95,0,234394.95,50,Female,Gdansk,S179,116,WinterClearance,No,None,5.31
+T0557,2024-03-22,BMW,5 Series,2021,Hatchback,Hybrid,Silver,101271,23,23292.33,124563.33,7,115843.9,68,Male,Gdansk,S147,37,None,No,None,16.72
+T0558,2024-04-07,Hyundai,Tucson,2020,Hatchback,Diesel,Blue,142995,23,32888.85,175883.85,0,175883.85,68,Male,Poznan,S179,115,WinterClearance,Yes,LeasingPro,18.25
+T0559,2024-10-20,Toyota,RAV4,2020,Sedan,Electric,White,135031,23,31057.13,166088.13,7,154461.96,32,Male,Poznan,S185,38,SummerDeals,No,None,12.04
+T0560,2024-12-09,Volkswagen,Golf,2022,Sedan,Diesel,Red,176032,23,40487.36,216519.36,10,194867.42,38,Male,Wroclaw,S159,67,AutumnSales,No,None,19.23
+T0561,2024-11-27,Toyota,Corolla,2020,Coupe,Diesel,Black,86138,23,19811.74,105949.74,10,95354.77,62,Female,Poznan,S149,120,SummerDeals,No,None,17.26
+T0562,2024-08-09,Ford,Focus,2020,Sedan,Hybrid,Black,235309,23,54121.07,289430.07,3,280747.17,53,Female,Poznan,S101,113,AutumnSales,Yes,None,9.98
+T0563,2024-04-10,Ford,Focus,2024,Hatchback,Diesel,Gray,163201,23,37536.23,200737.23,0,200737.23,65,Male,Krakow,S108,48,SummerDeals,No,None,5.43
+T0564,2024-07-24,Volkswagen,Golf,2024,SUV,Hybrid,Silver,207624,23,47753.52,255377.52,7,237501.09,55,Male,Gdansk,S128,20,None,Yes,BankPolska,16.76
+T0565,2024-12-17,Ford,Focus,2021,Hatchback,Electric,Black,113754,23,26163.42,139917.41999999998,10,125925.68,32,Male,Gdansk,S168,60,AutumnSales,No,None,12.9
+T0566,2024-08-18,Hyundai,Santa Fe,2023,Coupe,Electric,Blue,190043,23,43709.89,233752.89,7,217390.19,49,Male,Krakow,S138,7,WinterClearance,Yes,BankPolska,12.89
+T0567,2024-11-05,Ford,Kuga,2022,Hatchback,Electric,Blue,184392,23,42410.16,226802.16,7,210926.01,68,Male,Poznan,S157,100,WinterClearance,No,None,7.98
+T0568,2024-08-25,BMW,5 Series,2024,Hatchback,Petrol,White,146515,23,33698.45,180213.45,10,162192.11,25,Female,Krakow,S178,78,None,No,None,19.41
+T0569,2024-01-02,Ford,Focus,2020,Coupe,Hybrid,Blue,229695,23,52829.85,282524.85,5,268398.61,69,Female,Wroclaw,S161,37,None,No,None,9.83
+T0570,2024-11-19,BMW,X5,2021,Hatchback,Diesel,Silver,124422,23,28617.06,153039.06,10,137735.15,69,Male,Poznan,S121,82,Spring2024,No,None,16.39
+T0571,2024-10-15,BMW,X5,2023,Hatchback,Petrol,Silver,130857,23,30097.11,160954.11,5,152906.4,30,Male,Gdansk,S186,18,WinterClearance,Yes,AutoFin,5.64
+T0572,2024-05-19,Toyota,Camry,2022,Sedan,Electric,Red,215559,23,49578.57,265137.57,5,251880.69,63,Male,Wroclaw,S146,49,SummerDeals,No,None,12.8
+T0573,2024-06-15,Volkswagen,Tiguan,2023,Hatchback,Petrol,Gray,228861,23,52638.03,281499.03,0,281499.03,43,Male,Krakow,S128,1,WinterClearance,Yes,None,18.87
+T0574,2024-12-26,Ford,Kuga,2023,Sedan,Electric,Gray,206228,23,47432.44,253660.44,10,228294.4,27,Female,Gdansk,S187,71,WinterClearance,Yes,AutoFin,16.67
+T0575,2024-07-15,Toyota,RAV4,2021,Sedan,Electric,White,184065,23,42334.95,226399.95,3,219607.95,26,Female,Wroclaw,S154,56,AutumnSales,No,None,6.02
+T0576,2024-04-11,Ford,Kuga,2022,Sedan,Diesel,Gray,174935,23,40235.05,215170.05,0,215170.05,52,Female,Wroclaw,S196,13,SummerDeals,Yes,BankPolska,6.34
+T0577,2024-10-31,Ford,Focus,2021,Coupe,Electric,Blue,241602,23,55568.46,297170.46,10,267453.41,27,Male,Gdansk,S121,10,SummerDeals,Yes,CreditPlus,8.54
+T0578,2024-05-27,Ford,Mondeo,2022,Sedan,Electric,Blue,165449,23,38053.27,203502.27,7,189257.11,41,Female,Wroclaw,S183,36,WinterClearance,No,None,17.6
+T0579,2024-10-26,Ford,Kuga,2022,Sedan,Electric,Blue,183061,23,42104.03,225165.03,5,213906.78,57,Female,Poznan,S154,71,SummerDeals,Yes,BankPolska,6.35
+T0580,2024-11-30,Toyota,Camry,2021,Coupe,Diesel,Gray,188813,23,43426.99,232239.99,10,209015.99,67,Male,Krakow,S157,44,None,Yes,AutoFin,6.51
+T0581,2024-09-28,BMW,3 Series,2024,Sedan,Electric,Silver,65312,23,15021.76,80333.76,5,76317.07,52,Male,Krakow,S110,81,Spring2024,Yes,LeasingPro,10.25
+T0582,2024-06-28,Ford,Mondeo,2022,Coupe,Electric,Gray,208784,23,48020.32,256804.32,0,256804.32,59,Male,Poznan,S190,32,None,Yes,CreditPlus,17.11
+T0583,2024-02-25,Toyota,Corolla,2022,Sedan,Electric,Red,83431,23,19189.13,102620.13,5,97489.12,61,Male,Poznan,S135,37,AutumnSales,No,None,7.89
+T0584,2024-07-27,Toyota,Corolla,2024,Coupe,Electric,Black,156978,23,36104.94,193082.94,0,193082.94,39,Female,Krakow,S171,118,SummerDeals,No,None,17.16
+T0585,2024-08-09,Ford,Kuga,2024,Hatchback,Electric,Red,153314,23,35262.22,188576.22,3,182918.93,58,Male,Gdansk,S157,68,SummerDeals,No,None,17.33
+T0586,2024-05-11,Volkswagen,Tiguan,2020,Hatchback,Hybrid,Black,139441,23,32071.43,171512.43,3,166367.06,34,Male,Krakow,S129,87,SummerDeals,No,None,18.97
+T0587,2024-09-18,Hyundai,Santa Fe,2023,Sedan,Electric,Blue,200053,23,46012.19,246065.19,5,233761.93,41,Male,Wroclaw,S172,40,None,Yes,CreditPlus,18.53
+T0588,2024-05-09,Volkswagen,Golf,2021,Hatchback,Hybrid,Silver,160587,23,36935.01,197522.01,5,187645.91,32,Male,Warsaw,S118,84,WinterClearance,Yes,AutoFin,17.26
+T0589,2024-03-18,BMW,5 Series,2021,SUV,Diesel,Black,201359,23,46312.57,247671.57,0,247671.57,48,Female,Wroclaw,S164,118,Spring2024,Yes,BankPolska,12.71
+T0590,2024-04-28,BMW,X5,2021,Hatchback,Diesel,Black,161953,23,37249.19,199202.19,5,189242.08,59,Male,Poznan,S164,2,Spring2024,No,None,12.84
+T0591,2024-05-10,Ford,Focus,2021,SUV,Diesel,Gray,129760,23,29844.8,159604.8,0,159604.8,66,Male,Poznan,S169,42,AutumnSales,No,None,17.19
+T0592,2024-05-13,Volkswagen,Passat,2024,Sedan,Hybrid,Silver,167251,23,38467.73,205718.73,0,205718.73,69,Male,Krakow,S189,112,Spring2024,No,None,6.36
+T0593,2024-04-03,Toyota,Corolla,2021,SUV,Electric,White,87047,23,20020.81,107067.81,7,99573.06,65,Male,Gdansk,S109,86,SummerDeals,Yes,BankPolska,10.74
+T0594,2024-06-27,Volkswagen,Passat,2023,Sedan,Petrol,Gray,83658,23,19241.34,102899.34,5,97754.37,31,Female,Poznan,S178,60,None,Yes,AutoFin,10.53
+T0595,2024-06-15,Toyota,Camry,2020,SUV,Electric,Black,136956,23,31499.88,168455.88,7,156663.97,58,Male,Warsaw,S118,1,Spring2024,No,None,8.71
+T0596,2024-02-26,Ford,Kuga,2021,Hatchback,Petrol,Gray,229738,23,52839.74,282577.74,10,254319.97,57,Male,Gdansk,S163,76,WinterClearance,No,None,10.3
+T0597,2024-06-08,Volkswagen,Passat,2024,Coupe,Electric,White,237161,23,54547.03,291708.03,0,291708.03,36,Female,Warsaw,S133,28,WinterClearance,No,None,12.15
+T0598,2024-05-12,Volkswagen,Tiguan,2022,Coupe,Electric,Blue,84349,23,19400.27,103749.27,7,96486.82,66,Male,Gdansk,S186,109,None,No,None,7.76
+T0599,2024-04-24,Volkswagen,Golf,2023,Sedan,Diesel,White,166244,23,38236.12,204480.12,5,194256.11,67,Female,Warsaw,S103,69,SummerDeals,No,None,13.34
+T0600,2024-01-01,Hyundai,Tucson,2021,Hatchback,Electric,Black,73850,23,16985.5,90835.5,7,84477.01,35,Male,Warsaw,S197,48,AutumnSales,No,None,17.18
+T0601,2024-08-15,Toyota,RAV4,2020,Sedan,Hybrid,Blue,124576,23,28652.48,153228.48,10,137905.63,55,Male,Gdansk,S176,93,None,No,None,5.72
+T0602,2024-05-26,Ford,Mondeo,2020,Sedan,Electric,Silver,180817,23,41587.91,222404.91,7,206836.57,41,Female,Wroclaw,S149,83,WinterClearance,Yes,LeasingPro,7.0
+T0603,2024-01-18,Volkswagen,Tiguan,2022,Coupe,Petrol,Black,198443,23,45641.89,244084.89,10,219676.4,62,Female,Gdansk,S157,87,AutumnSales,Yes,AutoFin,5.32
+T0604,2024-04-13,Toyota,Camry,2021,Coupe,Petrol,Gray,152917,23,35170.91,188087.91,0,188087.91,70,Male,Krakow,S194,60,Spring2024,Yes,None,18.46
+T0605,2024-11-10,Toyota,Corolla,2024,Coupe,Electric,White,90661,23,20852.03,111513.03,10,100361.73,29,Male,Warsaw,S153,57,Spring2024,No,None,19.52
+T0606,2024-10-21,Volkswagen,Passat,2021,SUV,Electric,Blue,63700,23,14651.0,78351.0,7,72866.43,31,Female,Gdansk,S150,84,AutumnSales,Yes,BankPolska,10.54
+T0607,2024-04-16,Ford,Mondeo,2022,Coupe,Diesel,White,208951,23,48058.73,257009.73,5,244159.24,46,Male,Gdansk,S106,97,SummerDeals,Yes,None,18.56
+T0608,2024-04-09,BMW,X5,2021,SUV,Petrol,White,175512,23,40367.76,215879.76,0,215879.76,51,Male,Poznan,S155,97,Spring2024,No,None,6.61
+T0609,2024-03-13,Toyota,RAV4,2023,Sedan,Petrol,Gray,240960,23,55420.8,296380.8,3,287489.38,26,Male,Krakow,S114,96,None,No,None,7.16
+T0610,2024-03-29,BMW,5 Series,2023,SUV,Hybrid,Black,184786,23,42500.78,227286.78,5,215922.44,62,Female,Krakow,S112,15,SummerDeals,No,None,14.74
+T0611,2024-10-06,Toyota,Camry,2023,Coupe,Petrol,White,180539,23,41523.97,222062.97,3,215401.08,29,Female,Warsaw,S146,63,AutumnSales,No,None,11.77
+T0612,2024-12-14,Hyundai,i30,2023,Sedan,Petrol,Red,226270,23,52042.1,278312.1,10,250480.89,29,Male,Warsaw,S127,67,SummerDeals,Yes,CreditPlus,9.91
+T0613,2024-09-19,Toyota,Corolla,2022,Hatchback,Petrol,Black,187850,23,43205.5,231055.5,7,214881.61,37,Female,Wroclaw,S118,106,SummerDeals,No,None,8.91
+T0614,2024-08-01,Volkswagen,Tiguan,2020,Hatchback,Hybrid,Black,156146,23,35913.58,192059.58000000002,5,182456.6,42,Male,Wroclaw,S145,96,Spring2024,No,None,19.21
+T0615,2024-08-10,BMW,3 Series,2023,Hatchback,Petrol,Red,178219,23,40990.37,219209.37,7,203864.71,33,Female,Wroclaw,S169,17,Spring2024,No,None,11.66
+T0616,2024-11-24,BMW,3 Series,2023,Sedan,Hybrid,Blue,107145,23,24643.35,131788.35,5,125198.93,48,Male,Krakow,S124,77,SummerDeals,Yes,CreditPlus,16.0
+T0617,2024-04-05,Hyundai,Santa Fe,2020,SUV,Petrol,Silver,204775,23,47098.25,251873.25,10,226685.93,53,Female,Poznan,S147,8,SummerDeals,Yes,CreditPlus,18.94
+T0618,2024-09-18,BMW,3 Series,2021,Sedan,Diesel,Blue,227317,23,52282.91,279599.91000000003,10,251639.92,45,Male,Warsaw,S101,36,AutumnSales,Yes,AutoFin,5.55
+T0619,2024-10-16,Ford,Mondeo,2023,Hatchback,Hybrid,Black,246192,23,56624.16,302816.16000000003,5,287675.35,51,Female,Poznan,S126,54,SummerDeals,Yes,None,7.35
+T0620,2024-03-07,Ford,Mondeo,2020,SUV,Diesel,Blue,68974,23,15864.02,84838.02,7,78899.36,61,Male,Wroclaw,S105,99,None,No,None,16.72
+T0621,2024-11-11,Ford,Kuga,2021,Coupe,Diesel,White,149442,23,34371.66,183813.66,7,170946.7,35,Male,Poznan,S133,47,WinterClearance,No,None,8.6
+T0622,2024-09-05,Volkswagen,Golf,2021,Coupe,Electric,Black,62339,23,14337.97,76676.97,5,72843.12,44,Male,Warsaw,S154,20,Spring2024,Yes,AutoFin,8.91
+T0623,2024-11-21,Hyundai,Tucson,2023,Hatchback,Petrol,Black,244635,23,56266.05,300901.05,0,300901.05,60,Female,Warsaw,S179,42,WinterClearance,Yes,AutoFin,16.13
+T0624,2024-10-10,Toyota,Corolla,2020,Sedan,Diesel,Red,188356,23,43321.88,231677.88,5,220093.99,54,Female,Krakow,S183,29,None,Yes,LeasingPro,8.53
+T0625,2024-04-22,BMW,X5,2022,Sedan,Diesel,Red,203846,23,46884.58,250730.58000000002,0,250730.58,43,Male,Wroclaw,S162,74,WinterClearance,Yes,BankPolska,5.11
+T0626,2024-06-01,Hyundai,i30,2021,Coupe,Hybrid,Red,111499,23,25644.77,137143.77,3,133029.46,44,Male,Poznan,S183,35,WinterClearance,Yes,LeasingPro,9.54
+T0627,2024-12-11,Toyota,RAV4,2024,Coupe,Diesel,Silver,184969,23,42542.87,227511.87,3,220686.51,56,Female,Wroclaw,S158,23,AutumnSales,Yes,LeasingPro,14.77
+T0628,2024-02-02,Hyundai,Tucson,2023,Coupe,Diesel,Red,160208,23,36847.84,197055.84,0,197055.84,26,Female,Wroclaw,S188,12,SummerDeals,Yes,AutoFin,7.83
+T0629,2024-08-11,Toyota,RAV4,2020,Hatchback,Electric,Black,120495,23,27713.85,148208.85,5,140798.41,48,Male,Krakow,S166,81,None,No,None,9.01
+T0630,2024-11-07,Toyota,Corolla,2024,Hatchback,Diesel,Black,77151,23,17744.73,94895.73,3,92048.86,30,Male,Wroclaw,S152,63,SummerDeals,No,None,10.61
+T0631,2024-07-07,Volkswagen,Passat,2024,SUV,Petrol,Red,61194,23,14074.62,75268.62,10,67741.76,40,Male,Wroclaw,S100,95,SummerDeals,No,None,6.89
+T0632,2024-06-23,BMW,3 Series,2022,Coupe,Hybrid,Gray,160898,23,37006.54,197904.54,3,191967.4,42,Male,Gdansk,S105,52,None,No,None,15.28
+T0633,2024-12-12,Toyota,Camry,2021,Sedan,Petrol,Black,180108,23,41424.84,221532.84,10,199379.56,40,Male,Krakow,S113,10,None,No,None,12.07
+T0634,2024-12-26,Hyundai,Tucson,2021,Hatchback,Diesel,Silver,240147,23,55233.81,295380.81,10,265842.73,30,Female,Wroclaw,S166,82,None,Yes,None,14.49
+T0635,2024-09-13,Volkswagen,Golf,2022,Coupe,Diesel,Blue,62442,23,14361.66,76803.66,5,72963.48,67,Female,Krakow,S163,70,Spring2024,No,None,18.39
+T0636,2024-02-21,Toyota,RAV4,2023,SUV,Diesel,Black,190801,23,43884.23,234685.23,3,227644.67,55,Female,Poznan,S144,66,WinterClearance,No,None,16.05
+T0637,2024-06-30,Volkswagen,Passat,2022,Sedan,Electric,Red,204928,23,47133.44,252061.44,10,226855.3,57,Male,Warsaw,S108,34,Spring2024,No,None,17.22
+T0638,2024-09-20,Toyota,Camry,2021,Sedan,Diesel,Blue,68145,23,15673.35,83818.35,0,83818.35,37,Male,Gdansk,S187,27,AutumnSales,No,None,17.13
+T0639,2024-07-09,Volkswagen,Passat,2022,SUV,Hybrid,White,110438,23,25400.74,135838.74,10,122254.87,47,Male,Gdansk,S109,65,SummerDeals,Yes,CreditPlus,17.57
+T0640,2024-09-09,BMW,X5,2021,Hatchback,Hybrid,White,158343,23,36418.89,194761.89,5,185023.8,33,Female,Krakow,S126,69,SummerDeals,No,None,14.01
+T0641,2024-11-23,Toyota,Corolla,2024,Sedan,Diesel,Silver,182531,23,41982.13,224513.13,0,224513.13,43,Female,Krakow,S192,52,Spring2024,Yes,LeasingPro,16.93
+T0642,2024-10-14,Volkswagen,Passat,2022,Sedan,Petrol,Black,242810,23,55846.3,298656.3,7,277750.36,54,Female,Krakow,S197,56,AutumnSales,Yes,LeasingPro,11.02
+T0643,2024-10-15,Ford,Mondeo,2023,SUV,Electric,Blue,95175,23,21890.25,117065.25,7,108870.68,64,Male,Gdansk,S173,47,AutumnSales,No,None,15.64
+T0644,2024-08-06,Ford,Mondeo,2023,Coupe,Petrol,Silver,158659,23,36491.57,195150.57,0,195150.57,65,Female,Krakow,S148,71,None,Yes,CreditPlus,10.57
+T0645,2024-12-20,BMW,X5,2022,SUV,Petrol,Black,80302,23,18469.46,98771.45999999999,0,98771.46,47,Male,Poznan,S142,7,Spring2024,Yes,CreditPlus,15.49
+T0646,2024-08-16,Ford,Mondeo,2024,Sedan,Hybrid,Red,189061,23,43484.03,232545.03,3,225568.68,32,Female,Poznan,S129,38,Spring2024,No,None,5.48
+T0647,2024-01-04,BMW,3 Series,2022,Coupe,Petrol,Black,169847,23,39064.81,208911.81,5,198466.22,38,Female,Wroclaw,S100,113,WinterClearance,No,None,8.55
+T0648,2024-05-13,BMW,3 Series,2022,SUV,Electric,Red,169185,23,38912.55,208097.55,0,208097.55,30,Male,Poznan,S134,3,WinterClearance,Yes,LeasingPro,10.9
+T0649,2024-12-08,Ford,Focus,2023,SUV,Diesel,Gray,180834,23,41591.82,222425.82,3,215753.05,65,Female,Gdansk,S193,67,AutumnSales,No,None,11.22
+T0650,2024-04-05,Toyota,Camry,2022,Hatchback,Electric,Blue,153636,23,35336.28,188972.28,5,179523.67,69,Male,Poznan,S106,119,AutumnSales,Yes,LeasingPro,13.9
+T0651,2024-07-30,Hyundai,i30,2024,SUV,Petrol,Black,221630,23,50974.9,272604.9,5,258974.65,53,Female,Warsaw,S122,32,WinterClearance,No,None,15.88
+T0652,2024-06-30,Ford,Focus,2023,Hatchback,Petrol,Red,95733,23,22018.59,117751.59,10,105976.43,52,Female,Wroclaw,S133,102,None,No,None,18.52
+T0653,2024-06-03,Hyundai,Tucson,2022,Hatchback,Hybrid,Silver,212025,23,48765.75,260790.75,0,260790.75,59,Male,Poznan,S102,51,AutumnSales,Yes,BankPolska,18.06
+T0654,2024-10-10,Volkswagen,Passat,2023,SUV,Hybrid,Gray,123008,23,28291.84,151299.84,5,143734.85,52,Male,Krakow,S117,7,AutumnSales,No,None,15.65
+T0655,2024-09-22,Hyundai,Tucson,2022,Coupe,Diesel,Blue,225434,23,51849.82,277283.82,3,268965.31,46,Female,Wroclaw,S186,38,None,No,None,18.89
+T0656,2024-05-30,Hyundai,Tucson,2024,Coupe,Hybrid,Red,249673,23,57424.79,307097.79,0,307097.79,37,Female,Krakow,S196,92,AutumnSales,No,None,10.55
+T0657,2024-08-04,Ford,Kuga,2021,Hatchback,Petrol,White,162931,23,37474.13,200405.13,0,200405.13,67,Female,Warsaw,S161,54,Spring2024,No,None,12.15
+T0658,2024-01-31,Volkswagen,Tiguan,2024,Hatchback,Diesel,White,219047,23,50380.81,269427.81,0,269427.81,27,Female,Wroclaw,S164,79,None,Yes,BankPolska,6.32
+T0659,2024-05-25,Toyota,RAV4,2021,SUV,Diesel,Black,66833,23,15371.59,82204.59,5,78094.36,67,Female,Wroclaw,S151,97,WinterClearance,Yes,CreditPlus,5.07
+T0660,2024-12-30,Volkswagen,Tiguan,2024,Sedan,Electric,Silver,229601,23,52808.23,282409.23,3,273936.95,58,Female,Warsaw,S176,49,AutumnSales,Yes,None,12.23
+T0661,2024-11-13,Toyota,RAV4,2020,SUV,Hybrid,White,108169,23,24878.87,133047.87,10,119743.08,56,Female,Krakow,S153,77,None,Yes,None,9.01
+T0662,2024-11-15,Ford,Kuga,2023,Hatchback,Hybrid,White,135108,23,31074.84,166182.84,3,161197.35,33,Female,Gdansk,S101,13,Spring2024,Yes,BankPolska,7.15
+T0663,2024-08-26,Volkswagen,Tiguan,2024,Sedan,Diesel,Blue,127645,23,29358.35,157003.35,3,152293.25,52,Female,Poznan,S118,30,WinterClearance,No,None,18.36
+T0664,2024-12-18,Hyundai,i30,2021,Coupe,Hybrid,Silver,131544,23,30255.12,161799.12,7,150473.18,30,Male,Krakow,S176,38,Spring2024,No,None,6.55
+T0665,2024-01-05,Ford,Mondeo,2022,Hatchback,Hybrid,Blue,148926,23,34252.98,183178.98,5,174020.03,46,Female,Krakow,S189,91,SummerDeals,Yes,None,5.57
+T0666,2024-10-20,BMW,3 Series,2021,Hatchback,Petrol,Blue,147010,23,33812.3,180822.3,5,171781.18,56,Female,Wroclaw,S170,31,None,Yes,None,14.4
+T0667,2024-01-25,Ford,Kuga,2021,Coupe,Hybrid,Gray,155155,23,35685.65,190840.65,5,181298.62,59,Female,Poznan,S111,74,None,Yes,BankPolska,12.28
+T0668,2024-01-18,Volkswagen,Tiguan,2022,Sedan,Hybrid,Black,223653,23,51440.19,275093.19,5,261338.53,58,Female,Gdansk,S111,80,Spring2024,No,None,13.02
+T0669,2024-10-26,Volkswagen,Golf,2020,SUV,Electric,Gray,234915,23,54030.45,288945.45,7,268719.27,45,Male,Gdansk,S165,107,None,No,None,19.23
+T0670,2024-03-24,Hyundai,Tucson,2024,Coupe,Hybrid,Silver,196776,23,45258.48,242034.48,5,229932.76,61,Male,Gdansk,S143,33,SummerDeals,No,None,16.93
+T0671,2024-02-18,BMW,3 Series,2022,Hatchback,Petrol,Silver,166382,23,38267.86,204649.86,5,194417.37,46,Male,Gdansk,S102,97,AutumnSales,No,None,13.85
+T0672,2024-02-01,Toyota,Corolla,2023,SUV,Diesel,Black,146267,23,33641.41,179908.41,7,167314.82,62,Female,Warsaw,S179,113,None,No,None,5.59
+T0673,2024-05-23,Ford,Kuga,2020,Coupe,Hybrid,Gray,159587,23,36705.01,196292.01,10,176662.81,65,Female,Wroclaw,S158,72,SummerDeals,No,None,15.6
+T0674,2024-04-16,Toyota,Corolla,2021,Sedan,Diesel,Blue,128091,23,29460.93,157551.93,0,157551.93,32,Female,Poznan,S162,102,SummerDeals,Yes,BankPolska,14.29
+T0675,2024-01-24,Toyota,Camry,2022,Hatchback,Petrol,Red,234682,23,53976.86,288658.86,0,288658.86,28,Male,Gdansk,S193,57,SummerDeals,No,None,14.03
+T0676,2024-05-06,Toyota,Camry,2020,Sedan,Hybrid,Red,106258,23,24439.34,130697.34,10,117627.61,64,Female,Warsaw,S144,94,SummerDeals,No,None,16.03
+T0677,2024-10-27,BMW,5 Series,2024,Sedan,Hybrid,Black,86198,23,19825.54,106023.54000000001,0,106023.54,58,Male,Warsaw,S149,40,SummerDeals,No,None,13.57
+T0678,2024-03-25,Ford,Kuga,2022,SUV,Petrol,White,94355,23,21701.65,116056.65,3,112574.95,49,Male,Poznan,S102,15,None,No,None,15.48
+T0679,2024-05-31,Hyundai,Tucson,2020,SUV,Hybrid,White,245614,23,56491.22,302105.22,7,280957.85,62,Male,Poznan,S139,96,WinterClearance,No,None,15.26
+T0680,2024-07-20,Volkswagen,Passat,2021,SUV,Diesel,White,210919,23,48511.37,259430.37,5,246458.85,55,Female,Krakow,S125,29,Spring2024,Yes,AutoFin,7.46
+T0681,2024-04-09,Volkswagen,Tiguan,2022,Sedan,Diesel,Blue,158366,23,36424.18,194790.18,10,175311.16,39,Female,Wroclaw,S143,47,WinterClearance,Yes,None,7.98
+T0682,2024-10-13,Hyundai,i30,2024,Sedan,Petrol,Red,247616,23,56951.68,304567.68,0,304567.68,39,Male,Warsaw,S174,71,WinterClearance,No,None,5.47
+T0683,2024-10-19,Volkswagen,Passat,2024,Hatchback,Diesel,Silver,188921,23,43451.83,232372.83000000002,10,209135.55,39,Male,Krakow,S128,91,SummerDeals,No,None,14.69
+T0684,2024-08-18,BMW,5 Series,2022,Coupe,Hybrid,White,74754,23,17193.42,91947.42,5,87350.05,29,Female,Wroclaw,S184,114,SummerDeals,No,None,16.41
+T0685,2024-10-25,Volkswagen,Tiguan,2021,Sedan,Petrol,Gray,201904,23,46437.92,248341.91999999998,5,235924.82,39,Female,Gdansk,S197,60,WinterClearance,No,None,8.25
+T0686,2024-02-14,BMW,X5,2022,Sedan,Diesel,White,135244,23,31106.12,166350.12,0,166350.12,57,Female,Gdansk,S161,24,WinterClearance,Yes,CreditPlus,14.17
+T0687,2024-07-06,BMW,3 Series,2023,SUV,Electric,Blue,136039,23,31288.97,167327.97,0,167327.97,35,Female,Warsaw,S153,68,WinterClearance,Yes,LeasingPro,10.14
+T0688,2024-03-29,BMW,3 Series,2020,SUV,Petrol,Blue,108604,23,24978.92,133582.91999999998,0,133582.92,31,Female,Wroclaw,S160,13,AutumnSales,No,None,17.68
+T0689,2024-11-23,Toyota,Corolla,2024,SUV,Petrol,Blue,249779,23,57449.17,307228.17,5,291866.76,40,Male,Krakow,S162,84,AutumnSales,Yes,CreditPlus,15.76
+T0690,2024-03-07,BMW,5 Series,2023,Hatchback,Hybrid,Black,225504,23,51865.92,277369.92,3,269048.82,69,Female,Warsaw,S154,62,None,No,None,5.82
+T0691,2024-02-11,Toyota,RAV4,2024,Coupe,Diesel,Silver,114448,23,26323.04,140771.04,3,136547.91,31,Male,Poznan,S100,5,SummerDeals,No,None,5.79
+T0692,2024-02-04,Hyundai,i30,2023,SUV,Electric,Blue,188877,23,43441.71,232318.71,3,225349.15,49,Female,Wroclaw,S178,54,AutumnSales,No,None,16.87
+T0693,2024-04-28,Ford,Kuga,2024,Sedan,Hybrid,Silver,223544,23,51415.12,274959.12,10,247463.21,39,Female,Gdansk,S182,8,WinterClearance,Yes,AutoFin,13.72
+T0694,2024-03-23,Hyundai,Santa Fe,2020,Coupe,Hybrid,Silver,109896,23,25276.08,135172.08000000002,5,128413.48,46,Male,Gdansk,S181,14,Spring2024,No,None,16.96
+T0695,2024-02-06,Volkswagen,Golf,2024,Hatchback,Hybrid,Red,247447,23,56912.81,304359.81,0,304359.81,40,Male,Krakow,S176,41,AutumnSales,No,None,8.29
+T0696,2024-03-31,Toyota,Camry,2023,Coupe,Diesel,Gray,84581,23,19453.63,104034.63,5,98832.9,54,Female,Warsaw,S128,85,AutumnSales,Yes,CreditPlus,5.39
+T0697,2024-12-07,Ford,Mondeo,2024,Sedan,Hybrid,Silver,245271,23,56412.33,301683.33,0,301683.33,27,Female,Poznan,S140,62,Spring2024,Yes,BankPolska,13.29
+T0698,2024-04-01,Toyota,Camry,2020,SUV,Diesel,Gray,60796,23,13983.08,74779.08,3,72535.71,35,Female,Krakow,S192,96,SummerDeals,Yes,None,11.73
+T0699,2024-12-21,Toyota,Corolla,2022,Coupe,Electric,Silver,235357,23,54132.11,289489.11,3,280804.44,59,Female,Warsaw,S150,104,WinterClearance,No,None,9.9
+T0700,2024-01-23,Hyundai,Santa Fe,2024,Sedan,Hybrid,Black,170514,23,39218.22,209732.22,7,195050.96,25,Male,Warsaw,S152,82,AutumnSales,No,None,5.41
+T0701,2024-12-11,Toyota,Camry,2024,SUV,Hybrid,Blue,139496,23,32084.08,171580.08000000002,0,171580.08,66,Male,Krakow,S121,91,AutumnSales,No,None,8.68
+T0702,2024-08-07,Toyota,RAV4,2023,Hatchback,Electric,Gray,90460,23,20805.8,111265.8,0,111265.8,30,Female,Poznan,S165,17,SummerDeals,Yes,CreditPlus,5.52
+T0703,2024-10-07,Volkswagen,Passat,2022,Hatchback,Electric,Silver,249524,23,57390.52,306914.52,10,276223.07,64,Male,Poznan,S128,104,WinterClearance,Yes,BankPolska,19.88
+T0704,2024-05-22,BMW,5 Series,2020,Coupe,Diesel,Red,82800,23,19044.0,101844.0,7,94714.92,27,Female,Krakow,S109,77,SummerDeals,Yes,None,18.0
+T0705,2024-07-29,BMW,5 Series,2021,SUV,Petrol,Blue,126354,23,29061.42,155415.41999999998,3,150752.96,35,Male,Krakow,S119,34,WinterClearance,Yes,None,12.62
+T0706,2024-01-09,BMW,5 Series,2023,Hatchback,Petrol,Red,181315,23,41702.45,223017.45,10,200715.71,53,Female,Krakow,S163,108,AutumnSales,No,None,11.22
+T0707,2024-07-10,Volkswagen,Passat,2021,Coupe,Diesel,Black,102686,23,23617.78,126303.78,7,117462.52,63,Female,Gdansk,S111,81,None,No,None,12.15
+T0708,2024-08-26,Ford,Focus,2021,Sedan,Diesel,Gray,96978,23,22304.94,119282.94,10,107354.65,50,Male,Gdansk,S131,119,None,No,None,9.39
+T0709,2024-01-06,BMW,5 Series,2022,Sedan,Diesel,White,187070,23,43026.1,230096.1,7,213989.37,46,Female,Warsaw,S122,109,None,No,None,6.86
+T0710,2024-09-30,Volkswagen,Passat,2024,Hatchback,Petrol,Red,167748,23,38582.04,206330.04,3,200140.14,33,Female,Krakow,S199,95,AutumnSales,No,None,12.77
+T0711,2024-07-27,BMW,X5,2023,Sedan,Hybrid,White,115845,23,26644.35,142489.35,7,132515.1,33,Male,Wroclaw,S163,2,WinterClearance,Yes,BankPolska,10.89
+T0712,2024-11-21,Hyundai,Santa Fe,2023,Coupe,Diesel,Blue,247202,23,56856.46,304058.46,0,304058.46,37,Female,Gdansk,S136,37,SummerDeals,Yes,None,9.19
+T0713,2024-07-26,Volkswagen,Tiguan,2020,SUV,Diesel,Gray,188867,23,43439.41,232306.41,0,232306.41,50,Female,Warsaw,S166,68,None,Yes,BankPolska,8.08
+T0714,2024-03-31,Hyundai,Tucson,2022,Coupe,Hybrid,Gray,66853,23,15376.19,82229.19,10,74006.27,45,Female,Wroclaw,S164,91,WinterClearance,No,None,19.76
+T0715,2024-02-08,Volkswagen,Golf,2023,Sedan,Hybrid,Silver,78933,23,18154.59,97087.59,3,94174.96,26,Male,Poznan,S111,92,SummerDeals,No,None,16.66
+T0716,2024-01-01,Volkswagen,Passat,2021,SUV,Diesel,Silver,83026,23,19095.98,102121.98,7,94973.44,57,Male,Wroclaw,S113,27,WinterClearance,Yes,LeasingPro,15.41
+T0717,2024-03-06,BMW,3 Series,2023,Sedan,Petrol,Silver,191813,23,44116.99,235929.99,10,212336.99,46,Male,Gdansk,S108,97,SummerDeals,Yes,LeasingPro,14.56
+T0718,2024-06-14,BMW,5 Series,2020,Coupe,Petrol,Blue,199132,23,45800.36,244932.36,0,244932.36,68,Male,Krakow,S138,28,WinterClearance,Yes,None,5.4
+T0719,2024-09-06,Ford,Kuga,2023,Hatchback,Hybrid,Black,223221,23,51340.83,274561.83,0,274561.83,70,Male,Gdansk,S193,106,WinterClearance,No,None,5.13
+T0720,2024-08-19,BMW,5 Series,2022,Coupe,Electric,Silver,104118,23,23947.14,128065.14,0,128065.14,35,Male,Poznan,S157,110,AutumnSales,No,None,19.2
+T0721,2024-04-19,Hyundai,Tucson,2022,Sedan,Electric,Gray,159288,23,36636.24,195924.24,7,182209.54,47,Male,Krakow,S175,29,None,Yes,None,17.04
+T0722,2024-04-12,BMW,3 Series,2023,SUV,Hybrid,Red,120501,23,27715.23,148216.23,3,143769.74,47,Male,Wroclaw,S196,73,Spring2024,No,None,5.42
+T0723,2024-09-01,Toyota,RAV4,2021,SUV,Diesel,Red,209699,23,48230.77,257929.77,5,245033.28,34,Female,Krakow,S111,57,AutumnSales,No,None,13.55
+T0724,2024-12-31,Volkswagen,Tiguan,2021,Coupe,Petrol,Gray,201666,23,46383.18,248049.18,5,235646.72,69,Male,Wroclaw,S185,88,AutumnSales,No,None,8.69
+T0725,2024-06-09,Toyota,Camry,2020,Hatchback,Electric,Blue,136126,23,31308.98,167434.98,7,155714.53,38,Female,Poznan,S142,41,WinterClearance,No,None,11.99
+T0726,2024-12-10,Volkswagen,Golf,2022,Coupe,Petrol,Blue,187009,23,43012.07,230021.07,3,223120.44,38,Female,Gdansk,S123,101,SummerDeals,Yes,BankPolska,16.44
+T0727,2024-10-05,Toyota,Camry,2021,Sedan,Petrol,Gray,244194,23,56164.62,300358.62,5,285340.69,68,Female,Wroclaw,S142,100,None,No,None,19.35
+T0728,2024-07-02,Hyundai,Santa Fe,2022,SUV,Diesel,Red,69862,23,16068.26,85930.26,7,79915.14,49,Male,Gdansk,S173,5,AutumnSales,Yes,None,13.82
+T0729,2024-01-12,Hyundai,Santa Fe,2021,Hatchback,Petrol,White,220618,23,50742.14,271360.14,0,271360.14,70,Female,Gdansk,S104,30,Spring2024,Yes,LeasingPro,14.57
+T0730,2024-06-01,Toyota,Camry,2021,SUV,Diesel,Red,144583,23,33254.09,177837.09,10,160053.38,70,Female,Poznan,S136,66,AutumnSales,Yes,LeasingPro,15.67
+T0731,2024-02-28,Hyundai,Tucson,2023,Coupe,Hybrid,White,82006,23,18861.38,100867.38,5,95824.01,63,Male,Wroclaw,S155,119,AutumnSales,Yes,BankPolska,15.35
+T0732,2024-10-24,Ford,Mondeo,2024,Coupe,Diesel,White,202571,23,46591.33,249162.33000000002,5,236704.21,25,Male,Wroclaw,S147,76,AutumnSales,Yes,AutoFin,16.48
+T0733,2024-01-22,Hyundai,Tucson,2020,SUV,Hybrid,Blue,114042,23,26229.66,140271.66,10,126244.49,29,Female,Poznan,S163,36,None,No,None,13.03
+T0734,2024-07-23,Volkswagen,Passat,2021,Hatchback,Diesel,Blue,146591,23,33715.93,180306.93,3,174897.72,44,Male,Gdansk,S152,32,WinterClearance,Yes,None,16.18
+T0735,2024-10-12,Ford,Kuga,2022,Sedan,Hybrid,Blue,198188,23,45583.24,243771.24,0,243771.24,33,Female,Poznan,S199,73,Spring2024,Yes,AutoFin,12.47
+T0736,2024-01-28,Ford,Focus,2023,Sedan,Petrol,Gray,185818,23,42738.14,228556.14,3,221699.46,31,Female,Gdansk,S136,25,SummerDeals,Yes,LeasingPro,15.74
+T0737,2024-06-04,Hyundai,Santa Fe,2022,SUV,Petrol,Silver,128061,23,29454.03,157515.03,7,146488.98,56,Male,Poznan,S196,38,None,No,None,16.51
+T0738,2024-12-31,BMW,5 Series,2021,SUV,Hybrid,White,94888,23,21824.24,116712.24,5,110876.63,51,Male,Wroclaw,S130,92,SummerDeals,No,None,8.96
+T0739,2024-06-21,Hyundai,i30,2022,SUV,Diesel,Red,150064,23,34514.72,184578.72,7,171658.21,56,Female,Krakow,S170,55,AutumnSales,Yes,AutoFin,16.18
+T0740,2024-05-25,Toyota,Camry,2023,Sedan,Electric,Gray,60637,23,13946.51,74583.51,7,69362.66,46,Male,Wroclaw,S133,116,Spring2024,Yes,AutoFin,8.27
+T0741,2024-07-08,Toyota,Corolla,2024,Hatchback,Electric,Black,246677,23,56735.71,303412.71,0,303412.71,66,Female,Warsaw,S135,54,SummerDeals,No,None,8.75
+T0742,2024-06-19,Volkswagen,Golf,2020,SUV,Petrol,Black,128192,23,29484.16,157676.16,0,157676.16,46,Male,Wroclaw,S129,18,SummerDeals,No,None,8.45
+T0743,2024-07-25,Hyundai,Santa Fe,2021,Sedan,Hybrid,Blue,152355,23,35041.65,187396.65,7,174278.88,62,Male,Krakow,S135,114,None,Yes,None,9.74
+T0744,2024-02-24,Ford,Kuga,2020,SUV,Electric,Black,111083,23,25549.09,136632.09,0,136632.09,51,Male,Krakow,S124,1,AutumnSales,Yes,None,12.74
+T0745,2024-02-01,Toyota,Corolla,2024,Hatchback,Electric,White,83006,23,19091.38,102097.38,0,102097.38,52,Male,Poznan,S183,13,Spring2024,No,None,17.68
+T0746,2024-11-12,Hyundai,Santa Fe,2022,Sedan,Electric,Silver,231336,23,53207.28,284543.28,10,256088.95,45,Female,Poznan,S189,96,SummerDeals,No,None,12.13
+T0747,2024-06-30,BMW,3 Series,2020,Sedan,Petrol,Silver,194113,23,44645.99,238758.99,5,226821.04,28,Female,Wroclaw,S181,22,WinterClearance,Yes,CreditPlus,16.11
+T0748,2024-02-01,BMW,5 Series,2023,Sedan,Hybrid,White,184066,23,42335.18,226401.18,3,219609.14,33,Male,Gdansk,S136,75,SummerDeals,No,None,7.18
+T0749,2024-08-09,Hyundai,Tucson,2021,SUV,Hybrid,White,242825,23,55849.75,298674.75,0,298674.75,50,Male,Wroclaw,S186,25,WinterClearance,Yes,CreditPlus,18.83
+T0750,2024-12-30,Toyota,RAV4,2023,Coupe,Electric,Silver,186143,23,42812.89,228955.89,7,212928.98,68,Female,Gdansk,S116,8,Spring2024,Yes,LeasingPro,10.5
+T0751,2024-01-03,Toyota,Corolla,2020,Sedan,Diesel,Gray,249985,23,57496.55,307481.55,0,307481.55,57,Male,Warsaw,S151,61,AutumnSales,Yes,BankPolska,10.29
+T0752,2024-10-24,Hyundai,Santa Fe,2024,Sedan,Petrol,Red,221978,23,51054.94,273032.94,3,264841.95,28,Female,Krakow,S147,101,Spring2024,Yes,BankPolska,17.41
+T0753,2024-03-22,Ford,Mondeo,2023,Coupe,Diesel,Black,132110,23,30385.3,162495.3,10,146245.77,36,Female,Krakow,S159,51,None,Yes,AutoFin,13.79
+T0754,2024-05-11,BMW,5 Series,2024,SUV,Electric,Silver,148014,23,34043.22,182057.22,5,172954.36,51,Male,Poznan,S194,40,None,No,None,10.47
+T0755,2024-03-02,Hyundai,Tucson,2024,SUV,Diesel,Blue,243274,23,55953.02,299227.02,0,299227.02,69,Female,Poznan,S143,112,WinterClearance,Yes,None,8.59
+T0756,2024-02-24,Volkswagen,Golf,2020,Coupe,Electric,Red,245279,23,56414.17,301693.17,10,271523.85,30,Female,Poznan,S107,12,Spring2024,Yes,LeasingPro,10.53
+T0757,2024-03-24,BMW,X5,2024,SUV,Petrol,White,122601,23,28198.23,150799.23,0,150799.23,46,Male,Warsaw,S148,98,WinterClearance,Yes,LeasingPro,10.27
+T0758,2024-05-28,Hyundai,Santa Fe,2023,Sedan,Diesel,White,83314,23,19162.22,102476.22,0,102476.22,52,Female,Poznan,S147,45,None,Yes,AutoFin,7.47
+T0759,2024-06-04,Toyota,Camry,2022,SUV,Electric,Red,172351,23,39640.73,211991.73,3,205631.98,33,Male,Gdansk,S132,9,AutumnSales,Yes,CreditPlus,5.64
+T0760,2024-03-25,Hyundai,Tucson,2024,Sedan,Diesel,Red,174627,23,40164.21,214791.21,3,208347.47,50,Female,Krakow,S159,113,WinterClearance,No,None,17.72
+T0761,2024-05-05,BMW,3 Series,2020,Sedan,Diesel,White,202549,23,46586.27,249135.27,7,231695.8,52,Male,Gdansk,S173,115,Spring2024,Yes,AutoFin,18.25
+T0762,2024-01-11,Ford,Mondeo,2022,Coupe,Diesel,Blue,211363,23,48613.49,259976.49,0,259976.49,26,Female,Warsaw,S190,41,Spring2024,No,None,12.18
+T0763,2024-11-12,Toyota,Corolla,2022,Hatchback,Petrol,Silver,117982,23,27135.86,145117.86,7,134959.61,42,Male,Wroclaw,S107,69,AutumnSales,No,None,19.69
+T0764,2024-07-18,Volkswagen,Passat,2023,Hatchback,Diesel,Gray,223979,23,51515.17,275494.17,5,261719.46,45,Male,Warsaw,S174,43,SummerDeals,No,None,18.63
+T0765,2024-02-07,Toyota,RAV4,2021,Hatchback,Petrol,Blue,157051,23,36121.73,193172.73,7,179650.64,30,Female,Wroclaw,S141,6,WinterClearance,Yes,None,14.66
+T0766,2024-12-01,Volkswagen,Tiguan,2023,Coupe,Diesel,Gray,198520,23,45659.6,244179.6,3,236854.21,57,Male,Wroclaw,S120,21,None,No,None,15.14
+T0767,2024-01-11,Hyundai,Tucson,2023,Sedan,Electric,Black,110319,23,25373.37,135692.37,5,128907.75,65,Male,Warsaw,S108,20,SummerDeals,Yes,LeasingPro,19.66
+T0768,2024-06-29,BMW,X5,2023,Sedan,Electric,Black,218224,23,50191.52,268415.52,3,260363.05,30,Female,Warsaw,S169,95,AutumnSales,No,None,18.97
+T0769,2024-01-12,Ford,Focus,2020,Coupe,Hybrid,Gray,118601,23,27278.23,145879.23,0,145879.23,59,Male,Wroclaw,S186,17,None,Yes,BankPolska,5.23
+T0770,2024-12-20,Toyota,RAV4,2024,Sedan,Hybrid,Silver,88827,23,20430.21,109257.20999999999,7,101609.21,51,Female,Krakow,S137,47,Spring2024,Yes,CreditPlus,17.02
+T0771,2024-09-07,Volkswagen,Golf,2020,SUV,Diesel,Red,164883,23,37923.09,202806.09,0,202806.09,48,Female,Gdansk,S120,30,AutumnSales,No,None,8.92
+T0772,2024-02-03,Volkswagen,Golf,2020,Coupe,Electric,Silver,242305,23,55730.15,298035.15,3,289094.1,41,Female,Krakow,S185,109,WinterClearance,Yes,BankPolska,7.12
+T0773,2024-03-10,Toyota,Corolla,2023,SUV,Hybrid,Blue,179521,23,41289.83,220810.83000000002,10,198729.75,37,Male,Poznan,S184,79,AutumnSales,No,None,10.74
+T0774,2024-03-05,Toyota,Corolla,2022,SUV,Electric,Blue,161499,23,37144.77,198643.77,3,192684.46,50,Male,Poznan,S121,25,AutumnSales,No,None,11.21
+T0775,2024-03-14,Toyota,Corolla,2022,Hatchback,Petrol,Blue,217245,23,49966.35,267211.35,7,248506.56,29,Male,Krakow,S186,52,Spring2024,Yes,None,18.65
+T0776,2024-06-27,Toyota,RAV4,2020,SUV,Hybrid,Gray,108870,23,25040.1,133910.1,3,129892.8,33,Female,Krakow,S135,110,Spring2024,Yes,AutoFin,17.56
+T0777,2024-02-05,Ford,Kuga,2024,Coupe,Diesel,Red,225665,23,51902.95,277567.95,3,269240.91,48,Male,Krakow,S182,51,Spring2024,Yes,AutoFin,7.47
+T0778,2024-05-15,Volkswagen,Tiguan,2023,Coupe,Hybrid,Blue,72730,23,16727.9,89457.9,5,84985.0,60,Female,Poznan,S103,63,WinterClearance,No,None,12.34
+T0779,2024-06-17,BMW,3 Series,2020,SUV,Diesel,White,74136,23,17051.28,91187.28,7,84804.17,54,Female,Gdansk,S117,24,AutumnSales,Yes,LeasingPro,8.46
+T0780,2024-12-06,Ford,Kuga,2024,Hatchback,Hybrid,White,70370,23,16185.1,86555.1,3,83958.45,60,Male,Wroclaw,S113,98,Spring2024,Yes,AutoFin,18.76
+T0781,2024-05-21,Hyundai,Tucson,2024,Sedan,Diesel,White,177300,23,40779.0,218079.0,7,202813.47,27,Male,Poznan,S117,16,AutumnSales,Yes,CreditPlus,14.97
+T0782,2024-07-12,Hyundai,Tucson,2022,Hatchback,Petrol,Silver,161285,23,37095.55,198380.55,10,178542.49,44,Female,Poznan,S128,82,None,No,None,10.36
+T0783,2024-11-10,BMW,5 Series,2020,SUV,Petrol,Red,216361,23,49763.03,266124.03,7,247495.35,68,Male,Poznan,S118,11,SummerDeals,No,None,9.85
+T0784,2024-06-12,Ford,Kuga,2020,Sedan,Hybrid,Gray,180519,23,41519.37,222038.37,3,215377.22,46,Male,Poznan,S170,23,None,No,None,6.75
+T0785,2024-09-25,BMW,X5,2024,Coupe,Electric,Gray,106959,23,24600.57,131559.57,0,131559.57,59,Male,Poznan,S174,36,Spring2024,Yes,BankPolska,7.14
+T0786,2024-07-08,BMW,X5,2020,Hatchback,Electric,Gray,76611,23,17620.53,94231.53,7,87635.32,30,Female,Wroclaw,S137,30,None,Yes,CreditPlus,12.4
+T0787,2024-06-03,BMW,3 Series,2020,SUV,Diesel,White,153680,23,35346.4,189026.4,5,179575.08,65,Male,Poznan,S116,116,WinterClearance,No,None,17.64
+T0788,2024-01-01,Toyota,RAV4,2022,Coupe,Diesel,Gray,149029,23,34276.67,183305.66999999998,10,164975.1,57,Female,Krakow,S169,27,Spring2024,No,None,14.72
+T0789,2024-01-10,Hyundai,Tucson,2024,SUV,Hybrid,Silver,148335,23,34117.05,182452.05,7,169680.41,60,Male,Poznan,S115,37,WinterClearance,Yes,BankPolska,14.36
+T0790,2024-07-12,Ford,Kuga,2020,Sedan,Hybrid,Gray,150692,23,34659.16,185351.16,0,185351.16,39,Male,Poznan,S166,34,None,Yes,BankPolska,13.38
+T0791,2024-03-07,Toyota,Camry,2022,Sedan,Diesel,Gray,123753,23,28463.19,152216.19,0,152216.19,25,Female,Gdansk,S182,48,SummerDeals,Yes,None,13.93
+T0792,2024-02-15,Volkswagen,Golf,2022,Sedan,Hybrid,Black,160736,23,36969.28,197705.28,3,191774.12,28,Female,Poznan,S193,42,None,Yes,None,8.71
+T0793,2024-05-25,Toyota,RAV4,2024,Sedan,Electric,Gray,70428,23,16198.44,86626.44,0,86626.44,36,Female,Poznan,S196,46,SummerDeals,Yes,LeasingPro,6.84
+T0794,2024-08-17,Volkswagen,Golf,2020,Sedan,Petrol,Silver,133257,23,30649.11,163906.11,0,163906.11,30,Male,Poznan,S184,77,AutumnSales,No,None,13.89
+T0795,2024-03-29,BMW,X5,2024,Hatchback,Hybrid,White,206569,23,47510.87,254079.87,5,241375.88,27,Female,Gdansk,S156,22,AutumnSales,No,None,11.04
+T0796,2024-08-18,Toyota,Camry,2022,Sedan,Diesel,Silver,150286,23,34565.78,184851.78,0,184851.78,36,Male,Wroclaw,S130,68,SummerDeals,No,None,19.22
+T0797,2024-06-27,Toyota,Camry,2021,Sedan,Diesel,Silver,143705,23,33052.15,176757.15,3,171454.44,34,Female,Wroclaw,S170,103,None,No,None,13.75
+T0798,2024-07-15,Hyundai,Tucson,2020,SUV,Petrol,Gray,106293,23,24447.39,130740.39,0,130740.39,43,Female,Krakow,S161,59,WinterClearance,Yes,LeasingPro,15.4
+T0799,2024-03-20,Volkswagen,Passat,2022,Hatchback,Electric,Red,154040,23,35429.2,189469.2,0,189469.2,61,Male,Wroclaw,S118,23,Spring2024,Yes,None,7.36
+T0800,2024-08-26,BMW,X5,2022,Sedan,Diesel,Silver,171478,23,39439.94,210917.94,10,189826.15,39,Male,Poznan,S122,75,WinterClearance,No,None,12.09
+T0801,2024-06-16,Toyota,Camry,2024,Hatchback,Petrol,Gray,81965,23,18851.95,100816.95,0,100816.95,56,Male,Wroclaw,S171,116,None,Yes,None,13.28
+T0802,2024-04-30,Toyota,Corolla,2023,Coupe,Electric,Silver,141179,23,32471.17,173650.16999999998,5,164967.66,56,Female,Wroclaw,S114,30,AutumnSales,No,None,15.81
+T0803,2024-02-10,Volkswagen,Tiguan,2020,Hatchback,Hybrid,Red,238118,23,54767.14,292885.14,5,278240.88,30,Female,Gdansk,S162,18,AutumnSales,Yes,LeasingPro,5.54
+T0804,2024-09-11,Ford,Mondeo,2021,Coupe,Hybrid,Silver,119169,23,27408.87,146577.87,7,136317.42,59,Male,Wroclaw,S198,78,WinterClearance,No,None,18.44
+T0805,2024-05-12,Volkswagen,Passat,2024,Coupe,Hybrid,Red,236751,23,54452.73,291203.73,7,270819.47,51,Female,Poznan,S139,81,WinterClearance,Yes,None,13.01
+T0806,2024-03-14,Volkswagen,Golf,2024,Coupe,Diesel,White,232785,23,53540.55,286325.55,5,272009.27,50,Male,Warsaw,S120,79,AutumnSales,No,None,8.09
+T0807,2024-04-21,Volkswagen,Passat,2021,Coupe,Petrol,White,100171,23,23039.33,123210.33,3,119514.02,61,Male,Poznan,S145,1,AutumnSales,Yes,None,17.91
+T0808,2024-10-08,Hyundai,i30,2020,SUV,Hybrid,Silver,73924,23,17002.52,90926.52,3,88198.72,53,Male,Krakow,S127,11,AutumnSales,Yes,BankPolska,18.53
+T0809,2024-05-04,Hyundai,Tucson,2021,Coupe,Hybrid,Silver,64066,23,14735.18,78801.18,5,74861.12,47,Female,Krakow,S152,60,Spring2024,Yes,LeasingPro,16.2
+T0810,2024-04-08,Toyota,RAV4,2023,Hatchback,Hybrid,Silver,216818,23,49868.14,266686.14,3,258685.56,41,Female,Krakow,S199,92,WinterClearance,No,None,12.95
+T0811,2024-06-22,Volkswagen,Tiguan,2020,Sedan,Diesel,Black,134087,23,30840.01,164927.01,5,156680.66,39,Female,Gdansk,S107,86,WinterClearance,Yes,BankPolska,13.81
+T0812,2024-02-21,Hyundai,Santa Fe,2020,Sedan,Petrol,Red,208413,23,47934.99,256347.99,3,248657.55,52,Female,Wroclaw,S149,65,None,Yes,CreditPlus,14.1
+T0813,2024-12-03,Volkswagen,Tiguan,2021,SUV,Petrol,Blue,72833,23,16751.59,89584.59,7,83313.67,41,Female,Warsaw,S168,108,SummerDeals,Yes,AutoFin,5.36
+T0814,2024-12-23,Ford,Kuga,2020,Hatchback,Hybrid,Blue,181175,23,41670.25,222845.25,0,222845.25,34,Female,Warsaw,S168,89,AutumnSales,No,None,17.23
+T0815,2024-08-05,Hyundai,Tucson,2023,SUV,Diesel,White,138738,23,31909.74,170647.74,10,153582.97,66,Male,Krakow,S119,66,WinterClearance,Yes,BankPolska,19.0
+T0816,2024-02-19,BMW,X5,2023,Hatchback,Hybrid,White,81524,23,18750.52,100274.52,7,93255.3,48,Female,Wroclaw,S152,117,WinterClearance,No,None,16.08
+T0817,2024-11-13,Volkswagen,Passat,2020,Sedan,Electric,Red,90488,23,20812.24,111300.24,10,100170.22,31,Female,Poznan,S129,109,WinterClearance,Yes,CreditPlus,15.65
+T0818,2024-04-08,Volkswagen,Tiguan,2021,Sedan,Diesel,Red,204149,23,46954.27,251103.27,7,233526.04,25,Female,Warsaw,S136,111,SummerDeals,No,None,7.23
+T0819,2024-05-21,Hyundai,i30,2024,SUV,Hybrid,Blue,69354,23,15951.42,85305.42,3,82746.26,37,Female,Krakow,S176,114,Spring2024,No,None,11.94
+T0820,2024-12-13,BMW,3 Series,2021,Coupe,Electric,Silver,64047,23,14730.81,78777.81,10,70900.03,62,Female,Krakow,S157,14,None,Yes,BankPolska,10.91
+T0821,2024-02-28,Volkswagen,Golf,2022,Coupe,Hybrid,Red,201673,23,46384.79,248057.79,3,240616.06,53,Male,Warsaw,S130,26,SummerDeals,Yes,BankPolska,18.05
+T0822,2024-06-11,Toyota,Camry,2020,Sedan,Hybrid,Black,243033,23,55897.59,298930.58999999997,5,283984.06,48,Female,Poznan,S167,117,None,Yes,BankPolska,17.72
+T0823,2024-06-06,BMW,3 Series,2023,Hatchback,Diesel,Black,68426,23,15737.98,84163.98,5,79955.78,69,Male,Wroclaw,S134,21,AutumnSales,Yes,BankPolska,11.13
+T0824,2024-08-15,Toyota,Camry,2023,Hatchback,Electric,Gray,236409,23,54374.07,290783.07,7,270428.26,40,Male,Warsaw,S199,39,Spring2024,No,None,16.21
+T0825,2024-04-21,Hyundai,Tucson,2024,Coupe,Electric,White,209653,23,48220.19,257873.19,0,257873.19,55,Male,Poznan,S103,30,SummerDeals,No,None,7.96
+T0826,2024-11-04,BMW,3 Series,2022,Coupe,Electric,Silver,158711,23,36503.53,195214.53,3,189358.09,39,Female,Krakow,S194,2,None,Yes,LeasingPro,10.07
+T0827,2024-12-11,Toyota,RAV4,2023,SUV,Diesel,Gray,64705,23,14882.15,79587.15,7,74016.05,25,Female,Poznan,S132,72,Spring2024,No,None,12.04
+T0828,2024-12-25,Ford,Kuga,2023,SUV,Hybrid,Silver,221931,23,51044.13,272975.13,3,264785.88,69,Female,Gdansk,S123,11,SummerDeals,Yes,AutoFin,15.32
+T0829,2024-09-24,Hyundai,i30,2021,Coupe,Diesel,Blue,186663,23,42932.49,229595.49,7,213523.81,49,Female,Gdansk,S189,30,None,Yes,LeasingPro,17.89
+T0830,2024-10-20,Toyota,RAV4,2024,Sedan,Petrol,White,219294,23,50437.62,269731.62,3,261639.67,38,Female,Warsaw,S105,69,Spring2024,Yes,None,17.39
+T0831,2024-10-21,Ford,Focus,2021,Hatchback,Petrol,Black,72106,23,16584.38,88690.38,7,82482.05,48,Male,Poznan,S190,110,AutumnSales,No,None,11.55
+T0832,2024-03-23,BMW,X5,2024,SUV,Electric,Silver,194887,23,44824.01,239711.01,7,222931.24,31,Female,Wroclaw,S117,43,AutumnSales,No,None,8.3
+T0833,2024-07-13,Ford,Focus,2024,Sedan,Electric,Red,185441,23,42651.43,228092.43,3,221249.66,56,Male,Warsaw,S137,9,None,Yes,AutoFin,19.72
+T0834,2024-03-03,BMW,3 Series,2024,Coupe,Hybrid,Red,221911,23,51039.53,272950.53,7,253843.99,44,Female,Gdansk,S107,48,Spring2024,No,None,8.48
+T0835,2024-09-20,Hyundai,Santa Fe,2022,Sedan,Diesel,Silver,222961,23,51281.03,274242.03,10,246817.83,28,Female,Warsaw,S111,75,SummerDeals,Yes,BankPolska,7.44
+T0836,2024-12-11,Volkswagen,Golf,2020,Hatchback,Hybrid,Silver,61449,23,14133.27,75582.27,7,70291.51,32,Male,Poznan,S166,77,SummerDeals,No,None,10.27
+T0837,2024-04-09,Ford,Focus,2022,SUV,Hybrid,Red,231780,23,53309.4,285089.4,7,265133.14,65,Male,Gdansk,S137,5,None,No,None,15.17
+T0838,2024-05-01,Toyota,Corolla,2024,SUV,Petrol,White,204560,23,47048.8,251608.8,7,233996.18,25,Male,Krakow,S103,47,WinterClearance,Yes,None,9.83
+T0839,2024-05-27,BMW,3 Series,2020,Sedan,Diesel,White,98764,23,22715.72,121479.72,7,112976.14,43,Male,Warsaw,S107,13,SummerDeals,Yes,None,14.05
+T0840,2024-04-09,Volkswagen,Golf,2023,SUV,Diesel,Blue,101133,23,23260.59,124393.59,7,115686.04,26,Male,Poznan,S134,110,Spring2024,Yes,LeasingPro,12.68
+T0841,2024-12-30,Ford,Focus,2021,Coupe,Diesel,Silver,204334,23,46996.82,251330.82,7,233737.66,43,Female,Gdansk,S197,99,SummerDeals,No,None,7.92
+T0842,2024-10-12,Toyota,RAV4,2023,Coupe,Diesel,Gray,203592,23,46826.16,250418.16,3,242905.62,35,Female,Warsaw,S138,37,SummerDeals,Yes,None,15.59
+T0843,2024-01-31,Volkswagen,Tiguan,2021,SUV,Electric,Black,248520,23,57159.6,305679.6,0,305679.6,41,Male,Wroclaw,S171,29,Spring2024,No,None,15.31
+T0844,2024-04-04,Hyundai,Tucson,2024,SUV,Electric,Gray,147576,23,33942.48,181518.48,5,172442.56,50,Female,Poznan,S191,26,WinterClearance,No,None,7.35
+T0845,2024-05-22,Volkswagen,Passat,2022,Coupe,Petrol,Red,211561,23,48659.03,260220.03,10,234198.03,62,Female,Poznan,S195,26,Spring2024,No,None,12.89
+T0846,2024-11-01,Volkswagen,Tiguan,2024,Hatchback,Petrol,Gray,134260,23,30879.8,165139.8,5,156882.81,61,Male,Krakow,S112,20,Spring2024,Yes,BankPolska,15.16
+T0847,2024-02-13,Ford,Mondeo,2024,SUV,Electric,White,180270,23,41462.1,221732.1,0,221732.1,48,Female,Warsaw,S105,26,SummerDeals,Yes,BankPolska,6.76
+T0848,2024-06-11,BMW,5 Series,2020,Coupe,Diesel,Gray,113207,23,26037.61,139244.61,0,139244.61,50,Male,Gdansk,S184,76,AutumnSales,No,None,18.61
+T0849,2024-07-27,Volkswagen,Passat,2020,Sedan,Electric,Black,216622,23,49823.06,266445.06,5,253122.81,70,Male,Poznan,S107,67,Spring2024,No,None,8.41
+T0850,2024-12-17,Toyota,RAV4,2024,Coupe,Diesel,Gray,169416,23,38965.68,208381.68,10,187543.51,34,Male,Warsaw,S127,25,SummerDeals,Yes,LeasingPro,10.62
+T0851,2024-12-21,Hyundai,Santa Fe,2021,Sedan,Diesel,Red,232127,23,53389.21,285516.21,7,265530.08,56,Female,Gdansk,S142,61,SummerDeals,Yes,AutoFin,14.4
+T0852,2024-12-11,Ford,Kuga,2023,SUV,Diesel,White,218270,23,50202.1,268472.1,3,260417.94,31,Male,Krakow,S184,92,AutumnSales,No,None,18.43
+T0853,2024-11-03,BMW,5 Series,2021,Coupe,Diesel,Blue,168911,23,38849.53,207760.53,3,201527.71,26,Male,Warsaw,S152,54,None,Yes,None,11.7
+T0854,2024-02-06,BMW,3 Series,2021,Sedan,Hybrid,Black,125880,23,28952.4,154832.4,10,139349.16,34,Female,Poznan,S105,15,SummerDeals,No,None,12.27
+T0855,2024-01-07,Hyundai,Santa Fe,2023,Coupe,Diesel,Red,132470,23,30468.1,162938.1,0,162938.1,69,Female,Wroclaw,S156,29,WinterClearance,No,None,10.89
+T0856,2024-07-31,Toyota,RAV4,2021,Sedan,Petrol,Red,88693,23,20399.39,109092.39,10,98183.15,52,Female,Krakow,S169,18,Spring2024,No,None,17.96
+T0857,2024-08-16,Ford,Mondeo,2021,Hatchback,Electric,Silver,113370,23,26075.1,139445.1,10,125500.59,62,Male,Warsaw,S142,24,None,Yes,None,15.9
+T0858,2024-04-27,Volkswagen,Passat,2022,SUV,Hybrid,Black,221676,23,50985.48,272661.48,3,264481.64,64,Male,Krakow,S176,19,AutumnSales,No,None,8.33
+T0859,2024-09-17,Toyota,Camry,2023,Sedan,Electric,Red,60995,23,14028.85,75023.85,10,67521.47,49,Male,Poznan,S121,111,Spring2024,Yes,AutoFin,5.96
+T0860,2024-09-22,Toyota,Camry,2020,SUV,Electric,Blue,150123,23,34528.29,184651.29,10,166186.16,32,Female,Krakow,S168,34,SummerDeals,Yes,LeasingPro,13.67
+T0861,2024-09-16,Toyota,RAV4,2023,SUV,Hybrid,Blue,183097,23,42112.31,225209.31,0,225209.31,59,Female,Krakow,S101,60,Spring2024,No,None,17.57
+T0862,2024-12-06,Volkswagen,Tiguan,2022,Coupe,Diesel,Gray,61741,23,14200.43,75941.43,5,72144.36,51,Male,Warsaw,S120,13,SummerDeals,Yes,AutoFin,7.28
+T0863,2024-11-09,BMW,5 Series,2022,Sedan,Diesel,Red,86161,23,19817.03,105978.03,3,102798.69,26,Male,Krakow,S190,61,Spring2024,Yes,LeasingPro,15.35
+T0864,2024-12-08,Volkswagen,Golf,2024,SUV,Electric,Gray,230620,23,53042.6,283662.6,0,283662.6,34,Female,Krakow,S114,105,SummerDeals,Yes,CreditPlus,7.5
+T0865,2024-11-30,Toyota,Camry,2022,Hatchback,Petrol,Red,173913,23,39999.99,213912.99,7,198939.08,49,Female,Poznan,S120,69,Spring2024,No,None,16.82
+T0866,2024-04-05,Ford,Mondeo,2022,Sedan,Hybrid,Black,199645,23,45918.35,245563.35,3,238196.45,49,Female,Wroclaw,S187,11,AutumnSales,No,None,16.14
+T0867,2024-06-09,Toyota,Corolla,2022,SUV,Hybrid,Gray,108740,23,25010.2,133750.2,7,124387.69,41,Male,Krakow,S179,9,Spring2024,No,None,19.43
+T0868,2024-07-24,Ford,Focus,2021,Hatchback,Petrol,Red,198495,23,45653.85,244148.85,5,231941.41,26,Male,Wroclaw,S174,12,SummerDeals,Yes,LeasingPro,17.95
+T0869,2024-07-15,BMW,X5,2021,Coupe,Diesel,White,176704,23,40641.92,217345.91999999998,7,202131.71,65,Male,Gdansk,S118,62,SummerDeals,No,None,9.6
+T0870,2024-07-08,Hyundai,Santa Fe,2022,SUV,Petrol,Black,98729,23,22707.67,121436.67,10,109293.0,33,Female,Gdansk,S114,64,WinterClearance,No,None,11.4
+T0871,2024-09-14,BMW,X5,2021,Hatchback,Electric,Silver,153370,23,35275.1,188645.1,7,175439.94,58,Male,Warsaw,S165,17,None,No,None,11.9
+T0872,2024-06-03,Ford,Kuga,2022,Sedan,Electric,Silver,160894,23,37005.62,197899.62,10,178109.66,50,Male,Wroclaw,S168,77,WinterClearance,No,None,11.27
+T0873,2024-02-19,Hyundai,i30,2023,Sedan,Petrol,Black,149906,23,34478.38,184384.38,3,178852.85,67,Female,Poznan,S157,57,WinterClearance,Yes,None,16.44
+T0874,2024-10-01,Toyota,Corolla,2024,Sedan,Diesel,White,213152,23,49024.96,262176.96,5,249068.11,58,Female,Wroclaw,S110,34,None,Yes,AutoFin,18.09
+T0875,2024-11-30,BMW,5 Series,2020,Sedan,Diesel,Silver,97851,23,22505.73,120356.73,10,108321.06,35,Female,Poznan,S136,74,WinterClearance,No,None,11.8
+T0876,2024-04-08,BMW,X5,2021,Coupe,Electric,Black,167977,23,38634.71,206611.71,10,185950.54,29,Male,Wroclaw,S158,87,WinterClearance,No,None,8.23
+T0877,2024-07-19,BMW,X5,2023,SUV,Hybrid,Silver,114176,23,26260.48,140436.48,7,130605.93,38,Female,Poznan,S194,8,SummerDeals,Yes,AutoFin,7.62
+T0878,2024-03-30,Hyundai,i30,2021,Hatchback,Petrol,Red,139270,23,32032.1,171302.1,7,159310.95,60,Female,Warsaw,S117,19,AutumnSales,No,None,7.85
+T0879,2024-11-19,Ford,Focus,2022,Hatchback,Electric,Red,62469,23,14367.87,76836.87,3,74531.76,56,Female,Gdansk,S187,4,Spring2024,Yes,LeasingPro,6.38
+T0880,2024-11-13,Ford,Mondeo,2020,Coupe,Petrol,Blue,195720,23,45015.6,240735.6,7,223884.11,63,Female,Wroclaw,S190,73,SummerDeals,Yes,BankPolska,7.19
+T0881,2024-06-28,Hyundai,Tucson,2022,Coupe,Diesel,Black,84787,23,19501.01,104288.01,3,101159.37,40,Male,Wroclaw,S192,61,AutumnSales,Yes,AutoFin,6.09
+T0882,2024-03-16,BMW,5 Series,2022,Sedan,Diesel,Blue,163736,23,37659.28,201395.28,10,181255.75,37,Female,Warsaw,S101,54,None,Yes,CreditPlus,17.18
+T0883,2024-11-20,BMW,3 Series,2024,Sedan,Electric,Blue,141075,23,32447.25,173522.25,7,161375.69,29,Female,Gdansk,S130,8,AutumnSales,Yes,None,13.08
+T0884,2024-05-10,Volkswagen,Tiguan,2021,SUV,Diesel,Red,101295,23,23297.85,124592.85,0,124592.85,48,Male,Gdansk,S146,38,SummerDeals,No,None,7.06
+T0885,2024-02-20,Ford,Kuga,2020,SUV,Hybrid,Red,157906,23,36318.38,194224.38,10,174801.94,50,Male,Wroclaw,S126,82,AutumnSales,No,None,18.32
+T0886,2024-05-21,BMW,X5,2024,Sedan,Electric,Black,93566,23,21520.18,115086.18,3,111633.59,49,Male,Gdansk,S152,35,None,Yes,LeasingPro,6.44
+T0887,2024-10-09,BMW,5 Series,2020,SUV,Hybrid,Red,197292,23,45377.16,242669.16,5,230535.7,26,Female,Gdansk,S113,12,SummerDeals,No,None,8.88
+T0888,2024-08-08,Hyundai,i30,2021,SUV,Electric,Black,234360,23,53902.8,288262.8,0,288262.8,49,Female,Gdansk,S129,6,WinterClearance,Yes,CreditPlus,19.65
+T0889,2024-08-27,Hyundai,i30,2023,SUV,Diesel,Blue,64127,23,14749.21,78876.20999999999,0,78876.21,39,Male,Poznan,S155,115,Spring2024,Yes,LeasingPro,8.36
+T0890,2024-10-03,Ford,Kuga,2020,Coupe,Petrol,Red,163892,23,37695.16,201587.16,3,195539.55,33,Female,Warsaw,S133,62,SummerDeals,No,None,17.51
+T0891,2024-12-09,Volkswagen,Golf,2022,Coupe,Electric,Blue,136382,23,31367.86,167749.86,0,167749.86,47,Female,Poznan,S198,61,Spring2024,Yes,None,9.9
+T0892,2024-09-10,Toyota,RAV4,2022,SUV,Petrol,Red,142769,23,32836.87,175605.87,10,158045.28,46,Female,Wroclaw,S124,33,AutumnSales,No,None,8.66
+T0893,2024-07-21,Toyota,RAV4,2023,Hatchback,Diesel,Silver,161645,23,37178.35,198823.35,3,192858.65,47,Female,Gdansk,S129,34,WinterClearance,Yes,None,14.25
+T0894,2024-06-04,Hyundai,i30,2021,SUV,Petrol,Black,159532,23,36692.36,196224.36,5,186413.14,41,Female,Poznan,S195,68,WinterClearance,Yes,LeasingPro,19.45
+T0895,2024-08-09,Volkswagen,Tiguan,2024,Coupe,Hybrid,Black,153839,23,35382.97,189221.97,5,179760.87,62,Male,Wroclaw,S148,75,AutumnSales,Yes,None,18.35
+T0896,2024-08-10,BMW,3 Series,2023,Coupe,Hybrid,Silver,78589,23,18075.47,96664.47,7,89897.96,26,Male,Krakow,S135,11,WinterClearance,No,None,11.53
+T0897,2024-04-11,BMW,5 Series,2020,SUV,Hybrid,White,65454,23,15054.42,80508.42,10,72457.58,25,Female,Warsaw,S189,115,None,No,None,16.6
+T0898,2024-02-05,Ford,Focus,2020,Sedan,Hybrid,Red,243888,23,56094.24,299982.24,10,269984.02,57,Female,Poznan,S114,19,AutumnSales,No,None,15.49
+T0899,2024-09-17,Volkswagen,Passat,2023,Sedan,Electric,Black,231519,23,53249.37,284768.37,0,284768.37,32,Male,Warsaw,S193,110,SummerDeals,Yes,CreditPlus,7.63
+T0900,2024-01-04,Hyundai,Santa Fe,2022,SUV,Hybrid,Blue,72777,23,16738.71,89515.70999999999,0,89515.71,59,Female,Wroclaw,S181,114,Spring2024,No,None,9.92
+T0901,2024-02-16,Toyota,RAV4,2022,Coupe,Petrol,White,213198,23,49035.54,262233.54,7,243877.19,36,Female,Poznan,S109,106,None,No,None,14.01
+T0902,2024-07-29,BMW,X5,2023,Sedan,Petrol,Blue,60857,23,13997.11,74854.11,5,71111.4,35,Male,Krakow,S101,84,None,Yes,CreditPlus,13.16
+T0903,2024-01-24,Ford,Focus,2024,SUV,Hybrid,Black,122994,23,28288.62,151282.62,10,136154.36,30,Male,Poznan,S174,80,None,Yes,CreditPlus,10.65
+T0904,2024-11-18,BMW,3 Series,2023,Sedan,Diesel,Blue,196719,23,45245.37,241964.37,7,225026.86,25,Female,Wroclaw,S149,69,SummerDeals,No,None,6.75
+T0905,2024-09-08,Ford,Mondeo,2021,SUV,Petrol,Blue,248640,23,57187.2,305827.2,10,275244.48,46,Male,Wroclaw,S178,34,None,Yes,None,12.83
+T0906,2024-01-20,Volkswagen,Passat,2022,Coupe,Petrol,Gray,175222,23,40301.06,215523.06,0,215523.06,43,Female,Poznan,S190,14,AutumnSales,No,None,15.11
+T0907,2024-09-26,BMW,3 Series,2021,Sedan,Hybrid,Gray,109138,23,25101.74,134239.74,3,130212.55,44,Male,Gdansk,S138,70,SummerDeals,No,None,7.31
+T0908,2024-08-11,Ford,Mondeo,2024,Sedan,Petrol,Black,75436,23,17350.28,92786.28,7,86291.24,64,Female,Warsaw,S110,55,SummerDeals,Yes,None,14.92
+T0909,2024-04-14,Ford,Focus,2020,Hatchback,Petrol,Gray,85857,23,19747.11,105604.11,3,102435.99,34,Female,Krakow,S119,120,WinterClearance,No,None,8.03
+T0910,2024-01-06,Toyota,Camry,2020,SUV,Hybrid,Black,227628,23,52354.44,279982.44,3,271582.97,67,Male,Warsaw,S154,44,None,Yes,CreditPlus,14.52
+T0911,2024-04-01,Ford,Mondeo,2024,SUV,Electric,Black,120315,23,27672.45,147987.45,10,133188.71,68,Female,Poznan,S147,25,None,No,None,17.65
+T0912,2024-11-05,BMW,X5,2020,Hatchback,Diesel,Silver,223020,23,51294.6,274314.6,10,246883.14,55,Female,Wroclaw,S141,108,Spring2024,Yes,LeasingPro,16.95
+T0913,2024-08-04,Toyota,Camry,2021,Hatchback,Hybrid,White,71353,23,16411.19,87764.19,10,78987.77,64,Female,Poznan,S175,95,SummerDeals,Yes,LeasingPro,15.41
+T0914,2024-10-19,Ford,Mondeo,2024,SUV,Petrol,Blue,66611,23,15320.53,81931.53,7,76196.32,33,Male,Krakow,S131,57,SummerDeals,Yes,CreditPlus,11.76
+T0915,2024-11-11,BMW,5 Series,2020,Hatchback,Hybrid,Red,141212,23,32478.76,173690.76,0,173690.76,66,Female,Gdansk,S184,55,Spring2024,Yes,AutoFin,14.14
+T0916,2024-06-12,Ford,Kuga,2024,Sedan,Hybrid,Gray,85393,23,19640.39,105033.39,0,105033.39,47,Male,Gdansk,S129,28,AutumnSales,Yes,LeasingPro,17.14
+T0917,2024-03-12,BMW,3 Series,2023,Hatchback,Diesel,Silver,87356,23,20091.88,107447.88,3,104224.44,57,Male,Krakow,S152,12,Spring2024,Yes,None,17.88
+T0918,2024-10-29,BMW,X5,2020,Hatchback,Hybrid,Red,175765,23,40425.95,216190.95,5,205381.4,59,Male,Wroclaw,S108,102,WinterClearance,Yes,None,5.33
+T0919,2024-08-15,Volkswagen,Tiguan,2023,Coupe,Electric,Red,120323,23,27674.29,147997.29,10,133197.56,67,Female,Gdansk,S109,38,AutumnSales,No,None,14.21
+T0920,2024-05-01,Hyundai,Tucson,2022,Hatchback,Petrol,Blue,201737,23,46399.51,248136.51,10,223322.86,53,Male,Gdansk,S129,63,SummerDeals,Yes,LeasingPro,5.13
+T0921,2024-06-17,Hyundai,Santa Fe,2020,Sedan,Petrol,Black,93509,23,21507.07,115016.07,5,109265.27,70,Female,Krakow,S151,55,SummerDeals,No,None,17.13
+T0922,2024-02-26,BMW,5 Series,2021,Sedan,Petrol,Red,103119,23,23717.37,126836.37,3,123031.28,54,Female,Gdansk,S168,5,SummerDeals,Yes,AutoFin,10.21
+T0923,2024-08-01,Toyota,Corolla,2022,Sedan,Petrol,Red,151311,23,34801.53,186112.53,0,186112.53,45,Male,Gdansk,S186,42,AutumnSales,No,None,9.71
+T0924,2024-07-25,Ford,Focus,2021,SUV,Electric,Gray,99717,23,22934.91,122651.91,5,116519.31,36,Female,Krakow,S135,107,WinterClearance,Yes,AutoFin,8.4
+T0925,2024-09-25,BMW,3 Series,2021,SUV,Hybrid,Red,187921,23,43221.83,231142.83000000002,3,224208.55,34,Female,Wroclaw,S102,23,SummerDeals,No,None,13.34
+T0926,2024-12-21,BMW,X5,2022,SUV,Diesel,White,106234,23,24433.82,130667.82,3,126747.79,41,Female,Krakow,S117,67,SummerDeals,Yes,BankPolska,9.91
+T0927,2024-08-12,Toyota,RAV4,2020,SUV,Hybrid,White,105129,23,24179.67,129308.67,7,120257.06,44,Female,Poznan,S126,38,SummerDeals,Yes,None,14.72
+T0928,2024-01-16,Toyota,RAV4,2020,Hatchback,Electric,White,110233,23,25353.59,135586.59,5,128807.26,44,Female,Krakow,S156,25,AutumnSales,Yes,CreditPlus,9.76
+T0929,2024-10-12,Volkswagen,Passat,2024,SUV,Electric,Black,86439,23,19880.97,106319.97,5,101003.97,58,Male,Warsaw,S126,91,WinterClearance,Yes,CreditPlus,19.46
+T0930,2024-01-15,Volkswagen,Golf,2020,Coupe,Petrol,Black,180055,23,41412.65,221467.65,0,221467.65,28,Male,Poznan,S122,16,SummerDeals,Yes,BankPolska,19.38
+T0931,2024-06-05,Ford,Mondeo,2024,Hatchback,Hybrid,Gray,155378,23,35736.94,191114.94,0,191114.94,60,Female,Wroclaw,S130,103,SummerDeals,No,None,15.49
+T0932,2024-08-08,BMW,3 Series,2020,Coupe,Electric,Black,129526,23,29790.98,159316.98,7,148164.79,27,Female,Krakow,S149,81,WinterClearance,No,None,19.05
+T0933,2024-11-17,BMW,5 Series,2023,Hatchback,Diesel,Blue,87074,23,20027.02,107101.02,7,99603.95,26,Female,Poznan,S188,70,Spring2024,No,None,12.76
+T0934,2024-09-26,Hyundai,Santa Fe,2024,SUV,Diesel,Blue,235465,23,54156.95,289621.95,10,260659.76,25,Male,Gdansk,S194,107,WinterClearance,No,None,18.09
+T0935,2024-09-15,Toyota,Camry,2020,Coupe,Petrol,Black,230753,23,53073.19,283826.19,5,269634.88,50,Female,Poznan,S134,119,WinterClearance,No,None,7.59
+T0936,2024-08-14,BMW,X5,2022,SUV,Electric,Silver,171062,23,39344.26,210406.26,0,210406.26,50,Female,Poznan,S195,15,WinterClearance,No,None,18.71
+T0937,2024-08-29,Volkswagen,Golf,2024,Hatchback,Diesel,Silver,228801,23,52624.23,281425.23,0,281425.23,60,Male,Krakow,S189,6,None,Yes,BankPolska,15.43
+T0938,2024-06-12,Ford,Focus,2023,Sedan,Diesel,Gray,148841,23,34233.43,183074.43,0,183074.43,34,Male,Gdansk,S131,5,None,No,None,11.41
+T0939,2024-12-14,Volkswagen,Golf,2022,Sedan,Diesel,Silver,71147,23,16363.81,87510.81,0,87510.81,68,Female,Warsaw,S140,1,WinterClearance,Yes,CreditPlus,12.94
+T0940,2024-03-10,Ford,Kuga,2020,Sedan,Diesel,Red,165474,23,38059.02,203533.02,5,193356.37,57,Male,Warsaw,S156,43,Spring2024,No,None,19.46
+T0941,2024-04-07,Volkswagen,Golf,2022,Hatchback,Diesel,White,124231,23,28573.13,152804.13,5,145163.92,29,Male,Warsaw,S119,90,AutumnSales,No,None,17.77
+T0942,2024-12-03,Hyundai,Santa Fe,2020,Hatchback,Electric,Blue,219137,23,50401.51,269538.51,5,256061.58,70,Female,Warsaw,S102,93,AutumnSales,No,None,11.71
+T0943,2024-10-07,Toyota,Camry,2020,SUV,Hybrid,Blue,244490,23,56232.7,300722.7,5,285686.57,57,Female,Wroclaw,S179,90,WinterClearance,No,None,13.4
+T0944,2024-08-17,Volkswagen,Passat,2021,Coupe,Diesel,White,60651,23,13949.73,74600.73,10,67140.66,26,Female,Warsaw,S179,20,AutumnSales,No,None,12.98
+T0945,2024-05-24,BMW,5 Series,2023,Hatchback,Hybrid,Gray,88464,23,20346.72,108810.72,10,97929.65,43,Female,Warsaw,S139,114,WinterClearance,Yes,None,5.52
+T0946,2024-03-13,Toyota,RAV4,2021,Hatchback,Hybrid,Silver,186560,23,42908.8,229468.8,3,222584.74,57,Female,Poznan,S101,21,None,Yes,AutoFin,15.78
+T0947,2024-09-30,BMW,5 Series,2023,SUV,Electric,Red,172387,23,39649.01,212036.01,3,205674.93,41,Male,Wroclaw,S184,31,WinterClearance,No,None,15.34
+T0948,2024-12-12,Ford,Kuga,2024,Sedan,Diesel,Blue,114757,23,26394.11,141151.11,7,131270.53,35,Male,Krakow,S136,42,SummerDeals,No,None,13.17
+T0949,2024-01-01,Hyundai,Santa Fe,2024,Coupe,Diesel,White,73411,23,16884.53,90295.53,10,81265.98,26,Male,Wroclaw,S187,50,WinterClearance,No,None,6.28
+T0950,2024-01-18,Volkswagen,Tiguan,2020,SUV,Electric,Gray,249691,23,57428.93,307119.93,10,276407.94,48,Male,Poznan,S170,75,WinterClearance,Yes,LeasingPro,6.0
+T0951,2024-03-01,Volkswagen,Tiguan,2022,SUV,Petrol,Silver,110836,23,25492.28,136328.28,10,122695.45,51,Female,Poznan,S152,29,AutumnSales,No,None,5.45
+T0952,2024-02-21,Toyota,Corolla,2020,Hatchback,Diesel,Red,117526,23,27030.98,144556.98,10,130101.28,29,Male,Krakow,S187,78,WinterClearance,No,None,13.03
+T0953,2024-08-18,Volkswagen,Tiguan,2021,Coupe,Diesel,Gray,100113,23,23025.99,123138.99,5,116982.04,40,Male,Warsaw,S126,111,None,Yes,LeasingPro,13.29
+T0954,2024-05-11,Volkswagen,Golf,2020,SUV,Electric,Red,101896,23,23436.08,125332.08,7,116558.83,69,Female,Warsaw,S125,67,AutumnSales,No,None,11.63
+T0955,2024-07-16,BMW,3 Series,2023,Hatchback,Diesel,Black,170636,23,39246.28,209882.28,7,195190.52,66,Male,Krakow,S145,98,AutumnSales,No,None,6.2
+T0956,2024-03-07,BMW,5 Series,2022,Sedan,Diesel,Blue,94389,23,21709.47,116098.47,10,104488.62,57,Male,Gdansk,S154,45,SummerDeals,Yes,BankPolska,12.24
+T0957,2024-03-14,Hyundai,Santa Fe,2020,SUV,Petrol,White,81549,23,18756.27,100305.27,7,93283.9,32,Male,Wroclaw,S145,42,SummerDeals,No,None,15.37
+T0958,2024-03-04,Volkswagen,Passat,2022,Hatchback,Hybrid,Black,92090,23,21180.7,113270.7,0,113270.7,36,Male,Krakow,S136,94,WinterClearance,Yes,None,6.44
+T0959,2024-01-30,Ford,Focus,2021,SUV,Petrol,White,181443,23,41731.89,223174.89,5,212016.15,44,Male,Gdansk,S110,108,None,Yes,CreditPlus,12.35
+T0960,2024-06-15,Volkswagen,Passat,2020,Sedan,Petrol,White,144667,23,33273.41,177940.41,0,177940.41,63,Male,Wroclaw,S140,16,WinterClearance,Yes,LeasingPro,12.67
+T0961,2024-06-05,Ford,Focus,2023,Sedan,Electric,Silver,140266,23,32261.18,172527.18,5,163900.82,41,Male,Warsaw,S168,23,Spring2024,No,None,19.67
+T0962,2024-03-22,Hyundai,i30,2022,Hatchback,Hybrid,Blue,62096,23,14282.08,76378.08,3,74086.74,57,Female,Krakow,S135,39,None,Yes,AutoFin,11.27
+T0963,2024-05-11,Toyota,RAV4,2023,Hatchback,Petrol,Silver,123970,23,28513.1,152483.1,10,137234.79,43,Female,Gdansk,S145,49,WinterClearance,Yes,None,12.78
+T0964,2024-03-10,Volkswagen,Passat,2020,Hatchback,Electric,White,68647,23,15788.81,84435.81,7,78525.3,58,Male,Krakow,S133,65,Spring2024,Yes,LeasingPro,18.19
+T0965,2024-11-19,Toyota,RAV4,2023,Hatchback,Petrol,Red,168659,23,38791.57,207450.57,5,197078.04,65,Male,Krakow,S130,32,AutumnSales,Yes,BankPolska,7.52
+T0966,2024-08-06,Ford,Kuga,2023,Coupe,Electric,Red,81613,23,18770.99,100383.99,5,95364.79,54,Female,Warsaw,S137,84,SummerDeals,Yes,None,12.9
+T0967,2024-05-08,BMW,5 Series,2022,Coupe,Diesel,Red,246178,23,56620.94,302798.94,3,293714.97,26,Female,Krakow,S157,43,SummerDeals,No,None,7.0
+T0968,2024-09-11,BMW,X5,2021,Coupe,Petrol,Silver,172247,23,39616.81,211863.81,7,197033.34,36,Male,Warsaw,S131,113,Spring2024,No,None,15.08
+T0969,2024-03-05,Toyota,Corolla,2021,Sedan,Hybrid,Red,200735,23,46169.05,246904.05,0,246904.05,36,Male,Wroclaw,S124,60,WinterClearance,No,None,9.38
+T0970,2024-11-02,Ford,Kuga,2020,Sedan,Hybrid,White,104135,23,23951.05,128086.05,7,119120.03,63,Male,Wroclaw,S131,29,Spring2024,Yes,LeasingPro,18.76
+T0971,2024-06-09,Ford,Focus,2022,SUV,Diesel,Black,113453,23,26094.19,139547.19,10,125592.47,62,Male,Poznan,S170,6,AutumnSales,No,None,15.56
+T0972,2024-05-11,Volkswagen,Passat,2022,SUV,Diesel,Red,122853,23,28256.19,151109.19,5,143553.73,34,Female,Warsaw,S104,12,AutumnSales,Yes,None,13.5
+T0973,2024-04-14,Volkswagen,Golf,2022,Coupe,Diesel,Silver,66999,23,15409.77,82408.77,7,76640.16,67,Female,Warsaw,S118,46,Spring2024,No,None,16.96
+T0974,2024-03-15,Ford,Kuga,2022,SUV,Diesel,Red,186976,23,43004.48,229980.48,5,218481.46,60,Male,Warsaw,S172,68,WinterClearance,No,None,15.64
+T0975,2024-02-19,Hyundai,Santa Fe,2024,Sedan,Diesel,Gray,214228,23,49272.44,263500.44,3,255595.43,34,Male,Wroclaw,S194,116,WinterClearance,Yes,CreditPlus,11.42
+T0976,2024-10-08,Volkswagen,Passat,2024,Hatchback,Diesel,Black,240488,23,55312.24,295800.24,5,281010.23,65,Male,Gdansk,S193,86,WinterClearance,No,None,16.27
+T0977,2024-05-30,Ford,Focus,2022,Hatchback,Hybrid,Red,157776,23,36288.48,194064.48,7,180479.97,38,Female,Krakow,S157,58,WinterClearance,No,None,9.26
+T0978,2024-12-31,Volkswagen,Golf,2022,Coupe,Electric,Black,71164,23,16367.72,87531.72,0,87531.72,50,Male,Krakow,S175,54,WinterClearance,No,None,6.84
+T0979,2024-11-18,Hyundai,Santa Fe,2021,Coupe,Diesel,Gray,100045,23,23010.35,123055.35,0,123055.35,33,Male,Gdansk,S171,24,SummerDeals,Yes,AutoFin,18.54
+T0980,2024-03-18,Ford,Kuga,2020,Coupe,Petrol,Blue,147512,23,33927.76,181439.76,5,172367.77,31,Female,Poznan,S127,96,AutumnSales,Yes,AutoFin,19.65
+T0981,2024-09-06,BMW,5 Series,2023,Hatchback,Electric,Gray,164924,23,37932.52,202856.52,5,192713.69,42,Female,Krakow,S175,71,SummerDeals,No,None,15.7
+T0982,2024-12-07,Ford,Kuga,2023,SUV,Electric,Silver,183256,23,42148.88,225404.88,7,209626.54,47,Male,Krakow,S127,48,SummerDeals,Yes,BankPolska,8.02
+T0983,2024-07-20,BMW,X5,2020,Sedan,Electric,White,227282,23,52274.86,279556.86,7,259987.88,59,Female,Warsaw,S106,67,AutumnSales,Yes,None,15.7
+T0984,2024-07-25,BMW,5 Series,2020,Hatchback,Electric,Red,88939,23,20455.97,109394.97,0,109394.97,47,Male,Poznan,S190,24,SummerDeals,Yes,AutoFin,7.18
+T0985,2024-12-27,Volkswagen,Golf,2020,Coupe,Petrol,Gray,219633,23,50515.59,270148.58999999997,7,251238.19,37,Female,Wroclaw,S178,52,AutumnSales,No,None,11.51
+T0986,2024-05-23,BMW,X5,2020,Hatchback,Electric,White,180631,23,41545.13,222176.13,10,199958.52,38,Female,Gdansk,S106,47,Spring2024,No,None,13.54
+T0987,2024-05-17,Ford,Focus,2022,Hatchback,Hybrid,Silver,233014,23,53593.22,286607.22,3,278009.0,51,Male,Gdansk,S170,92,AutumnSales,No,None,18.37
+T0988,2024-04-22,BMW,3 Series,2022,Sedan,Hybrid,Red,72345,23,16639.35,88984.35,0,88984.35,66,Male,Warsaw,S195,41,WinterClearance,No,None,7.09
+T0989,2024-06-23,Volkswagen,Tiguan,2023,Coupe,Hybrid,Blue,114947,23,26437.81,141384.81,7,131487.87,46,Male,Gdansk,S191,63,Spring2024,Yes,BankPolska,10.74
+T0990,2024-11-16,BMW,3 Series,2022,Hatchback,Diesel,White,88475,23,20349.25,108824.25,5,103383.04,65,Male,Warsaw,S111,120,AutumnSales,No,None,9.12
+T0991,2024-08-05,BMW,5 Series,2021,Hatchback,Diesel,Blue,144797,23,33303.31,178100.31,5,169195.29,29,Male,Warsaw,S159,101,Spring2024,Yes,None,6.37
+T0992,2024-05-15,Toyota,Corolla,2024,Sedan,Electric,Silver,220529,23,50721.67,271250.67,7,252263.12,53,Male,Krakow,S121,107,None,Yes,CreditPlus,15.72
+T0993,2024-10-31,Ford,Mondeo,2022,Hatchback,Hybrid,White,75622,23,17393.06,93015.06,5,88364.31,44,Male,Poznan,S178,58,AutumnSales,No,None,19.96
+T0994,2024-09-26,Ford,Focus,2024,Coupe,Petrol,Black,140078,23,32217.94,172295.94,5,163681.14,43,Male,Poznan,S167,117,AutumnSales,No,None,8.25
+T0995,2024-02-02,Ford,Focus,2020,Coupe,Electric,White,104732,23,24088.36,128820.36,5,122379.34,30,Male,Warsaw,S187,13,None,Yes,AutoFin,17.98
+T0996,2024-06-11,Volkswagen,Passat,2024,SUV,Petrol,White,211701,23,48691.23,260392.23,10,234353.01,68,Male,Poznan,S168,114,AutumnSales,Yes,BankPolska,15.45
+T0997,2024-10-15,Toyota,Corolla,2023,SUV,Electric,Blue,230656,23,53050.88,283706.88,5,269521.54,28,Male,Gdansk,S177,89,WinterClearance,No,None,13.02
+T0998,2024-07-24,Ford,Kuga,2021,Sedan,Petrol,Blue,233213,23,53638.99,286851.99,3,278246.43,70,Male,Poznan,S161,95,Spring2024,Yes,LeasingPro,14.71
+T0999,2024-06-21,Volkswagen,Golf,2020,Sedan,Hybrid,Silver,183409,23,42184.07,225593.07,3,218825.28,59,Female,Warsaw,S160,16,Spring2024,No,None,7.93
+T1000,2024-04-06,Ford,Kuga,2021,Coupe,Petrol,Red,137121,23,31537.83,168658.83000000002,3,163599.07,49,Female,Gdansk,S159,73,Spring2024,No,None,13.18
