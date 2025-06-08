@@ -2,6 +2,7 @@
 Repository created for the purpose of storing compleded projects, codes, scientific reports etc. during studies.
 
 Courses:
+- [Multimedia data Analysis](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Analiza-danych-multimedialnych)
 - [Spatial data Analysis](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Analiza-danych-przestrzennych)
 - [Numerical methods](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Metody-numeryczne)
 - [CAD systems in geoinformatics](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Systemy-CAD-w-geoinformatyce)
