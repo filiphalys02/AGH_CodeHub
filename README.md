@@ -18,6 +18,7 @@ Courses:
 - [Geovisualisation and cartographic editing](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Geowizualizacja-i-edycja-kartograficzna)
 - [Programming in the .NET environment](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Programowanie-w-%C5%9Brodowisku-.NET)
 - [Business Intelligence](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Inteligencja-biznesowa)
+- [Machine Learning](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Uczenie-maszynowe)
 
 ##
 On my profile You can also find other courses I took during my studies like [Database](https://github.com/filiphalys02/Database) course or [Spatial Database](https://github.com/filiphalys02/Spatial-database) course.
