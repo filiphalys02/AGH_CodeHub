@@ -19,6 +19,9 @@ Courses:
 - [Programming in the .NET environment](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Programowanie-w-%C5%9Brodowisku-.NET)
 - [Business Intelligence](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Inteligencja-biznesowa)
 - [Machine Learning](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Uczenie-maszynowe)
+- [Web-scraping](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Ekstrakcja-danych-z-internetu)
+- [Geostatistics and data analysis](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Geostatystyka-i-analiza-danych)
+
 
 ##
 On my profile You can also find other courses I took during my studies like [Database](https://github.com/filiphalys02/Database) course or [Spatial Database](https://github.com/filiphalys02/Spatial-database) course.
