@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>porcja1.html</title>
+    <style type="text/css">
+
+	.wprowadzenie {background-color : #dddddd ; }
+	.wprowadzenie h2 { color : #339999 ; font-size : 172% ; font-style: italic ; }
+	.pcode { font-size : 144% ; font-style: italic ; color : #ff0000 ; }
+
+	.focus_name { text-align: right; padding-right: 40px; }
+	.cringe-result { text-align: center ; }
+	.scrutiny { background-color : yellow ; }
+
+
+    </style>
+  </head>
+  <body>
+    <h2><font color="#339999"><i><font size="+3">Na ukos</font></i></font><br>
+    </h2>
+    <p><b>Zadanie.</b> Napisać skrypt w Pythonie, który w zamieszczonej
+      tabeli zlokalizuje komórki:<br>
+    </p>
+    <ol>
+      <li>leżące na głównej przekątnej,</li>
+      <li>leżące na tych przekątnych równoległych do głównej, które to
+        przekątne zawierają wartości nieliczbowe,</li>
+      <li>leżące na tych przekątnych prostopadłych do przekątnej
+        głównej, które to przekątne zawierają „elementy graficzne” (tu:
+        emotikony).<br>
+      </li>
+    </ol>
+    Wynikami dla poszczególnych przypadków mają być listy (obiekty
+    Pythona), składające się z:<br>
+    <ul>
+      <li>numeru kolumny, w której rozpoczyna się przekątna, <br>
+      </li>
+      <li>wartości zawartych w kolejnych komórkach przekątnej.<br>
+        Wartości mają być skonwertowane do właściwych typów:&nbsp;
+        liczby do <code class="pcode">float</code>, "None" do <code
+          class="pcode">NoneType</code>. Reszta ma pozostać łańcuchami
+        tekstowymi.</li>
+    </ul>
+    <p><b>Uwagi.</b><br>
+    </p>
+    <ol>
+      <li> Należy brać pod uwagę tylko te komórki, które są
+        zadeklarowane, jako posiadające dane (sprawdzić klasę!).<br>
+        Warto też zwrócić uwagę na inne klasy komórek.</li>
+      <li>Jako przekątne równoległe do głównej należy brać ich wersje
+        uogólnione, które mają taką samą długość, jak przekątna główna.
+        Tj. takie przekątne, jakie stosuje się przy wyznacznikach. <br>
+      </li>
+      <li>Do poruszania się po tabeli można wykorzystać relację <i>siblings</i>.
+        Ale w tym przypadku prościej jest bez.<br>
+      </li>
+    </ol>
+    <p><br>
+      <br>
+    </p>
+    <table height="427" width="563" cellspacing="2" cellpadding="12"
+      border="1">
+      <caption>Pomiary<br>
+      </caption> <tbody>
+        <tr>
+          <td valign="top"><br>
+          </td>
+          <td rowspan="1" colspan="6" valign="top">Stanowiska:<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"><br>
+          </td>
+          <td valign="top">I<br>
+          </td>
+          <td valign="top">II<br>
+          </td>
+          <td valign="top">III<br>
+          </td>
+          <td valign="top">IV<br>
+          </td>
+          <td valign="top">V<br>
+          </td>
+          <td valign="top">VI<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Obserwacje:</td>
+          <td class="summary" valign="top">100%</td>
+          <td class="summary" valign="top">100%</td>
+          <td class="summary" valign="top">100%</td>
+          <td class="summary" valign="top">100%</td>
+          <td class="summary" valign="top">100%</td>
+          <td class="summary" valign="top">100%</td>
+        </tr>
+        <tr>
+          <td class="focus_name" valign="top"><i>spin-left</i><br>
+          </td>
+          <td class="scrutiny" valign="top">4.8<br>
+          </td>
+          <td class="scrutiny" valign="top">None<br>
+          </td>
+          <td class="scrutiny" valign="top">None<br>
+          </td>
+          <td class="scrutiny" valign="top">17.0<br>
+          </td>
+          <td class="scrutiny" valign="top">21.5<br>
+          </td>
+          <td class="scrutiny" valign="top">15.8<br>
+          </td>
+        </tr>
+        <tr>
+          <td class="focus_name" valign="top"><i>spin-left-up</i><br>
+          </td>
+          <td class="scrutiny" valign="top">1.4<br>
+          </td>
+          <td class="scrutiny" valign="top">30.6<br>
+          </td>
+          <td class="scrutiny" valign="top">53.9<br>
+          </td>
+          <td class="scrutiny" valign="top">50.4<br>
+          </td>
+          <td class="scrutiny" valign="top">16.0<br>
+          </td>
+          <td class="scrutiny" valign="top">0.1<br>
+          </td>
+        </tr>
+        <tr>
+          <td class="focus_name" valign="top"><i>mirroring-H</i><br>
+          </td>
+          <td class="scrutiny" valign="top">6.6<br>
+          </td>
+          <td class="scrutiny" valign="top">25.5<br>
+          </td>
+          <td class="cringe-result scrutiny" valign="top"><span
+              class="moz-smiley-s15">😣</span><br>
+          </td>
+          <td class="cringe-result scrutiny" valign="top"><span
+              class="moz-smiley-s15">😣</span><br>
+          </td>
+          <td class="scrutiny" valign="top">15.7<br>
+          </td>
+          <td class="scrutiny" valign="top">29.6<br>
+          </td>
+        </tr>
+        <tr>
+          <td class="focus_name" valign="top"><i>spin-right</i><br>
+          </td>
+          <td class="scrutiny" valign="top">13.4<br>
+          </td>
+          <td class="scrutiny" valign="top">0.3<br>
+          </td>
+          <td class="scrutiny" valign="top">1.3<br>
+          </td>
+          <td class="scrutiny" valign="top">13.8<br>
+          </td>
+          <td class="scrutiny" valign="top">41.0<br>
+          </td>
+          <td class="scrutiny" valign="top">4.2<br>
+          </td>
+        </tr>
+        <tr>
+          <td class="focus_name" valign="top"><i>spin-right-up</i><br>
+          </td>
+          <td class="scrutiny" valign="top">25.4<br>
+          </td>
+          <td class="scrutiny" valign="top">27.5<br>
+          </td>
+          <td class="scrutiny" valign="top">13.1<br>
+          </td>
+          <td class="cringe-result scrutiny" valign="top"><span
+              class="moz-smiley-s15">😣</span><br>
+          </td>
+          <td class="scrutiny" valign="top">2.7<br>
+          </td>
+          <td class="scrutiny" valign="top">18.9<br>
+          </td>
+        </tr>
+        <tr>
+          <td class="focus_name" valign="top"><i>mirroring-V</i> </td>
+          <td class="scrutiny" valign="top">48.4<br>
+          </td>
+          <td class="scrutiny" valign="top">16.1<br>
+          </td>
+          <td class="scrutiny" valign="top">31.8<br>
+          </td>
+          <td class="scrutiny" valign="top">18.8<br>
+          </td>
+          <td class="scrutiny" valign="top">3.0<br>
+          </td>
+          <td class="scrutiny" valign="top">31.4<br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+      <br>
+    </p>
+    <br>
+    <br>
+    <p><br>
+    </p>
+    <br>
+    <p><br>
+    </p>
+    <p><br>
+      <br>
+    </p>
+    <br>
+  </body>
+</html>

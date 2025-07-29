@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>biesida</title>
+    <style>
+	.wprowadzenie {background-color : #dddddd ; }
+        .wprowadzenie h2 { color : #339999 ; font-size : 172% ; font-style: italic ; }
+	.pcode { font-size : 144% ; font-style: italic ; color : #ff0000 ; }
+	.hcode { font-size : 144% ; }
+
+        .wstęp  { color : blue ; font-size : 300% ; }
+	.materiał { background-color : #aed581 ; } 
+        .materiał h3 { font-size : 144%  ; font-style: italic ;} 
+ </style>
+  </head>
+  <body>
+    <div class="wprowadzenie">
+      <h2>Elementy NLP </h2>
+      <p><font size="+2"><b>Zadania</b></font><br>
+      </p>
+      <ol>
+        <li>Dla każdego z poniższych rozdziałów i podrozdziałów&nbsp;
+          wyznaczyć statystyki słów (z ignorowaniem wielkości liter).<br>
+          Wynikiem ma być słownik wiążący tytuły jednostek z kolejnymi
+          słownikami, opisującycmi statystyki słów.<br>
+          <br>
+          <b>Uwagi:</b><br>
+          <ul>
+            <li>statystyki dla jednostki wyższej (tu: <hcode>H3</hcode>)
+              nie mogą obejmować danych z jej podjednostek (tu: <hcode>H4</hcode>).</li>
+            <li>w tekście &lt;H4&gt; jest podrzędne wzgledem &lt;H3&gt;,
+              a w/g HTML są na tym samym poziomie.<br>
+            </li>
+          </ul>
+          <br>
+        </li>
+        <li>Na podstawie statystyk sąsiedztwa słów określić, które pary,
+          trójki, etc, <i>prawdopodobnie</i> tworzą pojedyncze nazwy
+          (jak np. „kotlet schabowy panierowany”).<br>
+          <br>
+          <b>Uwagi</b>:<br>
+          <ul>
+            <li>chodzi o wykorzystanie N-gramów (<var>N=2, 3, </var>...),</li>
+            <li>sąsiednich słów, ale występujących w osobnych zdaniach,
+              się nie łączy,</li>
+            <li>statystyki powinny być wyznaczone dla całego tekstu, bez
+              podziału na rozdziały.<br>
+            </li>
+          </ul>
+          <br>
+        </li>
+      </ol>
+    </div>
+    <div class="materiał"> <br>
+      <h3>Het feestmaal van Belsazar </h3>
+      <p class="paragraph">Ice cream gummi bears caramels tart gummies.
+        Marzipan candy powder wafer pie pastry gingerbread. Ice cream
+        brownie chocolate bar icing pie. Gummies tart lemon drops lemon
+        drops pudding. Chocolate bonbon bonbon candy canes toffee muffin
+        cookie caramels. Danish danish dessert pudding jelly apple pie.
+        Danish icing brownie caramels toffee liquorice cheesecake sesame
+        snaps fruitcake. Cotton candy tootsie roll sweet roll cheesecake
+        sweet caramels donut. Sweet cake dragée dragée gingerbread cake
+        fruitcake. Sesame snaps gummies donut halvah cookie sugar plum
+        shortbread. Chocolate gingerbread sesame snaps pastry candy
+        canes cake powder cheesecake. Jujubes topping ice cream jelly-o
+        toffee sesame snaps. Caramels gingerbread dessert lollipop ice
+        cream bonbon cupcake.</p>
+      <h4>Colazione in giardino</h4>
+      <p class="paragraph"> Cupcake ipsum dolor sit amet. Danish apple
+        pie powder sugar plum cheesecake marshmallow. Caramels marzipan
+        powder jelly jujubes jelly beans jelly-o tootsie roll. Icing
+        macaroon cake tart dessert ice cream carrot cake danish soufflé.
+        Pastry jelly-o jelly-o soufflé cupcake marshmallow. Halvah apple
+        pie caramels halvah jelly-o gingerbread danish. Jujubes gummi
+        bears dessert shortbread jelly beans sweet marshmallow
+        croissant. Macaroon shortbread wafer pie bear claw topping jelly
+        jelly chocolate cake.</p>
+      <h4> Le Déjeuner</h4>
+      <p class="paragraph">Gingerbread chocolate cake sweet roll soufflé
+        caramels. Jelly beans ice cream sweet roll brownie pudding
+        jujubes donut tart. Cookie marshmallow macaroon muffin chocolate
+        bar. Halvah toffee brownie marzipan cupcake cake soufflé
+        chocolate. Bear claw tootsie roll pudding candy lemon drops
+        lemon drops topping cupcake liquorice. Jelly beans jujubes sweet
+        roll lollipop toffee lemon drops. Jelly lollipop powder toffee
+        halvah pie. Toffee biscuit oat cake chocolate pudding fruitcake
+        cake candy. Pie chupa chups tootsie roll jujubes muffin sweet
+        lollipop. Biscuit muffin dragée chocolate bar cake halvah
+        jelly-o croissant. Caramels bear claw chupa chups pie jelly
+        beans. Chupa chups pie oat cake gummi bears wafer chupa chups
+        icing tootsie roll. Cotton candy jelly beans wafer cake
+        gingerbread liquorice marzipan caramels muffin.</p>
+      <h4>Festino degli dei</h4>
+      <p class="paragraph">Toffee dragée dragée sweet roll croissant
+        sweet roll. Sugar plum icing halvah shortbread ice cream pie
+        tiramisu. Icing ice cream jelly-o liquorice macaroon
+        gingerbread. Jujubes sugar plum croissant bonbon pie wafer sugar
+        plum. Jelly tart cookie sugar plum candy. Jelly-o bear claw
+        sesame snaps cupcake jelly beans gummies biscuit liquorice.
+        Pudding pie chocolate bar danish carrot cake fruitcake. Cookie
+        cheesecake gummies topping icing jelly beans biscuit pastry
+        jelly-o. Dessert chocolate cake cheesecake brownie cotton candy
+        carrot cake halvah. Jelly-o oat cake oat cake candy canes
+        biscuit cake. Wafer powder muffin sweet roll chupa chups carrot
+        cake bonbon pudding. Biscuit dragée dessert tootsie roll sweet
+        roll liquorice pastry. Toffee toffee macaroon jelly-o oat cake.</p>
+      <p class="paragraph">Tootsie roll dragée lollipop jelly-o pudding
+        jujubes wafer ice cream. Chupa chups tootsie roll apple pie
+        macaroon donut gingerbread soufflé. Muffin cake sugar plum sugar
+        plum donut pie cotton candy. Brownie icing dessert jujubes
+        wafer. Chocolate bar donut sugar plum lemon drops dragée sesame
+        snaps pudding pastry dragée. Caramels candy toffee oat cake
+        danish icing cookie. Bonbon lollipop tiramisu cookie croissant
+        candy apple pie. Oat cake cookie candy canes jujubes jelly
+        dessert croissant tiramisu danish. Sesame snaps jujubes chupa
+        chups cotton candy jelly. Jujubes liquorice chocolate liquorice
+        sesame snaps. Dessert halvah bear claw tootsie roll candy
+        caramels macaroon pie. Marshmallow danish dessert donut dessert
+        wafer. Cake cake danish bonbon macaroon fruitcake bear claw oat
+        cake. Candy powder topping chupa chups carrot cake apple pie. <br>
+      </p>
+      <h4>Le café de nuit</h4>
+      <p class="paragraph">Tiramisu sugar plum lemon drops cake apple
+        pie. Ice cream pudding dragée chocolate fruitcake. Dessert sugar
+        plum lemon drops sugar plum gummies brownie gingerbread. Dragée
+        chocolate cake sesame snaps cookie. Candy jujubes soufflé
+        dessert soufflé pastry cheesecake lemon drops cheesecake. Toffee
+        croissant chocolate pudding candy sweet. Sweet danish carrot
+        cake gummi bears cheesecake pastry. Toffee tootsie roll brownie
+        cupcake caramels marshmallow cupcake ice cream. Pudding danish
+        croissant chupa chups fruitcake sweet sweet marshmallow. Jelly
+        beans gummies tiramisu pie jelly beans fruitcake toffee lemon
+        drops sweet. Apple pie chocolate cake gingerbread tart. Ice
+        cream soufflé cheesecake pie topping sugar plum. Candy canes
+        muffin gingerbread cookie icing. Pudding sugar plum muffin cake
+        pastry.</p>
+      <br>
+    </div>
+  </body>
+</html>
