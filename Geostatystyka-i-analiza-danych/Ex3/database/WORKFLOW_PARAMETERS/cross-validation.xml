@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="cross-validation" version="7">
+    <param key="MAIN_GROUP">
+        <param key="GEOS_SET">
+            <name>qCu-ł (raw)</name>
+        </param>
+        <param key="MODEL_TYPE">RAW</param>
+        <param key="IN_SELECTION">
+            <param key="VARIABLE">
+                <path/>
+                <file>points49</file>
+                <variable>Campaign name</variable>
+            </param>
+            <param key="CATEGORIES">wt. kwi 15 2025 09:06:12</param>
+        </param>
+        <param key="OUT_DATASET">
+            <param key="ROOT">
+                <path/>
+                <file>points49</file>
+            </param>
+            <param key="SELECTION">
+                <param key="VARIABLE">
+                    <variable>Campaign name</variable>
+                </param>
+                <param key="CATEGORIES">wt. kwi 15 2025 09:06:12</param>
+            </param>
+            <param key="BLOCK_SIZE_VAR_DU"/>
+            <param key="BLOCK_SIZE_VAR_DV"/>
+            <param key="BLOCK_SIZE_VAR_DW"/>
+        </param>
+        <param key="KRIGE_PARENT_BLOCK">no</param>
+        <param key="PARENT_BLOCK"/>
+        <param key="CALCULATION_MODE">POINT</param>
+        <param key="USE_UNCERTAIN_DATA">no</param>
+        <param key="USE_COLLOCATED">no</param>
+        <param key="USE_RESCALED">no</param>
+        <param key="USE_LGS">no</param>
+        <param key="USE_CUSTOM_BLOCK_SIZE">no</param>
+        <param key="USE_MODEL_FILTERING">no</param>
+        <param key="USE_PARCELLING">no</param>
+        <param key="USE_SUPER_KRIG">no</param>
+        <param key="USE_MULTIPLE_KRIG">no</param>
+        <param key="USE_FAULTS">no</param>
+        <param key="RESET_NEGATIVE_WEIGHTS">no</param>
+    </param>
+    <param key="SPECIAL_GROUP">
+        <param key="FILTER_STRUCT_USED"/>
+        <param key="COLLOC_VAR_FROM">OUT_TABLE</param>
+        <param key="COLLOCATED_AUXILIARY_GRID">
+            <param key="ROOT"/>
+            <param key="SELECTION"/>
+        </param>
+        <param key="COLLOC_VARS">
+            <param key="ITEM_1"/>
+        </param>
+        <param key="USE_MEASUREMENT_ERROR">no</param>
+        <param key="MEASUREMENT_ERROR_INPUT_VARS">
+            <param key="ITEM_1"/>
+        </param>
+        <param key="USE_INTERVAL_DATA">no</param>
+        <param key="USE_INTERVAL_SEPARATE_FILE">no</param>
+        <param key="INTERVAL_DATA_TABLE">
+            <param key="ROOT">
+                <path/>
+                <file>points49</file>
+            </param>
+            <param key="SELECTION"/>
+        </param>
+        <param key="INTERVAL_MIN_BOUNDS"/>
+        <param key="INTERVAL_MAX_BOUNDS"/>
+        <param key="INTERVAL_CONTEXT"/>
+        <param automatic="yes" key="INTERVAL_GEOSSET_PATTERN">%gset-%context-withIntervalData</param>
+        <param automatic="yes" key="INTERVAL_FILE_PATTERN">%file-%context-withIntervalData</param>
+        <param automatic="yes" key="INTERVAL_VAR_PATTERN">%var-%context-%label</param>
+        <param automatic="yes" key="NUMBER_BURNIN_STEP">10000</param>
+        <param automatic="yes" key="NUMBER_REALIZATION">100</param>
+        <param automatic="yes" key="NUMBER_ITER_PER_REAL">1000</param>
+        <param automatic="yes" key="SEED_NUMBER">165426</param>
+        <param key="BLOCK_SIZE_ROTATION">
+            <conv_id>1</conv_id>
+            <conv_string>+Z+Y+X</conv_string>
+            <a1>0</a1>
+            <a2>0</a2>
+            <a3>0</a3>
+        </param>
+        <param key="BLOCK_SIZE_MODE">IDENTICAL</param>
+        <param automatic="yes" key="BLOCK_SIZE_CONSTANT">
+            <v1>1</v1>
+            <v2>1</v2>
+            <v3>1e-30</v3>
+        </param>
+        <param key="BLOCK_DISC_STEP_OPTION">STEP_NB</param>
+        <param automatic="yes" key="BLOCK_DISC_STEP_NB">
+            <v1>5</v1>
+            <v2>5</v2>
+            <v3>1</v3>
+        </param>
+        <param automatic="yes" key="BLOCK_DISC_STEP_SIZE">
+            <v1>100</v1>
+            <v2>100</v2>
+            <v3>1e-30</v3>
+        </param>
+        <param key="SUPER_PROD_VOLUME">0</param>
+        <param automatic="no" key="SUPER_THEO_MEAN">0</param>
+        <param key="INDICATOR_GSET_TABLE"/>
+    </param>
+    <param key="LGS_PARAMETERS">
+        <param key="USE_LGS_PARAMS">yes</param>
+        <param key="VAR_FROM">OUT_TABLE</param>
+        <param key="AUXILIARY_GRID">
+            <param key="ROOT"/>
+            <param key="SELECTION"/>
+        </param>
+        <param key="USE_LGS_VARIO">yes</param>
+        <param key="GROUP_LGS_VMODEL">
+            <param key="USE_ROTATION">no</param>
+            <param key="GROUP_ROTATION_VMODEL">
+                <param key="DIMENSION_ROTATION">DIM_2D</param>
+                <param key="ROTATION_VARIO_VAR"/>
+                <param key="CONVENTION_ROTATION">Datamine -Z-X-Z</param>
+            </param>
+            <param key="USE_RANGE_FACTORS">no</param>
+            <param key="GROUP_RANGE">
+                <param key="RANGE_FACTOR_MODE">GLOBAL</param>
+                <param key="RANGE_FACTOR_U"/>
+                <param key="RANGE_FACTOR_V"/>
+                <param key="RANGE_FACTOR_W"/>
+            </param>
+            <param key="USE_SILL_FACTOR">no</param>
+            <param key="GROUP_SILL_FACTOR">
+                <param key="SILL_FACTOR"/>
+            </param>
+        </param>
+        <param key="USE_LOCAL_NEIGHBORHOOD">no</param>
+        <param key="GROUP_LOCAL_NEIGHBORHOOD">
+            <param key="USE_SAME_PARAMS_AS_VMODEL">no</param>
+            <param key="USE_ROTATION">no</param>
+            <param key="GROUP_NEIGH_ROTATION">
+                <param key="DIMENSION_ROTATION">DIM_2D</param>
+                <param key="ROTATION_NEIGH_VAR"/>
+                <param key="CONVENTION_NEIGH_ROTATION">Datamine -Z-X-Z</param>
+            </param>
+            <param key="USE_SIZE_FACTORS">no</param>
+            <param key="GROUP_ELLIPSE_SIZE_FACTORS">
+                <param key="SIZE_FACTOR_MODE">GLOBAL</param>
+                <param key="SIZE_FACTOR_U"/>
+                <param key="SIZE_FACTOR_V"/>
+                <param key="SIZE_FACTOR_W"/>
+            </param>
+        </param>
+    </param>
+    <param key="FAULTS_GROUP">
+        <param key="FAULTS_DATA">
+            <param key="ROOT"/>
+            <param key="SELECTION"/>
+        </param>
+        <param key="FAULTS_MODE">CALCULATE_INSIDE</param>
+        <param version="3" key="FAULT_MESHES">
+            <param key="MESH_DATASET">
+                <param key="ROOT"/>
+                <param key="SELECTION"/>
+            </param>
+            <param key="MESHES"/>
+        </param>
+    </param>
+    <param key="PARCELLING_GROUP">
+        <param key="PARCELLING_SIZE_OPTION">GRID_DIV_NB</param>
+        <param automatic="no" key="PARCELLING_SIZE_DIVISIONS_NB">
+            <v1>1</v1>
+            <v2>1</v2>
+            <v3>1</v3>
+        </param>
+        <param automatic="no" key="PARCELLING_SIZE_CELLS_NB">
+            <v1>1</v1>
+            <v2>1</v2>
+            <v3>1</v3>
+        </param>
+        <param automatic="no" key="PARCELLING_SIZE_LENGTH">
+            <v1>0</v1>
+            <v2>0</v2>
+            <v3>0</v3>
+        </param>
+        <param key="PARCELLING_EXT_OPTION">GRID_CELL_NB</param>
+        <param automatic="no" key="PARCELLING_EXT_CELLS_NB">
+            <v1>1</v1>
+            <v2>1</v2>
+            <v3>1</v3>
+        </param>
+        <param automatic="no" key="PARCELLING_EXT_LENGTH">
+            <v1>0</v1>
+            <v2>0</v2>
+            <v3>0</v3>
+        </param>
+    </param>
+    <param key="NEIGH_GROUP">
+        <param key="NEIGH_LEVEL_GROUP">
+            <param key="NEIGH_SLICE_MODE">XOY</param>
+            <param automatic="yes" key="NEIGH_LEVEL">0</param>
+            <param key="NEIGH_LEVEL_INT">1</param>
+        </param>
+        <param key="NEIGH_TARGET_GROUP">
+            <param automatic="yes" key="NEIGH_TARGET_INDEX">
+                <v1>1</v1>
+                <v2>1</v2>
+                <v3>1</v3>
+            </param>
+            <param automatic="yes" key="NEIGH_TARGET">
+                <v1>22988</v1>
+                <v2>71470</v2>
+                <v3>0</v3>
+            </param>
+            <param automatic="yes" key="NEIGH_TARGET_SN">1304</param>
+        </param>
+        <param key="NEIGH_VARIABLE_GROUP">
+            <param key="NEIGH_TARGET_VARIABLE">qCu-ł</param>
+            <param key="NEIGH_WEIGHT_VARIABLE">qCu-ł</param>
+        </param>
+        <param key="NEIGH_COLOR_VARIABLE">KRIGING</param>
+        <param key="NEIGHBORHOOD_PARAM">
+            <param key="NEIGH_TYPE">NEW_MOVING</param>
+            <param key="EXISTING"/>
+            <param version="3" key="MOVING_DEF">
+                <param key="MOVING_MODE">FROM_ELLIPSOID</param>
+                <param key="SEARCH_ELLIPSOID">
+                    <param automatic="yes" key="ROTATION">
+                        <dip>0</dip>
+                        <dipAzimuth>90</dipAzimuth>
+                        <pitch>90</pitch>
+                    </param>
+                    <param automatic="yes" key="SEARCH_ELLIPSOID">
+                        <v1>625.0657378</v1>
+                        <v2>625.0657378</v2>
+                        <v3>100</v3>
+                    </param>
+                    <param key="PREVIEW_NEIGHBORHOOD_SCENE">
+                        <param key="SCENE">
+                            <name>3D Scene</name>
+                        </param>
+                    </param>
+                    <param key="USE_ANISOTROPIC_DISTANCE">yes</param>
+                </param>
+                <param key="SECTORS">
+                    <param key="ANGULAR_SECTOR">1</param>
+                    <param key="MAX_PER_SECTOR">32</param>
+                    <param key="SPLIT_SECTORS">no</param>
+                </param>
+                <param key="ADVANCED">
+                    <param key="APPLY_HETEROTOPIC_SEARCH">no</param>
+                    <param key="SELECT_ALL_SAMPLES_IN_TARGET">no</param>
+                    <param key="MINIMUM_DISTANCE_BETWEEN_TWO_SELECTED_SAMPLES">no</param>
+                    <param key="MINIMUM_DISTANCE_BETWEEN_TWO_SELECTED_SAMPLES_VALUE">0</param>
+                    <param key="USE_MAXIMUM_SAMPLES">no</param>
+                    <param key="MAXIMUM_SAMPLES">10</param>
+                </param>
+                <param key="DIVIDE_CODE">
+                    <param key="OPTIMUM_NUMBER_OF_SAMPLES_PER_CODE">no</param>
+                    <param key="OPTIMUM_NUMBER_OF_SAMPLES_PER_CODE_VALUE">1</param>
+                    <param key="MAXIMUM_NUMBER_OF_SAMPLES_PER_CODE">no</param>
+                    <param key="MAXIMUM_NUMBER_OF_SAMPLES_PER_CODE_VALUE">1</param>
+                    <param key="USE_MINIMUM_NUMBER_OF_CODES">no</param>
+                    <param key="MINIMUM_NUMBER_OF_CODES">1</param>
+                    <param key="USE_MAXIMUM_NUMBER_OF_CODES">no</param>
+                    <param key="MAXIMUM_NUMBER_OF_CODES">1</param>
+                    <param key="CODE_VARIABLE"/>
+                </param>
+                <param key="SHORTCUTS">
+                    <param key="MINIMUM_SAMPLES_ACTIVATED">yes</param>
+                    <param key="MINIMUM_SAMPLES">1</param>
+                    <param key="MAXIMUM_DISTANCE_WITHOUT_ANY_SAMPLE">no</param>
+                    <param key="MAXIMUM_DISTANCE_WITHOUT_ANY_SAMPLE_VALUE">0</param>
+                    <param key="MAXIMUM_NUMBER_OF_CONSECUTIVE_EMPTY_SECTOR">no</param>
+                    <param key="MAXIMUM_EMPTY_SECTOR_IS_CONSECUTIVE">yes</param>
+                    <param key="MAXIMUM_NUMBER_OF_CONSECUTIVE_EMPTY_SECTOR_VALUE">1</param>
+                    <param key="MAXIMUM_NUMBER_OF_SAMPLES_PER_BLOCK">no</param>
+                    <param key="MAXIMUM_NUMBER_OF_SAMPLES_PER_BLOCK_VALUE">1</param>
+                    <param key="PROXIMITY_RECTANGLE_ACTIVATED">no</param>
+                    <param key="PROXIMITY_RECTANGLE">
+                        <v1>0</v1>
+                        <v2>0</v2>
+                        <v3>0</v3>
+                    </param>
+                </param>
+                <param key="CAPPING">
+                    <param key="LARGE_CUTOFF">
+                        <param key="LARGE_CUTOFF_USED">no</param>
+                        <param key="LARGE_CUTOFF_VARIABLE"/>
+                        <param key="LARGE_CUTOFF_MODE">CUTOFF_REPLACE</param>
+                        <param key="LARGE_CUTOFF_THRESHOLD">0</param>
+                        <param automatic="yes" key="LARGE_CUTOFF_DISTANCE">
+                            <v1>156.2664344</v1>
+                            <v2>156.2664344</v2>
+                            <v3>300</v3>
+                        </param>
+                    </param>
+                    <param key="SMALL_CUTOFF">
+                        <param key="SMALL_CUTOFF_USED">no</param>
+                        <param key="SMALL_CUTOFF_VARIABLE"/>
+                        <param key="SMALL_CUTOFF_MODE">CUTOFF_REPLACE</param>
+                        <param key="SMALL_CUTOFF_THRESHOLD">0</param>
+                        <param automatic="yes" key="SMALL_CUTOFF_DISTANCE">
+                            <v1>156.2664344</v1>
+                            <v2>156.2664344</v2>
+                            <v3>300</v3>
+                        </param>
+                    </param>
+                </param>
+                <param key="NESTED_USED">no</param>
+                <param key="NESTED_NEIGH">
+                    <param key="NESTED_SIZE_OPTION">FACTORS</param>
+                    <param key="NESTED_MED_USED">no</param>
+                    <param key="NESTED_MED_FACTOR">
+                        <v1>2</v1>
+                        <v2>2</v2>
+                        <v3>2</v3>
+                    </param>
+                    <param key="NESTED_MED_MINIMUM">1</param>
+                    <param key="NESTED_MED_MAX_PER_SECT">16</param>
+                    <param key="NESTED_LARGE_USED">no</param>
+                    <param key="NESTED_LARGE_FACTOR">
+                        <v1>3</v1>
+                        <v2>3</v2>
+                        <v3>3</v3>
+                    </param>
+                    <param key="NESTED_LARGE_MINIMUM">1</param>
+                    <param key="NESTED_LARGE_MAX_PER_SECT">16</param>
+                    <param key="NESTED_INF_USED">no</param>
+                </param>
+            </param>
+        </param>
+        <param key="NEIGH_AUTO_APPLY">no</param>
+        <param key="NEIGH_PRINT_RESULTS">no</param>
+    </param>
+    <param key="CROSS_VALIDATION_GROUP">
+        <param key="CROSS_VALIDATION_USE_CUSTOM_OUTPUT_SEL">no</param>
+        <param key="CROSS_VALIDATION_CUSTOM_OUTPUT_SEL"/>
+        <param key="CROSS_VALIDATION_ESTIMATED_VAR">qCu-ł</param>
+        <param key="CROSS_VALIDATION_CONTEXT_PREFIX"/>
+        <param automatic="yes" key="CROSS_VALIDATION_PATTERN">%context-%var-%label</param>
+        <param key="OUT_XVAL_MAIN">
+            <param key="ITEM_1">
+                <param key="GENERATE">yes</param>
+                <param automatic="yes" key="LABEL">Krig</param>
+            </param>
+            <param key="ITEM_2">
+                <param key="GENERATE">yes</param>
+                <param automatic="yes" key="LABEL">StdDev</param>
+            </param>
+            <param key="ITEM_3">
+                <param key="GENERATE">yes</param>
+                <param automatic="yes" key="LABEL">Var</param>
+            </param>
+        </param>
+        <param key="OUT_XVAL_SINGLE">
+            <param key="ITEM_1">
+                <param key="GENERATE">yes</param>
+                <param automatic="yes" key="LABEL">XValErr</param>
+            </param>
+            <param key="ITEM_2">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">XValSqErr</param>
+            </param>
+            <param key="ITEM_3">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">XValStdErr</param>
+            </param>
+            <param key="ITEM_4">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">XValSqStdErr</param>
+            </param>
+        </param>
+        <param key="CROSS_VALIDATION_AUXILIARY_VARIABLES_REJECTION_MODE">AUX_VAR_KEEP_NOTHING</param>
+        <param key="REJECTION_MODE">REJECTION_BY_TARGET</param>
+        <param key="CROSS_VALIDATION_PROXIMITY_SHAPE">SHAPE_CUBOID</param>
+        <param key="CROSS_VALIDATION_PROXIMITY_SIZE">
+            <v1>1e-05</v1>
+            <v2>1e-05</v2>
+            <v3>1e-05</v3>
+        </param>
+        <param automatic="yes" key="CROSS_VALIDATION_PROXIMITY_ROTATION">
+            <dip>0</dip>
+            <dipAzimuth>90</dipAzimuth>
+            <pitch>90</pitch>
+        </param>
+        <param key="CROSS_VALIDATION_XPLOT_SWAP_VARIABLES">no</param>
+        <param key="CROSS_VALIDATION_XPLOT_DRAW_BISECTOR_LINE">yes</param>
+        <param automatic="yes" key="CROSS_VALIDATION_XPLOT_BISECTOR_LINESTYLE">
+            <pen>DASH</pen>
+            <color>#ffff0000</color>
+            <width>1</width>
+            <border>no</border>
+            <borderColor>#ff000000</borderColor>
+            <borderWidth>2</borderWidth>
+        </param>
+        <param key="CROSS_VALIDATION_XPLOT_USE_SAME_AXIS">yes</param>
+        <param key="CROSS_VALIDATION_XPLOT_DRAW_COND_EXP">no</param>
+        <param automatic="yes" key="CROSS_VALIDATION_XPLOT_COND_EXP_LINESTYLE">
+            <pen>SOLID</pen>
+            <color>#ff000000</color>
+            <width>1</width>
+            <border>no</border>
+            <borderColor>#ff000000</borderColor>
+            <borderWidth>2</borderWidth>
+        </param>
+        <param key="CROSS_VALIDATION_XPLOT_DRAW_COND_EXP_STDEV">no</param>
+        <param automatic="yes" key="CROSS_VALIDATION_XPLOT_COND_EXP_STDEV_LINESTYLE">
+            <pen>DASH</pen>
+            <color>#ff0000ff</color>
+            <width>1</width>
+            <border>no</border>
+            <borderColor>#ff000000</borderColor>
+            <borderWidth>2</borderWidth>
+        </param>
+        <param automatic="yes" key="CROSS_VALIDATION_XPLOT_COND_EXP_NB_CLASSES">10</param>
+        <param automatic="yes" key="CROSS_VALIDATION_HISTO_NB_CLASSES">20</param>
+        <param automatic="yes" key="CROSS_VALIDATION_CONFIDENCE_LEVEL">0.99</param>
+        <param key="CROSS_VALIDATION_BASEMAP_COLOR_VAR">ERROR</param>
+        <param key="CROSS_VALIDATION_BASEMAP_SIZE_VAR">ESTIMATED</param>
+    </param>
+    <param key="OUT_GROUP">
+        <param key="OUT_ESTIMATED_VARS">qCu-ł</param>
+        <param key="OUT_CONTEXT_PREFIX"/>
+        <param automatic="yes" key="OUT_PATTERN">%method-%context-%var-%label</param>
+        <param key="MAIN_VARIABLE">qCu-ł</param>
+        <param key="OUT_MAIN">
+            <param key="ITEM_1">
+                <param key="GENERATE">yes</param>
+                <param automatic="yes" key="LABEL">Krig</param>
+            </param>
+            <param key="ITEM_2">
+                <param key="GENERATE">yes</param>
+                <param automatic="yes" key="LABEL">StdDev</param>
+            </param>
+            <param key="ITEM_3">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">Var</param>
+            </param>
+            <param key="ITEM_4">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">SSDV</param>
+            </param>
+            <param key="ITEM_5">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">SpecVol</param>
+            </param>
+            <param key="ITEM_6">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">CoeffVar</param>
+            </param>
+            <param key="ITEM_7">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">NeighIdx</param>
+            </param>
+            <param key="ITEM_8">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">KrigW</param>
+            </param>
+        </param>
+        <param key="OUT_ADVANCED">
+            <param key="ITEM_1">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">VarEstim</param>
+            </param>
+            <param key="ITEM_2">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">NbNeigh</param>
+            </param>
+            <param key="ITEM_3">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">MeanDis</param>
+            </param>
+            <param key="ITEM_4">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">SumW</param>
+            </param>
+            <param key="ITEM_5">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">SumPosW</param>
+            </param>
+            <param key="ITEM_6">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">WMean</param>
+            </param>
+            <param key="ITEM_7">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">Lagrange</param>
+            </param>
+            <param key="ITEM_8">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">CovZZStar</param>
+            </param>
+            <param key="ITEM_9">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">CorZZStar</param>
+            </param>
+            <param key="ITEM_10">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">SlopeZZStar</param>
+            </param>
+            <param key="ITEM_11">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">CovZ1StarZStar</param>
+            </param>
+            <param key="ITEM_12">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">KrigEff</param>
+            </param>
+        </param>
+        <param key="OUT_CONDEXP">
+            <param key="ITEM_1">
+                <param key="GENERATE">yes</param>
+                <param automatic="yes" key="LABEL">CondExp</param>
+            </param>
+            <param key="ITEM_2">
+                <param key="GENERATE">yes</param>
+                <param automatic="yes" key="LABEL">CondStdDev</param>
+            </param>
+            <param key="ITEM_3">
+                <param key="GENERATE">yes</param>
+                <param automatic="yes" key="LABEL">CondVar</param>
+            </param>
+            <param key="ITEM_4">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">q</param>
+            </param>
+            <param key="ITEM_5">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">CI</param>
+            </param>
+            <param key="ITEM_6">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">Mean-Th</param>
+            </param>
+            <param key="ITEM_7">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">Proba-Th</param>
+            </param>
+            <param key="ITEM_8">
+                <param key="GENERATE">no</param>
+                <param automatic="yes" key="LABEL">Accu-Th</param>
+            </param>
+        </param>
+        <param key="THRESH_TYPE">THRESH_ON_MAIN_VARIABLE</param>
+        <param key="THRESHOLDS">
+            <param key="ITEM_1">
+                <param key="ACTIVES">yes</param>
+                <param key="VARIABLES">qCu-ł</param>
+                <param automatic="yes" version="2" key="THRESHOLDS">
+                    <value>0,8,16,24,32,40,48,56,64,72,80</value>
+                </param>
+            </param>
+        </param>
+        <param automatic="yes" version="2" key="QUANTILE_LIST">
+            <value>0.05,0.25,0.5,0.75,0.95</value>
+        </param>
+        <param automatic="yes" version="2" key="CONFINT_LIST">
+            <value>0.9,0.95</value>
+        </param>
+        <param key="OVERWRITE_MACRO">yes</param>
+        <param key="DENSITY">1</param>
+        <param key="DISPLAY_SCENE">
+            <param key="DISPLAY">no</param>
+            <param key="SCENE"/>
+        </param>
+    </param>
+    <param key="CHARTS_LAYOUTS"/>
+    <param key="CHARTS_GROUP">
+        <param key="STORE">no</param>
+        <param key="STORE_GRAPHICS">yes</param>
+        <param key="STORE_TABLES">no</param>
+        <param key="NAME">%task</param>
+    </param>
+</task>

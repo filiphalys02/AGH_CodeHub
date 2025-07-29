@@ -1,0 +1,177 @@
+
+# Install required packages
+install.packages("factoextra")
+install.packages("reshape2")
+
+# Wczytaj biblioteki
+library(tidyverse)
+library(ggplot2)
+library(FactoMineR)
+library(factoextra)
+library(reshape2)
+
+# Wczytaj dane
+data <- read.csv("Dane_PCA_2.csv")
+
+# Wyświetl pierwsze rekordy
+head(data)
+
+# Wybdata.class()# Wybierz tylko zmienne numeryczne i usuń NA
+data_num <- data %>%
+  select(where(is.numeric)) %>%
+  na.omit()
+
+# Oblicz statystyki opisowe
+stats <- data_num %>%
+  pivot_longer(cols = everything(), names_to = "variable", values_to = "value") %>%
+  group_by(variable) %>%
+  summarise(
+    min = min(value),
+    max = max(value),
+    mean = mean(value),
+    sd = sd(value)
+  )
+
+# Odwróć kolejność zmiennych zgodnie z oryginalną kolejnością
+reverse_order <- rev(names(data_num))
+stats <- stats %>%
+  mutate(variable = factor(variable, levels = reverse_order)) %>%
+  arrange(variable)
+
+print(stats)
+
+# Histogramy
+data_num %>%
+  pivot_longer(cols = everything(), names_to = "variable", values_to = "value") %>%
+  ggplot(aes(x = value)) +
+  geom_histogram(bins = 30, fill = "blue", color = "black") +
+  facet_wrap(~ variable, scales = "free_x") +
+  theme_minimal()
+
+# Macierz wykresów rozrzutu
+pairs(data_num)
+
+# Macierz korelacji
+cor_matrix <- round(cor(data_num), 2)
+print(cor_matrix)
+
+# Heatmapa korelacji
+cor_melted <- melt(cor_matrix)
+ggplot(data = cor_melted, aes(x = Var1, y = Var2, fill = value)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient2(low = "blue", high = "red", mid = "white",
+                       midpoint = 0, limit = c(-1, 1), space = "Lab",
+                       name = "Korelacja") +
+  geom_text(aes(label = value), color = "black", size = 3) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+  labs(title = "Macierz korelacji zmiennych",
+       x = "", y = "")
+
+data_pca <- data_num 
+
+# Normalizacja danych
+data_scaled <- scale(data_pca)
+
+# PCA - macierz składowych głównych
+pca_result <- prcomp(data_scaled, center = TRUE, scale. = TRUE)
+
+print(pca_result, digits = 2)
+
+
+# Obliczenie macierzy ładunków czynnikowych jako korelacji zmiennych z komponentami
+factor_loadings <- pca_result$rotation %*% diag(pca_result$sdev)
+
+# Zaokrąglij i nadaj nazwy
+colnames(factor_loadings) <- paste0("PC", 1:ncol(factor_loadings))
+rownames(factor_loadings) <- rownames(pca_result$rotation)
+
+# Przekształć do ramki danych
+factor_loadings_df <- as.data.frame(round(factor_loadings, 3))
+factor_loadings_df$Zmienna <- rownames(factor_loadings_df)
+
+# Przenieś kolumnę Zmienna na początek
+factor_loadings_df <- factor_loadings_df[, c(ncol(factor_loadings_df), 1:(ncol(factor_loadings_df)-1))]
+
+# Wyświetl tabelę
+print(factor_loadings_df)
+
+
+
+## Wartości własne i proporcje wariancji wyjaśniane przed daną składową
+eigenvalues <- pca_result$sdev^2
+variance_explained <- eigenvalues / sum(eigenvalues)
+cumulative_variance <- cumsum(variance_explained)
+
+# Oblicz skumulowaną wartość własną
+cumulative_eigenvalues <- cumsum(eigenvalues)
+
+# Tabela wariancji z dodatkową kolumną
+variance_table <- data.frame(
+  Skladnik = paste0("PC", 1:length(eigenvalues)),
+  Wartosc_wlasna = round(eigenvalues, 3),
+  Wartosc_wlasna_skumulowana = round(cumulative_eigenvalues, 3),
+  Proporcja_wariancji_procent = round(variance_explained * 100, 1),
+  Wariancja_skumulowana_procent = round(cumulative_variance * 100, 1)
+)
+
+# Wyświetl tabelę
+print(variance_table)
+
+# Wykres wariancji skumulowanej
+fviz_eig(pca_result, addlabels = TRUE, ylim = c(0, 60))
+
+# Wykres osypiskowy (scree plot) - wartości własne względem numeru składowej
+plot(eigenvalues, type = "b", pch = 19, col = "darkblue",
+     xlab = "Numer składowej", ylab = "Wartość własna",
+     main = "Wykres osypiskowy (scree plot)")
+
+# Oblicz zasób zmienności wspólnej (communality)
+# Ładunki główne (loadings)
+loadings <- pca_result$rotation
+
+# Oblicz kwadraty ładunków
+loadings_squared <- loadings^2
+
+# Oblicz skumulowaną zmienność wspólną dla każdej zmiennej i liczby składowych
+communalities_progressive <- t(apply(loadings_squared, 1, cumsum))
+
+# Utwórz nazwy kolumn: PC1, PC1-PC2, PC1-PC3, ...
+colnames(communalities_progressive) <- paste0("PC1-PC", 1:ncol(communalities_progressive))
+
+# Zaokrąglij wartości
+communalities_progressive <- round(communalities_progressive, 3)
+
+# Dodaj nazwy zmiennych
+communalities_table <- data.frame(Zmienna = rownames(communalities_progressive), communalities_progressive)
+
+# Próg zmienności wspólnej
+threshold <- 0.5
+
+# Znajdź liczbę składowych potrzebnych do osiągnięcia co najmniej 0.5 zmienności wspólnej
+selected_components <- apply(communalities_progressive, 1, function(x) {
+  idx <- which(x >= threshold)
+  if (length(idx) > 0) {
+    return(idx[1])
+  } else {
+    return(NA)
+  }
+})
+
+# Dodaj kolumnę z informacją, ile składowych potrzeba do osiągnięcia 0.5
+communalities_table$Skladowe_do_0_5 <- selected_components
+
+# Wyświetl tabelę
+print(communalities_table)
+
+# Wykres zmiennych w przestrzeni PCA
+fviz_pca_var(pca_result, col.var = "contrib") +
+  scale_color_gradient2(low = "blue", mid = "white", high = "red", midpoint = 50) +
+  theme_minimal()
+
+# Wykres obserwacji
+fviz_pca_ind(pca_result,
+             geom.ind = "point",
+             col.ind = "cos2",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE)

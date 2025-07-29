@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="import-csv-xls-points">
+    <param key="FICHE_IMPORT_MODE">
+        <param key="MODE">New File</param>
+    </param>
+    <param key="FICHE_DECODING">
+        <param key="COLUMN_SEPARATOR">,</param>
+        <param key="COMMENT_DELIMITER">#</param>
+        <param key="TEXT_DELIMITER">"</param>
+        <param key="USE_FIRST_LINE_AS_VARIABLE_NAMES">yes</param>
+        <param key="INTERPRET_CONSECUTIVE_SEPARATORS_AS_SINGLE">no</param>
+        <param key="CODEC">UTF-8</param>
+        <param key="P_XLSSHEET_LIST">
+            <param key="ITEM_1" automatic="yes">Arkusz1</param>
+        </param>
+    </param>
+    <param key="FICHE_VARIABLE_DEFINITION">
+        <param key="DESCRIPTORS_BY_PARSER">
+            <param key="ITEM_1">
+                <param key="DATAID">Point</param>
+                <param key="DESCRIPTOR_LIST">
+                    <param key="ITEM_1">
+                        <param key="ENABLED">yes</param>
+                        <param key="NAME" automatic="no">Nr7</param>
+                        <param key="ORIG_NAME">Nr7</param>
+                        <param key="ROLE">Numerical</param>
+                        <param key="ROLE_AS_STRING">Numerical</param>
+                        <param key="SYMBOL"/>
+                        <param key="UNDEF">N/A</param>
+                        <param key="UNIT">NO_UNIT</param>
+                        <param key="USE_DEFAULT_DISPLAY_FORMAT">yes</param>
+                        <param key="DIP">Positive Downwards</param>
+                        <param key="ADD_EXISTING_VAR_MODE">Create a New Variable</param>
+                        <param key="VARIABLE"/>
+                        <param key="LD"/>
+                        <param key="TYPE">FLOAT_32</param>
+                    </param>
+                    <param key="ITEM_2">
+                        <param key="ENABLED">yes</param>
+                        <param key="NAME" automatic="no">X7</param>
+                        <param key="ORIG_NAME">X7</param>
+                        <param key="ROLE">X</param>
+                        <param key="ROLE_AS_STRING">X</param>
+                        <param key="SYMBOL"/>
+                        <param key="UNDEF">N/A</param>
+                        <param key="UNIT">COORD_METER</param>
+                        <param key="USE_DEFAULT_DISPLAY_FORMAT">yes</param>
+                        <param key="DIP">Positive Downwards</param>
+                        <param key="ADD_EXISTING_VAR_MODE">Create a New Variable</param>
+                        <param key="VARIABLE"/>
+                        <param key="LD"/>
+                        <param key="TYPE">FLOAT_32</param>
+                    </param>
+                    <param key="ITEM_3">
+                        <param key="ENABLED">yes</param>
+                        <param key="NAME" automatic="no">Y7</param>
+                        <param key="ORIG_NAME">Y7</param>
+                        <param key="ROLE">Y</param>
+                        <param key="ROLE_AS_STRING">Y</param>
+                        <param key="SYMBOL"/>
+                        <param key="UNDEF">N/A</param>
+                        <param key="UNIT">COORD_METER</param>
+                        <param key="USE_DEFAULT_DISPLAY_FORMAT">yes</param>
+                        <param key="DIP">Positive Downwards</param>
+                        <param key="ADD_EXISTING_VAR_MODE">Create a New Variable</param>
+                        <param key="VARIABLE"/>
+                        <param key="LD"/>
+                        <param key="TYPE">FLOAT_32</param>
+                    </param>
+                    <param key="ITEM_4">
+                        <param key="ENABLED">yes</param>
+                        <param key="NAME" automatic="no">Ag</param>
+                        <param key="ORIG_NAME">Ag</param>
+                        <param key="ROLE">Numerical</param>
+                        <param key="ROLE_AS_STRING">Numerical</param>
+                        <param key="SYMBOL"/>
+                        <param key="UNDEF">N/A</param>
+                        <param key="UNIT">NO_UNIT</param>
+                        <param key="USE_DEFAULT_DISPLAY_FORMAT">yes</param>
+                        <param key="DIP">Positive Downwards</param>
+                        <param key="ADD_EXISTING_VAR_MODE">Create a New Variable</param>
+                        <param key="VARIABLE"/>
+                        <param key="LD"/>
+                        <param key="TYPE">FLOAT_32</param>
+                    </param>
+                    <param key="ITEM_5">
+                        <param key="ENABLED">yes</param>
+                        <param key="NAME" automatic="no">Cu</param>
+                        <param key="ORIG_NAME">Cu</param>
+                        <param key="ROLE">Numerical</param>
+                        <param key="ROLE_AS_STRING">Numerical</param>
+                        <param key="SYMBOL"/>
+                        <param key="UNDEF">N/A</param>
+                        <param key="UNIT">NO_UNIT</param>
+                        <param key="USE_DEFAULT_DISPLAY_FORMAT">yes</param>
+                        <param key="DIP">Positive Downwards</param>
+                        <param key="ADD_EXISTING_VAR_MODE">Create a New Variable</param>
+                        <param key="VARIABLE"/>
+                        <param key="LD"/>
+                        <param key="TYPE">FLOAT_32</param>
+                    </param>
+                    <param key="ITEM_6">
+                        <param key="ENABLED">yes</param>
+                        <param key="NAME" automatic="no">Ag_s</param>
+                        <param key="ORIG_NAME">Ag_s</param>
+                        <param key="ROLE">Numerical</param>
+                        <param key="ROLE_AS_STRING">Numerical</param>
+                        <param key="SYMBOL"/>
+                        <param key="UNDEF">N/A</param>
+                        <param key="UNIT">NO_UNIT</param>
+                        <param key="USE_DEFAULT_DISPLAY_FORMAT">yes</param>
+                        <param key="DIP">Positive Downwards</param>
+                        <param key="ADD_EXISTING_VAR_MODE">Create a New Variable</param>
+                        <param key="VARIABLE"/>
+                        <param key="LD"/>
+                        <param key="TYPE">FLOAT_32</param>
+                    </param>
+                </param>
+                <param key="SUPPORT"/>
+            </param>
+        </param>
+        <param key="GRAVITY_CENTER">Gravity Center</param>
+    </param>
+    <param key="FICHE_BILAN">
+        <param key="OUTPUT_FILE">
+            <path/>
+            <file>dane</file>
+        </param>
+        <param key="DISPLAY_FILE">
+            <param key="DISPLAY">no</param>
+            <param key="SCENE"/>
+        </param>
+    </param>
+    <param key="FICHE_INPUT_FILE">
+        <param key="FILE">C:/AGH - Geostatystyka/Ex5/Cu_Ag_7.xlsx</param>
+        <param key="P_SUPPORT_TYPE">Assay</param>
+        <param key="COORD_SYS">User Local System</param>
+        <param key="CAMPAIGN_NAME" automatic="yes">wt. maj 27 2025 09:00:32</param>
+        <param key="USE_CAMPAIGN_NAME">yes</param>
+    </param>
+</task>

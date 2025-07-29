@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="import-gocad">
+    <param key="WRITE_MODE">Create File / Overwrite</param>
+    <param key="GEOMETRY_TYPE">Polylines</param>
+    <param key="INPUT_FILE"/>
+    <param key="COORD_SYSTEM">User Local System</param>
+    <param key="OUTPUT_DATA"/>
+    <param key="DISPLAY">
+        <param key="DISPLAY">no</param>
+        <param key="SCENE"/>
+    </param>
+</task>

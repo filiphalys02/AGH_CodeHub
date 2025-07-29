@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<param version="2" key="GEOSET_EDA_PARAMETERS">
+    <param version="5" key="VARIO_EXP">
+        <param key="CALCULATION_MODE">OMNIDIRECTIONAL</param>
+        <param key="GROUP_OMNIDIRECTIONAL">
+            <param automatic="no" key="OMNIDIR_LAG_VALUE">70</param>
+            <param automatic="no" key="OMNIDIR_MAX_DISTANCE">640</param>
+            <param automatic="yes" key="OMNIDIR_TOL_DISTANCE">0.5</param>
+            <param automatic="yes" key="OMNIDIR_NB_LAGS_REFINED">0</param>
+            <param automatic="yes" key="OMNIDIR_LAG_SUBDIVISION">8</param>
+            <param key="OMNIDIR_USE_SLIDER">no</param>
+            <param automatic="no" key="OMNIDIR_SLIDER_STEP">10</param>
+        </param>
+        <param key="GROUP_MULTIDIRECTIONAL">
+            <param automatic="yes" key="MULTI_DIR_REF_PLANE">
+                <dip>0</dip>
+                <dipAzimuth>90</dipAzimuth>
+                <pitch>90</pitch>
+            </param>
+            <param automatic="yes" key="MULTI_DIR_NB_REGULAR_DIRS">2</param>
+            <param key="MULTI_DIR_ADVANCED_DEFINITION">no</param>
+            <param automatic="yes" key="MULTI_DIR_PLANE_LAG_VALUE">40</param>
+            <param automatic="yes" key="MULTI_DIR_PLANE_MAX_DIST">400</param>
+            <param automatic="yes" key="MULTI_DIR_NORMAL_LAG_VALUE">1e-10</param>
+            <param automatic="yes" key="MULTI_DIR_NORMAL_MAX_DIST">1e-09</param>
+            <param automatic="yes" key="MULTI_DIR_NORMAL_DIR">yes</param>
+            <param automatic="yes" key="MULTI_DIR_VERTICAL_DIR">yes</param>
+            <param automatic="yes" key="MULTI_DIR_HEIGHT_ANGULAR_TOL">30</param>
+            <param key="MULTI_DIR_DIRECTIONS_PLANE">
+                <param version="3" key="ITEM_1">
+                    <param key="DIR_ACTIVATED">yes</param>
+                    <param automatic="yes" key="DIR_LAG_VALUE">40</param>
+                    <param key="DIR_USE_SLIDER">yes</param>
+                    <param automatic="yes" key="DIR_DISTANCE_MAX">400</param>
+                    <param automatic="yes" key="DIR_SLIDER_STEP">2</param>
+                    <param automatic="yes" key="DIR_DISTANCE_TOLERANCE">0.5</param>
+                    <param automatic="yes" key="DIR_NB_LAGS_REFINED">0</param>
+                    <param automatic="yes" key="DIR_REFINED_LAG">8</param>
+                    <param automatic="yes" key="DIR_ANGULAR_TOLERANCE">45</param>
+                    <param automatic="yes" key="DIR_SLICING_WIDTH">200</param>
+                </param>
+                <param version="3" key="ITEM_2">
+                    <param key="DIR_ACTIVATED">yes</param>
+                    <param automatic="yes" key="DIR_LAG_VALUE">40</param>
+                    <param key="DIR_USE_SLIDER">yes</param>
+                    <param automatic="yes" key="DIR_DISTANCE_MAX">400</param>
+                    <param automatic="yes" key="DIR_SLIDER_STEP">2</param>
+                    <param automatic="yes" key="DIR_DISTANCE_TOLERANCE">0.5</param>
+                    <param automatic="yes" key="DIR_NB_LAGS_REFINED">0</param>
+                    <param automatic="yes" key="DIR_REFINED_LAG">8</param>
+                    <param automatic="yes" key="DIR_ANGULAR_TOLERANCE">45</param>
+                    <param automatic="yes" key="DIR_SLICING_WIDTH">200</param>
+                </param>
+            </param>
+            <param key="MULTI_DIR_DIRECTIONS_SPECIAL"/>
+            <param key="MULTI_DIR_DIRECTIONS_FREE"/>
+            <param key="MULTI_DIR_USE_SLIDER">yes</param>
+            <param automatic="yes" key="MULTI_DIR_SLIDER_STEP">2</param>
+            <param key="MULTI_DIR_USE_SLIDER_NORMAL">yes</param>
+            <param automatic="yes" key="MULTI_DIR_SLIDER_STEP_NORMAL">1e-10</param>
+        </param>
+        <param key="GROUP_DOWNHOLE">
+            <param automatic="yes" key="DOWNHOLE_LAG_VALUE">1e-10</param>
+            <param automatic="yes" key="DOWNHOLE_MAX_DISTANCE">1e-09</param>
+            <param key="DOWNHOLE_USE_SLIDER">yes</param>
+            <param automatic="yes" key="DOWNHOLE_SLIDER_STEP">1e-10</param>
+        </param>
+    </param>
+    <param key="PAIR_FILTERING">no</param>
+    <param key="PAIR_FILTERING_TYPE">Keep Only Pairs of Same Category</param>
+    <param automatic="yes" key="PAIR_FILTERING_VARIABLE"/>
+    <param key="CLOUD">
+        <param key="COMPUTE_CLOUD">no</param>
+        <param key="IMAGE_RESOLUTION">50</param>
+        <param key="NB_OUTLIERS">10</param>
+        <param key="CLOUD_DISPLAY_IMAGE">yes</param>
+    </param>
+    <param key="VMOD_CONTEXT">
+        <param key="USE_RESIDUALS">no</param>
+        <param key="MODEL_OPTION">RAW</param>
+        <param key="KRIGING_MODE_RAW">ORDINARY_KRIGING</param>
+        <param key="KRIGING_MODE_GAUSSIAN">ORDINARY_KRIGING</param>
+        <param key="GAUSSIAN_TO_RAW_OPTION">Fit the Gaussian and Raw Model Independently</param>
+    </param>
+    <param key="RAW_MODEL_FITTING">
+        <param version="3" key="VARIO_MODEL">
+            <nVariables>1</nVariables>
+            <param key="USE_NUGGET">yes</param>
+            <param key="NUGGET">
+                <size>1</size>
+                <node_1>46.839363612537326</node_1>
+            </param>
+            <param automatic="yes" key="USE_ANISOTROPY">no</param>
+            <param key="USE_GLOBAL_ANISOTROPY_ORIENTATION">yes</param>
+            <param automatic="yes" key="GLOBAL_ANISOTROPY_ORIENTATION">
+                <dip>0</dip>
+                <dipAzimuth>90</dipAzimuth>
+                <pitch>90</pitch>
+            </param>
+            <param key="STRUCTURES">
+                <param key="ITEM_6">
+                    <param key="TYPE">SPHERICAL</param>
+                    <param key="SILLS">
+                        <size>1</size>
+                        <node_1>13.683854743139925</node_1>
+                    </param>
+                    <param key="RANGES">
+                        <param key="COMPONENT_1">
+                            <param key="VALUE">625.0657378</param>
+                            <param key="LOWER_BOUND"/>
+                            <param key="UPPER_BOUND"/>
+                        </param>
+                        <param key="COMPONENT_2">
+                            <param key="VALUE">625.0657378</param>
+                            <param key="LOWER_BOUND"/>
+                            <param key="UPPER_BOUND"/>
+                        </param>
+                        <param key="COMPONENT_3">
+                            <param key="VALUE">625.0657378</param>
+                            <param key="LOWER_BOUND"/>
+                            <param key="UPPER_BOUND"/>
+                        </param>
+                    </param>
+                    <param automatic="yes" key="ANISOTROPY_ORIENTATION">
+                        <dip>0</dip>
+                        <dipAzimuth>90</dipAzimuth>
+                        <pitch>90</pitch>
+                    </param>
+                    <param key="EXTRA_PARAMETER"/>
+                </param>
+            </param>
+        </param>
+        <param key="MAX_STRUCT_COUNT">3</param>
+        <param automatic="yes" key="MAX_ITERATION_COUNT">100</param>
+        <param key="NORMALIZE_DURING_AUTO_FITTING">no</param>
+        <param key="NORMALIZE_POST_AUTO_FITTING">no</param>
+        <param automatic="yes" key="REJECT_NUGGET">0.01</param>
+        <param automatic="yes" key="REJECT_STRUCTURE">0.05</param>
+        <param key="FIT_CURVE">VARIOGRAM</param>
+        <param automatic="no" key="USE_STRUCT_LIST">
+            <param key="ITEM_1">CUBIC</param>
+            <param key="ITEM_2">SPHERICAL</param>
+            <param key="ITEM_3">EXPONENTIAL</param>
+            <param key="ITEM_4">LINEAR</param>
+        </param>
+        <param key="AUTOMATIC_FROM_COVARIANCE_CURVE">no</param>
+        <param key="HIGHLY_HETEROTOPIC_DATA">no</param>
+        <param automatic="yes" key="C00_MATRIX">
+            <size>1</size>
+            <node_1>56.5170841324</node_1>
+        </param>
+    </param>
+    <param key="GAUSSIAN_MODEL_FITTING">
+        <param version="3" key="VARIO_MODEL">
+            <nVariables>1</nVariables>
+            <param key="USE_NUGGET">yes</param>
+            <param key="NUGGET">
+                <size>1</size>
+                <node_1>46.839363612537326</node_1>
+            </param>
+            <param automatic="yes" key="USE_ANISOTROPY">no</param>
+            <param key="USE_GLOBAL_ANISOTROPY_ORIENTATION">yes</param>
+            <param automatic="yes" key="GLOBAL_ANISOTROPY_ORIENTATION">
+                <dip>0</dip>
+                <dipAzimuth>90</dipAzimuth>
+                <pitch>90</pitch>
+            </param>
+            <param key="STRUCTURES">
+                <param key="ITEM_6">
+                    <param key="TYPE">SPHERICAL</param>
+                    <param key="SILLS">
+                        <size>1</size>
+                        <node_1>13.683854743139925</node_1>
+                    </param>
+                    <param key="RANGES">
+                        <param key="COMPONENT_1">
+                            <param key="VALUE">625.0657378</param>
+                            <param key="LOWER_BOUND"/>
+                            <param key="UPPER_BOUND"/>
+                        </param>
+                        <param key="COMPONENT_2">
+                            <param key="VALUE">625.0657378</param>
+                            <param key="LOWER_BOUND"/>
+                            <param key="UPPER_BOUND"/>
+                        </param>
+                        <param key="COMPONENT_3">
+                            <param key="VALUE">625.0657378</param>
+                            <param key="LOWER_BOUND"/>
+                            <param key="UPPER_BOUND"/>
+                        </param>
+                    </param>
+                    <param automatic="yes" key="ANISOTROPY_ORIENTATION">
+                        <dip>0</dip>
+                        <dipAzimuth>90</dipAzimuth>
+                        <pitch>90</pitch>
+                    </param>
+                    <param key="EXTRA_PARAMETER"/>
+                </param>
+            </param>
+        </param>
+        <param key="MAX_STRUCT_COUNT">3</param>
+        <param automatic="yes" key="MAX_ITERATION_COUNT">100</param>
+        <param key="NORMALIZE_DURING_AUTO_FITTING">no</param>
+        <param key="NORMALIZE_POST_AUTO_FITTING">no</param>
+        <param automatic="yes" key="REJECT_NUGGET">0.01</param>
+        <param automatic="yes" key="REJECT_STRUCTURE">0.05</param>
+        <param key="FIT_CURVE">VARIOGRAM</param>
+        <param automatic="no" key="USE_STRUCT_LIST">
+            <param key="ITEM_1">CUBIC</param>
+            <param key="ITEM_2">SPHERICAL</param>
+            <param key="ITEM_3">EXPONENTIAL</param>
+            <param key="ITEM_4">LINEAR</param>
+        </param>
+        <param key="AUTOMATIC_FROM_COVARIANCE_CURVE">no</param>
+        <param key="HIGHLY_HETEROTOPIC_DATA">no</param>
+        <param automatic="yes" key="C00_MATRIX">
+            <size>1</size>
+            <node_1>56.5170841324</node_1>
+        </param>
+    </param>
+    <param key="CURVE_OPTIONS">
+        <param key="CURVE_TYPE">VARIOGRAM</param>
+        <param key="SHOW_PAIRS">yes</param>
+        <param key="DISPLAY_PAIRS_MODE">AS_TEXT</param>
+        <param key="SHOW_LEGEND">yes</param>
+        <param key="VARIO_CLOUD_AXIS">USE_CLOUD_AXIS</param>
+    </param>
+</param>

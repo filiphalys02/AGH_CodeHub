@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<windows>
+    <window-list>
+        <window class-id="Reporter"/>
+        <window class-id="DisplayMap">
+            <scene>Map</scene>
+        </window>
+    </window-list>
+    <workspace>
+        <window class-id="Display3D">
+            <category>SCENE</category>
+            <databaseId>-1</databaseId>
+            <name>3D Scene</name>
+        </window>
+        <window class-id="DisplayMap" current="yes">
+            <category>SCENE</category>
+            <databaseId>1</databaseId>
+            <name>Map</name>
+        </window>
+    </workspace>
+</windows>

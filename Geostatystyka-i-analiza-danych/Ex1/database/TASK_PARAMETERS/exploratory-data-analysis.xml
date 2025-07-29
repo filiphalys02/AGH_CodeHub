@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="exploratory-data-analysis" version="7">
+    <param key="DATA_GROUP">
+        <param key="DATASET">
+            <param key="ROOT">
+                <path/>
+                <file>Dane qCu-r</file>
+            </param>
+            <param key="SELECTION"/>
+            <param key="WEIGHT"/>
+            <param key="MASK_FILTER" version="2">
+                <param key="IS_ACTIVE">yes</param>
+                <param key="RULES"/>
+                <param automatic="yes" key="COMBINATION"/>
+            </param>
+        </param>
+    </param>
+    <param key="DRIFT_GROUP">
+        <param key="EXTERNAL_DRIFT_INPUT_VARS">
+            <param key="ITEM_1"/>
+        </param>
+        <param key="EXTERNAL_DRIFT_DATASET">
+            <param key="ROOT"/>
+            <param key="EXTERNAL_DRIFT_VARS">
+                <param key="ITEM_1"/>
+            </param>
+        </param>
+    </param>
+    <param key="CATEGORY_LIST">
+        <param key="RESIDUALS">
+            <param key="GLOBAL_CALC_GROUP">
+                <param key="COORD_DRIFT_X">no</param>
+                <param key="COORD_DRIFT_Y">no</param>
+                <param key="COORD_DRIFT_Z">no</param>
+                <param key="COORD_DRIFT_DEGREE">1</param>
+            </param>
+            <param key="ITEM_LIST"/>
+        </param>
+        <param key="ANAMORPHOSIS">
+            <param key="GLOBAL_CALC_GROUP">
+                <param key="APPLY_MASK_ON_ANAM">yes</param>
+            </param>
+            <param key="GLOBAL_STYLE_GROUP">
+                <param key="DISPLAY_ZY_HERMITE">no</param>
+            </param>
+            <param key="ITEM_LIST"/>
+        </param>
+        <param key="DATA_TABLE">
+            <param key="ITEM_LIST">
+                <param key="ITEM_1">
+                    <param key="ITEM_KEY">DATA_TABLE__2</param>
+                    <param key="ITEM_ACTIVE">yes</param>
+                    <param key="ITEM_CALC_GROUP">
+                        <param key="VARIABLES">
+                            <param key="ITEM_1"/>
+                        </param>
+                    </param>
+                </param>
+            </param>
+        </param>
+        <param key="BASEMAP">
+            <param key="GLOBAL_STYLE_GROUP">
+                <param automatic="yes" key="SYMBOL_NORMAL">
+                    <shape>PLUS</shape>
+                    <size>10</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT">
+                    <shape>TRIANGLE_UP_F</shape>
+                    <size>12</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_MASK">
+                    <shape>TRIANGLE_UP_F</shape>
+                    <size>10</size>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT_MASK">
+                    <shape>TRIANGLE_UP_F</shape>
+                    <size>10</size>
+                    <red>128</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SHOW_SCALE_BAR">yes</param>
+            </param>
+            <param key="ITEM_LIST">
+                <param key="ITEM_1">
+                    <param key="ITEM_KEY">BASEMAP__1</param>
+                    <param key="ITEM_ACTIVE">yes</param>
+                    <param key="ITEM_CALC_GROUP">
+                        <param key="VARIABLES">
+                            <param key="ITEM_1">
+                                <variable>qCu-R</variable>
+                            </param>
+                        </param>
+                        <param key="ITEM_ANALYSIS_OPTION">USE_RAW</param>
+                    </param>
+                    <param key="ITEM_STYLE_GROUP">
+                        <param key="SECTION">XoY</param>
+                        <param automatic="yes" key="SECTION_POSITION">0</param>
+                        <param automatic="yes" key="SECTION_WIDTH">0</param>
+                    </param>
+                </param>
+            </param>
+        </param>
+        <param key="VIEW_3D">
+            <param key="GLOBAL_STYLE_GROUP">
+                <param key="DISPLAY_TRAJECTORY">no</param>
+                <param automatic="yes" key="SYMBOL_VOLUME_NORMAL">
+                    <shape>SPHERE</shape>
+                    <size>6.7082039324993685</size>
+                    <quality>50</quality>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                </param>
+                <param automatic="yes" key="SYMBOL_VOLUME_HIGHLIGHT">
+                    <shape>CONE_PZ</shape>
+                    <size>8.049844718999243</size>
+                    <quality>50</quality>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                    <opacity>255</opacity>
+                </param>
+                <param automatic="yes" key="SYMBOL_VOLUME_MASK">
+                    <shape>CONE_PZ</shape>
+                    <size>3.3541019662496843</size>
+                    <quality>50</quality>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                </param>
+                <param automatic="yes" key="SYMBOL_VOLUME_HIGHLIGHT_MASK">
+                    <shape>CONE_PZ</shape>
+                    <size>8.049844718999243</size>
+                    <quality>50</quality>
+                    <red>128</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                </param>
+                <param automatic="yes" key="SYMBOL_PIXMAP_NORMAL">
+                    <shape>CIRCLE_F</shape>
+                    <size>10</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_PIXMAP_HIGHLIGHT">
+                    <shape>TRIANGLE_UP_F</shape>
+                    <size>12</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_PIXMAP_MASK">
+                    <shape>TRIANGLE_UP_F</shape>
+                    <size>10</size>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_PIXMAP_HIGHLIGHT_MASK">
+                    <shape>TRIANGLE_UP_F</shape>
+                    <size>10</size>
+                    <red>128</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+            </param>
+            <param key="ITEM_LIST"/>
+        </param>
+        <param key="STATISTICS">
+            <param key="ITEM_LIST"/>
+        </param>
+        <param key="HISTOGRAM">
+            <param key="GLOBAL_STYLE_GROUP">
+                <param key="HISTOGRAM_TYPE">RAW_FREQUENCIES</param>
+                <param automatic="yes" key="COLOR_NORMAL">
+                    <red>0</red>
+                    <green>155</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                </param>
+            </param>
+            <param key="ITEM_LIST">
+                <param key="ITEM_1">
+                    <param key="ITEM_KEY">HISTOGRAM__1</param>
+                    <param key="ITEM_ACTIVE">yes</param>
+                    <param key="ITEM_CALC_GROUP">
+                        <param key="VARIABLES">
+                            <param key="ITEM_1">
+                                <variable>qCu-R</variable>
+                            </param>
+                        </param>
+                        <param key="ITEM_ANALYSIS_OPTION">USE_RAW</param>
+                        <param automatic="no" key="NB_CLASSES">12</param>
+                        <param automatic="no" key="LOWER_BOUND">0</param>
+                        <param automatic="no" key="UPPER_BOUND">60</param>
+                        <param key="LOG10_SCALE">no</param>
+                    </param>
+                </param>
+            </param>
+        </param>
+        <param key="XPLOT">
+            <param key="GLOBAL_STYLE_GROUP">
+                <param automatic="yes" key="SYMBOL_NORMAL">
+                    <shape>CIRCLE</shape>
+                    <size>5</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT">
+                    <shape>CIRCLE</shape>
+                    <size>12</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_MASK">
+                    <shape>CIRCLE_F</shape>
+                    <size>5</size>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT_MASK">
+                    <shape>CIRCLE_F</shape>
+                    <size>5</size>
+                    <red>128</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="STYLE_LIN_REG">
+                    <pen>DASH</pen>
+                    <color>#ff008000</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param automatic="yes" key="STYLE_COND_EXP">
+                    <pen>SOLID</pen>
+                    <color>#ff000000</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param automatic="yes" key="STYLE_STD_DEV">
+                    <pen>DASH</pen>
+                    <color>#ff0000ff</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param automatic="yes" key="STYLE_BISECTOR">
+                    <pen>DASH</pen>
+                    <color>#ffff0000</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+            </param>
+            <param key="ITEM_LIST"/>
+        </param>
+        <param key="BOX_PLOT">
+            <param key="GLOBAL_STYLE_GROUP">
+                <param automatic="yes" key="SYMBOL_NORMAL">
+                    <shape>CIRCLE</shape>
+                    <size>5</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT">
+                    <shape>CIRCLE</shape>
+                    <size>12</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_MASK">
+                    <shape>CIRCLE_F</shape>
+                    <size>5</size>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT_MASK">
+                    <shape>CIRCLE_F</shape>
+                    <size>5</size>
+                    <red>128</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="BOX_COLOR">
+                    <red>147</red>
+                    <green>147</green>
+                    <blue>221</blue>
+                    <opacity>255</opacity>
+                </param>
+                <param key="DISPLAY_ORIENTATION">Display Vertically</param>
+                <param key="DISPLAY_OUTLIERS">yes</param>
+                <param key="DISPLAY_NUMBER_SAMPLES">no</param>
+            </param>
+            <param key="ITEM_LIST">
+                <param key="ITEM_1">
+                    <param key="ITEM_KEY">BOX_PLOT__1</param>
+                    <param key="ITEM_ACTIVE">yes</param>
+                    <param key="ITEM_CALC_GROUP">
+                        <param key="VARIABLES">
+                            <param key="ITEM_1">
+                                <variable>qCu-R</variable>
+                            </param>
+                        </param>
+                        <param key="ITEM_ANALYSIS_OPTION">USE_RAW</param>
+                    </param>
+                    <param key="ITEM_STYLE_GROUP">
+                        <param key="USE_LOG_SCALE">no</param>
+                        <param key="REVERSE_ORDER">no</param>
+                    </param>
+                </param>
+            </param>
+        </param>
+        <param key="SWATH_PLOT">
+            <param key="GLOBAL_CALC_GROUP">
+                <param automatic="yes" key="SWATH_ROTATION">
+                    <conv_id>1</conv_id>
+                    <conv_string>+Z+Y+X</conv_string>
+                    <a1>0</a1>
+                    <a2>0</a2>
+                    <a3>0</a3>
+                </param>
+                <param automatic="yes" key="SWATH_SIZE">
+                    <v1>100</v1>
+                    <v2>80</v2>
+                    <v3>0</v3>
+                </param>
+            </param>
+            <param key="GLOBAL_STYLE_GROUP">
+                <param automatic="yes" key="SYMBOL_NORMAL">
+                    <shape>CIRCLE</shape>
+                    <size>5</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT">
+                    <shape>CIRCLE</shape>
+                    <size>12</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_MASK">
+                    <shape>CIRCLE_F</shape>
+                    <size>5</size>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT_MASK">
+                    <shape>CIRCLE_F</shape>
+                    <size>5</size>
+                    <red>128</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param key="DISPLAY_BOXPLOTS">yes</param>
+                <param key="DISPLAY_OUTLIERS">yes</param>
+                <param key="DISPLAY_CURVE">yes</param>
+                <param key="DISPLAY_AS_TREND">no</param>
+                <param key="DISPLAY_NUMBER_SAMPLES">yes</param>
+                <param key="DISPLAY_NUMBER_SAMPLES_MODE">as Text</param>
+                <param key="SHOW_COND_EXP">yes</param>
+                <param automatic="yes" key="STYLE_COND_EXP">
+                    <pen>SOLID</pen>
+                    <color>#ff000000</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param key="SHOW_STD_DEV">yes</param>
+                <param automatic="yes" key="STYLE_STD_DEV">
+                    <pen>DASH</pen>
+                    <color>#ff0000ff</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param automatic="yes" key="BOX_COLOR">
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                </param>
+                <param automatic="yes" key="HISTO_COLOR">
+                    <red>0</red>
+                    <green>155</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                </param>
+            </param>
+            <param key="ITEM_LIST"/>
+        </param>
+        <param key="VMAP">
+            <param key="ITEM_LIST"/>
+        </param>
+        <param key="VARIOGRAM">
+            <param key="ITEM_LIST">
+                <param key="ITEM_1">
+                    <param key="ITEM_KEY">VARIOGRAM__1</param>
+                    <param key="ITEM_ACTIVE">yes</param>
+                    <param key="ITEM_CALC_GROUP">
+                        <param key="VARIABLES">
+                            <param key="ITEM_1">
+                                <variable>qCu-R</variable>
+                            </param>
+                        </param>
+                        <param key="ITEM_ANALYSIS_OPTION">USE_RAW</param>
+                        <param key="VARIO_EXP" version="5">
+                            <param key="CALCULATION_MODE">OMNIDIRECTIONAL</param>
+                            <param key="GROUP_OMNIDIRECTIONAL">
+                                <param automatic="yes" key="OMNIDIR_LAG_VALUE">30</param>
+                                <param automatic="yes" key="OMNIDIR_MAX_DISTANCE">300</param>
+                                <param automatic="yes" key="OMNIDIR_TOL_DISTANCE">0.5</param>
+                                <param automatic="yes" key="OMNIDIR_NB_LAGS_REFINED">0</param>
+                                <param automatic="yes" key="OMNIDIR_LAG_SUBDIVISION">6</param>
+                                <param key="OMNIDIR_USE_SLIDER">yes</param>
+                                <param automatic="yes" key="OMNIDIR_SLIDER_STEP">1.5</param>
+                            </param>
+                            <param key="GROUP_MULTIDIRECTIONAL">
+                                <param automatic="yes" key="MULTI_DIR_REF_PLANE">
+                                    <dip>0</dip>
+                                    <dipAzimuth>90</dipAzimuth>
+                                    <pitch>90</pitch>
+                                </param>
+                                <param automatic="yes" key="MULTI_DIR_NB_REGULAR_DIRS">2</param>
+                                <param key="MULTI_DIR_ADVANCED_DEFINITION">no</param>
+                                <param automatic="yes" key="MULTI_DIR_PLANE_LAG_VALUE">30</param>
+                                <param automatic="yes" key="MULTI_DIR_PLANE_MAX_DIST">300</param>
+                                <param automatic="yes" key="MULTI_DIR_NORMAL_LAG_VALUE">1e-10</param>
+                                <param automatic="yes" key="MULTI_DIR_NORMAL_MAX_DIST">1e-09</param>
+                                <param automatic="yes" key="MULTI_DIR_NORMAL_DIR">yes</param>
+                                <param automatic="yes" key="MULTI_DIR_VERTICAL_DIR">yes</param>
+                                <param automatic="yes" key="MULTI_DIR_HEIGHT_ANGULAR_TOL">30</param>
+                                <param key="MULTI_DIR_DIRECTIONS_PLANE">
+                                    <param key="ITEM_1" version="3">
+                                        <param key="DIR_ACTIVATED">yes</param>
+                                        <param automatic="yes" key="DIR_LAG_VALUE">30</param>
+                                        <param key="DIR_USE_SLIDER">yes</param>
+                                        <param automatic="yes" key="DIR_DISTANCE_MAX">300</param>
+                                        <param automatic="yes" key="DIR_SLIDER_STEP">1.5</param>
+                                        <param automatic="yes" key="DIR_DISTANCE_TOLERANCE">0.5</param>
+                                        <param automatic="yes" key="DIR_NB_LAGS_REFINED">0</param>
+                                        <param automatic="yes" key="DIR_REFINED_LAG">6</param>
+                                        <param automatic="yes" key="DIR_ANGULAR_TOLERANCE">45</param>
+                                        <param automatic="yes" key="DIR_SLICING_WIDTH">150</param>
+                                    </param>
+                                    <param key="ITEM_2" version="3">
+                                        <param key="DIR_ACTIVATED">yes</param>
+                                        <param automatic="yes" key="DIR_LAG_VALUE">30</param>
+                                        <param key="DIR_USE_SLIDER">yes</param>
+                                        <param automatic="yes" key="DIR_DISTANCE_MAX">300</param>
+                                        <param automatic="yes" key="DIR_SLIDER_STEP">1.5</param>
+                                        <param automatic="yes" key="DIR_DISTANCE_TOLERANCE">0.5</param>
+                                        <param automatic="yes" key="DIR_NB_LAGS_REFINED">0</param>
+                                        <param automatic="yes" key="DIR_REFINED_LAG">6</param>
+                                        <param automatic="yes" key="DIR_ANGULAR_TOLERANCE">45</param>
+                                        <param automatic="yes" key="DIR_SLICING_WIDTH">150</param>
+                                    </param>
+                                </param>
+                                <param key="MULTI_DIR_DIRECTIONS_SPECIAL"/>
+                                <param key="MULTI_DIR_DIRECTIONS_FREE"/>
+                                <param key="MULTI_DIR_USE_SLIDER">yes</param>
+                                <param automatic="yes" key="MULTI_DIR_SLIDER_STEP">1.5</param>
+                                <param key="MULTI_DIR_USE_SLIDER_NORMAL">yes</param>
+                                <param automatic="yes" key="MULTI_DIR_SLIDER_STEP_NORMAL">1e-10</param>
+                            </param>
+                            <param key="GROUP_DOWNHOLE">
+                                <param automatic="yes" key="DOWNHOLE_LAG_VALUE">1e-10</param>
+                                <param automatic="yes" key="DOWNHOLE_MAX_DISTANCE">1e-09</param>
+                                <param key="DOWNHOLE_USE_SLIDER">yes</param>
+                                <param automatic="yes" key="DOWNHOLE_SLIDER_STEP">1e-10</param>
+                            </param>
+                        </param>
+                        <param key="PAIRS_FILTERING">no</param>
+                        <param key="PAIRS_FILTERING_TYPE">Keep Only Pairs of Same Category</param>
+                        <param automatic="yes" key="PAIRS_FILTERING_VARIABLE"/>
+                        <param key="INVERT_VARIABLE_ORDER">no</param>
+                        <param key="DECIMATION">no</param>
+                        <param automatic="yes" key="DECIMATION_MAX_NB_SAMPLES">1000000</param>
+                        <param automatic="yes" key="DECIMATION_SEED">165426</param>
+                        <param key="INPUT_VMAP_FOR_IMPORT"/>
+                        <param key="COMPUTE_CLOUD">no</param>
+                        <param key="CLOUD_IMAGE_RESOLUTION">50</param>
+                        <param key="CLOUD_NB_MAX_OUTLIERS">10</param>
+                        <param key="STATIONARITY_USE_RESIDUALS">no</param>
+                        <param key="STATIONARITY_MODEL_OPTION">RAW</param>
+                        <param key="STATIONARITY_RAW">ORDINARY_KRIGING</param>
+                        <param key="STATIONARITY_GAUSSIAN">ORDINARY_KRIGING</param>
+                        <param key="STATIONARITY_GLOBAL_MEAN_VALUES">
+                            <param automatic="yes" key="ITEM_1">14.17191894</param>
+                        </param>
+                        <param key="FIT_MODEL">yes</param>
+                        <param key="GAUSSIAN_TO_RAW_OPTION">Deduce the Raw Model from Gaussian Model</param>
+                        <param key="FITTING_CALC_FINAL_GROUP">
+                            <param key="FITTING_MODE">FULL_AUTOMATIC</param>
+                            <param key="REF_VARIABLE"/>
+                            <param key="FIT_CURVE">VARIOGRAM</param>
+                            <param automatic="no" key="USE_STRUCT_LIST">
+                                <param key="ITEM_1">CUBIC</param>
+                                <param key="ITEM_2">SPHERICAL</param>
+                                <param key="ITEM_3">EXPONENTIAL</param>
+                                <param key="ITEM_4">LINEAR</param>
+                            </param>
+                            <param key="MIN_STRUCT_COUNT">1</param>
+                            <param key="MAX_STRUCT_COUNT">3</param>
+                            <param automatic="yes" key="MAX_ITERATION_COUNT">100</param>
+                            <param key="VARIO_MODEL" version="3">
+                                <nVariables>1</nVariables>
+                                <param key="USE_NUGGET">yes</param>
+                                <param key="NUGGET">
+                                    <size>1</size>
+                                    <node_1>59.72355797670084</node_1>
+                                </param>
+                                <param automatic="yes" key="USE_ANISOTROPY">no</param>
+                                <param key="USE_GLOBAL_ANISOTROPY_ORIENTATION">yes</param>
+                                <param automatic="yes" key="GLOBAL_ANISOTROPY_ORIENTATION">
+                                    <dip>0</dip>
+                                    <dipAzimuth>90</dipAzimuth>
+                                    <pitch>90</pitch>
+                                </param>
+                                <param key="STRUCTURES">
+                                    <param key="ITEM_1">
+                                        <param key="TYPE">SPHERICAL</param>
+                                        <param key="SILLS">
+                                            <size>1</size>
+                                            <node_1>26.222232699115608</node_1>
+                                        </param>
+                                        <param key="RANGES">
+                                            <param key="COMPONENT_1">
+                                                <param key="VALUE">176.1655859</param>
+                                                <param key="LOWER_BOUND">1e-10</param>
+                                                <param key="UPPER_BOUND">1e-10</param>
+                                            </param>
+                                            <param key="COMPONENT_2">
+                                                <param key="VALUE">176.1655859</param>
+                                                <param key="LOWER_BOUND">1e-10</param>
+                                                <param key="UPPER_BOUND">1e-10</param>
+                                            </param>
+                                            <param key="COMPONENT_3">
+                                                <param key="VALUE">176.1655859</param>
+                                                <param key="LOWER_BOUND">1e-10</param>
+                                                <param key="UPPER_BOUND">1e-10</param>
+                                            </param>
+                                        </param>
+                                        <param automatic="yes" key="ANISOTROPY_ORIENTATION">
+                                            <dip>0</dip>
+                                            <dipAzimuth>90</dipAzimuth>
+                                            <pitch>90</pitch>
+                                        </param>
+                                        <param key="EXTRA_PARAMETER"/>
+                                    </param>
+                                </param>
+                            </param>
+                            <param automatic="yes" key="REJECT_NUGGET">0.01</param>
+                            <param automatic="yes" key="REJECT_STRUCTURE">0.05</param>
+                            <param automatic="yes" key="VARIANCE_LIST">
+                                <param key="ITEM_1">85.37251631</param>
+                            </param>
+                            <param automatic="yes" key="CORRELATION_MATRIX">
+                                <size>1</size>
+                                <node_1>1</node_1>
+                            </param>
+                            <param key="HIGHLY_HETEROTOPIC_DATA">no</param>
+                            <param key="AUTOMATIC_FROM_COVARIANCE_CURVE">no</param>
+                            <param automatic="yes" key="C00_MATRIX">
+                                <size>1</size>
+                                <node_1>85.37251631069998</node_1>
+                            </param>
+                            <param key="NORMALIZE_DURING_AUTO_FITTING">no</param>
+                            <param key="NORMALIZE_POST_AUTO_FITTING">no</param>
+                            <param key="AUTOMATIC_FIX_VMODEL">yes</param>
+                            <param key="WEIGHTING">
+                                <param key="WEIGHTING_MODE">STANDARD</param>
+                                <param automatic="yes" key="WEIGHTING_ALPHA">0.5</param>
+                                <param key="WEIGHTING_MIN_NB_PAIRS">1</param>
+                            </param>
+                        </param>
+                        <param key="FITTING_CALC_PRIMARY_GROUP">
+                            <param key="FITTING_MODE">FULL_AUTOMATIC</param>
+                            <param key="REF_VARIABLE"/>
+                            <param key="FIT_CURVE">VARIOGRAM</param>
+                            <param automatic="no" key="USE_STRUCT_LIST">
+                                <param key="ITEM_1">CUBIC</param>
+                                <param key="ITEM_2">SPHERICAL</param>
+                                <param key="ITEM_3">EXPONENTIAL</param>
+                                <param key="ITEM_4">LINEAR</param>
+                            </param>
+                            <param key="MIN_STRUCT_COUNT">1</param>
+                            <param key="MAX_STRUCT_COUNT">3</param>
+                            <param automatic="yes" key="MAX_ITERATION_COUNT">100</param>
+                            <param key="VARIO_MODEL" version="3">
+                                <nVariables>1</nVariables>
+                                <param key="USE_NUGGET">yes</param>
+                                <param key="NUGGET">
+                                    <size>1</size>
+                                    <node_1>1</node_1>
+                                </param>
+                                <param automatic="yes" key="USE_ANISOTROPY">no</param>
+                                <param key="USE_GLOBAL_ANISOTROPY_ORIENTATION">yes</param>
+                                <param automatic="yes" key="GLOBAL_ANISOTROPY_ORIENTATION">
+                                    <dip>0</dip>
+                                    <dipAzimuth>90</dipAzimuth>
+                                    <pitch>90</pitch>
+                                </param>
+                                <param key="STRUCTURES">
+                                    <param key="ITEM_1">
+                                        <param key="TYPE">EXPONENTIAL</param>
+                                        <param key="SILLS">
+                                            <size>1</size>
+                                            <node_1>1</node_1>
+                                        </param>
+                                        <param key="RANGES">
+                                            <param key="COMPONENT_1">
+                                                <param key="VALUE">1000</param>
+                                                <param key="LOWER_BOUND">1e-10</param>
+                                                <param key="UPPER_BOUND">1e-10</param>
+                                            </param>
+                                            <param key="COMPONENT_2">
+                                                <param key="VALUE">1000</param>
+                                                <param key="LOWER_BOUND">1e-10</param>
+                                                <param key="UPPER_BOUND">1e-10</param>
+                                            </param>
+                                            <param key="COMPONENT_3">
+                                                <param key="VALUE">1000</param>
+                                                <param key="LOWER_BOUND">1e-10</param>
+                                                <param key="UPPER_BOUND">1e-10</param>
+                                            </param>
+                                        </param>
+                                        <param automatic="yes" key="ANISOTROPY_ORIENTATION">
+                                            <dip>0</dip>
+                                            <dipAzimuth>90</dipAzimuth>
+                                            <pitch>90</pitch>
+                                        </param>
+                                        <param key="EXTRA_PARAMETER"/>
+                                    </param>
+                                </param>
+                            </param>
+                            <param key="SCALED_VARIO_MODEL" version="3">
+                                <nVariables>1</nVariables>
+                                <param key="USE_NUGGET">yes</param>
+                                <param key="NUGGET">
+                                    <size>1</size>
+                                    <node_1>1</node_1>
+                                </param>
+                                <param automatic="yes" key="USE_ANISOTROPY">no</param>
+                                <param key="USE_GLOBAL_ANISOTROPY_ORIENTATION">yes</param>
+                                <param automatic="yes" key="GLOBAL_ANISOTROPY_ORIENTATION">
+                                    <dip>0</dip>
+                                    <dipAzimuth>90</dipAzimuth>
+                                    <pitch>90</pitch>
+                                </param>
+                                <param key="STRUCTURES">
+                                    <param key="ITEM_1">
+                                        <param key="TYPE">EXPONENTIAL</param>
+                                        <param key="SILLS">
+                                            <size>1</size>
+                                            <node_1>1</node_1>
+                                        </param>
+                                        <param key="RANGES">
+                                            <param key="COMPONENT_1">
+                                                <param key="VALUE">1000</param>
+                                                <param key="LOWER_BOUND">1e-10</param>
+                                                <param key="UPPER_BOUND">1e-10</param>
+                                            </param>
+                                            <param key="COMPONENT_2">
+                                                <param key="VALUE">1000</param>
+                                                <param key="LOWER_BOUND">1e-10</param>
+                                                <param key="UPPER_BOUND">1e-10</param>
+                                            </param>
+                                            <param key="COMPONENT_3">
+                                                <param key="VALUE">1000</param>
+                                                <param key="LOWER_BOUND">1e-10</param>
+                                                <param key="UPPER_BOUND">1e-10</param>
+                                            </param>
+                                        </param>
+                                        <param automatic="yes" key="ANISOTROPY_ORIENTATION">
+                                            <dip>0</dip>
+                                            <dipAzimuth>90</dipAzimuth>
+                                            <pitch>90</pitch>
+                                        </param>
+                                        <param key="EXTRA_PARAMETER"/>
+                                    </param>
+                                </param>
+                            </param>
+                            <param automatic="yes" key="REJECT_NUGGET">0.01</param>
+                            <param automatic="yes" key="REJECT_STRUCTURE">0.05</param>
+                            <param automatic="yes" key="VARIANCE_LIST">
+                                <param key="ITEM_1">85.37251631</param>
+                            </param>
+                            <param automatic="yes" key="CORRELATION_MATRIX">
+                                <size>1</size>
+                                <node_1>1</node_1>
+                            </param>
+                            <param key="HIGHLY_HETEROTOPIC_DATA">no</param>
+                            <param key="AUTOMATIC_FROM_COVARIANCE_CURVE">no</param>
+                            <param automatic="yes" key="C00_MATRIX">
+                                <size>1</size>
+                                <node_1>85.37251631069998</node_1>
+                            </param>
+                            <param key="NORMALIZE_DURING_AUTO_FITTING">no</param>
+                            <param key="NORMALIZE_POST_AUTO_FITTING">no</param>
+                            <param key="AUTOMATIC_FIX_VMODEL">yes</param>
+                            <param key="WEIGHTING">
+                                <param key="WEIGHTING_MODE">STANDARD</param>
+                                <param automatic="yes" key="WEIGHTING_ALPHA">0.5</param>
+                                <param key="WEIGHTING_MIN_NB_PAIRS">1</param>
+                            </param>
+                        </param>
+                    </param>
+                    <param key="ITEM_STYLE_GROUP">
+                        <param key="CURVE_TYPE">VARIOGRAM</param>
+                        <param key="SHOW_PAIRS">no</param>
+                        <param key="DISPLAY_NUMBER_SAMPLES_MODE">AS_TEXT</param>
+                        <param key="SHOW_LEGEND">yes</param>
+                        <param key="CLOUD_DISPLAY_IMAGE">yes</param>
+                        <param key="VARIO_DISPLAY_CURVES">ALL_CURVES</param>
+                        <param key="VARIO_CLOUD_AXIS">USE_CLOUD_AXIS</param>
+                        <param key="FITTING_STYLE_FINAL_GROUP">
+                            <param key="VARIANCE_SCALING">no</param>
+                            <param key="HIDE_NORMALIZED_POST_FITTING_MODEL">yes</param>
+                            <param key="SHOW_REJECTED_LAGS">no</param>
+                            <param key="DISPLAY_ACTUAL_CURVE_ZERO_EFFECT">no</param>
+                        </param>
+                        <param key="FITTING_STYLE_PRIMARY_GROUP">
+                            <param key="VARIANCE_SCALING">no</param>
+                            <param key="HIDE_NORMALIZED_POST_FITTING_MODEL">no</param>
+                            <param key="SHOW_REJECTED_LAGS">no</param>
+                            <param key="DISPLAY_ACTUAL_CURVE_ZERO_EFFECT">no</param>
+                        </param>
+                    </param>
+                </param>
+            </param>
+        </param>
+        <param key="PROBA_PLOT">
+            <param key="GLOBAL_STYLE_GROUP">
+                <param automatic="yes" key="SYMBOL_NORMAL">
+                    <shape>CIRCLE</shape>
+                    <size>5</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT">
+                    <shape>CIRCLE</shape>
+                    <size>12</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_MASK">
+                    <shape>CIRCLE_F</shape>
+                    <size>5</size>
+                    <red>255</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT_MASK">
+                    <shape>CIRCLE_F</shape>
+                    <size>5</size>
+                    <red>128</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="REGRESSION_LINE_STYLE">
+                    <pen>DASH</pen>
+                    <color>#ff008000</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param automatic="yes" key="BISECTOR_STYLE">
+                    <pen>DASH</pen>
+                    <color>#ffff0000</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+            </param>
+            <param key="ITEM_LIST"/>
+        </param>
+        <param key="HSCATTER_PLOT">
+            <param key="GLOBAL_STYLE_GROUP">
+                <param automatic="yes" key="STYLE_LIN_REG">
+                    <pen>DASH</pen>
+                    <color>#ff00ff00</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param automatic="yes" key="STYLE_MEAN_LINES">
+                    <pen>DASH</pen>
+                    <color>#ff000000</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param automatic="yes" key="STYLE_COND_EXP">
+                    <pen>SOLID</pen>
+                    <color>#ff000000</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param automatic="yes" key="STYLE_STD_DEV">
+                    <pen>DASH</pen>
+                    <color>#ff0000ff</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param automatic="yes" key="STYLE_BISECTOR">
+                    <pen>DASH</pen>
+                    <color>#ffff0000</color>
+                    <width>1</width>
+                    <border>no</border>
+                    <borderColor>#ff000000</borderColor>
+                    <borderWidth>2</borderWidth>
+                </param>
+                <param automatic="yes" key="SYMBOL_NORMAL">
+                    <shape>PLUS</shape>
+                    <size>10</size>
+                    <red>128</red>
+                    <green>128</green>
+                    <blue>128</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_HIGHLIGHT">
+                    <shape>CIRCLE</shape>
+                    <size>20</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>255</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+                <param automatic="yes" key="SYMBOL_OUTLIER">
+                    <shape>CIRCLE</shape>
+                    <size>10</size>
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                    <opacity>255</opacity>
+                    <drawBorder>yes</drawBorder>
+                    <borderRed>0</borderRed>
+                    <borderGreen>0</borderGreen>
+                    <borderBlue>0</borderBlue>
+                </param>
+            </param>
+            <param key="ITEM_LIST"/>
+        </param>
+    </param>
+    <param key="CURRENT_PERSPECTIVE">EXPLORATORY</param>
+    <param key="PERSPECTIVE_LIST">
+        <param key="EXPLORATORY">
+            <param key="PERSPECTIVE_ITEM_LIST">
+                <param key="ITEM_1">
+                    <param key="PERSPECTIVE_REF">EXPLORATORY</param>
+                    <param key="VARIABLES">qCu-R</param>
+                </param>
+            </param>
+        </param>
+        <param key="DATA_TABLE">
+            <param key="PERSPECTIVE_ITEM_LIST">
+                <param key="ITEM_1">
+                    <param key="PERSPECTIVE_REF">DATA_TABLE__2</param>
+                    <param key="VARIABLE">qCu-R</param>
+                </param>
+            </param>
+        </param>
+        <param key="ANAMORPHOSIS">
+            <param key="PERSPECTIVE_ITEM_LIST"/>
+        </param>
+        <param key="SWATH_PLOT">
+            <param key="PERSPECTIVE_ITEM_LIST"/>
+        </param>
+        <param key="VARIOGRAM">
+            <param key="PERSPECTIVE_ITEM_LIST">
+                <param key="ITEM_1">
+                    <param key="PERSPECTIVE_REF">VARIOGRAM__1</param>
+                    <param key="LAYOUT_MODE">GLOBAL_VIEW</param>
+                    <param key="VARIABLES">qCu-R</param>
+                    <param key="VARIABLE_1">qCu-R</param>
+                    <param key="VARIABLE_2">qCu-R</param>
+                    <param key="INTERPOLATION_MODE">POINT</param>
+                    <param key="SPACE">FINAL</param>
+                    <param key="DIRECTION">Omnidirectional</param>
+                </param>
+            </param>
+        </param>
+        <param key="VMAP">
+            <param key="PERSPECTIVE_ITEM_LIST"/>
+        </param>
+    </param>
+    <param key="HIDE_MASKED">no</param>
+    <param key="RUN_GROUP">
+        <param key="RUN_MODE">Save the Geostatistical Set</param>
+        <param key="SAVE_GSET_RESULT">VARIOGRAM__1</param>
+        <param automatic="yes" key="GSET_PATTERN">%vars (%model)</param>
+        <param automatic="yes" key="OUTPUT_PATTERNS">
+            <param key="ITEM_1">(%gset) %label of %var</param>
+            <param key="ITEM_2">(%gset) %label of %var</param>
+            <param key="ITEM_3">(%gset) %label %var</param>
+        </param>
+        <param automatic="yes" key="OUTPUT_LABELS">
+            <param key="ITEM_1">Gaussian</param>
+            <param key="ITEM_2">Residuals</param>
+            <param key="ITEM_3">Ext Drift</param>
+        </param>
+        <param key="VAR_MASK_NAME">EDA Mask</param>
+        <param key="SAVE_MASK">yes</param>
+        <param key="SAVE_GAUSS_RESULT"/>
+        <param automatic="yes" key="OUTPUT_GAUSS_PATTERN">%label of %var</param>
+        <param automatic="yes" key="OUTPUT_GAUSS_LABEL">Gaussian</param>
+        <param key="SAVE_RESIDUALS">yes</param>
+        <param key="SAVE_RESI_RESULT"/>
+        <param automatic="yes" key="OUTPUT_RESI_PATTERN">%label of %var</param>
+        <param automatic="yes" key="OUTPUT_RESI_LABEL">Residuals</param>
+        <param key="SAVE_EDF">yes</param>
+        <param automatic="yes" key="OUTPUT_EDF_PATTERN">%label of %var</param>
+        <param automatic="yes" key="OUTPUT_EDF_LABEL">Ext Drift</param>
+        <param automatic="yes" key="NUMBER_ITERATIONS">50</param>
+        <param automatic="yes" key="SEED">165426</param>
+    </param>
+    <param automatic="yes" key="GRAPHIC_BG_COLOR">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <opacity>255</opacity>
+    </param>
+    <param automatic="yes" key="GRAPHIC_BG_GRID">yes</param>
+    <param automatic="yes" key="VIEW_LABEL_BG_COLOR">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <opacity>128</opacity>
+    </param>
+    <param key="CHARTS_LAYOUTS"/>
+    <param key="CHARTS_GROUP">
+        <param key="STORE">no</param>
+        <param key="STORE_GRAPHICS">yes</param>
+        <param key="STORE_TABLES">no</param>
+        <param key="NAME">%task</param>
+    </param>
+</task>

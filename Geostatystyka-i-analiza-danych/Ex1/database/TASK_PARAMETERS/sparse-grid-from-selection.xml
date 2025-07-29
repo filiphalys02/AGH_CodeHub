@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="sparse-grid-from-selection" version="2">
+    <param key="INPUT_GROUP">
+        <param key="POINTS_GROUP">
+            <param key="DATASET">
+                <param key="ROOT"/>
+                <param key="SELECTION"/>
+                <param key="VARIABLES"/>
+            </param>
+            <param key="EXTRACT_ALL_VARIABLES">yes</param>
+        </param>
+    </param>
+    <param key="OUTPUT_GROUP">
+        <param key="FILE"/>
+        <param key="KEEP_SN_KEY">yes</param>
+        <param key="DISPLAY">
+            <param key="DISPLAY">no</param>
+            <param key="SCENE"/>
+        </param>
+    </param>
+</task>

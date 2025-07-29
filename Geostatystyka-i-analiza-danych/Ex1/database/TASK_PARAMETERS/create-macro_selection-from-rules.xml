@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="create-macro_selection-from-rules" version="2">
+    <param key="DATASET">
+        <param key="ROOT">
+            <path/>
+            <file>Dane qCu-r</file>
+        </param>
+        <param key="OUT_CATEGORICAL"/>
+        <param key="RULES">
+            <param key="VARIABLES">
+                <param key="ITEM_1">
+                    <variable>qCu-R</variable>
+                </param>
+                <param key="ITEM_2"/>
+            </param>
+            <param key="RULES">
+                <param key="ITEM_1">
+                    <param key="NAME">1</param>
+                    <param key="COND">v1&lt;0.01</param>
+                </param>
+            </param>
+        </param>
+    </param>
+    <param key="DISPLAY_OUTPUT">
+        <param key="SCENE"/>
+    </param>
+    <param key="MACRO_MODE">Overwrite Macro</param>
+</task>

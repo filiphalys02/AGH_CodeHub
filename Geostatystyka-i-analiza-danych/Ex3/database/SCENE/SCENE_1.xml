@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene>
+    <id>903ca033-50e0-429d-990c-6b179c8b641c</id>
+    <version>400</version>
+    <fields type="QMap">
+        <bookmarks type="QVariantList"/>
+        <lastZoom type="QRectF">
+            <x>21571.6</x>
+            <y>71054.3</y>
+            <width>3388.41</width>
+            <height>1775.56</height>
+        </lastZoom>
+        <name>Map</name>
+    </fields>
+    <SceneItem>
+        <id>ee3d85e4-6cf1-4e2b-92b2-ef61b242881a</id>
+        <version>301</version>
+        <fields type="QMap">
+            <active>true</active>
+            <datasetName>7d63acfe-bdee-4fe6-88fe-3348c76ed763</datasetName>
+            <flags>7</flags>
+            <groupPath/>
+            <name>points49</name>
+            <rendering>BASEMAP</rendering>
+            <roleToAuthorizedSupportNames type="QMap">
+                <COLOR type="QStringList"/>
+                <FILTER type="QStringList"/>
+                <LABEL type="QStringList"/>
+                <SIZE type="QStringList"/>
+                <SYMBOL type="QStringList"/>
+                <TRACK type="QStringList"/>
+                <TRANSPARENCY type="QStringList"/>
+            </roleToAuthorizedSupportNames>
+            <roleToAuthorizedSupports type="QMap">
+                <COLOR>POINTS</COLOR>
+                <FILTER>POINTS</FILTER>
+                <LABEL>POINTS</LABEL>
+                <SIZE>POINTS</SIZE>
+                <SYMBOL>POINTS</SYMBOL>
+                <TRACK>POINTS</TRACK>
+                <TRANSPARENCY>POINTS</TRANSPARENCY>
+            </roleToAuthorizedSupports>
+            <roleToDiscardedRoles type="QMap">
+                <COLOR>FILE_LINE_NUMBER</COLOR>
+                <FILTER>FILE_LINE_NUMBER</FILTER>
+                <LABEL>FILE_LINE_NUMBER</LABEL>
+                <SIZE>FILE_LINE_NUMBER</SIZE>
+                <SYMBOL>FILE_LINE_NUMBER</SYMBOL>
+                <TRACK>FILE_LINE_NUMBER</TRACK>
+                <TRANSPARENCY>FILE_LINE_NUMBER</TRANSPARENCY>
+            </roleToDiscardedRoles>
+            <roleToDiscardedTags type="QMap">
+                <COLOR type="QStringList"/>
+                <FILTER type="QStringList"/>
+                <LABEL type="QStringList"/>
+                <SIZE type="QStringList"/>
+                <SYMBOL type="QStringList"/>
+                <TRACK type="QStringList"/>
+                <TRANSPARENCY type="QStringList"/>
+            </roleToDiscardedTags>
+            <roleToVarAccess type="QMap">
+                <COLOR>0</COLOR>
+                <FILTER>0</FILTER>
+                <LABEL>0</LABEL>
+                <SIZE>0</SIZE>
+                <SYMBOL>0</SYMBOL>
+                <TRACK>0</TRACK>
+                <TRANSPARENCY>0</TRANSPARENCY>
+            </roleToVarAccess>
+            <roleToVarComponent type="QMap">
+                <COLOR type="QStringList">
+                    <QString/>
+                </COLOR>
+                <FILTER type="QStringList"/>
+                <LABEL type="QStringList"/>
+                <SIZE type="QStringList"/>
+                <SYMBOL type="QStringList"/>
+                <TRACK type="QStringList"/>
+                <TRANSPARENCY type="QStringList"/>
+            </roleToVarComponent>
+            <roleToVarIndex type="QMap">
+                <COLOR type="QStringList">
+                    <QString/>
+                </COLOR>
+                <FILTER type="QStringList"/>
+                <LABEL type="QStringList"/>
+                <SIZE type="QStringList"/>
+                <SYMBOL type="QStringList"/>
+                <TRACK type="QStringList"/>
+                <TRANSPARENCY type="QStringList"/>
+            </roleToVarIndex>
+            <roleToVarMultiple type="QMap">
+                <COLOR>false</COLOR>
+                <FILTER>false</FILTER>
+                <LABEL>false</LABEL>
+                <SIZE>false</SIZE>
+                <SYMBOL>false</SYMBOL>
+                <TRACK>false</TRACK>
+                <TRANSPARENCY>false</TRANSPARENCY>
+            </roleToVarMultiple>
+            <roleToVarName type="QMap">
+                <COLOR type="QStringList">
+                    <QString>qCu-ł</QString>
+                </COLOR>
+                <FILTER type="QStringList"/>
+                <LABEL type="QStringList"/>
+                <SIZE type="QStringList"/>
+                <SYMBOL type="QStringList"/>
+                <TRACK type="QStringList"/>
+                <TRANSPARENCY type="QStringList"/>
+            </roleToVarName>
+            <roleToVarSupport type="QMap">
+                <COLOR type="QStringList">
+                    <QString>Points</QString>
+                </COLOR>
+                <FILTER type="QStringList"/>
+                <LABEL type="QStringList"/>
+                <SIZE type="QStringList"/>
+                <SYMBOL type="QStringList"/>
+                <TRACK type="QStringList"/>
+                <TRANSPARENCY type="QStringList"/>
+            </roleToVarSupport>
+            <roleToVarType type="QMap">
+                <COLOR>INT_32|INT_64|FLOAT_32|FLOAT_64|BOOLEAN|ENUM|COLOR</COLOR>
+                <FILTER>INT_32|INT_64|FLOAT_32|FLOAT_64|BOOLEAN|ENUM|STRING</FILTER>
+                <LABEL>INT_32|INT_64|FLOAT_32|FLOAT_64|BOOLEAN|ENUM|STRING|COLOR</LABEL>
+                <SIZE>INT_32|INT_64|FLOAT_32|FLOAT_64|BOOLEAN</SIZE>
+                <SYMBOL/>
+                <TRACK>BOOLEAN|ENUM</TRACK>
+                <TRANSPARENCY/>
+            </roleToVarType>
+            <roles type="QVariantList">
+                <QVariant>COLOR</QVariant>
+                <QVariant>SIZE</QVariant>
+                <QVariant>SYMBOL</QVariant>
+                <QVariant>LABEL</QVariant>
+                <QVariant>FILTER</QVariant>
+                <QVariant>TRANSPARENCY</QVariant>
+                <QVariant>TRACK</QVariant>
+            </roles>
+            <styles type="QVariantList">
+                <QVariant type="QMap">
+                    <hintsId>8c877167-3039-4c49-8023-64409a89ebe0</hintsId>
+                    <subItemId/>
+                </QVariant>
+            </styles>
+            <supportName>Points</supportName>
+            <visibleInOverview>true</visibleInOverview>
+        </fields>
+        <Dataset>
+            <id>7d63acfe-bdee-4fe6-88fe-3348c76ed763</id>
+            <version>400</version>
+            <fields type="QMap">
+                <fileId>1</fileId>
+                <fileName>points49</fileName>
+                <filePath/>
+                <flags>2042</flags>
+                <isShared>true</isShared>
+                <type>LsDatasetPoint</type>
+            </fields>
+        </Dataset>
+        <LuSceneRenderHints>
+            <id>8c877167-3039-4c49-8023-64409a89ebe0</id>
+            <version>300</version>
+            <fields type="QMap">
+                <hintsActivable type="QMap">
+                    <COLOR>false</COLOR>
+                    <FILTER>true</FILTER>
+                    <LABEL>true</LABEL>
+                    <SIZE>false</SIZE>
+                    <SYMBOL>false</SYMBOL>
+                    <TRACK>true</TRACK>
+                    <TRANSPARENCY>true</TRANSPARENCY>
+                </hintsActivable>
+                <hintsActive type="QMap">
+                    <COLOR>true</COLOR>
+                    <FILTER>false</FILTER>
+                    <LABEL>false</LABEL>
+                    <SIZE>true</SIZE>
+                    <SYMBOL>true</SYMBOL>
+                    <TRACK>false</TRACK>
+                    <TRANSPARENCY>false</TRANSPARENCY>
+                </hintsActive>
+                <hintsLabels type="QMap">
+                    <COLOR>Color</COLOR>
+                    <FILTER>Filtering</FILTER>
+                    <LABEL>Labels</LABEL>
+                    <SIZE>Size</SIZE>
+                    <SYMBOL>Symbol</SYMBOL>
+                    <TRACK>Track</TRACK>
+                    <TRANSPARENCY>Transparency</TRANSPARENCY>
+                </hintsLabels>
+                <hintsLegendVisible type="QMap">
+                    <COLOR>true</COLOR>
+                    <FILTER>true</FILTER>
+                    <LABEL>true</LABEL>
+                    <SIZE>true</SIZE>
+                    <SYMBOL>true</SYMBOL>
+                    <TRACK>true</TRACK>
+                    <TRANSPARENCY>true</TRANSPARENCY>
+                </hintsLegendVisible>
+                <hintsReadonly type="QMap">
+                    <COLOR>false</COLOR>
+                    <FILTER>false</FILTER>
+                    <LABEL>false</LABEL>
+                    <SIZE>false</SIZE>
+                    <SYMBOL>false</SYMBOL>
+                    <TRACK>false</TRACK>
+                    <TRANSPARENCY>false</TRANSPARENCY>
+                </hintsReadonly>
+                <hintsStyles type="QMap">
+                    <COLOR>2bd5c8e0-4aff-4ba8-878c-82deb76ecf10</COLOR>
+                    <FILTER>a6f7e5d7-b9bb-4019-8ac9-e373bf7aa17f</FILTER>
+                    <LABEL>257baaab-d037-456a-99d0-ebbfc8c87a9e</LABEL>
+                    <SIZE>2ce46a1f-09ee-4df6-8c65-543165081e06</SIZE>
+                    <SYMBOL>e813de26-8aed-4c69-8974-e3ffd96f774b</SYMBOL>
+                    <TRACK>20a954e7-4a32-4f2a-931c-3135c16e24ac</TRACK>
+                    <TRANSPARENCY>9af0046c-845f-416c-83f9-54d0bd3b4a2a</TRANSPARENCY>
+                </hintsStyles>
+                <hintsVariableLocked type="QMap">
+                    <COLOR>false</COLOR>
+                    <FILTER>false</FILTER>
+                    <LABEL>false</LABEL>
+                    <SIZE>false</SIZE>
+                    <SYMBOL>false</SYMBOL>
+                    <TRACK>false</TRACK>
+                    <TRANSPARENCY>false</TRANSPARENCY>
+                </hintsVariableLocked>
+                <hintsVisible type="QMap">
+                    <COLOR>true</COLOR>
+                    <FILTER>true</FILTER>
+                    <LABEL>true</LABEL>
+                    <SIZE>true</SIZE>
+                    <SYMBOL>true</SYMBOL>
+                    <TRACK>true</TRACK>
+                    <TRANSPARENCY>true</TRANSPARENCY>
+                </hintsVisible>
+            </fields>
+            <Style>
+                <id>2bd5c8e0-4aff-4ba8-878c-82deb76ecf10</id>
+                <version>100</version>
+                <fields type="QMap">
+                    <allow_system>false</allow_system>
+                    <color type="QColor">
+                        <red>70</red>
+                        <green>130</green>
+                        <blue>180</blue>
+                        <alpha>255</alpha>
+                    </color>
+                    <colorScaleId>1</colorScaleId>
+                    <constant>false</constant>
+                    <inherited>true</inherited>
+                    <linkable_to_preferences>false</linkable_to_preferences>
+                    <linked_to_preferences>false</linked_to_preferences>
+                    <refinementEnabled>false</refinementEnabled>
+                    <scalable>true</scalable>
+                    <system>false</system>
+                    <type>StyleColor</type>
+                    <useSourceStyle>false</useSourceStyle>
+                    <viewer_sensitive>false</viewer_sensitive>
+                </fields>
+            </Style>
+            <Style>
+                <id>2ce46a1f-09ee-4df6-8c65-543165081e06</id>
+                <version>100</version>
+                <fields type="QMap">
+                    <a>0</a>
+                    <automatic>true</automatic>
+                    <b>0</b>
+                    <constant>true</constant>
+                    <linkable_to_preferences>false</linkable_to_preferences>
+                    <linked_to_preferences>false</linked_to_preferences>
+                    <maxValue>-1</maxValue>
+                    <maxValueFixed>-1</maxValueFixed>
+                    <minValue>0</minValue>
+                    <minValueFixed>0</minValueFixed>
+                    <scalable>true</scalable>
+                    <size>10</size>
+                    <sizeMax>20</sizeMax>
+                    <sizeMin>10</sizeMin>
+                    <sizeUndef>10</sizeUndef>
+                    <sizeUnit>PIXEL</sizeUnit>
+                    <type>StyleSize</type>
+                </fields>
+            </Style>
+            <Style>
+                <id>e813de26-8aed-4c69-8974-e3ffd96f774b</id>
+                <version>100</version>
+                <fields type="QMap">
+                    <allowOverlap>true</allowOverlap>
+                    <allowOverlapAvailable>false</allowOverlapAvailable>
+                    <borderAvailable>true</borderAvailable>
+                    <color type="QColor">
+                        <red>70</red>
+                        <green>130</green>
+                        <blue>180</blue>
+                        <alpha>255</alpha>
+                    </color>
+                    <colorAvailable>false</colorAvailable>
+                    <marker>CIRCLE_F</marker>
+                    <outlineColor type="QColor">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                        <alpha>255</alpha>
+                    </outlineColor>
+                    <outlined>true</outlined>
+                    <scalable>false</scalable>
+                    <size>10</size>
+                    <sizeAvailable>false</sizeAvailable>
+                    <sourceColor type="QColor">
+                        <red>128</red>
+                        <green>128</green>
+                        <blue>128</blue>
+                        <alpha>255</alpha>
+                    </sourceColor>
+                    <sourceMarker>PLUS</sourceMarker>
+                    <sourceOutlineColor type="QColor">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                        <alpha>255</alpha>
+                    </sourceOutlineColor>
+                    <sourceOutlined>true</sourceOutlined>
+                    <sourcePixmapPath/>
+                    <sourceSize>10</sourceSize>
+                    <sourceSmallPixmapPath/>
+                    <sourceSymbolAvailable>false</sourceSymbolAvailable>
+                    <type>StyleSymbol</type>
+                    <useSourceSymbol>false</useSourceSymbol>
+                </fields>
+            </Style>
+            <Style>
+                <id>257baaab-d037-456a-99d0-ebbfc8c87a9e</id>
+                <version>300</version>
+                <fields type="QMap">
+                    <background>false</background>
+                    <backgroundColor type="QColor">
+                        <red>255</red>
+                        <green>255</green>
+                        <blue>255</blue>
+                        <alpha>255</alpha>
+                    </backgroundColor>
+                    <connector>false</connector>
+                    <connectorEnabled>false</connectorEnabled>
+                    <font>MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0</font>
+                    <foregroundColor type="QColor">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                        <alpha>255</alpha>
+                    </foregroundColor>
+                    <frame>false</frame>
+                    <labelShowUndef>true</labelShowUndef>
+                    <offset>20</offset>
+                    <offsetEnabled>true</offsetEnabled>
+                    <offsetUnit>PIXEL</offsetUnit>
+                    <position>18</position>
+                    <scalable>false</scalable>
+                    <size>10</size>
+                    <sizeUnit>PIXEL</sizeUnit>
+                    <type>StyleLabels</type>
+                    <unit>false</unit>
+                </fields>
+            </Style>
+            <Style>
+                <id>a6f7e5d7-b9bb-4019-8ac9-e373bf7aa17f</id>
+                <version>101</version>
+                <fields type="QMap">
+                    <autoCombination>true</autoCombination>
+                    <combination/>
+                    <filters type="QMap"/>
+                    <scalable>true</scalable>
+                    <type>StyleFilterList</type>
+                </fields>
+            </Style>
+            <Style>
+                <id>9af0046c-845f-416c-83f9-54d0bd3b4a2a</id>
+                <version>100</version>
+                <fields type="QMap">
+                    <scalable>false</scalable>
+                    <transparency>0</transparency>
+                    <type>StyleTransparency</type>
+                </fields>
+            </Style>
+            <Style>
+                <id>20a954e7-4a32-4f2a-931c-3135c16e24ac</id>
+                <version>100</version>
+                <fields type="QMap">
+                    <borderColor type="QColor">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                        <alpha>255</alpha>
+                    </borderColor>
+                    <borderEnabled>false</borderEnabled>
+                    <borderWidth>2</borderWidth>
+                    <color type="QColor">
+                        <red>0</red>
+                        <green>0</green>
+                        <blue>0</blue>
+                        <alpha>255</alpha>
+                    </color>
+                    <hasBorder>false</hasBorder>
+                    <scalable>false</scalable>
+                    <style>SOLID</style>
+                    <type>StyleTrack</type>
+                    <useSourceStyle>false</useSourceStyle>
+                    <width>1</width>
+                </fields>
+            </Style>
+        </LuSceneRenderHints>
+    </SceneItem>
+</Scene>

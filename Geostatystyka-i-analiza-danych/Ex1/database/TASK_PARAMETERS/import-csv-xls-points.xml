@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="import-csv-xls-points">
+    <param key="FICHE_IMPORT_MODE">
+        <param key="MODE">New File</param>
+    </param>
+    <param key="FICHE_DECODING">
+        <param key="COLUMN_SEPARATOR">,</param>
+        <param key="COMMENT_DELIMITER">#</param>
+        <param key="TEXT_DELIMITER">"</param>
+        <param key="USE_FIRST_LINE_AS_VARIABLE_NAMES">yes</param>
+        <param key="INTERPRET_CONSECUTIVE_SEPARATORS_AS_SINGLE">no</param>
+        <param key="CODEC">UTF-8</param>
+        <param key="P_XLSSHEET_LIST">
+            <param automatic="yes" key="ITEM_1">Arkusz1</param>
+        </param>
+    </param>
+    <param key="FICHE_VARIABLE_DEFINITION">
+        <param key="DESCRIPTORS_BY_PARSER">
+            <param key="ITEM_1">
+                <param key="DATAID">Point</param>
+                <param key="DESCRIPTOR_LIST">
+                    <param key="ITEM_1">
+                        <param key="ENABLED">yes</param>
+                        <param automatic="no" key="NAME">X</param>
+                        <param key="ORIG_NAME">X</param>
+                        <param key="ROLE">X</param>
+                        <param key="ROLE_AS_STRING">X</param>
+                        <param key="SYMBOL"/>
+                        <param key="UNDEF">N/A</param>
+                        <param key="UNIT">COORD_METER</param>
+                        <param key="USE_DEFAULT_DISPLAY_FORMAT">yes</param>
+                        <param key="DIP">Positive Downwards</param>
+                        <param key="ADD_EXISTING_VAR_MODE">Create a New Variable</param>
+                        <param key="VARIABLE"/>
+                        <param key="LD"/>
+                        <param key="TYPE">FLOAT_32</param>
+                    </param>
+                    <param key="ITEM_2">
+                        <param key="ENABLED">yes</param>
+                        <param automatic="no" key="NAME">Y</param>
+                        <param key="ORIG_NAME">Y</param>
+                        <param key="ROLE">Y</param>
+                        <param key="ROLE_AS_STRING">Y</param>
+                        <param key="SYMBOL"/>
+                        <param key="UNDEF">N/A</param>
+                        <param key="UNIT">COORD_METER</param>
+                        <param key="USE_DEFAULT_DISPLAY_FORMAT">yes</param>
+                        <param key="DIP">Positive Downwards</param>
+                        <param key="ADD_EXISTING_VAR_MODE">Create a New Variable</param>
+                        <param key="VARIABLE"/>
+                        <param key="LD"/>
+                        <param key="TYPE">FLOAT_32</param>
+                    </param>
+                    <param key="ITEM_3">
+                        <param key="ENABLED">yes</param>
+                        <param automatic="no" key="NAME">qCu-R</param>
+                        <param key="ORIG_NAME">qCu-R</param>
+                        <param key="ROLE">Numerical</param>
+                        <param key="ROLE_AS_STRING">Numerical</param>
+                        <param key="SYMBOL"/>
+                        <param key="UNDEF">N/A</param>
+                        <param key="UNIT">NO_UNIT</param>
+                        <param key="USE_DEFAULT_DISPLAY_FORMAT">yes</param>
+                        <param key="DIP">Positive Downwards</param>
+                        <param key="ADD_EXISTING_VAR_MODE">Create a New Variable</param>
+                        <param key="VARIABLE"/>
+                        <param key="LD"/>
+                        <param key="TYPE">FLOAT_32</param>
+                    </param>
+                </param>
+                <param key="SUPPORT"/>
+            </param>
+        </param>
+        <param key="GRAVITY_CENTER">Gravity Center</param>
+    </param>
+    <param key="FICHE_BILAN">
+        <param key="OUTPUT_FILE">
+            <path/>
+            <file>Dane qCu-r</file>
+        </param>
+        <param key="DISPLAY_FILE">
+            <param key="DISPLAY">yes</param>
+            <param key="SCENE">
+                <name>Map</name>
+            </param>
+        </param>
+    </param>
+    <param key="FICHE_INPUT_FILE">
+        <param key="FILE">C:/AGH - Geostatystyka/51.xls</param>
+        <param key="P_SUPPORT_TYPE">Assay</param>
+        <param key="COORD_SYS">User Local System</param>
+        <param automatic="yes" key="CAMPAIGN_NAME">wt. kwi 8 2025 08:35:47</param>
+        <param key="USE_CAMPAIGN_NAME">yes</param>
+    </param>
+</task>

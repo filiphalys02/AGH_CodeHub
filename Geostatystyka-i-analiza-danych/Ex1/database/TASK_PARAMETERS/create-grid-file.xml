@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="create-grid-file" version="4">
+    <param key="DIMENSION">DIM_2D</param>
+    <param key="CREATION_MODE">FREE</param>
+    <param key="OUTPUT_GROUP">
+        <param key="NEW_GRID_FILE"/>
+        <param key="PREVIEW">
+            <param key="SCENE"/>
+        </param>
+    </param>
+    <param key="FREE_GROUP">
+        <param key="DATASET">
+            <param key="ROOT"/>
+            <param key="SELECTION"/>
+        </param>
+        <param key="ORIGIN">
+            <v1>0</v1>
+            <v2>0</v2>
+            <v3>0</v3>
+        </param>
+        <param key="ORIGIN_POSITION">CENTER</param>
+        <param key="ORIGIN_START">BOTTOM</param>
+        <param key="MESH">
+            <v1>1</v1>
+            <v2>1</v2>
+            <v3>1</v3>
+        </param>
+        <param key="NB_CELLS">
+            <v1>2</v1>
+            <v2>2</v2>
+            <v3>2</v3>
+        </param>
+        <param key="ROTATION">
+            <conv_id>1</conv_id>
+            <conv_string>+Z+Y+X</conv_string>
+            <a1>0</a1>
+            <a2>0</a2>
+            <a3>0</a3>
+        </param>
+    </param>
+    <param key="AUXILIARY_GROUP">
+        <param key="DATASET">
+            <param key="ROOT"/>
+            <param key="SELECTION"/>
+        </param>
+        <param automatic="no" key="MESH">
+            <v1>1</v1>
+            <v2>1</v2>
+            <v3>1</v3>
+        </param>
+        <param key="ALIGN_CELL">yes</param>
+        <param key="ALIGN_CELL_POSITION">CENTER</param>
+        <param key="ALIGN_CELL_ORIGIN">
+            <v1>0</v1>
+            <v2>0</v2>
+            <v3>0</v3>
+        </param>
+        <param key="ROTATION">
+            <conv_id>1</conv_id>
+            <conv_string>+Z+Y+X</conv_string>
+            <a1>0</a1>
+            <a2>0</a2>
+            <a3>0</a3>
+        </param>
+    </param>
+    <param key="EXISTING_GRID_GROUP">
+        <param key="DATASET">
+            <param key="ROOT"/>
+            <param key="SELECTION"/>
+        </param>
+        <param key="USE_ONLY_EXISTING_CELLS">yes</param>
+        <param key="OPERATION">REFINE_MESH</param>
+        <param key="INFO_3D_GROUP">
+            <param key="NZ">2</param>
+            <param key="DZ">1</param>
+            <param key="Z0">0</param>
+            <param key="POSITION">CENTER</param>
+            <param key="START">BOTTOM</param>
+        </param>
+        <param key="REFINE_NB_SUBDIV">
+            <v1>2</v1>
+            <v2>2</v2>
+            <v3>2</v3>
+        </param>
+        <param key="COARSEN_NB_MERGED">
+            <v1>2</v1>
+            <v2>2</v2>
+            <v3>2</v3>
+        </param>
+        <param key="NEW_MESH">
+            <v1>1</v1>
+            <v2>1</v2>
+            <v3>1</v3>
+        </param>
+        <param automatic="yes" key="INDICES_MIN">
+            <v1>1</v1>
+            <v2>1</v2>
+            <v3>1</v3>
+        </param>
+        <param automatic="yes" key="INDICES_MAX">
+            <v1>2</v1>
+            <v2>2</v2>
+            <v3>2</v3>
+        </param>
+        <param key="EXPAND_LOWER">
+            <v1>0</v1>
+            <v2>0</v2>
+            <v3>0</v3>
+        </param>
+        <param key="EXPAND_UPPER">
+            <v1>0</v1>
+            <v2>0</v2>
+            <v3>0</v3>
+        </param>
+        <param key="EXPAND_AUXILIARY_FILE">
+            <param key="ROOT"/>
+            <param key="SELECTION"/>
+        </param>
+    </param>
+</task>

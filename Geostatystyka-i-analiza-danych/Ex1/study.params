@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <creationName>projekt1</creationName>
+    <application>
+        <name>Isatis.neo</name>
+        <version>12.0.1</version>
+        <comVersion>2024.12.1</comVersion>
+        <dbVersion>1</dbVersion>
+        <minimumDbVersion>1</minimumDbVersion>
+    </application>
+    <coordSystem>
+        <cs_name>User Local System</cs_name>
+        <cs_mode>Local</cs_mode>
+        <cs_ignf/>
+        <cs_epsg/>
+        <cs_unit>COORD_METER</cs_unit>
+        <cs_to_meter_a>1</cs_to_meter_a>
+        <cs_to_meter_b>0</cs_to_meter_b>
+        <cs_proj4/>
+    </coordSystem>
+    <database>
+        <adapter>SPeeD</adapter>
+        <version>2000</version>
+        <stable>true</stable>
+        <minimumVersion>2000</minimumVersion>
+    </database>
+    <project>
+        <size>-1</size>
+        <creationDate>2025-04-08T08:19:45</creationDate>
+        <lastAccess>2025-04-08T08:19:45</lastAccess>
+        <history>
+            <modification>Attached on 08 kwiecień 2025 08:19:45</modification>
+        </history>
+    </project>
+</settings>

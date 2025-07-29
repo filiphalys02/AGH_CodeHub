@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="convert-into-macro-selection">
+    <param key="INPUT_DATASET">
+        <param key="ROOT">
+            <path/>
+            <file>Dane qCu-r</file>
+        </param>
+        <param key="INPUT_VARIABLE">
+            <variable>qCu-R</variable>
+        </param>
+    </param>
+    <param automatic="yes" key="OUTPUT_PATTERN">%var-sel</param>
+    <param key="DISPLAY">
+        <param key="DISPLAY">no</param>
+        <param key="SCENE"/>
+    </param>
+</task>

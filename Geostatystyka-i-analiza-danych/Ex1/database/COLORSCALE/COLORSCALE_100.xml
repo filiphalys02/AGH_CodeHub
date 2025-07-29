@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ColorScale>
+    <id>d6773273-8956-4609-8f81-e12c929012bc</id>
+    <version>103</version>
+    <fields type="QMap">
+        <classNumber>6</classNumber>
+        <customPalette type="QVariantList">
+            <QVariant>4282805219</QVariant>
+            <QVariant>4280925164</QVariant>
+            <QVariant>4281463193</QVariant>
+            <QVariant>4288937277</QVariant>
+            <QVariant>4293775418</QVariant>
+            <QVariant>4294672418</QVariant>
+            <QVariant>4291965189</QVariant>
+        </customPalette>
+        <intervalMax>60</intervalMax>
+        <intervalMin>0</intervalMin>
+        <intervalMode>REGULAR</intervalMode>
+        <lowerColor type="QColor">
+            <red>70</red>
+            <green>107</green>
+            <blue>227</blue>
+            <alpha>255</alpha>
+        </lowerColor>
+        <name>Rainbow qCu_51</name>
+        <outsideColor type="QColor">
+            <red>160</red>
+            <green>160</green>
+            <blue>164</blue>
+            <alpha>255</alpha>
+        </outsideColor>
+        <outsideLabel>Others</outsideLabel>
+        <paletteID/>
+        <paletteInterpolated>false</paletteInterpolated>
+        <paletteInversed>false</paletteInversed>
+        <undefinedColor type="QColor">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>0</alpha>
+        </undefinedColor>
+        <undefinedLabel>N/A</undefinedLabel>
+        <unitClass>NONE</unitClass>
+        <upperColor type="QColor">
+            <red>210</red>
+            <green>49</green>
+            <blue>5</blue>
+            <alpha>255</alpha>
+        </upperColor>
+    </fields>
+</ColorScale>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="create-variable" version="2">
+    <param key="GROUP_COMMON">
+        <param key="VAR_CREATION_TYPE">VARIABLE</param>
+        <param key="SUPPORT"/>
+        <param key="VAR_NAME"/>
+        <param key="STORAGE_TYPE">FLOAT_32</param>
+        <param key="TAGS"/>
+    </param>
+    <param key="GROUP_NUMERICAL">
+        <param key="UNIT_CLASS">NONE</param>
+        <param key="USE_DEFAULT_UNIT">yes</param>
+        <param key="UNIT">NO_UNIT</param>
+        <param automatic="yes" key="PRECISION">2</param>
+        <param key="SYMBOL"/>
+    </param>
+</task>

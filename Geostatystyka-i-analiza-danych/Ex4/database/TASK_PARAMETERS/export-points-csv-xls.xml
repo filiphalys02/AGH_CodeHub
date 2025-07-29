@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="export-points-csv-xls" version="3">
+    <param key="INPUT_TYPE">Input Points</param>
+    <param key="INPUT_DATASET">
+        <param key="ROOT"/>
+        <param key="SELECTION"/>
+        <param key="VARIABLES"/>
+    </param>
+    <param key="GRID_CELL_POSITION">X,Y,Z</param>
+    <param key="COORD1">Z+</param>
+    <param key="COORD2">Y+</param>
+    <param key="COORD3">X+</param>
+    <param key="EXPORT_ALL_VARIABLES">yes</param>
+    <param key="OUTPUT_FILE"/>
+    <param key="SEPARATOR">COMMA</param>
+    <param key="DECIMAL_SEPARATOR"/>
+    <param key="COORD_SYSTEM"/>
+    <param key="OGR_HEADER">no</param>
+    <param key="ISATIS_HEADER">no</param>
+    <param key="UNDEF_VALUE"/>
+</task>

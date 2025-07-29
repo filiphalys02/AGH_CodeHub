@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task id="quick-statistics">
+    <param key="DATASET">
+        <param key="ROOT">
+            <path/>
+            <file>Dane qCu-r</file>
+        </param>
+        <param key="SELECTION"/>
+        <param key="VARIABLES">
+            <param key="ITEM_1">
+                <variable>qCu-R</variable>
+            </param>
+            <param key="ITEM_2"/>
+        </param>
+        <param key="WEIGHT"/>
+    </param>
+    <param key="COMPUTE_QUANTILES">yes</param>
+    <param automatic="no" key="QUANTILES" version="2">
+        <value>0.25,0.5,0.75</value>
+    </param>
+    <param key="FULL_STAT">yes</param>
+    <param key="CORRELATIONS">no</param>
+    <param key="RANK_CORRELATIONS">no</param>
+    <param key="CONTINGENCY_TABLE">no</param>
+    <param key="BIVARIATE_STATS">no</param>
+    <param key="CHARTS_LAYOUTS"/>
+    <param key="CHARTS_GROUP">
+        <param key="STORE">no</param>
+        <param key="STORE_GRAPHICS">no</param>
+        <param key="STORE_TABLES">yes</param>
+        <param key="NAME">%task</param>
+    </param>
+</task>
