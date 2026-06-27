@@ -1,0 +1,31 @@
+2026-03-23 20:48:33,157 - ERROR - Error in session test123: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-03-23 20:51:17,370 - ERROR - Error in session test123: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-03-23 20:51:37,848 - ERROR - Error in session test123: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-03-23 20:51:50,389 - ERROR - Error in session test123: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-03-23 20:55:23,210 - ERROR - Error in session test123: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2026-03-23 21:02:58,032 - INFO - [test123] USER: Cze\u015b\u0107, kim jeste\u015b?
+2026-03-23 21:02:58,032 - INFO - [test123] BOT: Jestem pomocnym chatbotem.
+2026-03-23 21:03:18,807 - INFO - [test123] USER: Cze\u015b\u0107, zapami\u0119taj cytat: To be or not to be, that is the question
+2026-03-23 21:03:18,807 - INFO - [test123] BOT: Zapami\u0119ta\u0142em: "To be or not to be, that is the question".
+2026-03-23 21:04:41,622 - INFO - [test123] USER: Co zapami\u0119ta\u0142e\u015b o cytacie?
+2026-03-23 21:04:41,622 - INFO - [test123] BOT: Zapami\u0119ta\u0142em cytat: "To be or not to be, that is the question".

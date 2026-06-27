@@ -1,0 +1,11 @@
+streamlit
+google-generativeai
+transformers
+torch
+Pillow
+sentence-transformers
+faiss-cpu
+requests
+beautifulsoup4
+python-dotenv
+numpy
