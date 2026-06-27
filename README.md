@@ -23,6 +23,8 @@ Courses:
 - [Geostatistics and data analysis](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Geostatystyka-i-analiza-danych)
 - [Deep Learning](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Uczenie-g%C5%82%C4%99bokie)
 - [Parallel Computing](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Przetwarzanie-r%C3%B3wnoleg%C5%82e)
+- [IT Team Projects](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Informatyczne-projekty-zespo%C5%82owe)
+- [Current problems of applied computer science](https://github.com/filiphalys02/AGH_CodeHub/tree/main/Aktualne-problemy-informatyki-stosowanej)
 
 ##
 On my profile You can also find other courses I took during my studies like [Database](https://github.com/filiphalys02/Database) course or [Spatial Database](https://github.com/filiphalys02/Spatial-database) course.
